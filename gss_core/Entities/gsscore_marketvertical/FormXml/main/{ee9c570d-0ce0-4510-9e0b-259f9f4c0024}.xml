@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ee9c570d-0ce0-4510-9e0b-259f9f4c0024}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6d0db324-6015-4a0e-a871-b03c973b5f3d}" IsUserDefined="1" labelid="{2cb96a3d-f549-449e-aefd-09b8046df8a6}">
+          <labels>
+            <label description="General Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="24%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36d76a25-1dbc-44d9-97ad-0f831f57f6cf}" labelid="{b760f92f-c8bd-4279-b83b-9a36e3a813da}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{795aa398-c24e-49fe-a4c9-2ba0c0ff923d}" labelid="{ec0ccb6b-f631-47f2-9b19-8d003b126cea}">
+                        <labels>
+                          <label description="Market Vertical" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6fc4f8c8-cf52-44b7-85f7-de9bfc529fbe}" labelid="{ca726970-da1e-4190-ba93-a1d09ba2cd76}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" showbar="false" id="{072c62e5-ed2e-4076-81ec-f203d5b32da3}" IsUserDefined="0" height="auto" labelid="{a53896aa-8529-48a7-ad16-6e4d0e47a323}">
+                  <labels>
+                    <label description="TIMELINE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" colspan="1" rowspan="18" auto="false" id="{f4608543-b234-4844-834c-3a191a41c6ce}" labelid="{545d6d18-72c2-4a68-8281-51d4ed049f30}">
+                        <labels>
+                          <label description="Conversation Tabs" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="38%">
+              <sections>
+                <section showlabel="true" columns="1" showbar="false" id="{4de5111d-48d7-489e-b67f-7e15019e83f9}" name="ref_pan_{4de5111d-48d7-489e-b67f-7e15019e83f9}" IsUserDefined="0" labelid="{431ef2f0-3db2-4afc-a088-69abb5e494e3}">
+                  <labels>
+                    <label description="RELATED" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{78a41911-aeea-4c44-ab65-b4062505b8b8}" labelid="{c699230f-4f3a-425b-9347-a2e75143310b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0bf64610-bb95-4568-911d-ec168aa2732e}" celllabelposition="Left" columns="1111">
+        <rows>
+          <row>
+            <cell id="{ec6390b9-6029-4050-ab03-b05d33ef5935}" labelid="{b42dac55-408f-449b-aaf2-64a0403413b1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{46a49dc5-a9eb-491a-86c9-9bfab83c10b2}" labelid="{7ac6dbfa-2c9e-4030-9649-725f2d7ed3cd}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b93c2d63-127c-42e6-99f2-25772760802f}" labelid="{6982d2df-0019-4a34-bdb8-c56ecbc997b1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d69a238a-3c37-451a-af3c-8181f6b4486f}" labelid="{676de4c8-6b76-41f7-baf8-7bf8d2520189}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

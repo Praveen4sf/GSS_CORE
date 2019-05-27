@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_productfamily" localizedName="Product Family" description="Globally agreed values for unit product families">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.8</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Product Family" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Globally agreed values for unit product families" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Passenger elevator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Service elevator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Freight elevator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Escalator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Trav-o-lator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Home elevator" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Dumbwaiter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Door" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="N/A" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

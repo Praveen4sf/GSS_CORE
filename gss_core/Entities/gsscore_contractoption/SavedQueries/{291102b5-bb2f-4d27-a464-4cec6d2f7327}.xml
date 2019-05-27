@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{291102b5-bb2f-4d27-a464-4cec6d2f7327}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="gsscore_contractoption" id="gsscore_contractoptionid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_value" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contract" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractoption">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_value" />
+          <attribute name="statuscode" />
+          <attribute name="ownerid" />
+          <attribute name="gsscore_contract" />
+          <attribute name="gsscore_contractoptionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.113</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contract Option Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

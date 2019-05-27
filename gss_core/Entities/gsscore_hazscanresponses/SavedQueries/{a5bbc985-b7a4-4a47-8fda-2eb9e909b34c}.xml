@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a5bbc985-b7a4-4a47-8fda-2eb9e909b34c}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="gsscore_hazscanresponses" id="gsscore_hazscanresponsesid">
+          <cell name="modifiedon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_hazscanquestion" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_observed" width="100" />
+          <cell name="gsscore_visit" width="100" />
+          <cell name="gsscore_comment" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl name="MscrmControls.Grid.GridControl" formFactor="0">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <columnsDefaultView />
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              </parameters>
+            </customControl>
+            <customControl name="MscrmControls.Grid.GridControl" formFactor="1">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <columnsDefaultView />
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              </parameters>
+            </customControl>
+            <customControl name="MscrmControls.Grid.GridControl" formFactor="2">
+              <parameters>
+                <data-set name="Grid">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <columnsDefaultView />
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_hazscanresponses">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="modifiedon" descending="false" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_hazscanquestion" />
+          <attribute name="gsscore_observed" />
+          <attribute name="gsscore_comment" />
+          <attribute name="gsscore_visit" />
+          <attribute name="gsscore_hazscanresponsesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="HazScan Responses Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

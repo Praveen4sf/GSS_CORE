@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{2a2fdb0e-b0c3-e711-a951-000d3a361c23}" Name="Set Visibility based on Is Static">
+  <XamlFileName>/Workflows/SetVisibilitybasedonIsStatic-2A2FDB0E-B0C3-E711-A951-000D3A361C23.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.18</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>ava_azureintegrationquery</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Set Visibility based on Is Static" />
+  </LocalizedNames>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{d3886dd8-b0c3-e711-a951-000d3a361c23}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>ava_isstatic</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>ava_azureintegrationquery</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{d4886dd8-b0c3-e711-a951-000d3a361c23}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>ava_azureintegrationquery</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

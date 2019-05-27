@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a676b4b7-b39f-4c9f-818f-6df6153c3a79}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_qcpcid">
+          <cell name="gsscore_turnbackescape" width="100" />
+          <cell name="gsscore_process" width="100" />
+          <cell name="gsscore_subprocess" width="100" />
+          <cell name="gsscore_detaildescription" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_qcpc">
+          <attribute name="gsscore_turnbackescape" />
+          <attribute name="gsscore_subprocess" />
+          <attribute name="gsscore_process" />
+          <attribute name="gsscore_detaildescription" />
+          <order attribute="gsscore_turnbackescape" descending="false" />
+          <attribute name="gsscore_qcpcid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.14</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="QCPC" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

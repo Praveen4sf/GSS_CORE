@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{147ed02e-da4f-4046-9a50-9c534ff42d6d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{64428517-e737-408a-8fba-521793751663}" IsUserDefined="1" labelid="{01b2269e-f197-467d-8457-f9ab3c3ed980}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{31ef1607-c503-4f0a-8efa-04ed8ddc5055}" labelid="{b10b0ccd-d105-4649-b870-b08cf67518e9}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6c4c0c1d-958e-46d4-9a68-45a7047506e9}" labelid="{006febcd-431a-43bc-9a86-a35ebbc783d6}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9b156c7-d270-1b26-561b-91cdc8c43a53}" showlabel="true" locklevel="0" labelid="{b40c7c9f-d22a-4514-b87c-3bd008b74047}">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="starttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70933765-80e8-4242-8876-e3518e3a01d9}" showlabel="true" locklevel="0" labelid="{6a9ed696-e2fa-4b0a-aeb8-632323f72e36}">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{898c294b-833a-d51b-37bb-7e6d57080e04}" showlabel="true" locklevel="0" labelid="{c7a35db5-a18f-49c2-9557-7b1142afe942}">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="duration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{13dc10b6-c192-415b-8f64-7dc6d7f62e2c}" IsUserDefined="0" height="auto" labelid="{50670d44-aaf9-4f7a-a6e7-44d5c2d93e1b}">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{9f405808-e41d-44f4-90c2-2ce054ded8d3}" labelid="{a0715457-2023-4d26-ae1d-5fae212ef26c}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{7a6dedd1-dcd7-bd82-6e13-10b3c8ebeeb1}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

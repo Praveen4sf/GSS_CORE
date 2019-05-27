@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{822e72a5-e43d-4ccc-960c-0633256a27c2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_virtualrateid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_laborrate" width="100" />
+          <cell name="gsscore_ratelistcurrency" width="100" />
+          <cell name="gsscore_effectivestart" width="100" />
+          <cell name="gsscore_effectiveend" width="100" />
+          <cell name="gsscore_listtype" width="100" />
+          <cell name="gsscore_labortype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_virtualrate">
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_ratelistcurrency" />
+          <attribute name="gsscore_laborrate" />
+          <attribute name="gsscore_listtype" />
+          <attribute name="gsscore_labortype" />
+          <attribute name="gsscore_effectivestart" />
+          <attribute name="gsscore_effectiveend" />
+          <attribute name="gsscore_virtualrateid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.00001</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Rates" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

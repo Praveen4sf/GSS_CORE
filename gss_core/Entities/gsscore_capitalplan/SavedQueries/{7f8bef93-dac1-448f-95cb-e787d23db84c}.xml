@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7f8bef93-dac1-448f-95cb-e787d23db84c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_capitalplanid">
+          <cell name="gsscore_name" width="100" />
+          <cell name="gsscore_plannedstatus" width="100" />
+          <cell name="gsscore_estimatedtotal" width="100" />
+          <cell name="gsscore_datesubmitted" width="100" />
+          <cell name="gsscore_startdate" width="100" />
+          <cell name="gsscore_enddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_capitalplan">
+          <attribute name="gsscore_plannedstatus" />
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_estimatedtotal" />
+          <attribute name="gsscore_datesubmitted" />
+          <attribute name="gsscore_startdate" />
+          <attribute name="gsscore_enddate" />
+          <order attribute="gsscore_startdate" descending="true" />
+          <filter type="and">
+            <condition attribute="gsscore_plannedstatus" operator="in">
+              <value>936140000</value>
+              <value>936140001</value>
+              <value>936140002</value>
+            </condition>
+          </filter>
+          <attribute name="gsscore_capitalplanid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Capital Plans" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

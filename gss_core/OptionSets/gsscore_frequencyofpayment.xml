@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_frequencyofpayment" localizedName="Payment Frequency">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.12</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Payment Frequency" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140013" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="bi-monthly in advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="monthly in advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140012" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Monthly Advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="monthly in arrears" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="monthly deferred" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="quarterly in advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="quarterly in arrears" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="quarterly deferred" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Semi-Annual" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="semi-annually in advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="semi-annually in arrears" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="annually in advance" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Annual Advanced Quarterly" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140011" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="manual" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

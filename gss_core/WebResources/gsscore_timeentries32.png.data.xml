@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{a503a5dd-908a-e811-a963-000d3a361c23}</WebResourceId>
+  <Name>gsscore_timeentries32.png</Name>
+  <DisplayName>time entries 32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_timeentries32pngA503A5DD-908A-E811-A963-000D3A361C23</FileName>
+</WebResource>

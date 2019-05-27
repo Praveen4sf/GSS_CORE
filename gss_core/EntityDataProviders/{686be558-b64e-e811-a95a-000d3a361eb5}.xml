@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataProvider>
+  <EntityDataProviderId>{686be558-b64e-e811-a95a-000d3a361eb5}</EntityDataProviderId>
+  <Name>OnPortfolioDP</Name>
+  <DataSourceLogicalName>gsscore_onportfoliods</DataSourceLogicalName>
+  <IsCustomizable>1</IsCustomizable>
+  <RetrievePluginTypeId>ae55b76d-b3c0-435c-9a92-e99780a46228</RetrievePluginTypeId>
+  <RetrieveMultiplePluginTypeId>798e7875-752a-47c8-bf64-811377590a35</RetrieveMultiplePluginTypeId>
+</EntityDataProvider>

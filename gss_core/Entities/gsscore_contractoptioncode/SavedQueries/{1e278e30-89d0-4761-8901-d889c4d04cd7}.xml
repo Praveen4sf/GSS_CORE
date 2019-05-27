@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1e278e30-89d0-4761-8901-d889c4d04cd7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractoptioncodeid">
+          <cell name="gsscore_optioncode" width="100" />
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_description" width="100" disableSorting="1" />
+          <cell name="gsscore_contractactiontype" width="100" />
+          <cell name="gsscore_contracttype" width="100" />
+          <cell name="gsscore_casevisibility" width="100" />
+          <cell name="gsscore_workordervisibility" width="100" />
+          <cell name="gsscore_frequencytype" width="100" />
+          <cell name="gsscore_producttype" width="100" />
+          <cell name="gsscore_slatype" width="100" />
+          <cell name="gsscore_sladurationminutes" width="100" />
+          <cell name="gsscore_artargetentity" width="100" />
+          <cell name="gsscore_custargetattribute" width="100" />
+          <cell name="gsscore_artargetattribute" width="100" />
+          <cell name="gsscore_cusvaluetype" width="100" />
+          <cell name="gsscore_cusvalue" width="100" />
+          <cell name="gsscore_retiredate" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="createdonbehalfby" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedonbehalfby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="overriddencreatedon" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractoptioncode">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_workordervisibility" />
+          <attribute name="gsscore_cusvaluetype" />
+          <attribute name="gsscore_cusvalue" />
+          <attribute name="gsscore_artargetentity" />
+          <attribute name="gsscore_artargetattribute" />
+          <attribute name="gsscore_custargetattribute" />
+          <attribute name="gsscore_slatype" />
+          <attribute name="gsscore_sladurationminutes" />
+          <attribute name="gsscore_producttype" />
+          <attribute name="gsscore_frequencytype" />
+          <attribute name="gsscore_description" />
+          <attribute name="gsscore_contracttype" />
+          <attribute name="gsscore_contractactiontype" />
+          <attribute name="gsscore_casevisibility" />
+          <attribute name="gsscore_optioncode" />
+          <attribute name="createdonbehalfby" />
+          <attribute name="createdby" />
+          <attribute name="ownerid" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="overriddencreatedon" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedonbehalfby" />
+          <attribute name="modifiedby" />
+          <attribute name="gsscore_retiredate" />
+          <attribute name="gsscore_contractoptioncodeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.57</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Option Codes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

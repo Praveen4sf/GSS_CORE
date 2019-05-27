@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_fiscalyearrange" localizedName="Fiscal Year Range">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Fiscal Year Range" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140000" Color="#0000ff">
+      <labels>
+        <label description="Jan. 1 - Dec. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" Color="#0000ff">
+      <labels>
+        <label description="Feb. 1 - Jan. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" Color="#0000ff">
+      <labels>
+        <label description="Mar. 1 - Feb. 28" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" Color="#0000ff">
+      <labels>
+        <label description="Apr. 1 - Mar. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" Color="#0000ff">
+      <labels>
+        <label description="May 1 - Apr. 30" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" Color="#0000ff">
+      <labels>
+        <label description="Jun. 1 - May. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" Color="#0000ff">
+      <labels>
+        <label description="Jul. 1 - Jun. 30" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" Color="#0000ff">
+      <labels>
+        <label description="Aug. 1 - Jul. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" Color="#0000ff">
+      <labels>
+        <label description="Sep. 1 - Aug. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140009" Color="#0000ff">
+      <labels>
+        <label description="Oct. 1 - Sep. 30" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140010" Color="#0000ff">
+      <labels>
+        <label description="Nov. 1 - Oct. 31" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140011" Color="#0000ff">
+      <labels>
+        <label description="Dec. 1 - Nov. 30" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

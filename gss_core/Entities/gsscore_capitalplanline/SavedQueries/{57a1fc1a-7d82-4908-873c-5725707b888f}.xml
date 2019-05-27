@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{57a1fc1a-7d82-4908-873c-5725707b888f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_capitalplanlineid">
+          <cell name="gsscore_unitid" width="100" />
+          <cell name="gsscore_products" width="100" />
+          <cell name="gsscore_amount" width="100" />
+          <cell name="gsscore_timeframe" width="100" />
+          <cell name="gsscore_category" width="100" />
+          <cell name="gsscore_otispriority" width="100" />
+          <cell name="gsscore_budgetcycle" width="100" />
+          <cell name="gsscore_businessstream" width="100" />
+          <cell name="a_ed7508089646e7118119e0071b6af0b1.address1_city" width="100" disableSorting="1" />
+          <cell name="a_ab9f89b207a5e711a94d000d3a36170b.msdyn_account" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_capitalplanline">
+          <order attribute="gsscore_amount" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_timeframe" />
+          <attribute name="gsscore_amount" />
+          <attribute name="gsscore_otispriority" />
+          <attribute name="gsscore_category" />
+          <attribute name="gsscore_businessstream" />
+          <attribute name="gsscore_budgetcycle" />
+          <link-entity alias="a_ed7508089646e7118119e0071b6af0b1" name="account" from="accountid" to="gsscore_account" link-type="outer" visible="false">
+            <attribute name="address1_city" />
+          </link-entity>
+          <attribute name="gsscore_unitid" />
+          <attribute name="gsscore_products" />
+          <link-entity alias="a_ab9f89b207a5e711a94d000d3a36170b" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_unitid" link-type="outer" visible="false">
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="gsscore_capitalplanlineid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Capital Plan Lines" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

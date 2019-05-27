@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{4c8b99b8-070c-4cf4-a731-c869899846a2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="tab_2" id="{dc5c5757-8020-07c4-d54a-dd92199ec783}" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{063b6419-791d-5d4c-6086-748cd95d85e2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0ccc0b29-0410-406a-b643-0ac723ae6802}" labelid="{e7f0e4e9-3ae6-491e-b87e-dfcbcd107e5f}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{db67b603-d98d-24ab-1837-ac44c965d2c0}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ecab2198-0c5b-57ee-db5c-aab477558c23}" showlabel="true" locklevel="0" labelid="{c3b4f489-8f78-4c59-8f8f-4f6192a5e036}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_reinstantiationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_reinstantiationdate" disabled="false" uniqueid="{08ced61e-83ec-de25-a9be-54448b672b82}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ac1b404-b447-e060-73cd-342ae6a52a3d}" showlabel="true" locklevel="0" labelid="{2133d4da-15b6-4f30-a502-264bca88ada4}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_suspensiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_suspensiondate" disabled="false" uniqueid="{28d1088d-2b1a-d7eb-a550-5ac1ab77a302}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a509830-791e-4514-9819-7083b0c4c87b}" showlabel="true" locklevel="0" labelid="{a5020970-49d5-49c2-9b02-bd5510cc50cc}">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_unit" disabled="true" uniqueid="{4579a2e4-20d9-3b7a-1737-5aa494c0ab21}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FD2FDA4C-4B7F-4A68-A2CB-C1E1C6A31C8F}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60394088-210a-4b5a-b7ca-1178a185772a}" labelid="{cf52ecd2-47fb-437f-addb-6740c84883a1}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{0783b756-676a-b973-d049-b793480d2b13}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

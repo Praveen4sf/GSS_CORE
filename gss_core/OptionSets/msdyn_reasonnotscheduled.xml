@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msdyn_reasonnotscheduled" localizedName="Reason Not Scheduled">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <displaynames>
+    <displayname description="Reason Not Scheduled" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="192350000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="None" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="192350002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Latitude Longitude Invalid" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="192350004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Estimated Duration Less Than Or Equal To 0" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="192350005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Work Location Not Onsite or Location Agnostic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="192350006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Optimization is not enabled for this requirement" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Resource Scheduling Optimization isn't enabled for this requirement." languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="192350007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Requirement does not exist." languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Requirement does not exist." languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Backlog Incident" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

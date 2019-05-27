@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{adf87ad6-73a1-4bfe-92cf-aca916ad57b9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_unitsatriskid">
+          <cell name="a_4508dca04c7de711811ee0071b6af141.msdyn_name" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_customerdesignation" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_type" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_operationalstatusid" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_5699b8054d7de711811ee0071b6af141.gsscore_address1" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_1f8c81b807a5e711a94d000d3a36170b.gsscore_typeofcontract" width="100" disableSorting="1" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_onovertime" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_criticalunit" width="100" disableSorting="1" />
+          <cell name="a_4508dca04c7de711811ee0071b6af141.gsscore_numberofservicerequests" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitsatrisk">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity alias="a_5699b8054d7de711811ee0071b6af141" name="opportunity" from="opportunityid" to="gsscore_cancellationalert" link-type="outer" visible="false">
+            <attribute name="gsscore_address1" />
+          </link-entity>
+          <link-entity alias="a_4508dca04c7de711811ee0071b6af141" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_units" link-type="outer" visible="false">
+            <attribute name="gsscore_operationalstatusid" />
+            <attribute name="gsscore_onovertime" />
+            <attribute name="gsscore_numberofservicerequests" />
+            <attribute name="gsscore_type" />
+            <attribute name="gsscore_customerdesignation" />
+            <attribute name="gsscore_criticalunit" />
+            <attribute name="msdyn_name" />
+          </link-entity>
+          <link-entity alias="a_1f8c81b807a5e711a94d000d3a36170b" name="salesorder" from="salesorderid" to="gsscore_contractunitid" link-type="outer" visible="false">
+            <attribute name="gsscore_typeofcontract" />
+          </link-entity>
+          <attribute name="gsscore_unitsatriskid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Units at Risk" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

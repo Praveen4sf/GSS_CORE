@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9c18d495-676e-4cb7-a527-9199ff11189a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_coveragegroupid">
+          <cell name="gsscore_name" width="100" />
+          <cell name="gsscore_p1bookableresource" width="100" />
+          <cell name="gsscore_p2bookableresource" width="100" />
+          <cell name="gsscore_p3bookableresource" width="100" />
+          <cell name="gsscore_p4_bookableresourceid" width="100" />
+          <cell name="gsscore_supervisorid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_coveragegroup">
+          <order attribute="gsscore_supervisorid" descending="false" />
+          <attribute name="gsscore_supervisorid" />
+          <attribute name="gsscore_p3bookableresource" />
+          <attribute name="gsscore_p2bookableresource" />
+          <attribute name="gsscore_p1bookableresource" />
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_p4_bookableresourceid" />
+          <attribute name="gsscore_coveragegroupid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Coverage Group Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

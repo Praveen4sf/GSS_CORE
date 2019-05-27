@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1694b757-d300-4a76-bcb8-2c858f8ba723}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_associatedproductfamilyid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="a_69f7654e4dcfe711a950000d3a36170b.gsscore_productfamily" width="100" disableSorting="1" />
+          <cell name="gsscore_product" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_associatedproductfamily">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity alias="a_69f7654e4dcfe711a950000d3a36170b" name="gsscore_product" from="gsscore_productid" to="gsscore_product" link-type="outer" visible="false">
+            <attribute name="gsscore_productfamily" />
+          </link-entity>
+          <attribute name="gsscore_product" />
+          <attribute name="gsscore_associatedproductfamilyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.27</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Associated Product Families" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

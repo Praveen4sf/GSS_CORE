@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7b9646c2-2a4f-4310-b849-a3b426882e80}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_remotedevicetype" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_remotemonitoringdevicetypeid">
+          <cell name="gsscore_remotedevicetype" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_remotemonitoringdevicetype">
+          <attribute name="gsscore_remotemonitoringdevicetypeid" />
+          <attribute name="gsscore_remotedevicetype" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_remotedevicetype" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Remote Monitoring Device Type" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

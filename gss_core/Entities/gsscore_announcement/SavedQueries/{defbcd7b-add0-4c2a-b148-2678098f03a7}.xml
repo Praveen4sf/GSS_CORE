@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{defbcd7b-add0-4c2a-b148-2678098f03a7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_announcement" id="gsscore_announcementid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_announcement">
+          <attribute name="gsscore_announcementid" />
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.61</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Announcement Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{8974099b-958a-e811-a95f-000d3a36170b}</WebResourceId>
+  <Name>gsscore_unitspeed32.png</Name>
+  <DisplayName>unit speed 32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_unitspeed32png8974099B-958A-E811-A95F-000D3A36170B</FileName>
+</WebResource>

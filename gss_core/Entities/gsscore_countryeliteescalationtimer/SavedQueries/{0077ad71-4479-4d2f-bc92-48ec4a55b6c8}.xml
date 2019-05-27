@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0077ad71-4479-4d2f-bc92-48ec4a55b6c8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_countryofescaltiontimer" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_countryeliteescalationtimerid">
+          <cell name="gsscore_countryofescaltiontimer" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_countryeliteescalationtimer">
+          <attribute name="gsscore_countryeliteescalationtimerid" />
+          <attribute name="gsscore_countryofescaltiontimer" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_countryofescaltiontimer" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Country Elite Escalation Timer Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

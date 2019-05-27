@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ce14fae7-7bd2-484a-8d92-36fdfa978a0c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contracttransactionid">
+          <cell name="gsscore_name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_transactiontype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_effectivedate" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="100" />
+          <cell name="gsscore_reason" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contracttransaction">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_transactiontype" />
+          <attribute name="statuscode" />
+          <attribute name="gsscore_reason" />
+          <attribute name="gsscore_effectivedate" />
+          <attribute name="statecode" />
+          <attribute name="gsscore_contracttransactionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.48</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Transactions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

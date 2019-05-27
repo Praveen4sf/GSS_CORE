@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_producttype" localizedName="Product Type">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.19</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName>Product Type</ExternalTypeName>
+  <displaynames>
+    <displayname description="Product Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hydraulic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Roped Hydraulic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Gearless Belted MR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Gearless Belted MRL" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Gearless Roped MR" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Gearless Roped MRL" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Geared" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Escalator Commercial" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Escalator Public" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Travolator Commercial" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140011" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Travolator Public" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140012" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Non-variable Frequency" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140013" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

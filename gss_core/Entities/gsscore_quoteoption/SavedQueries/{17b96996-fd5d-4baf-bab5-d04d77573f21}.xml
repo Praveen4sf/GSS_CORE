@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{17b96996-fd5d-4baf-bab5-d04d77573f21}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_quoteoptionid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_value" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_quote" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_quoteoption">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="gsscore_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="gsscore_value" />
+          <attribute name="statuscode" />
+          <attribute name="gsscore_quote" />
+          <attribute name="ownerid" />
+          <attribute name="gsscore_quoteoptionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.113</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Quote Options" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

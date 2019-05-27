@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{360e41ae-864c-4078-a74a-944353f3ee02}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="regardingobjectid" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="gsscore_approverid" width="100" />
+          <cell name="createdonbehalfby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_approvalrequest">
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <order attribute="subject" descending="false" />
+          <attribute name="createdonbehalfby" />
+          <attribute name="gsscore_approverid" />
+          <attribute name="regardingobjectid" />
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approval Request Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{26f49ddb-632e-4fc7-a232-6a2945136294}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_gclplacecallcasetypemappingid">
+          <cell name="gsscore_gsscasetype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_issuesubcategory" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_safetyhazardtype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_safetyissuehazardsubtype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_trappedpassenger" width="100" />
+          <cell name="gsscore_firesmoke" width="100" />
+          <cell name="gsscore_personalinjury" width="100" />
+          <cell name="gsscore_serviceinterruption" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_unitoutofservice" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_gclplacecallcasetypemapping">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_gsscasetype" descending="false" />
+          <order attribute="gsscore_issuesubcategory" descending="false" />
+          <attribute name="gsscore_unitoutofservice" />
+          <attribute name="gsscore_trappedpassenger" />
+          <attribute name="gsscore_serviceinterruption" />
+          <attribute name="gsscore_safetyissuehazardsubtype" />
+          <attribute name="gsscore_safetyhazardtype" />
+          <attribute name="gsscore_personalinjury" />
+          <attribute name="gsscore_issuesubcategory" />
+          <attribute name="gsscore_gsscasetype" />
+          <attribute name="gsscore_firesmoke" />
+          <attribute name="gsscore_gclplacecallcasetypemappingid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active GCL Place Call Case Type Mappings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

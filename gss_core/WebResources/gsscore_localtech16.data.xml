@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{bab4ef1a-9328-e911-a97d-000d3a1c11b3}</WebResourceId>
+  <Name>gsscore_localtech16</Name>
+  <DisplayName>Local Tech 16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>2.1.8.2</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_localtech16BAB4EF1A-9328-E911-A97D-000D3A1C11B3</FileName>
+</WebResource>

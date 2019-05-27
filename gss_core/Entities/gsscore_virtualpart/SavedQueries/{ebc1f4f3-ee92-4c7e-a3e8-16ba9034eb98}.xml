@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ebc1f4f3-ee92-4c7e-a3e8-16ba9034eb98}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_virtualpartid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_commoditycode" width="100" />
+          <cell name="gsscore_countrycode" width="100" />
+          <cell name="gsscore_currency" width="100" />
+          <cell name="gsscore_frenchpartdescription1" width="100" />
+          <cell name="gsscore_frenchpartdescription2" width="100" />
+          <cell name="gsscore_germanpartdescription1" width="100" />
+          <cell name="gsscore_germanpartdescription2" width="100" />
+          <cell name="gsscore_italianpartdescription1" width="100" />
+          <cell name="gsscore_italianpartdescription2" width="100" />
+          <cell name="gsscore_partdescription1" width="100" />
+          <cell name="gsscore_partdescription2" width="100" />
+          <cell name="gsscore_safetycode" width="100" />
+          <cell name="gsscore_sellingprice" width="100" />
+          <cell name="gsscore_sourceofpart" width="100" />
+          <cell name="gsscore_unitofmeasure" width="100" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_imageurl" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_virtualpart">
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_unitofmeasure" />
+          <attribute name="gsscore_sourceofpart" />
+          <attribute name="gsscore_sellingprice" />
+          <attribute name="gsscore_safetycode" />
+          <attribute name="gsscore_partdescription2" />
+          <attribute name="gsscore_partdescription1" />
+          <attribute name="gsscore_italianpartdescription2" />
+          <attribute name="gsscore_italianpartdescription1" />
+          <attribute name="gsscore_germanpartdescription2" />
+          <attribute name="gsscore_germanpartdescription1" />
+          <attribute name="gsscore_frenchpartdescription2" />
+          <attribute name="gsscore_frenchpartdescription1" />
+          <attribute name="gsscore_currency" />
+          <attribute name="gsscore_countrycode" />
+          <attribute name="gsscore_commoditycode" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_imageurl" />
+          <attribute name="gsscore_virtualpartid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.00001</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Parts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2a4586d8-17bc-44dd-a032-4e14d76831fa}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_localdatadefinitions" id="gsscore_localdatadefinitionsid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_mandatory" width="100" />
+          <cell name="gsscore_prodtype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_topic" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_localdatadefinitions">
+          <attribute name="gsscore_localdatadefinitionsid" />
+          <attribute name="gsscore_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_topic" />
+          <attribute name="ownerid" />
+          <attribute name="gsscore_mandatory" />
+          <attribute name="gsscore_prodtype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Local Data Definitions Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

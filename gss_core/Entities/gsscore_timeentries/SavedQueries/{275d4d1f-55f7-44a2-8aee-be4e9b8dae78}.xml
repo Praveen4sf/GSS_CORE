@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{275d4d1f-55f7-44a2-8aee-be4e9b8dae78}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_timeentriesid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_resource" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_visit" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_62b470e42ce9e811a978000d3a1c17bc.msdyn_workorder" width="100" disableSorting="1" />
+          <cell name="gsscore_journaltype" width="100" />
+          <cell name="gsscore_overtime" width="100" />
+          <cell name="gsscore_starttime" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="100" />
+          <cell name="gsscore_endtime" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_duration" width="100" />
+          <cell name="gsscore_durationemea" width="100" />
+          <cell name="gsscore_deltatime" width="100" />
+          <cell name="gsscore_banktimenew" width="100" />
+          <cell name="gsscore_submitted" width="100" />
+          <cell name="gsscore_reviewed" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_timeentries">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_starttime" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_resource" />
+          <attribute name="gsscore_journaltype" />
+          <attribute name="gsscore_duration" />
+          <attribute name="gsscore_starttime" />
+          <attribute name="gsscore_endtime" />
+          <attribute name="gsscore_visit" />
+          <attribute name="gsscore_deltatime" />
+          <attribute name="gsscore_banktimenew" />
+          <attribute name="gsscore_submitted" />
+          <attribute name="gsscore_reviewed" />
+          <attribute name="gsscore_durationemea" />
+          <attribute name="createdon" />
+          <attribute name="gsscore_overtime" />
+          <link-entity alias="a_62b470e42ce9e811a978000d3a1c17bc" name="bookableresourcebooking" from="bookableresourcebookingid" to="gsscore_visit" link-type="outer" visible="false">
+            <attribute name="msdyn_workorder" />
+          </link-entity>
+          <attribute name="gsscore_timeentriesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.66</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Time Entries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

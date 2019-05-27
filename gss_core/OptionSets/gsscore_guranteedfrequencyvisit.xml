@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_guranteedfrequencyvisit" localizedName="Gurantee Frequency Visit">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.77</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Gurantee Frequency Visit" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Annual (1 per Year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="6 Months (2 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="4 Months (3 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="3 Months (4 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Quarterly" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="2 Months (6 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="2-Months" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="6 Weeks (9 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="42 Days" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="1 per Month (12 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Monthly" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="2 per Month (24 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="2 Weeks (26 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="1 Week (52 per year)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

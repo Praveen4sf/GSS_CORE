@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{141f54aa-5365-4127-8ffe-7dfe2374f688}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_hazscanresponsesid">
+          <cell name="gsscore_visit" width="100" />
+          <cell name="gsscore_hazscanquestion" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_hazscanresponses">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="modifiedon" descending="false" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_hazscanquestion" />
+          <attribute name="gsscore_visit" />
+          <attribute name="gsscore_hazscanresponsesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive HazScan Responses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

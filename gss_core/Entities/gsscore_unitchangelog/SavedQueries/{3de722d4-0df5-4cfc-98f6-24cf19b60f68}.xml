@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3de722d4-0df5-4cfc-98f6-24cf19b60f68}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_unitchangelogid">
+          <cell name="gsscore_name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_reviewedbysupervisor" width="100" />
+          <cell name="gsscore_newactualinstallationdate" width="100" />
+          <cell name="gsscore_newbuilding" width="100" />
+          <cell name="gsscore_newentrancecount" width="100" />
+          <cell name="gsscore_newcodeyearinplaceatcontractsigning" width="100" />
+          <cell name="gsscore_newcustomerdesignation" width="100" />
+          <cell name="gsscore_newdutyload" width="100" />
+          <cell name="gsscore_newelevatorphonetypes" width="100" />
+          <cell name="gsscore_newelitecontract" width="100" />
+          <cell name="gsscore_newinclination" width="100" />
+          <cell name="gsscore_newlastmodernizationdate" width="100" />
+          <cell name="gsscore_newmodel" width="100" />
+          <cell name="gsscore_newmultipurposedisplay" width="100" />
+          <cell name="gsscore_newnisexpirydate" width="100" />
+          <cell name="gsscore_newnisstartdate" width="100" />
+          <cell name="gsscore_newnominalspeed" width="100" />
+          <cell name="gsscore_newnumberofcarsingroupoperation" width="100" />
+          <cell name="gsscore_newnumberoflandingdoors" width="100" />
+          <cell name="gsscore_newnumberofstops" width="100" />
+          <cell name="gsscore_newpitemergencystopswitch" width="100" />
+          <cell name="gsscore_newproductclass" width="100" />
+          <cell name="gsscore_newproductfamily" width="100" />
+          <cell name="gsscore_newproducttype" width="100" />
+          <cell name="gsscore_newrebelunit" width="100" />
+          <cell name="gsscore_newreminstalled" width="100" />
+          <cell name="gsscore_newrequiredvisitfrequency" width="100" />
+          <cell name="gsscore_newroute" width="100" />
+          <cell name="gsscore_newsteppalletwidth" width="100" />
+          <cell name="gsscore_newtopofcartocsheaveguard" width="100" />
+          <cell name="gsscore_newtopofcarinspectionboxtoci" width="100" />
+          <cell name="gsscore_newunitnumber" width="100" />
+          <cell name="gsscore_newunitusageintensity" width="100" />
+          <cell name="gsscore_newvipunit" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitchangelog">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_reviewedbysupervisor" />
+          <attribute name="gsscore_newvipunit" />
+          <attribute name="gsscore_newunitusageintensity" />
+          <attribute name="gsscore_newunitnumber" />
+          <attribute name="gsscore_newtopofcarinspectionboxtoci" />
+          <attribute name="gsscore_newtopofcartocsheaveguard" />
+          <attribute name="gsscore_newsteppalletwidth" />
+          <attribute name="gsscore_newroute" />
+          <attribute name="gsscore_newrequiredvisitfrequency" />
+          <attribute name="gsscore_newreminstalled" />
+          <attribute name="gsscore_newrebelunit" />
+          <attribute name="gsscore_newproducttype" />
+          <attribute name="gsscore_newproductfamily" />
+          <attribute name="gsscore_newproductclass" />
+          <attribute name="gsscore_newpitemergencystopswitch" />
+          <attribute name="gsscore_newnumberofstops" />
+          <attribute name="gsscore_newnumberoflandingdoors" />
+          <attribute name="gsscore_newnumberofcarsingroupoperation" />
+          <attribute name="gsscore_newnominalspeed" />
+          <attribute name="gsscore_newnisstartdate" />
+          <attribute name="gsscore_newnisexpirydate" />
+          <attribute name="gsscore_newmultipurposedisplay" />
+          <attribute name="gsscore_newmodel" />
+          <attribute name="gsscore_newlastmodernizationdate" />
+          <attribute name="gsscore_newinclination" />
+          <attribute name="gsscore_newelitecontract" />
+          <attribute name="gsscore_newelevatorphonetypes" />
+          <attribute name="gsscore_newdutyload" />
+          <attribute name="gsscore_newcustomerdesignation" />
+          <attribute name="gsscore_newcodeyearinplaceatcontractsigning" />
+          <attribute name="gsscore_newentrancecount" />
+          <attribute name="gsscore_newbuilding" />
+          <attribute name="gsscore_newactualinstallationdate" />
+          <attribute name="gsscore_unitchangelogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active UnitChangeLogs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

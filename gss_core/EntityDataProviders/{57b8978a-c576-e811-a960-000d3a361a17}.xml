@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataProvider>
+  <EntityDataProviderId>{57b8978a-c576-e811-a960-000d3a361a17}</EntityDataProviderId>
+  <Name>ContractPortfolioDp</Name>
+  <DataSourceLogicalName>gsscore_contractportfoliods</DataSourceLogicalName>
+  <IsCustomizable>1</IsCustomizable>
+  <RetrievePluginTypeId>2bc59f42-04aa-4b49-b26a-1a7279c208a6</RetrievePluginTypeId>
+  <RetrieveMultiplePluginTypeId>a210fe2b-62c5-4d25-b64c-2260bf4a1ff8</RetrieveMultiplePluginTypeId>
+</EntityDataProvider>

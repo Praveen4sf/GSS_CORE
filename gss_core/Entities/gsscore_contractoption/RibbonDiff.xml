@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="gsscore.Mscrm.Form.gsscore_contractoption.NewRecord.Hide" Location="Mscrm.Form.gsscore_contractoption.NewRecord" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.Form.gsscore_contractoption.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.gsscore_contractoption.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.HomepageGrid.gsscore_contractoption.NewRecord.Hide" Location="Mscrm.HomepageGrid.gsscore_contractoption.NewRecord" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.HomepageGrid.gsscore_contractoption.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.gsscore_contractoption.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.SubGrid.gsscore_contractoption.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.gsscore_contractoption.AddExistingAssoc" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.SubGrid.gsscore_contractoption.AddExistingStandard.Hide" Location="Mscrm.SubGrid.gsscore_contractoption.AddExistingStandard" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.SubGrid.gsscore_contractoption.AddNewStandard.Hide" Location="Mscrm.SubGrid.gsscore_contractoption.AddNewStandard" />
+    <HideCustomAction HideActionId="gsscore.Mscrm.SubGrid.gsscore_contractoption.NewRecord.Hide" Location="Mscrm.SubGrid.gsscore_contractoption.NewRecord" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

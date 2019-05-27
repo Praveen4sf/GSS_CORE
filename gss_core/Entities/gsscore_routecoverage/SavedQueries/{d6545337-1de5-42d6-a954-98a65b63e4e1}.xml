@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d6545337-1de5-42d6-a954-98a65b63e4e1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_routecoverageid">
+          <cell name="gsscore_branch" width="100" />
+          <cell name="gsscore_primarysupervisor" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_route" width="100" />
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_temporarydutyroster" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_requiretemporarydutyroster" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_routecoverage">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_branch" descending="false" />
+          <order attribute="gsscore_route" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="gsscore_tertiarysupervisor" operator="like" value="{0}" />
+            <condition attribute="gsscore_tertiaryp4" operator="like" value="{0}" />
+            <condition attribute="gsscore_tertiaryp3" operator="like" value="{0}" />
+            <condition attribute="gsscore_tertiaryp2" operator="like" value="{0}" />
+            <condition attribute="gsscore_tertiaryp1" operator="like" value="{0}" />
+            <condition attribute="gsscore_secondarysupervisor" operator="like" value="{0}" />
+            <condition attribute="gsscore_secondaryp4" operator="like" value="{0}" />
+            <condition attribute="gsscore_secondaryp3" operator="like" value="{0}" />
+            <condition attribute="gsscore_secondaryp2" operator="like" value="{0}" />
+            <condition attribute="gsscore_secondaryp1" operator="like" value="{0}" />
+            <condition attribute="gsscore_primarysupervisor" operator="like" value="{0}" />
+            <condition attribute="gsscore_primaryp4" operator="like" value="{0}" />
+            <condition attribute="gsscore_primaryp3" operator="like" value="{0}" />
+            <condition attribute="gsscore_primaryp2" operator="like" value="{0}" />
+            <condition attribute="gsscore_primaryp1" operator="like" value="{0}" />
+            <condition attribute="gsscore_name" operator="like" value="{0}" />
+            <condition attribute="gsscore_branch" operator="like" value="{0}" />
+          </filter>
+          <attribute name="gsscore_route" />
+          <attribute name="gsscore_branch" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_temporarydutyroster" />
+          <attribute name="gsscore_requiretemporarydutyroster" />
+          <attribute name="gsscore_routecoverageid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Route Coverages" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

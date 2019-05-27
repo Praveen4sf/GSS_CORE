@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d89e938d-4449-473b-a0ff-e4395d7d0041}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_approvalrulesid">
+          <cell name="gsscore_rulenumber" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="gsscore_approverid" width="100" />
+          <cell name="gsscore_approverteam" width="100" />
+          <cell name="gsscore_approvalrole" width="100" />
+          <cell name="gsscore_notes" width="100" disableSorting="1" />
+          <cell name="gsscore_approvalreason" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_approvalrules">
+          <order attribute="gsscore_rulenumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="gsscore_rulenumber" />
+          <attribute name="gsscore_notes" />
+          <attribute name="gsscore_approverteam" />
+          <attribute name="gsscore_approverid" />
+          <attribute name="gsscore_approvalrole" />
+          <attribute name="gsscore_approvalreason" />
+          <attribute name="gsscore_approvalrulesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Approval Rules" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

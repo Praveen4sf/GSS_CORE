@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c0bb354c-6de2-4873-96ff-237e8b2d6b21}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="lastname" select="1" icon="1" preview="1">
+        <row name="result" id="territoryid">
+          <cell name="gsscore_branchid" width="100" />
+          <cell name="name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primarysupervisor" width="100" />
+          <cell name="gsscore_primarymechanic" width="100" />
+          <cell name="gsscore_delegatedsupervisor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <order attribute="name" descending="false" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_primarymechanic" />
+          <attribute name="gsscore_delegatedsupervisor" />
+          <attribute name="gsscore_branchid" />
+          <attribute name="territoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Routes Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

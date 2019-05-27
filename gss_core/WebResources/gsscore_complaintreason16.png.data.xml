@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3beda677-d986-e811-a95e-000d3a361eb5}</WebResourceId>
+  <Name>gsscore_complaintreason16.png</Name>
+  <DisplayName>complaint reason 16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_complaintreason16png3BEDA677-D986-E811-A95E-000D3A361EB5</FileName>
+</WebResource>

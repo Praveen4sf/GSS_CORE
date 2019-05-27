@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{89373872-6cf0-447b-97f8-a64929acbb16}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_msdsproviderid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_msdswebsite" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_msdsphone" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_effectivestartdate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_effectiveenddate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_country" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_msdsprovider">
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_msdswebsite" />
+          <attribute name="gsscore_msdsphone" />
+          <attribute name="gsscore_effectivestartdate" />
+          <attribute name="gsscore_effectiveenddate" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <filter type="or">
+              <condition attribute="gsscore_effectiveenddate" operator="null" />
+              <condition attribute="gsscore_effectiveenddate" operator="today" />
+              <condition attribute="gsscore_effectiveenddate" operator="next-x-years" value="100" />
+            </filter>
+            <filter type="or">
+              <condition attribute="gsscore_effectivestartdate" operator="today" />
+              <condition attribute="gsscore_effectivestartdate" operator="last-x-years" value="100" />
+            </filter>
+          </filter>
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_msdsproviderid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active MSDS Providers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

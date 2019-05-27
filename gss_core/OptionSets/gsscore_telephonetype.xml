@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_telephonetype" localizedName="Telephone Type" description="Waiting for feedback from Call Center">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.15</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Telephone Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Waiting for feedback from Call Center" languagecode="1033" />
+  </Descriptions>
+  <options />
+</optionset>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{20f8382f-a6c2-4cf7-a158-a88b62d8f7e6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractportfoliounitid">
+          <cell name="gsscore_unit" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_customerdesignation" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_equipment" width="100" />
+          <cell name="gsscore_operationalstatusid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primaryaddress" width="100" disableSorting="1" />
+          <cell name="gsscore_buildingnumbers" width="100" />
+          <cell name="gsscore_criticalunit" width="100" />
+          <cell name="gsscore_numberofservicerequests" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_onportfolio" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractportfoliounit">
+          <attribute name="gsscore_operationalstatusid" />
+          <attribute name="gsscore_numberofservicerequests" />
+          <attribute name="gsscore_equipment" />
+          <attribute name="gsscore_customerdesignation" />
+          <attribute name="gsscore_criticalunit" />
+          <attribute name="gsscore_primaryaddress" />
+          <attribute name="gsscore_onportfolio" />
+          <attribute name="gsscore_buildingnumbers" />
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_contractportfoliounitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.118</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Contract Portfolio Units" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

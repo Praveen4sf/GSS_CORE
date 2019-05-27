@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8ad465ff-258f-4fe1-891b-2a14d543b4b6}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="gsscore_catalog" id="gsscore_catalogid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_accountgroup" width="100" />
+          <cell name="gsscore_branch" width="100" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_currency" width="100" />
+          <cell name="gsscore_effectivestart" width="100" />
+          <cell name="gsscore_effectiveend" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_catalog">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="gsscore_effectivestart" />
+          <attribute name="gsscore_effectiveend" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_branch" />
+          <attribute name="gsscore_accountgroup" />
+          <attribute name="gsscore_currency" />
+          <attribute name="gsscore_catalogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.24</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Catalog Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{33fb23b9-68ea-4b15-a0bb-3a84b8cca66b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{4299994f-9bd9-4450-a42f-64df46111a77}" IsUserDefined="1" name="{4299994f-9bd9-4450-a42f-64df46111a77}" locklevel="0" expanded="true" showlabel="true" labelid="{a553674c-026d-4abf-a248-54b2370aeb63}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bbe47b86-bf16-4283-af8c-89ee6bbe8063}" labelid="{2662dcf2-8d4d-44d8-9cf7-26a640d373c1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{71123281-2150-461a-bee1-739833b8f549}" labelid="{77c8d226-defb-4a17-9482-0996032118b3}">
+                        <labels>
+                          <label description="Price Adjustment Formula" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9168a63-a004-4fb2-b728-e097644ca4e0}" labelid="{8af76b29-fdb1-4330-8e52-e82060fdadc4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{4299994f-9bd9-4450-a42f-64df46111a77}_section_2" showlabel="false" showbar="false" locklevel="0" id="{cc3c4d20-181c-203d-e136-22749a9778a1}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{2c28bc79-5af9-4484-83d8-b88ee5e32f9b}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec86746e-3e61-b3a2-e2a9-107d54eb4b03}" showlabel="true" locklevel="0" labelid="{116bc003-80e2-4ed7-8c3e-ad4fb159022c}">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_language" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_language" disabled="false" />
+                      </cell>
+                      <cell id="{cb63521a-877e-aa0c-956b-33c543abb929}" showlabel="true" locklevel="0" labelid="{43a52f5a-c33a-411b-81bd-436725fe0a44}">
+                        <labels>
+                          <label description="Data Value" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_datavalue" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_datavalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8241bed9-bd03-d9be-01c1-9ab031bc817a}" showlabel="true" locklevel="0" labelid="{144eb0b9-b049-4133-9a49-1a8014a021a5}">
+                        <labels>
+                          <label description="LCID" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_lcid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_lcid" disabled="false" />
+                      </cell>
+                      <cell id="{028a4e6c-2db0-d980-ad19-086cc2b91cab}" showlabel="true" locklevel="0" labelid="{10eee3eb-bd88-46e8-b8fa-0064262f3c44}">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_country" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_country" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

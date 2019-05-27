@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{a4990dd5-cb89-e811-a963-000d3a361c23}</WebResourceId>
+  <Name>gsscore_coveragegroup16.png</Name>
+  <DisplayName>coverage group 16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_coveragegroup16pngA4990DD5-CB89-E811-A963-000D3A361C23</FileName>
+</WebResource>

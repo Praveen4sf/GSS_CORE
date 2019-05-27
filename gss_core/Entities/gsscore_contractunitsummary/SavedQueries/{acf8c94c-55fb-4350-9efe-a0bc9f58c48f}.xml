@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{acf8c94c-55fb-4350-9efe-a0bc9f58c48f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractunitsummaryid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contract" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_unitid" width="100" disableSorting="1" />
+          <cell name="gsscore_unitsummary" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_startdate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_enddate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_annualqsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_annualtsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_monthlyqsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_monthlytsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_qsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_salesquality" width="100" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_tsp" width="100" disableSorting="1" />
+          <cell name="a_b988148ceaf5e711a958000d3a3611e1.gsscore_variationtotsp" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractunitsummary">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_unitsummary" />
+          <attribute name="gsscore_startdate" />
+          <attribute name="gsscore_enddate" />
+          <attribute name="gsscore_contract" />
+          <link-entity alias="a_b988148ceaf5e711a958000d3a3611e1" name="gsscore_unitaggregation" from="gsscore_unitaggregationid" to="gsscore_unitsummary" link-type="outer" visible="false">
+            <attribute name="gsscore_variationtotsp" />
+            <attribute name="gsscore_tsp" />
+            <attribute name="gsscore_qsp" />
+            <attribute name="gsscore_monthlytsp" />
+            <attribute name="gsscore_monthlyqsp" />
+            <attribute name="gsscore_annualtsp" />
+            <attribute name="gsscore_annualqsp" />
+            <attribute name="gsscore_salesquality" />
+            <attribute name="gsscore_unitid" />
+          </link-entity>
+          <attribute name="gsscore_contractunitsummaryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.58</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Unit Summary" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

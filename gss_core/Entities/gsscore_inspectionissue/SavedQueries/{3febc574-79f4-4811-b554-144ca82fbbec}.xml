@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3febc574-79f4-4811-b554-144ca82fbbec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_inspectionissueid">
+          <cell name="gsscore_inspection" width="100" />
+          <cell name="gsscore_name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_customerunit" width="100" />
+          <cell name="a_208a81b807a5e711a94d000d3a36170b.gsscore_governmentnumber" width="100" disableSorting="1" />
+          <cell name="gsscore_issuedescription" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_issuestatus" width="100" />
+          <cell name="gsscore_workorder" width="100" />
+          <cell name="a_2c8b81b807a5e711a94d000d3a36170b.msdyn_systemstatus" width="100" disableSorting="1" />
+          <cell name="a_2c8b81b807a5e711a94d000d3a36170b.msdyn_datewindowend" width="100" disableSorting="1" />
+          <cell name="gsscore_oppotunity" width="100" />
+          <cell name="a_6c8b81b807a5e711a94d000d3a36170b.stepname" width="100" disableSorting="1" />
+          <cell name="a_6c8b81b807a5e711a94d000d3a36170b.estimatedclosedate" width="100" disableSorting="1" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_inspectionissue">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_workorder" />
+          <attribute name="ownerid" />
+          <attribute name="gsscore_oppotunity" />
+          <attribute name="gsscore_issuedescription" />
+          <attribute name="gsscore_inspection" />
+          <attribute name="gsscore_customerunit" />
+          <link-entity alias="a_208a81b807a5e711a94d000d3a36170b" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_customerunit" link-type="outer" visible="false">
+            <attribute name="gsscore_governmentnumber" />
+          </link-entity>
+          <attribute name="gsscore_issuestatus" />
+          <link-entity alias="a_2c8b81b807a5e711a94d000d3a36170b" name="msdyn_workorder" from="msdyn_workorderid" to="gsscore_workorder" link-type="outer" visible="false">
+            <attribute name="msdyn_systemstatus" />
+            <attribute name="msdyn_datewindowend" />
+          </link-entity>
+          <link-entity alias="a_6c8b81b807a5e711a94d000d3a36170b" name="opportunity" from="opportunityid" to="gsscore_oppotunity" link-type="outer" visible="false">
+            <attribute name="estimatedclosedate" />
+            <attribute name="stepname" />
+          </link-entity>
+          <attribute name="gsscore_inspectionissueid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspection Issues" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

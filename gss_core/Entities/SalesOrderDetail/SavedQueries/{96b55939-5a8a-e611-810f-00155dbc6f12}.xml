@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{96b55939-5a8a-e611-810f-00155dbc6f12}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="productidname" select="1" preview="1" icon="1">
+        <row name="result" id="salesorderdetailid">
+          <cell name="a_6ec0e72e4c104394bc627456c6412838.name" width="100" disableSorting="1" />
+          <cell name="productdescription" width="100" />
+          <cell name="baseamount" width="100" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="gsscore_discount" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="salesorderdetail">
+          <link-entity alias="a_6ec0e72e4c104394bc627456c6412838" name="salesorder" from="salesorderid" to="salesorderid" link-type="outer" visible="false">
+            <attribute name="name" />
+          </link-entity>
+          <order attribute="baseamount" descending="false" />
+          <attribute name="baseamount" />
+          <attribute name="productdescription" />
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_discount" />
+          <attribute name="salesorderdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Sales Contract Lines" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="The sales Contract lines associated to an agreement" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{50c70b49-8fae-41c2-88a7-ea5fa13893f6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_shutdownid" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_unitshutdownlogid">
+          <cell name="gsscore_shutdownid" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitshutdownlog">
+          <attribute name="gsscore_shutdownid" />
+          <order attribute="gsscore_shutdownid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="gsscore_unitshutdownlogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Unit Shutdown Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

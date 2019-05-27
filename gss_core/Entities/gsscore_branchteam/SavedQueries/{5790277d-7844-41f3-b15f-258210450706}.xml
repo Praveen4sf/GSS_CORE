@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5790277d-7844-41f3-b15f-258210450706}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_branchteamid">
+          <cell name="gsscore_teammember" width="100" />
+          <cell name="a_cd4cfe646b0fe911a973000d3a361a17.jobtitle" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_branchteam">
+          <order attribute="gsscore_teammember" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_teammember" />
+          <link-entity alias="a_cd4cfe646b0fe911a973000d3a361a17" name="systemuser" from="systemuserid" to="gsscore_teammember" link-type="outer" visible="false">
+            <attribute name="jobtitle" />
+          </link-entity>
+          <attribute name="gsscore_branchteamid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Branch Teams" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

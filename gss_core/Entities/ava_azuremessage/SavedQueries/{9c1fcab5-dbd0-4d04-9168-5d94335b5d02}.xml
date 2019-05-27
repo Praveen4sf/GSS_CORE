@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9c1fcab5-dbd0-4d04-9168-5d94335b5d02}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ava_name" select="1" icon="1" preview="1">
+        <row name="result" id="ava_azuremessageid">
+          <cell name="ava_name" width="300" />
+          <cell name="ava_entity" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="createdby" width="100" />
+          <cell name="createdonbehalfby" width="100" />
+          <cell name="ava_entityid" width="100" />
+          <cell name="ava_message" width="100" />
+          <cell name="ava_messagebody" width="100" disableSorting="1" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedonbehalfby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="overriddencreatedon" width="100" />
+          <cell name="ava_servicebusendpoint" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="ava_topic" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ava_azuremessage">
+          <attribute name="ava_name" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ava_topic" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="ava_servicebusendpoint" />
+          <attribute name="overriddencreatedon" />
+          <attribute name="ownerid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedonbehalfby" />
+          <attribute name="modifiedby" />
+          <attribute name="ava_messagebody" />
+          <attribute name="ava_message" />
+          <attribute name="ava_entityid" />
+          <attribute name="ava_entity" />
+          <attribute name="createdonbehalfby" />
+          <attribute name="createdby" />
+          <attribute name="ava_azuremessageid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Azure Messages" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

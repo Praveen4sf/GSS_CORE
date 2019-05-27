@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2bfaf142-9cde-4b46-b307-0874177e214b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_remotedevicetype" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_remotemonitoringdevicetypeid">
+          <cell name="gsscore_remotedevicetype" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_remotemonitoringdevicetype">
+          <attribute name="gsscore_remotemonitoringdevicetypeid" />
+          <attribute name="gsscore_remotedevicetype" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_remotedevicetype" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Remote Monitoring Device Type Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

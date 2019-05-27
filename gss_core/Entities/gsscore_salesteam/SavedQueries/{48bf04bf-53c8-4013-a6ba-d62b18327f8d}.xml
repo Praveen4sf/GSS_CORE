@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{48bf04bf-53c8-4013-a6ba-d62b18327f8d}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_salesteam" id="gsscore_salesteamid">
+          <cell name="gsscore_name" width="25" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_user" width="100" />
+          <cell name="gsscore_account" width="100" />
+          <cell name="a_8d48e17c6b0fe911a973000d3a361a17.jobtitle" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_salesteam">
+          <attribute name="gsscore_salesteamid" />
+          <attribute name="gsscore_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_user" />
+          <attribute name="gsscore_account" />
+          <link-entity alias="a_8d48e17c6b0fe911a973000d3a361a17" name="systemuser" from="systemuserid" to="gsscore_user" link-type="outer" visible="false">
+            <attribute name="jobtitle" />
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Sales Team Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

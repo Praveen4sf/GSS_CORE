@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_eserviceclid" localizedName="eService CLID">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.58</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="eService CLID" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140131" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Colombia/Spanish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140137" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="France-2Tier/French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140133" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Greece/English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140134" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Norway/English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140087" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Portugal/Portuguese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140135" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Portugal/English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140091" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="South Africa/English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140136" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="U.S.-2Tier/English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140043" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Australia / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140044" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Austria / German" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140072" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Belgium / Dutch" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140104" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Belgium / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140045" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Brazil / Portuguese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140107" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Bulgaria / Bulgarian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140103" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Canada / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140098" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Canada / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140099" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="China / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140070" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="China / Simplified Chinese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140075" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Croatia / Croatian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140076" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Czech Republic / Czech" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140077" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Denmark / Danish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140047" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Finland / Finnish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140048" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="France / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140049" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Germany / German" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140023" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hong Kong / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140024" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hong Kong / Traditional Chinese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140080" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Hungary / Hungarian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140059" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="India / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140129" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Indonesia / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140051" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Indonesia / Indonesian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140052" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Ireland / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140128" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="ISRC / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140123" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Italy / German" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140053" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Italy / Italian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140054" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Japan / Japanese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140055" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Korea / Korean" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140084" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Luxembourg / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140057" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Malaysia / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140083" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Mexico / Spanish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140132" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Morocco / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140085" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Netherlands / Dutch" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140058" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New Zealand / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140060" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Philippines / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140061" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Poland / Polish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140088" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Romania / Romanian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140130" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Russian Federation  / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140062" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Russian Federation  / Russian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140064" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Singapore / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140089" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Slovak Republic / Slovak" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140090" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Slovenia / Slovene" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140102" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Spain / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140035" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Spain / Spanish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140092" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Sweden / Swedish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140093" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Switzerland / French" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140100" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Switzerland / German" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140101" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Switzerland / Italian" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140127" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Taiwan / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140065" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Taiwan / Traditional Chinese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140108" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Thailand / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140066" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Thailand / Thai" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140067" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="U.S. / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140068" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="United Kingdom / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140097" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Uruguay / Spanish" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140115" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="XIZI China / English" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140114" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="XIZI China / Simplified Chinese" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

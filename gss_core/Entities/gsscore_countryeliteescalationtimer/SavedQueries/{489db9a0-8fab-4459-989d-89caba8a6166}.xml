@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{489db9a0-8fab-4459-989d-89caba8a6166}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_countryofescaltiontimer" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_countryeliteescalationtimerid">
+          <cell name="gsscore_countryofescaltiontimer" width="300" />
+          <cell name="gsscore_countryid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_entrapmenttimer" width="100" />
+          <cell name="gsscore_nonentrapmenttimer" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_countryeliteescalationtimer">
+          <attribute name="gsscore_countryofescaltiontimer" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_countryofescaltiontimer" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_nonentrapmenttimer" />
+          <attribute name="gsscore_entrapmenttimer" />
+          <attribute name="gsscore_countryid" />
+          <attribute name="gsscore_countryeliteescalationtimerid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.5</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Country Elite Escalation Timers" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

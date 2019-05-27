@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{41b46aa5-e55b-4027-bf3a-c35b185c3c35}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{cd862e38-0019-485c-a5a7-7571a628f896}" IsUserDefined="1" labelid="{931b765f-5123-49dc-8cdf-9a01e48753b8}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{cfe7df96-e751-4320-bacb-69a917e94239}" labelid="{a1d2a818-d499-4726-900d-413731bd5cda}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{686b1d00-782f-4204-817e-1524a1697f79}" labelid="{531844b2-a25f-487f-b68f-e88dda7ddc00}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dccaa69c-88c7-3c25-80c4-92dd89b0ac98}" showlabel="true" locklevel="0" labelid="{7e77787d-2792-4b3c-9c43-a1389a1eff09}">
+                        <labels>
+                          <label description="Rejection Reason Category" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rejectionreasoncategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_rejectionreasoncategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6643496d-03e7-b8a4-b471-a14e4a90788b}" showlabel="true" locklevel="0" labelid="{a554ff5a-1419-41cf-8092-e0181e1e2d66}">
+                        <labels>
+                          <label description="Reason" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_reason" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_reason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9c51de9-e589-cb12-6510-0b8a0c25a675}" showlabel="true" locklevel="0" labelid="{8069a94d-8ded-47ca-907b-7fcd5f9f7ad6}">
+                        <labels>
+                          <label description="Approval Stage" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_approvalstage" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_approvalstage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fab3e867-1b78-4637-8b7f-6e010f8f4ec0}" labelid="{4487a7c5-8b8b-49c3-bfbc-1f94b71b7272}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{cd862e38-0019-485c-a5a7-7571a628f896}_section_2" showlabel="false" showbar="false" locklevel="0" id="{71edce88-6855-3295-921d-41ac458d3645}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" labelid="{bedfdf72-22e0-4e00-8b2c-5af1ef4a1bbc}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bbd7961e-a30e-0e23-6b68-7d6ad03e4de7}" showlabel="true" locklevel="0" labelid="{169c1c6c-11ea-4cf8-a0f4-b7ea4fa3594f}">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_language" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_language" disabled="false" />
+                      </cell>
+                      <cell id="{00c85039-0bb8-0453-be2c-92732c34cc45}" showlabel="true" locklevel="0" labelid="{de4a122b-f5c6-42b3-85d3-3d6a58067b7a}">
+                        <labels>
+                          <label description="Data Value" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_datavalue" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_datavalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5beec258-e04b-1074-95d3-160763b9063c}" showlabel="true" locklevel="0" labelid="{e99cd1e7-eb19-4d9c-be3c-cad4ff0d8937}">
+                        <labels>
+                          <label description="LCID" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_lcid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_lcid" disabled="false" />
+                      </cell>
+                      <cell id="{923c638e-55a5-2228-45b9-e8cdb0119837}" showlabel="false" labelid="{8c660216-8d52-4fb7-8f91-84b661d99dfe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{876e0876-375c-4251-a6b3-1d32ac35c5c9}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="subject" select="1" icon="1" preview="0">
+        <row name="gsscore_approvalgroup" id="activityid">
+          <cell name="subject" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="regardingobjectid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_approvalroute" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_approvalgroup">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+          </filter>
+          <order attribute="subject" descending="false" />
+          <attribute name="statuscode" />
+          <attribute name="regardingobjectid" />
+          <attribute name="gsscore_approvalroute" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.126</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approval Group Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

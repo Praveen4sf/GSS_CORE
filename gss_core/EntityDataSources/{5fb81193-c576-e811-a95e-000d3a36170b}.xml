@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataSource EntityDataSourceId="{5fb81193-c576-e811-a95e-000d3a36170b}">
+  <Name>ContractPortfolioDs</Name>
+  <ConnectionDefinition>%7B%0D%0A++%22gsscore_name%22%3A+%22ContractPortfolioDs%22%2C%0D%0A++%22gsscore_contractportfoliodsid%22%3A+%225fb81193-c576-e811-a95e-000d3a36170b%22%2C%0D%0A++%22gsscore_contractportfoliodses%22%3A+null%0D%0A%7D</ConnectionDefinition>
+  <EntityDataProviderId>{57b8978a-c576-e811-a960-000d3a361a17}</EntityDataProviderId>
+  <IsCustomizable>1</IsCustomizable>
+</EntityDataSource>

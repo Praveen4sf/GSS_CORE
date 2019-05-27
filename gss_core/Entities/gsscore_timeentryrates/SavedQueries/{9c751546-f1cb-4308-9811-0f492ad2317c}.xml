@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9c751546-f1cb-4308-9811-0f492ad2317c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_rate" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_timeentryratesid">
+          <cell name="gsscore_rate" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_timeentryrates">
+          <attribute name="gsscore_timeentryratesid" />
+          <attribute name="gsscore_rate" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_rate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.95</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Time Entry Rates" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

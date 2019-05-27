@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_sourceoflead" localizedName="Source Of Lead" description="Source Of Lead for Both Lead and Opportunity">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Source Of Lead" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Source Of Lead for Both Lead and Opportunity" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140009" Color="#0000ff">
+      <labels>
+        <label description="Key Accounts" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140000" Color="#0000ff">
+      <labels>
+        <label description="Call Center" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" Color="#0000ff">
+      <labels>
+        <label description="Field Supervisor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" Color="#0000ff">
+      <labels>
+        <label description="Inspection Report" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" Color="#0000ff">
+      <labels>
+        <label description="Marketing" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" Color="#0000ff">
+      <labels>
+        <label description="Mechanic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" Color="#0000ff">
+      <labels>
+        <label description="Sales Rep" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" Color="#0000ff">
+      <labels>
+        <label description="Sales Support" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" Color="#0000ff">
+      <labels>
+        <label description="RSA" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" Color="#0000ff">
+      <labels>
+        <label description="Otis.com" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

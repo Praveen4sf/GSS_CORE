@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions />
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Ribbon.Form.Lead.MainTab.Actions.Convert.ToolTipTitle">
+      <Titles>
+        <Title description="Qualify" languagecode="1033" />
+        <Title description="‏‏تأهيل" languagecode="1025" />
+        <Title description="Квалифициране" languagecode="1026" />
+        <Title description="Qualifica" languagecode="1027" />
+        <Title description="Zařadit" languagecode="1029" />
+        <Title description="Kvalificer" languagecode="1030" />
+        <Title description="Qualifizieren" languagecode="1031" />
+        <Title description="Έγκριση" languagecode="1032" />
+        <Title description="Calificar" languagecode="3082" />
+        <Title description="Kvalifitseeri" languagecode="1061" />
+        <Title description="Gaitu" languagecode="1069" />
+        <Title description="Hyväksy" languagecode="1035" />
+        <Title description="Qualifier" languagecode="1036" />
+        <Title description="Cualificar" languagecode="1110" />
+        <Title description="אשר" languagecode="1037" />
+        <Title description="पात्र बनाएँ" languagecode="1081" />
+        <Title description="Kvalificiraj" languagecode="1050" />
+        <Title description="Minősítés" languagecode="1038" />
+        <Title description="Kualifikasi" languagecode="1057" />
+        <Title description="Qualificare" languagecode="1040" />
+        <Title description="見込みありと評価" languagecode="1041" />
+        <Title description="Нақтылау" languagecode="1087" />
+        <Title description="우량으로 선별" languagecode="1042" />
+        <Title description="Patvirtinti tinkamumą" languagecode="1063" />
+        <Title description="Kvalificēt" languagecode="1062" />
+        <Title description="Layakkan" languagecode="1086" />
+        <Title description="Kvalifiser" languagecode="1044" />
+        <Title description="Kwalificeren" languagecode="1043" />
+        <Title description="Zakwalifikuj" languagecode="1045" />
+        <Title description="Qualificar" languagecode="1046" />
+        <Title description="Qualificar" languagecode="2070" />
+        <Title description="Calificare" languagecode="1048" />
+        <Title description="Квалифицировать" languagecode="1049" />
+        <Title description="Kvalifikovať" languagecode="1051" />
+        <Title description="Potrjevanje" languagecode="1060" />
+        <Title description="Квалификуј" languagecode="10266" />
+        <Title description="Kvalifikuj" languagecode="9242" />
+        <Title description="Kvalificera" languagecode="1053" />
+        <Title description="รับรอง" languagecode="1054" />
+        <Title description="Uygun Bul" languagecode="1055" />
+        <Title description="Кваліфікувати" languagecode="1058" />
+        <Title description="Định tính" languagecode="1066" />
+        <Title description="授予资格" languagecode="2052" />
+        <Title description="授與資格​​" languagecode="3076" />
+        <Title description="授與資格​​" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.Form.opportunity.MainTab.Actions.Convert">
+      <Titles>
+        <Title description="Qualify" languagecode="1033" />
+        <Title description="‏‏تأهيل" languagecode="1025" />
+        <Title description="Квалифициране" languagecode="1026" />
+        <Title description="Qualifica" languagecode="1027" />
+        <Title description="Zařadit" languagecode="1029" />
+        <Title description="Kvalificer" languagecode="1030" />
+        <Title description="Qualifizieren" languagecode="1031" />
+        <Title description="Έγκριση" languagecode="1032" />
+        <Title description="Calificar" languagecode="3082" />
+        <Title description="Kvalifitseeri" languagecode="1061" />
+        <Title description="Gaitu" languagecode="1069" />
+        <Title description="Hyväksy" languagecode="1035" />
+        <Title description="Qualifier" languagecode="1036" />
+        <Title description="Cualificar" languagecode="1110" />
+        <Title description="אשר" languagecode="1037" />
+        <Title description="पात्र बनाएँ" languagecode="1081" />
+        <Title description="Kvalificiraj" languagecode="1050" />
+        <Title description="Minősítés" languagecode="1038" />
+        <Title description="Kualifikasi" languagecode="1057" />
+        <Title description="Qualificare" languagecode="1040" />
+        <Title description="見込みありと評価" languagecode="1041" />
+        <Title description="Нақтылау" languagecode="1087" />
+        <Title description="우량으로 선별" languagecode="1042" />
+        <Title description="Patvirtinti tinkamumą" languagecode="1063" />
+        <Title description="Kvalificēt" languagecode="1062" />
+        <Title description="Layakkan" languagecode="1086" />
+        <Title description="Kvalifiser" languagecode="1044" />
+        <Title description="Kwalificeren" languagecode="1043" />
+        <Title description="Zakwalifikuj" languagecode="1045" />
+        <Title description="Qualificar" languagecode="1046" />
+        <Title description="Qualificar" languagecode="2070" />
+        <Title description="Calificare" languagecode="1048" />
+        <Title description="Квалифицировать" languagecode="1049" />
+        <Title description="Kvalifikovať" languagecode="1051" />
+        <Title description="Potrdi" languagecode="1060" />
+        <Title description="Квалификуј" languagecode="10266" />
+        <Title description="Kvalifikuj" languagecode="9242" />
+        <Title description="Kvalificera" languagecode="1053" />
+        <Title description="รับรอง" languagecode="1054" />
+        <Title description="Uygun Bul" languagecode="1055" />
+        <Title description="Кваліфікувати" languagecode="1058" />
+        <Title description="Định tính" languagecode="1066" />
+        <Title description="授予资格" languagecode="2052" />
+        <Title description="授與資格​​" languagecode="3076" />
+        <Title description="授與資格​​" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.HomepageGrid.account.MainTab.Actions.QuickCampaign">
+      <Titles>
+        <Title description="Quick Campaign" languagecode="1033" />
+        <Title description="حملة دعائية سريعة" languagecode="1025" />
+        <Title description="Бърза кампания" languagecode="1026" />
+        <Title description="Campanya exprés" languagecode="1027" />
+        <Title description="Rychlá kampaň" languagecode="1029" />
+        <Title description="Hurtig kampagne" languagecode="1030" />
+        <Title description="Schnellkampagne" languagecode="1031" />
+        <Title description="Γρήγορη εκστρατεία" languagecode="1032" />
+        <Title description="Campaña rápida" languagecode="3082" />
+        <Title description="Kiirkampaania" languagecode="1061" />
+        <Title description="Kanpaina bizkorra" languagecode="1069" />
+        <Title description="Pikakampanja" languagecode="1035" />
+        <Title description="Campagne rapide" languagecode="1036" />
+        <Title description="Campaña rápida" languagecode="1110" />
+        <Title description="קמפיין מהיר" languagecode="1037" />
+        <Title description="त्वरित अभियान" languagecode="1081" />
+        <Title description="Brza kampanja" languagecode="1050" />
+        <Title description="Gyorskampány" languagecode="1038" />
+        <Title description="Kampanye Cepat" languagecode="1057" />
+        <Title description="Mini-campagna" languagecode="1040" />
+        <Title description="簡易キャンペーン" languagecode="1041" />
+        <Title description="Жылдам науқан" languagecode="1087" />
+        <Title description="퀵 캠페인" languagecode="1042" />
+        <Title description="Sparčioji kampanija" languagecode="1063" />
+        <Title description="Ātrā kampaņa" languagecode="1062" />
+        <Title description="Kempen Cepat" languagecode="1086" />
+        <Title description="Hurtigkampanje" languagecode="1044" />
+        <Title description="Snelle campagne" languagecode="1043" />
+        <Title description="Szybka kampania" languagecode="1045" />
+        <Title description="Campanha Rápida" languagecode="1046" />
+        <Title description="Campanha breve" languagecode="2070" />
+        <Title description="Campanie rapidă" languagecode="1048" />
+        <Title description="Быстрая кампания" languagecode="1049" />
+        <Title description="Rýchla kampaň" languagecode="1051" />
+        <Title description="Hitra akcija" languagecode="1060" />
+        <Title description="Брза кампања" languagecode="10266" />
+        <Title description="Brza kampanja" languagecode="9242" />
+        <Title description="Snabbkampanj" languagecode="1053" />
+        <Title description="การส่งเสริมการขายเร่งด่วน" languagecode="1054" />
+        <Title description="Hızlı Kampanya" languagecode="1055" />
+        <Title description="Експрес-кампанія" languagecode="1058" />
+        <Title description="Chiến dịch Nhanh gọn" languagecode="1066" />
+        <Title description="快速市场活动" languagecode="2052" />
+        <Title description="快速行銷活動" languagecode="3076" />
+        <Title description="快速行銷活動" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.HomepageGrid.MainTab.Management.BulkDelete.TooltipDescription">
+      <Titles>
+        <Title description="Delete the selected records with the Bulk Deletion Wizard. &lt;br&gt;&lt;br&gt;You can continue to work while the bulk deletion job runs. Deletions cannot be undone." languagecode="1033" />
+        <Title description="حذف السجلات المحددة من خلال معالج الحذف المجمع. &lt;br&gt;&lt;br&gt;يمكنك متابعة العمل أثناء تشغيل وظيفة الحذف المجمع. لا يمكن التراجع عن عمليات الحذف." languagecode="1025" />
+        <Title description="Изтриване на избраните записи с помощта на съветника за групово изтриване. &lt;br&gt;&lt;br&gt;Можете да продължите да работите с приложението и по време на изпълнението на задачата за групово изтриване. Операцията изтриване е необратима." languagecode="1026" />
+        <Title description="Suprimeix els registres seleccionats amb l'Auxiliar de supressió massiva. &lt;br&gt;&lt;br&gt;Podeu continuar treballant mentre s'executa la feina de supressió massiva. Les supressions no es poden desfer." languagecode="1027" />
+        <Title description="Odstraní vybrané záznamy pomocí Průvodce hromadným odstraněním. &lt;br&gt;&lt;br&gt;V průběhu úlohy hromadného odstranění můžete pokračovat v práci. Odstraněné záznamy nelze vrátit zpět." languagecode="1029" />
+        <Title description="Slet de markerede poster med guiden Massesletning. &lt;br&gt;&lt;br&gt;Du kan fortsætte med at arbejde, mens jobbet til massesletning kører. Sletninger kan ikke fortrydes." languagecode="1030" />
+        <Title description="Löscht die ausgewählten Datensätze mit dem Massenlöschungs-Assistenten. &lt;br&gt;&lt;br&gt;Sie können weiter arbeiten, während der Massenlöschungsauftrag ausgeführt wird. Löschvorgänge können nicht rückgängig gemacht werden." languagecode="1031" />
+        <Title description="Διαγράψτε τις επιλεγμένες καρτέλες με τον &quot;Οδηγό μαζικής διαγραφής&quot;. &lt;br&gt;&lt;br&gt;Μπορείτε να συνεχίσετε να εργάζεστε την ώρα που εκτελείται η εργασία μαζικής διαγραφής. Οι διαγραφές δεν είναι δυνατό να αναιρεθούν." languagecode="1032" />
+        <Title description="Elimine los registros seleccionados con el Asistente para eliminación en masa. &lt;br&gt;&lt;br&gt;Se puede seguir trabajando mientras se ejecuta el trabajo de eliminación en masa. La eliminación no se puede deshacer." languagecode="3082" />
+        <Title description="Hulgikustutusviisardi abil saate kustutada valitud kirjed. &lt;br&gt;&lt;br&gt;Hulgikustutustöö käitamise ajal saate töötamist jätkata. Kustutamist ei saa tagasi võtta." languagecode="1061" />
+        <Title description="Ezabatu hautatutako erregistroak ezabatze masiborako morroia erabiliz. &lt;br&gt;&lt;br&gt;Lanean jarrai dezakezu ezabatze masiboa egiten den bitartean. Ezin izango duzu berreskuratu ezabatutako edukia." languagecode="1069" />
+        <Title description="Poista valitut tietueet ohjatulla joukkopoistotoiminnolla. &lt;br&gt;&lt;br&gt;Voit jatkaa työskentelyä joukkopoistotyön suorituksen aikana. Poistoa ei voi kumota." languagecode="1035" />
+        <Title description="Supprimez les enregistrements sélectionnés à l’aide de l’Assistant Suppression en bloc. &lt;br&gt;&lt;br&gt;Vous pouvez continuer à travailler pendant l’exécution de la tâche de suppression en bloc. Les suppressions ne peuvent pas être annulées." languagecode="1036" />
+        <Title description="Elimine os rexistros seleccionados co asistente de eliminación en masa. &lt;br&gt;&lt;br&gt;Pode seguir a traballar mentres se executa o traballo de eliminación en masa. As eliminacións non se poden desfacer." languagecode="1110" />
+        <Title description="מחק את הרשומות שנבחרו באמצעות אשף המחיקה בצובר. &lt;br&gt;&lt;br&gt;באפשרותך להמשיך לעבוד בזמן שמשימת המחיקה בצובר מתבצעת. לא ניתן לבטל מחיקות." languagecode="1037" />
+        <Title description="सामूहिक हटाना विज़ार्ड की सहायता से चुने गए रिकॉर्ड हटाएँ. &lt;br&gt;&lt;br&gt;सामूहिक रूप से हटाने के चलने के दौरान आप अपना काम जारी रख सकते हैं. हटाना पू्र्ववत नहीं किया जा सकता है." languagecode="1081" />
+        <Title description="Izbrišite odabrane zapise pomoću Čarobnjaka za masovno brisanje. &lt;br&gt;&lt;br&gt;Možete nastaviti raditi dok se izvodi masovno brisanje. Brisanje se ne može poništiti." languagecode="1050" />
+        <Title description="A kijelölt rekordok törlése a Tömeges törlés varázslóval. &lt;br&gt;&lt;br&gt;A tömeges törlés közben folytathatja a munkát. A törlés nem vonható vissza." languagecode="1038" />
+        <Title description="Menghapus data yang dipilih dengan Wizard Penghapusan Massal. &lt;br&gt;&lt;br&gt;Anda dapat tetap bekerja saat pekerjaan penghapusan massal berlangsung. Penghapusan tidak dapat dibatalkan." languagecode="1057" />
+        <Title description="Consente di eliminare i record selezionati con l'Eliminazione in blocco guidata. &lt;br&gt;&lt;br&gt;È possibile continuare a lavorare durante l'esecuzione del processo di eliminazione in blocco. Le eliminazioni non possono essere annullate." languagecode="1040" />
+        <Title description="選択されているレコードを一括削除ウィザードで削除します。&lt;br&gt;&lt;br&gt;一括削除ジョブの実行中、作業を続行できます。削除は元に戻せません。" languagecode="1041" />
+        <Title description="Жойылатын жазбаларды көрсету. &lt;br&gt;&lt;br&gt;Жаппай жою тапсырмасы орындалып жатқанда жұмысты жалғастыруға болады. Жоюларды болдырмау мүмкін емес." languagecode="1087" />
+        <Title description="선택한 레코드를 대량 삭제 마법사로 삭제합니다. &lt;br&gt;&lt;br&gt;대량 삭제 작업이 실행되는 동안 다른 작업을 계속 수행할 수 있습니다. 삭제는 취소할 수 없습니다." languagecode="1042" />
+        <Title description="Panaikinkite pasirinktus įrašus naudodami masinio naikinimo vedlį. &lt;br&gt;&lt;br&gt;Galite tęsti darbą veikiant masinio naikinimo užduočiai. Panaikinimo negalima anuliuoti." languagecode="1063" />
+        <Title description="Dzēst atlasītos ierakstus, izmantojot Lielapjoma dzēšanas vedni. &lt;br&gt;&lt;br&gt;Kamēr tiek izpildīts lielapjoma dzēšanas uzdevums, varat turpināt strādāt. Izdzēšana ir neatgriezeniska." languagecode="1062" />
+        <Title description="Padam rekod yang dipilih dengan Wizard Pemadaman Pukal. &lt;br&gt;&lt;br&gt;Anda dapat tetap bekerja semasa kerja pemadaman pukal berjalan. Pemadaman tidak dapat dibatalkan." languagecode="1086" />
+        <Title description="Slett de valgte oppføringene med veiviseren for massesletting. &lt;br&gt;&lt;br&gt;Du kan fortsette å arbeide mens masseslettingsjobben kjører. Slettinger kan ikke angres." languagecode="1044" />
+        <Title description="De geselecteerde records verwijderen met de wizard Bulkverwijdering. &lt;br&gt;&lt;br&gt;U kunt doorgaan met werken terwijl de bulkverwijderingstaak wordt uitgevoerd. Verwijderingen kunnen niet ongedaan worden gemaakt." languagecode="1043" />
+        <Title description="Usuń wybrane rekordy za pomocą Kreatora usuwania zbiorczego. &lt;br&gt;&lt;br&gt;Podczas wykonywania zadania usuwania zbiorczego możesz kontynuować pracę. Usuniętych rekordów nie można odzyskać." languagecode="1045" />
+        <Title description="Exclua os registros selecionados com o Assistente de Exclusão em Massa. &lt;br&gt;&lt;br&gt;Você pode continuar a trabalhar enquanto o trabalho de exclusão em massa é executado. As exclusões não podem ser desfeitas." languagecode="1046" />
+        <Title description="Eliminar os registos selecionados com o Assistente de Eliminação em Massa. &lt;br&gt;&lt;br&gt;Pode continuar a trabalhar enquanto a tarefa de eliminação em massa estiver em execução. Não é possível anular as eliminações." languagecode="2070" />
+        <Title description="Ștergeți înregistrările selectate cu Asistentul de ștergere în bloc. &lt;br&gt;&lt;br&gt;Vă puteți continua lucrul în timp ce operațiunea de ștergere în bloc rulează. Ștergerile nu se pot anula." languagecode="1048" />
+        <Title description="Удалить выбранные записи с помощью мастера массового удаления. &lt;br&gt;&lt;br&gt;Во время выполнения задания массового удаления можно продолжать работу. Отменить операции удаления нельзя." languagecode="1049" />
+        <Title description="Odstráni vybraté záznamy prostredníctvom Sprievodcu hromadným odstránením. &lt;br&gt;&lt;br&gt;Počas úlohy hromadného odstraňovania môžete pokračovať v práci. Odstránenie nie je možné vrátiť späť." languagecode="1051" />
+        <Title description="Izbrišite izbrane zapise s čarovnikom za množično brisanje. &lt;br&gt;&lt;br&gt;Med izvajanjem posla množičnega brisanja lahko nadaljujete delo. Brisanja ni mogoče razveljaviti." languagecode="1060" />
+        <Title description="Избришите изабране записе помоћу чаробњака за масовно брисање. &lt;br&gt;&lt;br&gt;Можете наставити са радом док се извршава задатак масовног брисања. Брисања није могуће опозвати." languagecode="10266" />
+        <Title description="Izbrišite izabrane zapise pomoću čarobnjaka za masovno brisanje. &lt;br&gt;&lt;br&gt;Možete nastaviti sa radom dok se izvršava zadatak masovnog brisanja. Brisanja nije moguće opozvati." languagecode="9242" />
+        <Title description="Ta bor de markerade posterna med guiden Massradering. &lt;br&gt;&lt;br&gt;Du kan fortsätta arbeta medan massborttagningsjobbet körs. Du kan inte ångra borttagningar." languagecode="1053" />
+        <Title description="ลบเรกคอร์ดที่เลือกด้วยตัวช่วยสร้างการลบจำนวนมาก &lt;br&gt;&lt;br&gt;คุณสามารถทำงานอย่างต่อเนื่องขณะงานการลบจำนวนมากทำงาน การลบไม่สามารถเลิกทำได้" languagecode="1054" />
+        <Title description="Seçilen kayıtları Toplu Silme Sihirbazı ile silin. &lt;br&gt;&lt;br&gt;Toplu silme işi yürütülürken çalışmaya devam edebilirsiniz. Silme işlemleri geri alınamaz." languagecode="1055" />
+        <Title description="Видалити вибрані записи за допомогою майстра групового видалення. &lt;br&gt;&lt;br&gt;Під час виконання завдання групового видалення можна продовжувати роботу. Видалення неможливо буде скасувати." languagecode="1058" />
+        <Title description="Xóa bản ghi đã chọn bằng Trình hướng dẫn xóa hàng loạt. &lt;br&gt;&lt;br&gt;Bạn có thể tiếp tục làm việc trong khi chạy công việc xóa hàng loạt. Bạn không thể hoàn tác hành động xóa." languagecode="1066" />
+        <Title description="使用批量删除向导删除所选记录。&lt;br&gt;&lt;br&gt;您可以在批量删除作业运行时继续工作。删除操作无法撤消。" languagecode="2052" />
+        <Title description="使用大量刪除精靈刪除選取的記錄。&lt;br&gt;&lt;br&gt;執行大量刪除工作時，您仍然可以繼續作業。刪除的記錄無法復原。" languagecode="3076" />
+        <Title description="使用大量刪除精靈刪除選取的記錄。&lt;br&gt;&lt;br&gt;執行大量刪除工作時，您仍然可以繼續作業。刪除的記錄無法復原。" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Ribbon.HomepageGrid.MainTab.Management.BulkDelete.TooltipDescription">
+      <Titles>
+        <Title description="Delete the selected records with the Bulk Deletion Wizard. &lt;br&gt;&lt;br&gt;You can continue to work while the bulk deletion job runs. Deletions cannot be undone." languagecode="1033" />
+        <Title description="حذف السجلات المحددة من خلال معالج الحذف المجمع. &lt;br&gt;&lt;br&gt;يمكنك متابعة العمل أثناء تشغيل وظيفة الحذف المجمع. لا يمكن التراجع عن عمليات الحذف." languagecode="1025" />
+        <Title description="Изтриване на избраните записи с помощта на съветника за групово изтриване. &lt;br&gt;&lt;br&gt;Можете да продължите да работите с приложението и по време на изпълнението на задачата за групово изтриване. Операцията изтриване е необратима." languagecode="1026" />
+        <Title description="Suprimeix els registres seleccionats amb l'Auxiliar de supressió massiva. &lt;br&gt;&lt;br&gt;Podeu continuar treballant mentre s'executa la feina de supressió massiva. Les supressions no es poden desfer." languagecode="1027" />
+        <Title description="Odstraní vybrané záznamy pomocí Průvodce hromadným odstraněním. &lt;br&gt;&lt;br&gt;V průběhu úlohy hromadného odstranění můžete pokračovat v práci. Odstraněné záznamy nelze vrátit zpět." languagecode="1029" />
+        <Title description="Slet de markerede poster med guiden Massesletning. &lt;br&gt;&lt;br&gt;Du kan fortsætte med at arbejde, mens jobbet til massesletning kører. Sletninger kan ikke fortrydes." languagecode="1030" />
+        <Title description="Löscht die ausgewählten Datensätze mit dem Massenlöschungs-Assistenten. &lt;br&gt;&lt;br&gt;Sie können weiter arbeiten, während der Massenlöschungsauftrag ausgeführt wird. Löschvorgänge können nicht rückgängig gemacht werden." languagecode="1031" />
+        <Title description="Διαγράψτε τις επιλεγμένες καρτέλες με τον &quot;Οδηγό μαζικής διαγραφής&quot;. &lt;br&gt;&lt;br&gt;Μπορείτε να συνεχίσετε να εργάζεστε την ώρα που εκτελείται η εργασία μαζικής διαγραφής. Οι διαγραφές δεν είναι δυνατό να αναιρεθούν." languagecode="1032" />
+        <Title description="Elimine los registros seleccionados con el Asistente para eliminación en masa. &lt;br&gt;&lt;br&gt;Se puede seguir trabajando mientras se ejecuta el trabajo de eliminación en masa. La eliminación no se puede deshacer." languagecode="3082" />
+        <Title description="Hulgikustutusviisardi abil saate kustutada valitud kirjed. &lt;br&gt;&lt;br&gt;Hulgikustutustöö käitamise ajal saate töötamist jätkata. Kustutamist ei saa tagasi võtta." languagecode="1061" />
+        <Title description="Ezabatu hautatutako erregistroak ezabatze masiborako morroia erabiliz. &lt;br&gt;&lt;br&gt;Lanean jarrai dezakezu ezabatze masiboa egiten den bitartean. Ezin izango duzu berreskuratu ezabatutako edukia." languagecode="1069" />
+        <Title description="Poista valitut tietueet ohjatulla joukkopoistotoiminnolla. &lt;br&gt;&lt;br&gt;Voit jatkaa työskentelyä joukkopoistotyön suorituksen aikana. Poistoa ei voi kumota." languagecode="1035" />
+        <Title description="Supprimez les enregistrements sélectionnés à l’aide de l’Assistant Suppression en bloc. &lt;br&gt;&lt;br&gt;Vous pouvez continuer à travailler pendant l’exécution de la tâche de suppression en bloc. Les suppressions ne peuvent pas être annulées." languagecode="1036" />
+        <Title description="Elimine os rexistros seleccionados co asistente de eliminación en masa. &lt;br&gt;&lt;br&gt;Pode seguir a traballar mentres se executa o traballo de eliminación en masa. As eliminacións non se poden desfacer." languagecode="1110" />
+        <Title description="מחק את הרשומות שנבחרו באמצעות אשף המחיקה בצובר. &lt;br&gt;&lt;br&gt;באפשרותך להמשיך לעבוד בזמן שמשימת המחיקה בצובר מתבצעת. לא ניתן לבטל מחיקות." languagecode="1037" />
+        <Title description="सामूहिक हटाना विज़ार्ड की सहायता से चुने गए रिकॉर्ड हटाएँ. &lt;br&gt;&lt;br&gt;सामूहिक रूप से हटाने के चलने के दौरान आप अपना काम जारी रख सकते हैं. हटाना पू्र्ववत नहीं किया जा सकता है." languagecode="1081" />
+        <Title description="Izbrišite odabrane zapise pomoću Čarobnjaka za masovno brisanje. &lt;br&gt;&lt;br&gt;Možete nastaviti raditi dok se izvodi masovno brisanje. Brisanje se ne može poništiti." languagecode="1050" />
+        <Title description="A kijelölt rekordok törlése a Tömeges törlés varázslóval. &lt;br&gt;&lt;br&gt;A tömeges törlés közben folytathatja a munkát. A törlés nem vonható vissza." languagecode="1038" />
+        <Title description="Menghapus data yang dipilih dengan Wizard Penghapusan Massal. &lt;br&gt;&lt;br&gt;Anda dapat tetap bekerja saat pekerjaan penghapusan massal berlangsung. Penghapusan tidak dapat dibatalkan." languagecode="1057" />
+        <Title description="Consente di eliminare i record selezionati con l'Eliminazione in blocco guidata. &lt;br&gt;&lt;br&gt;È possibile continuare a lavorare durante l'esecuzione del processo di eliminazione in blocco. Le eliminazioni non possono essere annullate." languagecode="1040" />
+        <Title description="選択されているレコードを一括削除ウィザードで削除します。&lt;br&gt;&lt;br&gt;一括削除ジョブの実行中、作業を続行できます。削除は元に戻せません。" languagecode="1041" />
+        <Title description="Жойылатын жазбаларды көрсету. &lt;br&gt;&lt;br&gt;Жаппай жою тапсырмасы орындалып жатқанда жұмысты жалғастыруға болады. Жоюларды болдырмау мүмкін емес." languagecode="1087" />
+        <Title description="선택한 레코드를 대량 삭제 마법사로 삭제합니다. &lt;br&gt;&lt;br&gt;대량 삭제 작업이 실행되는 동안 다른 작업을 계속 수행할 수 있습니다. 삭제는 취소할 수 없습니다." languagecode="1042" />
+        <Title description="Panaikinkite pasirinktus įrašus naudodami masinio naikinimo vedlį. &lt;br&gt;&lt;br&gt;Galite tęsti darbą veikiant masinio naikinimo užduočiai. Panaikinimo negalima anuliuoti." languagecode="1063" />
+        <Title description="Dzēst atlasītos ierakstus, izmantojot Lielapjoma dzēšanas vedni. &lt;br&gt;&lt;br&gt;Kamēr tiek izpildīts lielapjoma dzēšanas uzdevums, varat turpināt strādāt. Izdzēšana ir neatgriezeniska." languagecode="1062" />
+        <Title description="Padam rekod yang dipilih dengan Wizard Pemadaman Pukal. &lt;br&gt;&lt;br&gt;Anda dapat tetap bekerja semasa kerja pemadaman pukal berjalan. Pemadaman tidak dapat dibatalkan." languagecode="1086" />
+        <Title description="Slett de valgte oppføringene med veiviseren for massesletting. &lt;br&gt;&lt;br&gt;Du kan fortsette å arbeide mens masseslettingsjobben kjører. Slettinger kan ikke angres." languagecode="1044" />
+        <Title description="De geselecteerde records verwijderen met de wizard Bulkverwijdering. &lt;br&gt;&lt;br&gt;U kunt doorgaan met werken terwijl de bulkverwijderingstaak wordt uitgevoerd. Verwijderingen kunnen niet ongedaan worden gemaakt." languagecode="1043" />
+        <Title description="Usuń wybrane rekordy za pomocą Kreatora usuwania zbiorczego. &lt;br&gt;&lt;br&gt;Podczas wykonywania zadania usuwania zbiorczego możesz kontynuować pracę. Usuniętych rekordów nie można odzyskać." languagecode="1045" />
+        <Title description="Exclua os registros selecionados com o Assistente de Exclusão em Massa. &lt;br&gt;&lt;br&gt;Você pode continuar a trabalhar enquanto o trabalho de exclusão em massa é executado. As exclusões não podem ser desfeitas." languagecode="1046" />
+        <Title description="Eliminar os registos selecionados com o Assistente de Eliminação em Massa. &lt;br&gt;&lt;br&gt;Pode continuar a trabalhar enquanto a tarefa de eliminação em massa estiver em execução. Não é possível anular as eliminações." languagecode="2070" />
+        <Title description="Ștergeți înregistrările selectate cu Asistentul de ștergere în bloc. &lt;br&gt;&lt;br&gt;Vă puteți continua lucrul în timp ce operațiunea de ștergere în bloc rulează. Ștergerile nu se pot anula." languagecode="1048" />
+        <Title description="Удалить выбранные записи с помощью мастера массового удаления. &lt;br&gt;&lt;br&gt;Во время выполнения задания массового удаления можно продолжать работу. Отменить операции удаления нельзя." languagecode="1049" />
+        <Title description="Odstráni vybraté záznamy prostredníctvom Sprievodcu hromadným odstránením. &lt;br&gt;&lt;br&gt;Počas úlohy hromadného odstraňovania môžete pokračovať v práci. Odstránenie nie je možné vrátiť späť." languagecode="1051" />
+        <Title description="Izbrišite izbrane zapise s čarovnikom za množično brisanje. &lt;br&gt;&lt;br&gt;Med izvajanjem posla množičnega brisanja lahko nadaljujete delo. Brisanja ni mogoče razveljaviti." languagecode="1060" />
+        <Title description="Избришите изабране записе помоћу чаробњака за масовно брисање. &lt;br&gt;&lt;br&gt;Можете наставити са радом док се извршава задатак масовног брисања. Брисања није могуће опозвати." languagecode="10266" />
+        <Title description="Izbrišite izabrane zapise pomoću čarobnjaka za masovno brisanje. &lt;br&gt;&lt;br&gt;Možete nastaviti sa radom dok se izvršava zadatak masovnog brisanja. Brisanja nije moguće opozvati." languagecode="9242" />
+        <Title description="Ta bor de markerade posterna med guiden Massradering. &lt;br&gt;&lt;br&gt;Du kan fortsätta arbeta medan massborttagningsjobbet körs. Du kan inte ångra borttagningar." languagecode="1053" />
+        <Title description="ลบเรกคอร์ดที่เลือกด้วยตัวช่วยสร้างการลบจำนวนมาก &lt;br&gt;&lt;br&gt;คุณสามารถทำงานอย่างต่อเนื่องขณะงานการลบจำนวนมากทำงาน การลบไม่สามารถเลิกทำได้" languagecode="1054" />
+        <Title description="Seçilen kayıtları Toplu Silme Sihirbazı ile silin. &lt;br&gt;&lt;br&gt;Toplu silme işi yürütülürken çalışmaya devam edebilirsiniz. Silme işlemleri geri alınamaz." languagecode="1055" />
+        <Title description="Видалити вибрані записи за допомогою майстра групового видалення. &lt;br&gt;&lt;br&gt;Під час виконання завдання групового видалення можна продовжувати роботу. Видалення неможливо буде скасувати." languagecode="1058" />
+        <Title description="Xóa bản ghi đã chọn bằng Trình hướng dẫn xóa hàng loạt. &lt;br&gt;&lt;br&gt;Bạn có thể tiếp tục làm việc trong khi chạy công việc xóa hàng loạt. Bạn không thể hoàn tác hành động xóa." languagecode="1066" />
+        <Title description="使用批量删除向导删除所选记录。&lt;br&gt;&lt;br&gt;您可以在批量删除作业运行时继续工作。删除操作无法撤消。" languagecode="2052" />
+        <Title description="使用大量刪除精靈刪除選取的記錄。&lt;br&gt;&lt;br&gt;執行大量刪除工作時，您仍然可以繼續作業。刪除的記錄無法復原。" languagecode="3076" />
+        <Title description="使用大量刪除精靈刪除選取的記錄。&lt;br&gt;&lt;br&gt;執行大量刪除工作時，您仍然可以繼續作業。刪除的記錄無法復原。" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

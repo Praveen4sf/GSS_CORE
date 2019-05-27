@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions />
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="FieldService.Form.msdyn_workorderservicetask.MainTab.Save.AsComplete.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Mark Complete" />
+        <Title languagecode="1025" description="وضع علامة اكتمال" />
+        <Title languagecode="1026" description="Обозначаване като приключено" />
+        <Title languagecode="1027" description="Marca com a completat" />
+        <Title languagecode="1029" description="Označit jako dokončeno" />
+        <Title languagecode="1030" description="Markér som fuldført" />
+        <Title languagecode="1031" description="als erledigt markieren" />
+        <Title languagecode="1032" description="Σήμανση ως ολοκληρωμένου" />
+        <Title languagecode="3082" description="Marcar como terminado" />
+        <Title languagecode="1061" description="Märgi lõpuleviiduks" />
+        <Title languagecode="1069" description="Markatu osatutako gisa" />
+        <Title languagecode="1035" description="Merkitse valmiiksi" />
+        <Title languagecode="1036" description="marquer comme terminé" />
+        <Title languagecode="1110" description="Marcar como completada" />
+        <Title languagecode="1037" description="סמן כפעילות שהושלמה" />
+        <Title languagecode="1081" description="पूर्ण के रूप में चिह्नित करें" />
+        <Title languagecode="1050" description="Označi kao dovršeno" />
+        <Title languagecode="1038" description="Megjelölés készként" />
+        <Title languagecode="1057" description="Tandai Selesai" />
+        <Title languagecode="1040" description="segna come completato" />
+        <Title languagecode="1041" description="完了としてマーク" />
+        <Title languagecode="1087" description="Аяқталған деп белгілеу" />
+        <Title languagecode="1042" description="완료로 표시" />
+        <Title languagecode="1063" description="Žymėti kaip baigtą" />
+        <Title languagecode="1062" description="Atzīmēt kā pabeigtu" />
+        <Title languagecode="1086" description="Tandakan Selesai" />
+        <Title languagecode="1044" description="Merk som fullført" />
+        <Title languagecode="1043" description="Markeren als voltooid" />
+        <Title languagecode="1045" description="Oznacz jako zakończone" />
+        <Title languagecode="1046" description="Marcar como Concluído" />
+        <Title languagecode="2070" description="marcar como concluída" />
+        <Title languagecode="1048" description="Marcare ca finalizat" />
+        <Title languagecode="1049" description="Отметить как завершенное" />
+        <Title languagecode="1051" description="Označiť ako dokončené" />
+        <Title languagecode="1060" description="Označi kot dokončano" />
+        <Title languagecode="3098" description="Означи као довршено" />
+        <Title languagecode="2074" description="Označi kao dovršeno" />
+        <Title languagecode="1053" description="Markera som slutfört" />
+        <Title languagecode="1054" description="ทำเครื่องหมายว่าเสร็จสมบูรณ์" />
+        <Title languagecode="1055" description="Tamamlandı Olarak İşaretle" />
+        <Title languagecode="1058" description="Позначити як завершене" />
+        <Title languagecode="1066" description="Đánh dấu hoàn thành" />
+        <Title languagecode="2052" description="标记完成" />
+        <Title languagecode="3076" description="標示完成" />
+        <Title languagecode="1028" description="標示完成" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="FieldService.SubGrid.msdyn_workorderservicetask.MainTab.Management.SaveAsComplete.LabelText">
+      <Titles>
+        <Title languagecode="1033" description="Mark Complete" />
+        <Title languagecode="1025" description="وضع علامة اكتمال" />
+        <Title languagecode="1026" description="Обозначаване като приключено" />
+        <Title languagecode="1027" description="Marca com a completat" />
+        <Title languagecode="1029" description="Označit jako dokončeno" />
+        <Title languagecode="1030" description="Markér som fuldført" />
+        <Title languagecode="1031" description="als erledigt markieren" />
+        <Title languagecode="1032" description="Σήμανση ως ολοκληρωμένου" />
+        <Title languagecode="3082" description="Marcar como terminado" />
+        <Title languagecode="1061" description="Märgi lõpuleviiduks" />
+        <Title languagecode="1069" description="Markatu osatutako gisa" />
+        <Title languagecode="1035" description="Merkitse valmiiksi" />
+        <Title languagecode="1036" description="marquer comme terminé" />
+        <Title languagecode="1110" description="Marcar como completado" />
+        <Title languagecode="1037" description="סמן כפעילות שהושלמה" />
+        <Title languagecode="1081" description="पूर्ण के रूप में चिह्नित करें" />
+        <Title languagecode="1050" description="Označi kao dovršeno" />
+        <Title languagecode="1038" description="Megjelölés készként" />
+        <Title languagecode="1057" description="Tandai Selesai" />
+        <Title languagecode="1040" description="segna come completato" />
+        <Title languagecode="1041" description="完了としてマーク" />
+        <Title languagecode="1087" description="Аяқталған деп белгілеу" />
+        <Title languagecode="1042" description="완료로 표시" />
+        <Title languagecode="1063" description="Žymėti kaip baigtą" />
+        <Title languagecode="1062" description="Atzīmēt kā pabeigtu" />
+        <Title languagecode="1086" description="Tandakan Selesai" />
+        <Title languagecode="1044" description="Merk som fullført" />
+        <Title languagecode="1043" description="Markeren als voltooid" />
+        <Title languagecode="1045" description="Oznacz jako zakończone" />
+        <Title languagecode="1046" description="Marcar como Concluído" />
+        <Title languagecode="2070" description="marcar como concluída" />
+        <Title languagecode="1048" description="Marcare ca finalizat" />
+        <Title languagecode="1049" description="Отметить как завершенное" />
+        <Title languagecode="1051" description="Označiť ako dokončené" />
+        <Title languagecode="1060" description="Označi kot dokončano" />
+        <Title languagecode="3098" description="Означи као довршено" />
+        <Title languagecode="2074" description="Označi kao dovršeno" />
+        <Title languagecode="1053" description="Markera som slutfört" />
+        <Title languagecode="1054" description="ทำเครื่องหมายว่าเสร็จสมบูรณ์" />
+        <Title languagecode="1055" description="Tamamlandı Olarak İşaretle" />
+        <Title languagecode="1058" description="Позначити як завершене" />
+        <Title languagecode="1066" description="Đánh dấu hoàn thành" />
+        <Title languagecode="2052" description="标记完成" />
+        <Title languagecode="3076" description="標示完成" />
+        <Title languagecode="1028" description="標示完成" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

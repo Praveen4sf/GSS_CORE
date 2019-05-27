@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6be2cae4-6b13-4f28-903d-96c80b7729ec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_unitaggregationid">
+          <cell name="gsscore_unitid" width="100" />
+          <cell name="gsscore_contracttype" width="100" />
+          <cell name="gsscore_salesquality" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_variationtotsp" width="100" />
+          <cell name="gsscore_qsp" width="100" />
+          <cell name="gsscore_tsp" width="100" />
+          <cell name="gsscore_monthlyqsp" width="100" />
+          <cell name="gsscore_monthlytsp" width="100" />
+          <cell name="gsscore_annualqsp" width="100" />
+          <cell name="gsscore_annualtsp" width="100" />
+          <cell name="gsscore_billingstartdate" width="100" />
+          <cell name="gsscore_servicestartdate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitaggregation">
+          <order attribute="gsscore_unitid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_unitid" />
+          <attribute name="gsscore_tsp" />
+          <attribute name="gsscore_qsp" />
+          <attribute name="gsscore_monthlytsp" />
+          <attribute name="gsscore_monthlyqsp" />
+          <attribute name="gsscore_annualtsp" />
+          <attribute name="gsscore_annualqsp" />
+          <attribute name="gsscore_variationtotsp" />
+          <attribute name="gsscore_contracttype" />
+          <attribute name="gsscore_salesquality" />
+          <attribute name="gsscore_servicestartdate" />
+          <attribute name="gsscore_billingstartdate" />
+          <attribute name="gsscore_unitaggregationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Unit Summary" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

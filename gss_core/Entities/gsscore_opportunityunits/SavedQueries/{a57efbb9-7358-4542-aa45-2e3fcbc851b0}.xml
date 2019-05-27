@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a57efbb9-7358-4542-aa45-2e3fcbc851b0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_opportunityunitsid">
+          <cell name="gsscore_unitid" width="100" />
+          <cell name="gsscore_name" width="100" />
+          <cell name="a_b34e2f330ba8e711a950000d3a361c29.msdyn_account" width="100" disableSorting="1" />
+          <cell name="gsscore_opportunityid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_businessstream" width="100" />
+          <cell name="gsscore_substream" width="100" />
+          <cell name="gsscore_renegotiationtype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_scopechange" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_opportunityunits">
+          <order attribute="gsscore_unitid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="ownerid" />
+          <attribute name="gsscore_unitid" />
+          <attribute name="gsscore_substream" />
+          <attribute name="gsscore_businessstream" />
+          <link-entity alias="a_b34e2f330ba8e711a950000d3a361c29" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_unitid" link-type="outer" visible="false">
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="gsscore_scopechange" />
+          <attribute name="gsscore_renegotiationtype" />
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_opportunityid" />
+          <attribute name="gsscore_opportunityunitsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Opportunity Units" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

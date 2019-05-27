@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{25399468-ec0c-4ee3-88a4-7a7c62cd3eef}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_coveragepatternid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_monday" width="100" />
+          <cell name="gsscore_tuesday" width="100" />
+          <cell name="gsscore_wednesday" width="100" />
+          <cell name="gsscore_thursday" width="100" />
+          <cell name="gsscore_friday" width="100" />
+          <cell name="gsscore_saturday" width="100" />
+          <cell name="gsscore_sunday" width="100" />
+          <cell name="gsscore_starttime" width="100" />
+          <cell name="gsscore_endtime" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_coveragepattern">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_wednesday" />
+          <attribute name="gsscore_tuesday" />
+          <attribute name="gsscore_thursday" />
+          <attribute name="gsscore_sunday" />
+          <attribute name="gsscore_starttime" />
+          <attribute name="gsscore_saturday" />
+          <attribute name="gsscore_monday" />
+          <attribute name="gsscore_friday" />
+          <attribute name="gsscore_endtime" />
+          <attribute name="gsscore_coveragepatternid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Coverage Pattern Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

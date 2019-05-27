@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataProvider>
+  <EntityDataProviderId>{6c576181-eee7-e811-a96d-000d3a3611e1}</EntityDataProviderId>
+  <Name>UnitoffPortfolioDP</Name>
+  <DataSourceLogicalName>gsscore_unitoffportfoliods</DataSourceLogicalName>
+  <IsCustomizable>1</IsCustomizable>
+  <RetrievePluginTypeId>e3591737-94d5-458d-adee-26d60839fd06</RetrievePluginTypeId>
+  <RetrieveMultiplePluginTypeId>77c4c4ec-22ff-42b0-b224-04050fc88f3c</RetrieveMultiplePluginTypeId>
+</EntityDataProvider>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d9d9e6b9-4911-467e-8128-5f9ff37076b6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_buildingriskid">
+          <cell name="gsscore_building" width="100" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="gsscore_group" width="100" />
+          <cell name="gsscore_comment" width="100" />
+          <cell name="gsscore_risk" width="100" />
+          <cell name="gsscore_risklevel" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_buildingrisk">
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_risk" />
+          <attribute name="ownerid" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_group" />
+          <attribute name="gsscore_comment" />
+          <attribute name="gsscore_building" />
+          <attribute name="gsscore_risklevel" />
+          <attribute name="statuscode" />
+          <attribute name="gsscore_buildingriskid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Building Hazards" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

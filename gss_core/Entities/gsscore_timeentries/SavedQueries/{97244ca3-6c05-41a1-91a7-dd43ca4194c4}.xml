@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{97244ca3-6c05-41a1-91a7-dd43ca4194c4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_timeentriesid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="gsscore_duration" width="100" />
+          <cell name="gsscore_journaltype" width="100" />
+          <cell name="gsscore_resource" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_timeentries">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="gsscore_resource" />
+          <attribute name="gsscore_journaltype" />
+          <attribute name="gsscore_duration" />
+          <attribute name="gsscore_timeentriesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.66</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Time Entries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

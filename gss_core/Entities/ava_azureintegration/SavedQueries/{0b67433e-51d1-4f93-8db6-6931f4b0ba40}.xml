@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0b67433e-51d1-4f93-8db6-6931f4b0ba40}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ava_name" select="1" icon="1" preview="1">
+        <row name="result" id="ava_azureintegrationid">
+          <cell name="ava_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="ava_entity" width="100" />
+          <cell name="ava_fetchquery" width="100" disableSorting="1" />
+          <cell name="ava_outputmessageformat" width="100" />
+          <cell name="ava_servicebusendpoint" width="100" />
+          <cell name="ava_topic" width="100" />
+          <cell name="ava_translationxml" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ava_azureintegration">
+          <attribute name="ava_name" />
+          <attribute name="createdon" />
+          <order attribute="ava_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ava_translationxml" />
+          <attribute name="ava_topic" />
+          <attribute name="ava_servicebusendpoint" />
+          <attribute name="ava_outputmessageformat" />
+          <attribute name="ava_fetchquery" />
+          <attribute name="ava_entity" />
+          <attribute name="ava_azureintegrationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Azure Integrations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

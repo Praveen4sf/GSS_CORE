@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{71abe276-d986-e811-a95f-000d3a361c29}</WebResourceId>
+  <Name>gsscore_escalationtimer32.png</Name>
+  <DisplayName>escalation timer 32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_escalationtimer32png71ABE276-D986-E811-A95F-000D3A361C29</FileName>
+</WebResource>

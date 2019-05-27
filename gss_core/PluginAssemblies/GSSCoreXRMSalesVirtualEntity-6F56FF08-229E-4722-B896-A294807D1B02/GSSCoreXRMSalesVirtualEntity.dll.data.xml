@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginAssemblyId="6f56ff08-229e-4722-b896-a294807d1b02" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/GSSCoreXRMSalesVirtualEntity-6F56FF08-229E-4722-B896-A294807D1B02/GSSCoreXRMSalesVirtualEntity.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.ContractRetrieve, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="2bc59f42-04aa-4b49-b26a-1a7279c208a6" Name="GSSCore.XRM.Sales.VirtualEntity.ContractRetrieve">
+      <FriendlyName>efe7243a-df5d-434e-b32c-fb7cfa8297c9</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.ContractRetrieveMultiple, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="a210fe2b-62c5-4d25-b64c-2260bf4a1ff8" Name="GSSCore.XRM.Sales.VirtualEntity.ContractRetrieveMultiple">
+      <FriendlyName>5e3a7906-fee1-47af-ba6f-df7a9a9802d8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.OffPortfolioRetrieve, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="e3591737-94d5-458d-adee-26d60839fd06" Name="GSSCore.XRM.Sales.VirtualEntity.OffPortfolioRetrieve">
+      <FriendlyName>464b1724-0804-4152-9583-a1f4a400e852</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.OffPortfolioRetrieveMultiple, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="77c4c4ec-22ff-42b0-b224-04050fc88f3c" Name="GSSCore.XRM.Sales.VirtualEntity.OffPortfolioRetrieveMultiple">
+      <FriendlyName>9645a626-e0ad-4600-92c0-b31fa83ba4e0</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.Retrieve, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="ae55b76d-b3c0-435c-9a92-e99780a46228" Name="GSSCore.XRM.Sales.VirtualEntity.Retrieve">
+      <FriendlyName>60517f2c-8e85-4061-a057-32d6539b295b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="GSSCore.XRM.Sales.VirtualEntity.RetrieveMultiple, GSSCore.XRM.Sales.VirtualEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f7a85bf23115861" PluginTypeId="798e7875-752a-47c8-bf64-811377590a35" Name="GSSCore.XRM.Sales.VirtualEntity.RetrieveMultiple">
+      <FriendlyName>468b6f41-0a8d-4cc4-a83a-88719cd2fbf1</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

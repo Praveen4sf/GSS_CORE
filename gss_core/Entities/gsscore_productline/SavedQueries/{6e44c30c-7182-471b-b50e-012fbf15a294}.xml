@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6e44c30c-7182-471b-b50e-012fbf15a294}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_productlineid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_product" width="100" />
+          <cell name="gsscore_type" width="100" />
+          <cell name="gsscore_quantity" width="100" />
+          <cell name="gsscore_labortype" width="100" />
+          <cell name="gsscore_hours" width="100" />
+          <cell name="gsscore_cost" width="100" />
+          <cell name="gsscore_catalogname" width="100" />
+          <cell name="gsscore_branch" width="100" />
+          <cell name="gsscore_currency" width="100" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_productline">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_product" />
+          <attribute name="gsscore_type" />
+          <attribute name="gsscore_labortype" />
+          <attribute name="gsscore_cost" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_catalogname" />
+          <attribute name="gsscore_currency" />
+          <attribute name="gsscore_branch" />
+          <attribute name="gsscore_hours" />
+          <attribute name="gsscore_quantity" />
+          <attribute name="gsscore_productlineid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.25</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Product Lines" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

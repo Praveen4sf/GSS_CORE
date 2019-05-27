@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{5a9a136f-0c5a-410e-9fbf-abb3b39d53a1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{aafb4e8e-0871-4f1b-a12e-990e973b6816}" IsUserDefined="1" labelid="{f871866a-1279-4fcb-bd1a-21dcf3188c84}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{acb108f9-0954-4b27-a42e-d647457594b7}" name="{acb108f9-0954-4b27-a42e-d647457594b7}" columns="11" locklevel="0" labelwidth="200" celllabelalignment="Left" celllabelposition="Left" labelid="{84d3bf65-bb37-4e53-8d5b-653b9ad93ed2}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{593a6894-5f51-4a3c-becf-1a1da1f496d8}" labelid="{d4936e1e-50ca-43e6-98c9-85dde9ee2857}">
+                        <labels>
+                          <label description="Announcement Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                      <cell id="{b7082865-3981-a767-2542-b71d6c191052}" showlabel="true" locklevel="0" rowspan="3" labelid="{5115e32c-2828-4a0f-8ea3-3b7f74eba4ac}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="gsscore_description" disabled="false" uniqueid="{146dda52-d64b-ece9-8c30-c677a9e7a04c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8dde7a00-83c9-33be-553b-4614e96b8806}" showlabel="true" locklevel="0" labelid="{81fb9289-f15a-4a3c-89ec-fc04d7fec7a0}">
+                        <labels>
+                          <label description="Effective Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_effectivestartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_effectivestartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98a2839a-5794-c410-b303-303b73a0b629}" showlabel="true" locklevel="0" labelid="{25a19462-6e03-42a7-9b0a-5631e2d67aaa}">
+                        <labels>
+                          <label description="Effective End Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_effectiveenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_effectiveenddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73b95937-739a-4df1-9d56-905accdfa7d4}" labelid="{d36c438c-aadd-4d21-a290-93de103b25d8}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{bc7ebd71-41c6-75d9-2a92-634344341b87}" showlabel="true" locklevel="0" labelid="{c9fe560e-2183-4683-aee1-c62acefc29ef}">
+                        <labels>
+                          <label description="Announcement Language" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_announcementlanguage" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_announcementlanguage" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

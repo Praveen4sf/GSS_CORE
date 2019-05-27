@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="gssemea.Mscrm.SubGrid.gsscore_contracttransactionunit.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.gsscore_contracttransactionunit.AddExistingAssoc" />
+    <HideCustomAction HideActionId="gssemea.Mscrm.SubGrid.gsscore_contracttransactionunit.AddExistingStandard.Hide" Location="Mscrm.SubGrid.gsscore_contracttransactionunit.AddExistingStandard" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

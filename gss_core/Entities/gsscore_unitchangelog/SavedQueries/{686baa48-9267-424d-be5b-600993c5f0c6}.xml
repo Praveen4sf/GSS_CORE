@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{686baa48-9267-424d-be5b-600993c5f0c6}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_unitchangelog" id="gsscore_unitchangelogid">
+          <cell name="gsscore_name" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="gsscore_unitmodifiedby" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitchangelog">
+          <attribute name="gsscore_unitchangelogid" />
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_unitmodifiedby" />
+          <attribute name="gsscore_unit" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Unit Change Log Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

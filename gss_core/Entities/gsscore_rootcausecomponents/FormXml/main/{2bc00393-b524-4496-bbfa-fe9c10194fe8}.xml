@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{2bc00393-b524-4496-bbfa-fe9c10194fe8}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{173c64fb-5277-4a56-ab31-338958adf55a}" IsUserDefined="1" labelid="{99b29769-3126-4cbe-bfe8-75feed9bd490}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d6b6b017-37c4-48e8-90f4-cc2f62fdbb02}" labelid="{68b75b78-4646-418e-a35e-e0c62467fffb}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0aba5e11-12a6-eccd-403e-d2a3a2ed5d09}" showlabel="true" locklevel="0" labelid="{1f44e649-8615-420c-843b-3aadc2b01a98}">
+                        <labels>
+                          <label description="Root Cause Sub-system" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rootcausesubsystem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rootcausesubsystem" disabled="false" uniqueid="{4439e803-332e-8396-203e-b1458852ea4d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{715FE5CC-08F2-4DCD-97BA-541981190FBE}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63cf9b4b-c770-45f1-8846-9b1f9a1f8020}" labelid="{9351a5fa-c7f9-4d0a-9806-fd4192dfdccc}">
+                        <labels>
+                          <label description="Root Cause Component" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{45d7d140-0886-ed60-9b85-de31beb0bdc3}" showlabel="true" locklevel="0" labelid="{19d08518-1e7d-4194-922e-4d0d2de88894}">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_language" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_language" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{225dc989-36ec-d9ed-b907-a7412d3c69e9}" showlabel="true" locklevel="0" labelid="{6237c5e5-8813-42ad-b4f9-8f722a842f47}">
+                        <labels>
+                          <label description="Data Value" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_value" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a0a13836-c833-4bed-a80b-fd6c619281ea}" showlabel="true" locklevel="1" visible="false" labelid="{e52fb33d-270a-4ee5-bf4f-82da8e8d27e9}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{bd626126-9aaa-cc5e-1d33-125a1b96de71}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

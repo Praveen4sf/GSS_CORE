@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{52a75cdc-43d0-41cc-8ff8-ac9d6e0e9748}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractatriskid">
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.name" width="100" disableSorting="1" />
+          <cell name="gsscore_accountid" width="100" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.statuscode" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_typeofcontract" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_numberofunits" width="100" disableSorting="1" />
+          <cell name="gsscore_annualbilling" width="100" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_monthlybilling" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_contractstartdate" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_contractenddate" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_nonotiscontract" width="100" disableSorting="1" />
+          <cell name="a_b643cc7ac125e811a95a000d3a361a17.gsscore_segmentationcategory" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_contractatrisk">
+          <attribute name="gsscore_annualbilling" />
+          <attribute name="gsscore_accountid" />
+          <order attribute="gsscore_annualbilling" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="salesorder" from="salesorderid" to="gsscore_contractid" visible="false" link-type="outer" alias="a_b643cc7ac125e811a95a000d3a361a17">
+            <attribute name="gsscore_segmentationcategory" />
+            <attribute name="gsscore_contractenddate" />
+            <attribute name="gsscore_monthlybilling" />
+            <attribute name="gsscore_numberofunits" />
+            <attribute name="gsscore_contractstartdate" />
+            <attribute name="gsscore_nonotiscontract" />
+            <attribute name="gsscore_typeofcontract" />
+            <attribute name="name" />
+            <attribute name="statuscode" />
+          </link-entity>
+          <attribute name="gsscore_contractatriskid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.83</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract At Risks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

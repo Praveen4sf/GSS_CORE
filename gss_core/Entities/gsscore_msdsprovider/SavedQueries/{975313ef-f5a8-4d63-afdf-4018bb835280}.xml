@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{975313ef-f5a8-4d63-afdf-4018bb835280}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_msdsprovider" id="gsscore_msdsproviderid">
+          <cell name="gsscore_name" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_effectiveenddate" width="100" />
+          <cell name="gsscore_effectivestartdate" width="100" />
+          <cell name="gsscore_instructions" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="gsscore_msdsphone" width="100" />
+          <cell name="gsscore_msdswebsite" width="100" />
+          <cell name="overriddencreatedon" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_msdsprovider">
+          <attribute name="gsscore_msdsproviderid" />
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <attribute name="overriddencreatedon" />
+          <attribute name="gsscore_msdswebsite" />
+          <attribute name="gsscore_msdsphone" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_instructions" />
+          <attribute name="gsscore_effectivestartdate" />
+          <attribute name="gsscore_effectiveenddate" />
+          <attribute name="gsscore_country" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="MSDS Provider Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

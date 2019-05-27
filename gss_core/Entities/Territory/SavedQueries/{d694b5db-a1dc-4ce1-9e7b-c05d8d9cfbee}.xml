@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d694b5db-a1dc-4ce1-9e7b-c05d8d9cfbee}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="territories" jump="name" select="1" icon="1" preview="1">
+        <row name="territory" id="territoryid">
+          <cell name="name" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primarymechanic" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primarysupervisor" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_delegatedsupervisor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <order attribute="name" descending="true" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_primarymechanic" />
+          <attribute name="gsscore_delegatedsupervisor" />
+          <attribute name="territoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Routes Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

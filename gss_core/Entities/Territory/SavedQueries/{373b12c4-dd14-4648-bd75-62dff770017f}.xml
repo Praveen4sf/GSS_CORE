@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{373b12c4-dd14-4648-bd75-62dff770017f}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="territoryid">
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_company" width="100" />
+          <cell name="gsscore_branchid" width="100" />
+          <cell name="name" width="100" />
+          <cell name="gsscore_delegatedsupervisor" width="100" />
+          <cell name="gsscore_primarymechanic" width="100" />
+          <cell name="gsscore_primarysupervisor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="territory">
+          <order attribute="name" descending="false" />
+          <attribute name="name" />
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="name" operator="like" value="{0}" />
+            <condition attribute="gsscore_primarysupervisor" operator="like" value="{0}" />
+            <condition attribute="gsscore_primarymechanic" operator="like" value="{0}" />
+            <condition attribute="gsscore_delegatedsupervisor" operator="like" value="{0}" />
+            <condition attribute="gsscore_country" operator="like" value="{0}" />
+            <condition attribute="gsscore_company" operator="like" value="{0}" />
+            <condition attribute="gsscore_branchid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_primarymechanic" />
+          <attribute name="gsscore_delegatedsupervisor" />
+          <attribute name="gsscore_branchid" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_company" />
+          <attribute name="territoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Route Quick Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

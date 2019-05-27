@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_timezone" localizedName="Custom Time Zone" description="World Time Zone s">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Custom Time Zone" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="World Time Zone s" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="936140000" Color="#0000ff">
+      <labels>
+        <label description="Africa/Abidjan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140001" Color="#0000ff">
+      <labels>
+        <label description="Africa/Cairo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140002" Color="#0000ff">
+      <labels>
+        <label description="Africa/Johannesburg" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140003" Color="#0000ff">
+      <labels>
+        <label description="Africa/Khartoum" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140004" Color="#0000ff">
+      <labels>
+        <label description="Africa/Lagos" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140005" Color="#0000ff">
+      <labels>
+        <label description="Africa/Maputo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140006" Color="#0000ff">
+      <labels>
+        <label description="Africa/Nairobi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140007" Color="#0000ff">
+      <labels>
+        <label description="Africa/Tripoli" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140008" Color="#0000ff">
+      <labels>
+        <label description="America/Adak" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140009" Color="#0000ff">
+      <labels>
+        <label description="America/Anchorage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140010" Color="#0000ff">
+      <labels>
+        <label description="America/Argentina/Buenos_Aires" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140011" Color="#0000ff">
+      <labels>
+        <label description="America/Argentina/Catamarca" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140012" Color="#0000ff">
+      <labels>
+        <label description="America/Argentina/Cordoba" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140013" Color="#0000ff">
+      <labels>
+        <label description="America/Argentina/Jujuy" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140014" Color="#0000ff">
+      <labels>
+        <label description="America/Argentina/Mendoza" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140015" Color="#0000ff">
+      <labels>
+        <label description="America/Atikokan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140016" Color="#0000ff">
+      <labels>
+        <label description="America/Chicago" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140017" Color="#0000ff">
+      <labels>
+        <label description="America/Curacao" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140018" Color="#0000ff">
+      <labels>
+        <label description="America/Denver" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140019" Color="#0000ff">
+      <labels>
+        <label description="America/Detroit" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140020" Color="#0000ff">
+      <labels>
+        <label description="America/Edmonton" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140021" Color="#0000ff">
+      <labels>
+        <label description="America/Fort_Wayne" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140022" Color="#0000ff">
+      <labels>
+        <label description="America/Halifax" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140023" Color="#0000ff">
+      <labels>
+        <label description="America/Havana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140024" Color="#0000ff">
+      <labels>
+        <label description="America/Indiana/Knox" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140025" Color="#0000ff">
+      <labels>
+        <label description="America/Jamaica" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140026" Color="#0000ff">
+      <labels>
+        <label description="America/Kentucky/Louisville" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140027" Color="#0000ff">
+      <labels>
+        <label description="America/Los_Angeles" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140028" Color="#0000ff">
+      <labels>
+        <label description="America/Manaus" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140029" Color="#0000ff">
+      <labels>
+        <label description="America/Mazatlan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140030" Color="#0000ff">
+      <labels>
+        <label description="America/Mexico_City" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140031" Color="#0000ff">
+      <labels>
+        <label description="America/New_York" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140032" Color="#0000ff">
+      <labels>
+        <label description="America/Noronha" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140033" Color="#0000ff">
+      <labels>
+        <label description="America/Panama" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140034" Color="#0000ff">
+      <labels>
+        <label description="America/Phoenix" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140035" Color="#0000ff">
+      <labels>
+        <label description="America/Port_of_Spain" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140036" Color="#0000ff">
+      <labels>
+        <label description="America/Regina" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140037" Color="#0000ff">
+      <labels>
+        <label description="America/Rio_Branco" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140038" Color="#0000ff">
+      <labels>
+        <label description="America/Santiago" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140039" Color="#0000ff">
+      <labels>
+        <label description="America/Sao_Paulo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140040" Color="#0000ff">
+      <labels>
+        <label description="America/St_Johns" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140041" Color="#0000ff">
+      <labels>
+        <label description="America/Tijuana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140042" Color="#0000ff">
+      <labels>
+        <label description="America/Vancouver" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140043" Color="#0000ff">
+      <labels>
+        <label description="America/Whitehorse" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140044" Color="#0000ff">
+      <labels>
+        <label description="America/Winnipeg" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140045" Color="#0000ff">
+      <labels>
+        <label description="Asia/Ashgabat" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140046" Color="#0000ff">
+      <labels>
+        <label description="Asia/Bangkok" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140047" Color="#0000ff">
+      <labels>
+        <label description="Asia/Dhaka" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140048" Color="#0000ff">
+      <labels>
+        <label description="Asia/Dubai" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140049" Color="#0000ff">
+      <labels>
+        <label description="Asia/Ho_Chi_Minh" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140050" Color="#0000ff">
+      <labels>
+        <label description="Asia/Hong_Kong" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140051" Color="#0000ff">
+      <labels>
+        <label description="Asia/Jerusalem" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140052" Color="#0000ff">
+      <labels>
+        <label description="Asia/Kathmandu" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140053" Color="#0000ff">
+      <labels>
+        <label description="Asia/Kolkata" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140054" Color="#0000ff">
+      <labels>
+        <label description="Asia/Kuala_Lumpur" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140055" Color="#0000ff">
+      <labels>
+        <label description="Asia/Macau" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140056" Color="#0000ff">
+      <labels>
+        <label description="Asia/Makassar" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140057" Color="#0000ff">
+      <labels>
+        <label description="Asia/Nicosia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140058" Color="#0000ff">
+      <labels>
+        <label description="Asia/Qatar" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140059" Color="#0000ff">
+      <labels>
+        <label description="Asia/Rangoon" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140060" Color="#0000ff">
+      <labels>
+        <label description="Asia/Riyadh" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140061" Color="#0000ff">
+      <labels>
+        <label description="Asia/Seoul" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140062" Color="#0000ff">
+      <labels>
+        <label description="Asia/Shanghai" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140063" Color="#0000ff">
+      <labels>
+        <label description="Asia/Taipei" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140064" Color="#0000ff">
+      <labels>
+        <label description="Asia/Tehran" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140065" Color="#0000ff">
+      <labels>
+        <label description="Asia/Thimphu" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140066" Color="#0000ff">
+      <labels>
+        <label description="Asia/Tokyo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140067" Color="#0000ff">
+      <labels>
+        <label description="Asia/Ulaanbaatar" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140068" Color="#0000ff">
+      <labels>
+        <label description="Asia/Urumqi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140069" Color="#0000ff">
+      <labels>
+        <label description="Atlantic/Faroe" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140070" Color="#0000ff">
+      <labels>
+        <label description="Atlantic/Reykjavik" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140071" Color="#0000ff">
+      <labels>
+        <label description="Atlantic/South_Georgia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140072" Color="#0000ff">
+      <labels>
+        <label description="Australia/Adelaide" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140073" Color="#0000ff">
+      <labels>
+        <label description="Australia/Brisbane" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140074" Color="#0000ff">
+      <labels>
+        <label description="Australia/Broken_Hill" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140075" Color="#0000ff">
+      <labels>
+        <label description="Australia/Darwin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140076" Color="#0000ff">
+      <labels>
+        <label description="Australia/Hobart" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140077" Color="#0000ff">
+      <labels>
+        <label description="Australia/Lord_Howe" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140078" Color="#0000ff">
+      <labels>
+        <label description="Australia/Melbourne" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140079" Color="#0000ff">
+      <labels>
+        <label description="Australia/Perth" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140080" Color="#0000ff">
+      <labels>
+        <label description="Australia/Sydney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140081" Color="#0000ff">
+      <labels>
+        <label description="Etc/GMT+0" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140082" Color="#0000ff">
+      <labels>
+        <label description="Etc/UCT" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140083" Color="#0000ff">
+      <labels>
+        <label description="Etc/UTC" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140084" Color="#0000ff">
+      <labels>
+        <label description="Europe/Belgrade" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140085" Color="#0000ff">
+      <labels>
+        <label description="Europe/Chisinau" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140086" Color="#0000ff">
+      <labels>
+        <label description="Europe/Dublin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140087" Color="#0000ff">
+      <labels>
+        <label description="Europe/Helsinki" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140088" Color="#0000ff">
+      <labels>
+        <label description="Europe/Istanbul" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140089" Color="#0000ff">
+      <labels>
+        <label description="Europe/Lisbon" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140090" Color="#0000ff">
+      <labels>
+        <label description="Europe/London" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140091" Color="#0000ff">
+      <labels>
+        <label description="Europe/Moscow" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140092" Color="#0000ff">
+      <labels>
+        <label description="Europe/Oslo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140093" Color="#0000ff">
+      <labels>
+        <label description="Europe/Prague" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140094" Color="#0000ff">
+      <labels>
+        <label description="Europe/Rome" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140095" Color="#0000ff">
+      <labels>
+        <label description="Europe/Warsaw" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140096" Color="#0000ff">
+      <labels>
+        <label description="Europe/Zurich" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140097" Color="#0000ff">
+      <labels>
+        <label description="Indian/Christmas" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140098" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Auckland" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140099" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Chatham" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140100" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Easter" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140101" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Guam" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140102" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Honolulu" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140103" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Kwajalein" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140104" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Pago_Pago" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140105" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Palau" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140106" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Pohnpei" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140107" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Port_Moresby" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="936140108" Color="#0000ff">
+      <labels>
+        <label description="Pacific/Tarawa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="100000000" Color="#0000ff">
+      <labels>
+        <label description="America/Toronto" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

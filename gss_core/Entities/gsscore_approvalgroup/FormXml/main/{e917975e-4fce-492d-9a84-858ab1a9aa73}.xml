@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{e917975e-4fce-492d-9a84-858ab1a9aa73}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{c21206bd-1ef9-42a9-8829-885dbd0ae5eb}" IsUserDefined="1" labelid="{3dd894b9-a26b-4f96-9b24-c1b12336e1fe}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bae5693d-a505-4e35-92cf-57497939d3d0}" labelid="{fbec466c-cfbd-4fd6-8c2e-9852bb4325fa}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a260b1ed-b13b-4bf0-8d3f-fa52e551df23}" showlabel="true" locklevel="0" labelid="{36defff7-bac1-48a2-b7bf-d863fdbf28fd}">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" uniqueid="{37e8795d-86c6-47b4-d59e-98352c247314}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c888832-9bc3-3a52-c08d-66313866a466}" showlabel="true" locklevel="0" labelid="{4c9ec884-278b-4028-9e6d-b88ce1669eb3}">
+                        <labels>
+                          <label description="Approval Route" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_approvalroute" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_approvalroute" disabled="true" uniqueid="{04acb813-c737-5a35-8d37-969632564611}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{112D63A0-561C-4A29-9914-75DD8E65187A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24a0112c-9e1a-dabd-ec91-3ad63e7cb7e0}" showlabel="true" locklevel="0" labelid="{e653de8a-306a-47dc-a966-ee5121e3a7e1}">
+                        <labels>
+                          <label description="Request Type" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_requesttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_requesttype" disabled="true" uniqueid="{4ea1eea4-1d33-0da1-ec99-188099b753ee}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{651ad54b-c16b-ce68-091d-b837ace58e62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Activity Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87893da8-d022-320e-4be4-e92eac604927}" showlabel="true" locklevel="0" labelid="{e7e00a41-831e-4d11-beb7-60f1ff27cad3}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" uniqueid="{015bd309-308b-921e-6c43-9032007c6682}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aacd51b8-6263-9e2b-e138-17a6ea906454}" showlabel="true" locklevel="0" labelid="{70d04a4b-4634-4251-9896-b969549caa5d}">
+                        <labels>
+                          <label description="Approved Workflow" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_approvedworkflow" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_approvedworkflow" disabled="true" uniqueid="{88a14862-3b40-eb07-8248-a8361b4990e4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FB42862E-2A90-42A4-ABAC-592D848D4ECF}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c62871e-3dde-c6dd-886c-57c69ed34c0e}" showlabel="true" locklevel="0" labelid="{f06d239e-9242-4d7c-bf4c-f5bf1d3fa527}">
+                        <labels>
+                          <label description="Rejected Workflow" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rejectedworkflow" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rejectedworkflow" disabled="true" uniqueid="{b4e7cc09-ce32-8bbe-cd84-c8b497305ab3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FB42862E-2A90-42A4-ABAC-592D848D4ECF}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40d3a9de-763d-6aae-aa31-a7ba744d50c7}" showlabel="true" locklevel="0" labelid="{4bdf8d05-7f60-44ab-b8b0-43c113cbc238}">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" />
+                        </labels>
+                        <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{1fba5a05-d911-4e22-bb28-bad8960bd7fd}" IsUserDefined="0" height="auto" labelid="{fdddd913-15b7-4c2d-8bed-984b3690f9be}">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{5c25ecfa-4648-4722-b3aa-5d97c335ec10}" labelid="{01d571fa-f48f-4bae-a21b-3d326c25ab3f}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{023122be-c66e-2d7a-ba19-676ec7057b7e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f107ef8e-dec5-473d-8528-93d074690861}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{5be81398-5992-42b5-8b4d-be9c6b09673d}" labelid="{6e10c448-07b6-4449-aed9-24fb1baa6a2c}">
+              <labels>
+                <label description="Priority" languagecode="1033" />
+              </labels>
+              <control id="header_prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+            </cell>
+            <cell id="{e3faad9e-dff9-4a1b-bfcb-d0655a5bb7ef}" labelid="{26bab20d-293d-426e-88a4-4b63c41222ec}">
+              <labels>
+                <label description="Due Date" languagecode="1033" />
+              </labels>
+              <control id="header_scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+            </cell>
+            <cell id="{32347aff-8efc-4028-8f1c-c060f5b1ccc6}" labelid="{9b3d995e-2dc7-4188-806a-f39cee5724ec}">
+              <labels>
+                <label description="Activity Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{232bd628-42fe-4b27-b0bd-5ae9b1748c57}" labelid="{66f63044-d571-4a04-a768-f7aa5be86ae6}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

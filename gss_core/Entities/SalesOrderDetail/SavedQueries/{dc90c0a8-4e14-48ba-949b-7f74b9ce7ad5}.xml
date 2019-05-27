@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dc90c0a8-4e14-48ba-949b-7f74b9ce7ad5}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="salesorderdetails" jump="" select="1" icon="1" preview="1">
+        <row name="salesorderdetail" id="salesorderdetailid">
+          <cell name="productid" width="200" />
+          <cell name="productdescription" width="200" />
+          <cell name="priceperunit" width="100" />
+          <cell name="quantity" width="100" />
+          <cell name="extendedamount" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="salesorderdetail">
+          <attribute name="productid" />
+          <attribute name="productdescription" />
+          <attribute name="priceperunit" />
+          <attribute name="quantity" />
+          <attribute name="extendedamount" />
+          <order attribute="productid" descending="false" />
+          <attribute name="salesorderdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contract Lines Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

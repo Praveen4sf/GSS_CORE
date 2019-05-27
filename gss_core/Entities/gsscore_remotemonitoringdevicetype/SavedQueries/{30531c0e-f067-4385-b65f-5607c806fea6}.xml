@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{30531c0e-f067-4385-b65f-5607c806fea6}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_remotedevicetype" select="1" icon="1" preview="0">
+        <row name="gsscore_remotemonitoringdevicetype" id="gsscore_remotemonitoringdevicetypeid">
+          <cell name="gsscore_remotedevicetype" width="300" />
+          <cell name="gsscore_remotedevicetype_manfrmodel" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_remotemonitoringdevicetype">
+          <attribute name="gsscore_remotemonitoringdevicetypeid" />
+          <attribute name="gsscore_remotedevicetype" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_remotedevicetype" descending="false" />
+          <attribute name="gsscore_remotedevicetype_manfrmodel" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Remote Monitoring Device Type Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

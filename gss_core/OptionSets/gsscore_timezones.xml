@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="gsscore_timezones" localizedName="Time Zones">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Time Zones" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" Color="#0000ff">
+      <labels>
+        <label description="(GMT-12:00) International Date Line West" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2" Color="#0000ff">
+      <labels>
+        <label description="(GMT-11:00) Midway Island, Samoa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="3" Color="#0000ff">
+      <labels>
+        <label description="(GMT-10:00) Hawaii" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="4" Color="#0000ff">
+      <labels>
+        <label description="(GMT-09:00) Alaska" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="5" Color="#0000ff">
+      <labels>
+        <label description="(GMT-08:00) Pacific Time (US and Canada); Tijuana" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="6" Color="#0000ff">
+      <labels>
+        <label description="(GMT-07:00) Mountain Time (US and Canada)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="7" Color="#0000ff">
+      <labels>
+        <label description="(GMT-07:00) Chihuahua, La Paz, Mazatlan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="8" Color="#0000ff">
+      <labels>
+        <label description="(GMT-07:00) Arizona" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="9" Color="#0000ff">
+      <labels>
+        <label description="(GMT-06:00) Central Time (US and Canada" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="10" Color="#0000ff">
+      <labels>
+        <label description="(GMT-06:00) Saskatchewan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="11" Color="#0000ff">
+      <labels>
+        <label description="(GMT-06:00) Guadalajara, Mexico City, Monterrey" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="12" Color="#0000ff">
+      <labels>
+        <label description="(GMT-06:00) Central America" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="13" Color="#0000ff">
+      <labels>
+        <label description="(GMT-05:00) Eastern Time (US and Canada)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="14" Color="#0000ff">
+      <labels>
+        <label description="(GMT-05:00) Indiana (East)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="15" Color="#0000ff">
+      <labels>
+        <label description="(GMT-05:00) Bogota, Lima, Quito" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="16" Color="#0000ff">
+      <labels>
+        <label description="(GMT-04:00) Atlantic Time (Canada)" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="17" Color="#0000ff">
+      <labels>
+        <label description="(GMT-04:00) Caracas, La Paz" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="18" Color="#0000ff">
+      <labels>
+        <label description="(GMT-04:00) Santiago" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="19" Color="#0000ff">
+      <labels>
+        <label description="(GMT-03:30) Newfoundland and Labrador" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="20" Color="#0000ff">
+      <labels>
+        <label description="(GMT-03:00) Brasilia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="21" Color="#0000ff">
+      <labels>
+        <label description="(GMT-03:00) Buenos Aires, Georgetown" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="22" Color="#0000ff">
+      <labels>
+        <label description="(GMT-03:00) Greenland" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="23" Color="#0000ff">
+      <labels>
+        <label description="(GMT-02:00) Mid-Atlantic" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="24" Color="#0000ff">
+      <labels>
+        <label description="(GMT-01:00) Azores" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="25" Color="#0000ff">
+      <labels>
+        <label description="(GMT-01:00) Cape Verde Islands" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="26" Color="#0000ff">
+      <labels>
+        <label description="(GMT+00:00) Greenwich Mean Time: Dublin, Edinburgh, Lisbon, London" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="27" Color="#0000ff">
+      <labels>
+        <label description="(GMT+00:00) Casablanca, Monrovia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="28" Color="#0000ff">
+      <labels>
+        <label description="(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="29" Color="#0000ff">
+      <labels>
+        <label description="(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="30" Color="#0000ff">
+      <labels>
+        <label description="(GMT+01:00) Brussels, Copenhagen, Madrid, Paris" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="31" Color="#0000ff">
+      <labels>
+        <label description="(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="32" Color="#0000ff">
+      <labels>
+        <label description="(GMT+01:00) West Central Africa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="33" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Bucharest" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="34" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Cairo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="35" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="36" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Athens, Istanbul, Minsk" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="37" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Jerusalem" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="38" Color="#0000ff">
+      <labels>
+        <label description="(GMT+02:00) Harare, Pretoria" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="39" Color="#0000ff">
+      <labels>
+        <label description="(GMT+03:00) Moscow, St. Petersburg, Volgograd" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="40" Color="#0000ff">
+      <labels>
+        <label description="(GMT+03:00) Kuwait, Riyadh" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="41" Color="#0000ff">
+      <labels>
+        <label description="(GMT+03:00) Nairobi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="42" Color="#0000ff">
+      <labels>
+        <label description="(GMT+03:00) Baghdad" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="43" Color="#0000ff">
+      <labels>
+        <label description="(GMT+03:30) Tehran" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="44" Color="#0000ff">
+      <labels>
+        <label description="(GMT+04:00) Abu Dhabi, Muscat" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="45" Color="#0000ff">
+      <labels>
+        <label description="(GMT+04:00) Baku, Tbilisi, Yerevan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="46" Color="#0000ff">
+      <labels>
+        <label description="(GMT+04:30) Kabul" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="47" Color="#0000ff">
+      <labels>
+        <label description="(GMT+05:00) Ekaterinburg" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="48" Color="#0000ff">
+      <labels>
+        <label description="(GMT+05:00) Islamabad, Karachi, Tashkent" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="49" Color="#0000ff">
+      <labels>
+        <label description="(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="50" Color="#0000ff">
+      <labels>
+        <label description="(GMT+05:45) Kathmandu" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="51" Color="#0000ff">
+      <labels>
+        <label description="(GMT+06:00) Astana, Dhaka" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="52" Color="#0000ff">
+      <labels>
+        <label description="(GMT+06:00) Sri Jayawardenepura" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="53" Color="#0000ff">
+      <labels>
+        <label description="(GMT+06:00) Almaty, Novosibirsk" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="54" Color="#0000ff">
+      <labels>
+        <label description="(GMT+06:30) Yangon Rangoon" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="55" Color="#0000ff">
+      <labels>
+        <label description="(GMT+07:00) Bangkok, Hanoi, Jakarta" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="56" Color="#0000ff">
+      <labels>
+        <label description="(GMT+07:00) Krasnoyarsk" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="57" Color="#0000ff">
+      <labels>
+        <label description="(GMT+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="58" Color="#0000ff">
+      <labels>
+        <label description="(GMT+08:00) Kuala Lumpur, Singapore" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="59" Color="#0000ff">
+      <labels>
+        <label description="(GMT+08:00) Taipei" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="60" Color="#0000ff">
+      <labels>
+        <label description="(GMT+08:00) Perth" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="61" Color="#0000ff">
+      <labels>
+        <label description="(GMT+08:00) Irkutsk, Ulaanbaatar" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="62" Color="#0000ff">
+      <labels>
+        <label description="(GMT+09:00) Seoul" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="63" Color="#0000ff">
+      <labels>
+        <label description="(GMT+09:00) Osaka, Sapporo, Tokyo" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="64" Color="#0000ff">
+      <labels>
+        <label description="(GMT+09:00) Yakutsk" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="65" Color="#0000ff">
+      <labels>
+        <label description="(GMT+09:30) Darwin" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="66" Color="#0000ff">
+      <labels>
+        <label description="(GMT+09:30) Adelaide" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="67" Color="#0000ff">
+      <labels>
+        <label description="(GMT+10:00) Canberra, Melbourne, Sydney" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="68" Color="#0000ff">
+      <labels>
+        <label description="(GMT+10:00) Brisbane" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="69" Color="#0000ff">
+      <labels>
+        <label description="(GMT+10:00) Hobart" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="70" Color="#0000ff">
+      <labels>
+        <label description="(GMT+10:00) Vladivostok" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="71" Color="#0000ff">
+      <labels>
+        <label description="(GMT+10:00) Guam, Port Moresby" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="72" Color="#0000ff">
+      <labels>
+        <label description="(GMT+11:00) Magadan, Solomon Islands, New Caledonia" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="73" Color="#0000ff">
+      <labels>
+        <label description="(GMT+12:00) Fiji Islands, Kamchatka, Marshall Islands" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="74" Color="#0000ff">
+      <labels>
+        <label description="(GMT+12:00) Auckland, Wellington" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="75" Color="#0000ff">
+      <labels>
+        <label description="(GMT+13:00) Nuku'alofa" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9084cd8a-1546-45f1-a0d9-1186b15c772e}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_shutdownid" select="1" icon="1" preview="0">
+        <row name="gsscore_unitshutdownlog" id="gsscore_unitshutdownlogid">
+          <cell name="gsscore_shutdownid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_customerassetid" width="100" />
+          <cell name="gsscore_shutdownreason" width="100" />
+          <cell name="gsscore_shutdownmechanicid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitshutdownlog">
+          <attribute name="gsscore_unitshutdownlogid" />
+          <attribute name="gsscore_shutdownid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_shutdownid" descending="false" />
+          <attribute name="gsscore_customerassetid" />
+          <attribute name="gsscore_shutdownreason" />
+          <attribute name="gsscore_shutdownmechanicid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Unit Shutdown Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="new.Mscrm.SubGrid.gsscore_approvalrules.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.gsscore_approvalrules.AddExistingAssoc" />
+    <HideCustomAction HideActionId="new.Mscrm.SubGrid.gsscore_approvalrules.AddExistingStandard.Hide" Location="Mscrm.SubGrid.gsscore_approvalrules.AddExistingStandard" />
+    <HideCustomAction HideActionId="new.Mscrm.SubGrid.gsscore_approvalrules.AddNewStandard.Hide" Location="Mscrm.SubGrid.gsscore_approvalrules.AddNewStandard" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

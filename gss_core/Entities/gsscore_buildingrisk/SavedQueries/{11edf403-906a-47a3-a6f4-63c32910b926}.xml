@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{11edf403-906a-47a3-a6f4-63c32910b926}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_buildingriskid">
+          <cell name="gsscore_building" width="100" />
+          <cell name="gsscore_group" width="100" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="gsscore_comment" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_risk" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_risklevel" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_buildingrisk">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="gsscore_unit" descending="false" />
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_risk" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_group" />
+          <attribute name="gsscore_comment" />
+          <attribute name="gsscore_building" />
+          <attribute name="gsscore_risklevel" />
+          <attribute name="gsscore_buildingriskid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Building Hazards" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

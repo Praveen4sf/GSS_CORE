@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001050}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="territories" jump="name" select="1" icon="1" preview="1">
+        <row name="territory" id="territoryid">
+          <cell name="gsscore_area" width="100" />
+          <cell name="gsscore_region" width="100" />
+          <cell name="gsscore_subregion" width="100" />
+          <cell name="gsscore_gbo" width="100" />
+          <cell name="gsscore_branchid" width="100" />
+          <cell name="name" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primarysupervisor" width="100" />
+          <cell name="gsscore_delegatedsupervisor" width="100" />
+          <cell name="gsscore_primarymechanic" width="100" />
+          <cell name="gsscore_startdelegation" width="100" />
+          <cell name="gsscore_enddelegation" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <order attribute="name" descending="false" />
+          <attribute name="gsscore_branchid" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_primarymechanic" />
+          <attribute name="gsscore_delegatedsupervisor" />
+          <attribute name="gsscore_subregion" />
+          <attribute name="gsscore_region" />
+          <attribute name="gsscore_area" />
+          <attribute name="gsscore_gbo" />
+          <attribute name="gsscore_startdelegation" />
+          <attribute name="gsscore_enddelegation" />
+          <attribute name="territoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Routes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

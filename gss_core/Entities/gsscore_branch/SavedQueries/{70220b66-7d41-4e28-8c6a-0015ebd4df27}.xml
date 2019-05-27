@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{70220b66-7d41-4e28-8c6a-0015ebd4df27}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_branch" id="gsscore_branchid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="gsscore_streetaddress" width="100" />
+          <cell name="gsscore_branchcity" width="100" />
+          <cell name="gsscore_state" width="100" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_postalcode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_branch">
+          <attribute name="gsscore_branchid" />
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_streetaddress" />
+          <attribute name="gsscore_state" />
+          <attribute name="gsscore_postalcode" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_branchcity" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Branch Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{16fde656-3e75-e811-a95e-000d3a361c23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" preview="1" icon="1">
+        <row name="result" id="gsscore_portfoliounitid">
+          <cell name="gsscore_contractid" width="100" />
+          <cell name="gsscore_contractnumber" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contractterm" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contractstartdate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contractenddate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_contractualstatus" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_statusreason" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="gsscore_portfoliounit">
+          <order attribute="gsscore_contractnumber" descending="false" />
+          <attribute name="gsscore_contractterm" />
+          <attribute name="gsscore_contractnumber" />
+          <attribute name="gsscore_contractenddate" />
+          <attribute name="gsscore_contractstartdate" />
+          <attribute name="gsscore_contractualstatus" />
+          <attribute name="gsscore_contractid" />
+          <attribute name="gsscore_statusreason" />
+          <attribute name="gsscore_portfoliounitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.118</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="ContractPortfolioUnits" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

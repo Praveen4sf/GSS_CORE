@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{14d1b4dd-54bc-498d-bbd8-9fb669429dee}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true">
+      <tabs>
+        <tab verticallayout="true" id="{E65946CB-6331-4E61-B4FF-C6C244A72579}" IsUserDefined="0" labelid="{600d0b1e-2a7b-41da-9d71-323103b57e57}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="67%">
+              <sections>
+                <section name="information" showlabel="false" showbar="false" IsUserDefined="0" id="{CE3D3D84-B369-48CB-ACBE-53412786908D}" labelid="{974f9cba-88ce-4f39-82dc-006fa3406a1b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8FBDB437-2114-4FAA-B9B1-AB23374D866B}" showlabel="true" colspan="2" labelid="{e0d0ee78-73be-4b4a-b69d-c803bed1122d}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3D1D8021-64E9-49CB-AB4E-85BFA1A7F14D}" showlabel="true" colspan="2" labelid="{2664c21a-c0c1-46b8-a1fe-b24632ac6719}">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" />
+                        </labels>
+                        <control id="regarding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="regarding" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4FF4529E-4A3A-4DE9-86D1-C12D12C97A4C}" showlabel="true" colspan="2" labelid="{e6b38489-d6ef-48dd-a123-e85893227227}">
+                        <labels>
+                          <label description="Failure Time" languagecode="1033" />
+                        </labels>
+                        <control id="failuretime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="failuretime" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{310C3A3A-7713-4720-82F0-6912BF21D9BB}" showlabel="true" colspan="2" labelid="{b0858a75-4aa5-4dbe-939d-c1095f149652}">
+                        <labels>
+                          <label description="Warning Time" languagecode="1033" />
+                        </labels>
+                        <control id="warningtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="warningtime" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9177DCFE-1116-4CEF-9F46-0F30E31522A4}" showlabel="true" rowspan="3" colspan="2" labelid="{1be2aeca-6d91-405f-97de-684dadf36528}">
+                        <labels>
+                          <label description="Succeeded On" languagecode="1033" />
+                        </labels>
+                        <control id="succeededon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="succeededon" disabled="true" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{e4ce6a86-b118-2bb2-c28c-7ce34610c027}" showlabel="true" colspan="2" auto="false" rowspan="2" labelid="{501e623f-d03a-4d61-980a-05558642d0df}">
+                        <labels>
+                          <label description="SLA Expires In" languagecode="1033" />
+                        </labels>
+                        <control id="timer" classid="{9C5CA0A1-AB4D-4781-BE7E-8DFBE867B87E}">
+                          <parameters>
+                            <SuccessConditionName>status</SuccessConditionName>
+                            <SuccessConditionValue>4</SuccessConditionValue>
+                            <FailureConditionName>status</FailureConditionName>
+                            <FailureConditionValue>1</FailureConditionValue>
+                            <WarningConditionName>status</WarningConditionName>
+                            <WarningConditionValue>2</WarningConditionValue>
+                            <CancelConditionName>status</CancelConditionName>
+                            <CancelConditionValue>5</CancelConditionValue>
+                            <PauseConditionName>status</PauseConditionName>
+                            <PauseConditionValue>3</PauseConditionValue>
+                            <FailureTimeField>failuretime</FailureTimeField>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{0848e32a-3a63-3988-4ae2-c797e2dc8eda}" showlabel="true" locklevel="0" colspan="2" labelid="{189016c5-7517-4fac-82ac-076754838626}">
+                        <labels>
+                          <label description="Warning Time Reached" languagecode="1033" />
+                        </labels>
+                        <control id="warningtimereached" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="warningtimereached" disabled="false" uniqueid="{4c5576a4-2848-9964-e3aa-416947bd2361}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{463069d4-1da1-4d37-947b-8f137f4060d2}" name="_column_2_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0" labelid="{0053cbe4-d6b1-44f3-b0e1-976cab0a9748}">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0479deff-fdb8-472f-a05b-a7cf24558907}" labelid="{cea8e3ae-4d91-4241-b599-9eb394cbdd76}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{a3080192-ec84-42b6-bc6f-a311c0e2e977}" labelid="{c3278e10-792a-414e-b293-a266a87065a5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4AC90664-23F1-4D33-9D02-1F0378D323BD}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{40BBC4C3-CA60-4498-A76E-7025BBC3CFA3}" labelid="{58e5b98a-0b6c-4194-bf02-8f365d6cfba2}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="status" disabled="true" />
+            </cell>
+            <cell id="{F81E74E6-D876-49D7-A7B1-A5B04719F8B9}" showlabel="true" labelid="{aecd732c-647a-45d9-a2e6-de99bba339ec}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{ba47b9db-ce47-4342-8037-132047188125}" showlabel="false" labelid="{a3fd4b20-49f8-42e2-860a-573aeb45de7c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0fb8a397-80a3-4e14-8b7f-6be2612f5a8d}" showlabel="false" labelid="{74175ad2-bbc7-47cf-84bb-55d028a42561}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3ed18481-987a-490f-a728-affdbb4a9a2b}" columns="111">
+        <rows>
+          <row>
+            <cell id="{9034527c-2512-1367-8766-12ad6ed8a153}" showlabel="true" locklevel="0" labelid="{3bbaff45-45bc-4a0e-a56a-260eb769c55e}">
+              <labels>
+                <label description="Computed Failure Time" languagecode="1033" />
+              </labels>
+              <control id="footer_computedfailuretime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="computedfailuretime" disabled="true" />
+            </cell>
+            <cell id="{9d90e5cc-7796-501d-438d-59000e2b8b58}" showlabel="true" locklevel="0" labelid="{bdc40bc2-7718-44df-9aea-06e2b89806a0}">
+              <labels>
+                <label description="Computed Warning Time" languagecode="1033" />
+              </labels>
+              <control id="footer_computedwarningtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="computedwarningtime" disabled="true" />
+            </cell>
+            <cell id="{98f19724-0f83-435d-9dc9-d2a1a1f81587}" showlabel="false" labelid="{478f4d88-fa51-4711-bee0-faea3f9e5189}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

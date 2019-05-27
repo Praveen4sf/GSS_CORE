@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2139da64-86e2-41bd-b2e8-a8737d573aa9}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="gsscore_localtechnicaldata" id="gsscore_localtechnicaldataid">
+          <cell name="gsscore_technicaldata" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_lookupvalue" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_value" width="100" />
+          <cell name="gsscore_valuemeasure" width="100" />
+          <cell name="gsscore_yesno" width="100" />
+          <cell name="gsscore_date" width="100" />
+          <cell name="gsscore_comments" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_localtechnicaldata">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_yesno" descending="false" />
+          <attribute name="gsscore_yesno" />
+          <attribute name="gsscore_valuemeasure" />
+          <attribute name="gsscore_value" />
+          <attribute name="gsscore_technicaldata" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="gsscore_lookupvalue" />
+          <attribute name="gsscore_date" />
+          <attribute name="gsscore_comments" />
+          <attribute name="gsscore_localtechnicaldataid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Local Technical Data Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

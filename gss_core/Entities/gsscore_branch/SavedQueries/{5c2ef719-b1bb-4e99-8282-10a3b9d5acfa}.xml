@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5c2ef719-b1bb-4e99-8282-10a3b9d5acfa}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_branchid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_servicebranchnumber" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_branchmanager" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_streetaddress" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_city" width="100" />
+          <cell name="gsscore_state" width="100" />
+          <cell name="gsscore_country" width="100" />
+          <cell name="gsscore_otislineno" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_daystart" width="100" />
+          <cell name="gsscore_dayend" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_branch">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_streetaddress" />
+          <attribute name="statecode" />
+          <attribute name="gsscore_state" />
+          <attribute name="gsscore_otislineno" />
+          <attribute name="gsscore_country" />
+          <attribute name="gsscore_city" />
+          <attribute name="gsscore_branchmanager" />
+          <attribute name="gsscore_servicebranchnumber" />
+          <attribute name="gsscore_daystart" />
+          <attribute name="gsscore_dayend" />
+          <attribute name="gsscore_branchid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Branches" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f44cec50-2e70-4353-ad07-f97949473fe0}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="0">
+        <row name="gsscore_coveragepattern" id="gsscore_coveragepatternid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_monday" width="100" />
+          <cell name="gsscore_tuesday" width="100" />
+          <cell name="gsscore_wednesday" width="100" />
+          <cell name="gsscore_thursday" width="100" />
+          <cell name="gsscore_friday" width="100" />
+          <cell name="gsscore_saturday" width="100" />
+          <cell name="gsscore_sunday" width="100" />
+          <cell name="gsscore_starttime" width="100" />
+          <cell name="gsscore_endtime" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_coveragepattern">
+          <attribute name="gsscore_coveragepatternid" />
+          <attribute name="gsscore_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_name" descending="false" />
+          <attribute name="gsscore_wednesday" />
+          <attribute name="gsscore_tuesday" />
+          <attribute name="gsscore_thursday" />
+          <attribute name="gsscore_sunday" />
+          <attribute name="gsscore_starttime" />
+          <attribute name="gsscore_saturday" />
+          <attribute name="gsscore_monday" />
+          <attribute name="gsscore_friday" />
+          <attribute name="gsscore_endtime" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Coverage Pattern Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

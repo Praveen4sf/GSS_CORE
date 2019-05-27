@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ecbb6af5-96e5-4544-94e1-0f339007039c}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" icon="1" preview="1">
+        <row name="result" id="slaitemid" multiobjectidfield="objecttypecode">
+          <cell name="name" width="150" disableSorting="1" />
+          <cell name="warnafter" width="150" disableSorting="1" />
+          <cell name="failureafter" width="150" disableSorting="1" />
+          <cell name="relatedfield" width="150" disableSorting="1" LabelId="Web.SLAItem.RelatedKpI" />
+          <cell name="createdon" width="150" disableSorting="1" />
+          <cell name="modifiedon" width="150" disableSorting="1" />
+          <cell name="slaitemid" width="100" ishidden="1" />
+          <cell name="sequencenumber" ishidden="1" width="100" />
+          <cell name="applicablewhenxml" width="0" ishidden="1" />
+          <cell name="successconditionsxml" width="0" ishidden="1" />
+          <cell name="slaid" width="0" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="slaitem">
+          <attribute name="name" />
+          <attribute name="warnafter" />
+          <attribute name="failureafter" />
+          <attribute name="relatedfield" />
+          <attribute name="slaitemid" />
+          <attribute name="sequencenumber" />
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+          <attribute name="applicablewhenxml" />
+          <attribute name="successconditionsxml" />
+          <attribute name="slaid" />
+          <order attribute="sequencenumber" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SLAItem Associated View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about related sla in the detail form of any associated entity record." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

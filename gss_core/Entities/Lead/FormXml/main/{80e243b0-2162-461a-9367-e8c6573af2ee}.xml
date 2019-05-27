@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{80e243b0-2162-461a-9367-e8c6573af2ee}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" shownavigationbar="true" maxWidth="1900">
+      <ancestor id="{e3b6ddb7-8df0-4410-ac7b-fd32e5053d38}" />
+      <hiddencontrols>
+        <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="parentaccountid" datafieldname="parentaccountid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="parentcontactid" datafieldname="parentcontactid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab name="tab_3" id="{6e668c24-6027-02b1-e0e1-edcd288d11d1}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{78539ca6-317d-448b-bfec-25b1f09584c3}">
+          <labels>
+            <label description="Lead Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="28%">
+              <sections>
+                <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{e02ad1e5-7188-d6d4-24ad-e2dbe0e07298}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5305bc2c-c5eb-a4d5-bd65-13ee081ed936}" showlabel="true" locklevel="0" labelid="{c74b4d57-c39d-471d-b09b-9aa849f0f39f}">
+                        <labels>
+                          <label description="Project Name" languagecode="1033" />
+                        </labels>
+                        <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" uniqueid="{9c2d5d5a-745b-3b23-1642-064054315b6e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="44%">
+              <sections>
+                <section id="{0bede09e-8f05-4c31-854a-27b8a194e551}" name="tab_3_column_2_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{21cc4d3c-2297-449a-9d9f-62aa97b444fb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{513658c3-db65-423d-aa35-4c9b6654e57a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="28%">
+              <sections>
+                <section id="{c764a453-db2c-43c2-800e-0684a810d1e1}" name="tab_3_column_3_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5e32eb2b-82d7-47d8-b1b9-9a6d1e774e2c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{4b950d2c-ff61-44de-92f5-d3ff7e3dfea7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{af5017db-93b9-4316-8323-de1d83b41d58}" celllabelposition="Top" columns="1111">
+        <rows>
+          <row>
+            <cell id="{146bcb09-6566-819e-be4d-9a9940a3e551}" showlabel="true" locklevel="0" labelid="{d078432d-b91d-488e-bc94-82493fa2f096}">
+              <labels>
+                <label description="Source Of Lead" languagecode="1033" />
+              </labels>
+              <control id="header_gsscore_sourceoflead" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_sourceoflead" disabled="false" uniqueid="{c1ba311a-104d-034c-03e8-22d2b11d9a96}" />
+            </cell>
+            <cell id="{865be415-6a13-087e-3b8a-a879b647856a}" showlabel="true" locklevel="0" labelid="{3428b050-e1fc-4001-9a7a-55cf191285ab}">
+              <labels>
+                <label description="Rating" languagecode="1033" />
+              </labels>
+              <control id="header_leadqualitycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="leadqualitycode" disabled="false" />
+            </cell>
+            <cell id="{a05a784c-4246-4827-0871-ccb006dcab07}" showlabel="true" locklevel="0" labelid="{fe0d3e6f-a558-43d7-b86c-5f59317128de}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{7da0c9b6-8289-4b50-ab33-b5f0568cadb9}" labelid="{b025d394-190d-4e31-a1db-42d1f75b7bef}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:LeadManagement/Lead/Lead_main_system_library.js" />
+            <internaljscriptfile src="$webresource:MarketingSales/Lead/Lead_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="Lead_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif" Sequence="10" Area="Info">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navCampaignsInSFA" Sequence="20" Area="Marketing" Id="navCampaignsInSFA" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Campaigns" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="leadcompetitors_association" Id="navLeadCompetitor" Area="Sales" Icon="/_imgs/ico_18_123.gif" Sequence="40" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadCompetitor" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Competitors" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Id="navConnections" Sequence="9000" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Area="Info" Id="navDocument" Sequence="9001">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Workflows" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit">
+            <Titles>
+              <Title LCID="1033" Text="Audit History" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Dialog Sessions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.LeadMainSystemLibraryWebResource.formOnload" libraryName="LeadManagement/Lead/Lead_main_system_library.js" handlerUniqueId="cf83ccb0-95f8-4d3c-8856-de668ce6341c" enabled="true" />
+          </InternalHandlers>
+        </event>
+        <event name="onsave" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.LeadMainSystemLibraryWebResource.form_OnSave" libraryName="LeadManagement/Lead/Lead_main_system_library.js" handlerUniqueId="6fe1ba11-b792-4717-a746-4a7141530952" enabled="true" />
+          </InternalHandlers>
+        </event>
+      </events>
+      <DisplayConditions Order="8" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

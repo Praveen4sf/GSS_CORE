@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{54ac4925-b1b1-4a1e-b415-7c4e6dbbb7a5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_remotedevicetype" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_remotemonitoringdevicetypeid">
+          <cell name="gsscore_remotedevicetype" width="300" />
+          <cell name="gsscore_remotedevicetypebrandname" width="100" />
+          <cell name="gsscore_remotedevicetypesoftwareversion" width="100" />
+          <cell name="gsscore_remotedevicetypeprimaryorsecondary" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_remotemonitoringdevicetype">
+          <attribute name="gsscore_remotedevicetype" />
+          <order attribute="gsscore_remotedevicetype" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_remotedevicetypesoftwareversion" />
+          <attribute name="gsscore_remotedevicetypeprimaryorsecondary" />
+          <attribute name="gsscore_remotedevicetypebrandname" />
+          <attribute name="gsscore_remotemonitoringdevicetypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Remote Monitoring Device Type" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

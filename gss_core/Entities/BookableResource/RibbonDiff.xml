@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions />
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="msdyn.bookableresource.applyworkhourtemplatebtn.Alt">
+      <Titles>
+        <Title description="Set calendar" languagecode="1033" />
+        <Title description="تعيين التقويم" languagecode="1025" />
+        <Title description="Задаване на календар" languagecode="1026" />
+        <Title description="Defineix el calendari" languagecode="1027" />
+        <Title description="Nastavit kalendář" languagecode="1029" />
+        <Title description="Angiv kalender" languagecode="1030" />
+        <Title description="Kalender festlegen" languagecode="1031" />
+        <Title description="Ορισμός ημερολογίου" languagecode="1032" />
+        <Title description="Establecer calendario" languagecode="3082" />
+        <Title description="Kalendri seadmine" languagecode="1061" />
+        <Title description="Ezarri egutegia" languagecode="1069" />
+        <Title description="Määritä kalenteri" languagecode="1035" />
+        <Title description="Définir le calendrier" languagecode="1036" />
+        <Title description="Configurar calendario" languagecode="1110" />
+        <Title description="הגדר לוח שנה" languagecode="1037" />
+        <Title description="कैलेंडर सेट करें" languagecode="1081" />
+        <Title description="Postavi kalendar" languagecode="1050" />
+        <Title description="Naptár beállítása" languagecode="1038" />
+        <Title description="Atur kalender" languagecode="1057" />
+        <Title description="Imposta calendario" languagecode="1040" />
+        <Title description="カレンダーの設定" languagecode="1041" />
+        <Title description="Күнтізбе орнату" languagecode="1087" />
+        <Title description="일정 설정" languagecode="1042" />
+        <Title description="Nustatyti kalendorių" languagecode="1063" />
+        <Title description="Iestatīt kalendāru" languagecode="1062" />
+        <Title description="Tetapkan kalendar" languagecode="1086" />
+        <Title description="Angi kalender" languagecode="1044" />
+        <Title description="Agenda instellen" languagecode="1043" />
+        <Title description="Ustaw kalendarz" languagecode="1045" />
+        <Title description="Definir calendário" languagecode="1046" />
+        <Title description="Definir Calendário" languagecode="2070" />
+        <Title description="Setare calendar" languagecode="1048" />
+        <Title description="Задать календарь" languagecode="1049" />
+        <Title description="Nastaviť kalendár" languagecode="1051" />
+        <Title description="Nastavi koledar" languagecode="1060" />
+        <Title description="Подеси календар" languagecode="3098" />
+        <Title description="Podesi kalendar" languagecode="2074" />
+        <Title description="Ange kalender" languagecode="1053" />
+        <Title description="ตั้งค่าปฏิทิน" languagecode="1054" />
+        <Title description="Takvim ayarla" languagecode="1055" />
+        <Title description="Настроювання календаря" languagecode="1058" />
+        <Title description="Đặt lịch" languagecode="1066" />
+        <Title description="设置日历" languagecode="2052" />
+        <Title description="設定行事曆" languagecode="3076" />
+        <Title description="設定行事曆" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="msdyn.bookableresource.applyworkhourtemplatebtn.LabelText">
+      <Titles>
+        <Title description="Set calendar" languagecode="1033" />
+        <Title description="تعيين التقويم" languagecode="1025" />
+        <Title description="Задаване на календар" languagecode="1026" />
+        <Title description="Defineix el calendari" languagecode="1027" />
+        <Title description="Nastavit kalendář" languagecode="1029" />
+        <Title description="Angiv kalender" languagecode="1030" />
+        <Title description="Kalender festlegen" languagecode="1031" />
+        <Title description="Ορισμός ημερολογίου" languagecode="1032" />
+        <Title description="Establecer calendario" languagecode="3082" />
+        <Title description="Kalendri seadmine" languagecode="1061" />
+        <Title description="Ezarri egutegia" languagecode="1069" />
+        <Title description="Määritä kalenteri" languagecode="1035" />
+        <Title description="Définir le calendrier" languagecode="1036" />
+        <Title description="Configurar calendario" languagecode="1110" />
+        <Title description="הגדר לוח שנה" languagecode="1037" />
+        <Title description="कैलेंडर सेट करें" languagecode="1081" />
+        <Title description="Postavi kalendar" languagecode="1050" />
+        <Title description="Naptár beállítása" languagecode="1038" />
+        <Title description="Atur kalender" languagecode="1057" />
+        <Title description="Imposta calendario" languagecode="1040" />
+        <Title description="カレンダーの設定" languagecode="1041" />
+        <Title description="Күнтізбе орнату" languagecode="1087" />
+        <Title description="일정 설정" languagecode="1042" />
+        <Title description="Nustatyti kalendorių" languagecode="1063" />
+        <Title description="Iestatīt kalendāru" languagecode="1062" />
+        <Title description="Tetapkan kalendar" languagecode="1086" />
+        <Title description="Angi kalender" languagecode="1044" />
+        <Title description="Agenda instellen" languagecode="1043" />
+        <Title description="Ustaw kalendarz" languagecode="1045" />
+        <Title description="Definir calendário" languagecode="1046" />
+        <Title description="Definir Calendário" languagecode="2070" />
+        <Title description="Setare calendar" languagecode="1048" />
+        <Title description="Задать календарь" languagecode="1049" />
+        <Title description="Nastaviť kalendár" languagecode="1051" />
+        <Title description="Nastavi koledar" languagecode="1060" />
+        <Title description="Подеси календар" languagecode="3098" />
+        <Title description="Podesi kalendar" languagecode="2074" />
+        <Title description="Ange kalender" languagecode="1053" />
+        <Title description="ตั้งค่าปฏิทิน" languagecode="1054" />
+        <Title description="Takvim ayarla" languagecode="1055" />
+        <Title description="Настроювання календаря" languagecode="1058" />
+        <Title description="Đặt lịch" languagecode="1066" />
+        <Title description="设置日历" languagecode="2052" />
+        <Title description="設定行事曆" languagecode="3076" />
+        <Title description="設定行事曆" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="msdyn.bookableresource.applyworkhourtemplatebtn.ToolTipDescription">
+      <Titles>
+        <Title description="Set calendar" languagecode="1033" />
+        <Title description="تعيين التقويم" languagecode="1025" />
+        <Title description="Задаване на календар" languagecode="1026" />
+        <Title description="Defineix el calendari" languagecode="1027" />
+        <Title description="Nastavit kalendář" languagecode="1029" />
+        <Title description="Angiv kalender" languagecode="1030" />
+        <Title description="Kalender festlegen" languagecode="1031" />
+        <Title description="Ορισμός ημερολογίου" languagecode="1032" />
+        <Title description="Establecer calendario" languagecode="3082" />
+        <Title description="Kalendri seadmine" languagecode="1061" />
+        <Title description="Ezarri egutegia" languagecode="1069" />
+        <Title description="Määritä kalenteri" languagecode="1035" />
+        <Title description="Définir le calendrier" languagecode="1036" />
+        <Title description="Configurar calendario" languagecode="1110" />
+        <Title description="הגדר לוח שנה" languagecode="1037" />
+        <Title description="कैलेंडर सेट करें" languagecode="1081" />
+        <Title description="Postavi kalendar" languagecode="1050" />
+        <Title description="Naptár beállítása" languagecode="1038" />
+        <Title description="Atur kalender" languagecode="1057" />
+        <Title description="Imposta calendario" languagecode="1040" />
+        <Title description="カレンダーの設定" languagecode="1041" />
+        <Title description="Күнтізбе орнату" languagecode="1087" />
+        <Title description="일정 설정" languagecode="1042" />
+        <Title description="Nustatyti kalendorių" languagecode="1063" />
+        <Title description="Iestatīt kalendāru" languagecode="1062" />
+        <Title description="Tetapkan kalendar" languagecode="1086" />
+        <Title description="Angi kalender" languagecode="1044" />
+        <Title description="Agenda instellen" languagecode="1043" />
+        <Title description="Ustaw kalendarz" languagecode="1045" />
+        <Title description="Definir calendário" languagecode="1046" />
+        <Title description="Definir Calendário" languagecode="2070" />
+        <Title description="Setare calendar" languagecode="1048" />
+        <Title description="Задать календарь" languagecode="1049" />
+        <Title description="Nastaviť kalendár" languagecode="1051" />
+        <Title description="Nastavi koledar" languagecode="1060" />
+        <Title description="Подеси календар" languagecode="3098" />
+        <Title description="Podesi kalendar" languagecode="2074" />
+        <Title description="Ange kalender" languagecode="1053" />
+        <Title description="ตั้งค่าปฏิทิน" languagecode="1054" />
+        <Title description="Takvim ayarla" languagecode="1055" />
+        <Title description="Настроювання календаря" languagecode="1058" />
+        <Title description="Đặt lịch" languagecode="1066" />
+        <Title description="设置日历" languagecode="2052" />
+        <Title description="設定行事曆" languagecode="3076" />
+        <Title description="設定行事曆" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="msdyn.bookableresource.applyworkhourtemplatebtn.ToolTipTitle">
+      <Titles>
+        <Title description="Set calendar" languagecode="1033" />
+        <Title description="تعيين التقويم" languagecode="1025" />
+        <Title description="Задаване на календар" languagecode="1026" />
+        <Title description="Defineix el calendari" languagecode="1027" />
+        <Title description="Nastavit kalendář" languagecode="1029" />
+        <Title description="Angiv kalender" languagecode="1030" />
+        <Title description="Kalender festlegen" languagecode="1031" />
+        <Title description="Ορισμός ημερολογίου" languagecode="1032" />
+        <Title description="Establecer calendario" languagecode="3082" />
+        <Title description="Kalendri seadmine" languagecode="1061" />
+        <Title description="Ezarri egutegia" languagecode="1069" />
+        <Title description="Määritä kalenteri" languagecode="1035" />
+        <Title description="Définir le calendrier" languagecode="1036" />
+        <Title description="Configurar calendario" languagecode="1110" />
+        <Title description="הגדר לוח שנה" languagecode="1037" />
+        <Title description="कैलेंडर सेट करें" languagecode="1081" />
+        <Title description="Postavi kalendar" languagecode="1050" />
+        <Title description="Naptár beállítása" languagecode="1038" />
+        <Title description="Atur kalender" languagecode="1057" />
+        <Title description="Imposta calendario" languagecode="1040" />
+        <Title description="カレンダーの設定" languagecode="1041" />
+        <Title description="Күнтізбе орнату" languagecode="1087" />
+        <Title description="일정 설정" languagecode="1042" />
+        <Title description="Nustatyti kalendorių" languagecode="1063" />
+        <Title description="Iestatīt kalendāru" languagecode="1062" />
+        <Title description="Tetapkan kalendar" languagecode="1086" />
+        <Title description="Angi kalender" languagecode="1044" />
+        <Title description="Agenda instellen" languagecode="1043" />
+        <Title description="Ustaw kalendarz" languagecode="1045" />
+        <Title description="Definir calendário" languagecode="1046" />
+        <Title description="Definir Calendário" languagecode="2070" />
+        <Title description="Setare calendar" languagecode="1048" />
+        <Title description="Задать календарь" languagecode="1049" />
+        <Title description="Nastaviť kalendár" languagecode="1051" />
+        <Title description="Nastavi koledar" languagecode="1060" />
+        <Title description="Подеси календар" languagecode="3098" />
+        <Title description="Podesi kalendar" languagecode="2074" />
+        <Title description="Ange kalender" languagecode="1053" />
+        <Title description="ตั้งค่าปฏิทิน" languagecode="1054" />
+        <Title description="Takvim ayarla" languagecode="1055" />
+        <Title description="Настроювання календаря" languagecode="1058" />
+        <Title description="Đặt lịch" languagecode="1066" />
+        <Title description="设置日历" languagecode="2052" />
+        <Title description="設定行事曆" languagecode="3076" />
+        <Title description="設定行事曆" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

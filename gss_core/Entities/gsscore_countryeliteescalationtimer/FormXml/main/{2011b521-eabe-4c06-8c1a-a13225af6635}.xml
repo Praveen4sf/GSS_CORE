@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{2011b521-eabe-4c06-8c1a-a13225af6635}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{03749f13-852d-42c0-8dfa-6b89dc02ca1a}" IsUserDefined="1" labelid="{b2f21af8-9e16-4430-9db1-92c5e8f53283}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{dec6dc7b-de0a-49c5-a4ee-36f61f8aa710}" labelid="{dcffcae8-cbf5-488b-b187-2ff3356ead7a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9738be45-f125-4e8a-99a7-eed89674713f}" labelid="{9bfd48f8-63fa-41e2-a36d-14f1f7f4ae28}">
+                        <labels>
+                          <label description="Country of Escalation Timer" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_countryofescaltiontimer" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_countryofescaltiontimer" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3da13e37-5565-b367-4144-7a5b96e61a21}" showlabel="true" locklevel="0" labelid="{daebf2b4-608c-454b-ba00-687b2ce432c0}">
+                        <labels>
+                          <label description="Entrapment Timer" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_entrapmenttimer" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_entrapmenttimer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{931d2215-dcaa-4b42-5553-ebb5d566e563}" showlabel="true" locklevel="0" labelid="{cc048657-0ee6-4d03-bd3a-a5593a7f01ad}">
+                        <labels>
+                          <label description="Non-Entrapment Timer" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nonentrapmenttimer" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_nonentrapmenttimer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33b36c04-a550-903b-0177-ded484634bec}" showlabel="true" locklevel="0" labelid="{52206f17-58b6-423d-b2fd-d3a2a4737e99}">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_countryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_countryid" disabled="false" uniqueid="{7ac21695-dc9d-e826-a810-509e950443a6}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{21427C56-70CB-4E88-A87E-66C5A261118F}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

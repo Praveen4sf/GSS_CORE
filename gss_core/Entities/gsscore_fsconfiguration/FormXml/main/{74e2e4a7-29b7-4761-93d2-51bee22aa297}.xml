@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{74e2e4a7-29b7-4761-93d2-51bee22aa297}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{39e72871-f13a-43ec-ae0f-70ab2e451368}" IsUserDefined="1" labelid="{df5bd816-58a0-4ee6-93d5-bf9dfcc086c7}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{40dc0d3b-ddc4-46a4-be4a-a6c0dc4e1f3b}" labelid="{cf71538e-9f61-4c84-98ae-9b27010c5ddd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{769c2c85-eddd-1cd7-b5c0-3d802b2ea663}" showlabel="true" locklevel="0" labelid="{aed5f021-9dc7-4bda-9252-0209007dbd3d}">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_region" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_region" disabled="false" uniqueid="{d53a75c2-de96-8401-8aec-cb7468ded279}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{377056ba-3720-886b-b5ea-c483a1e24d27}" showlabel="true" locklevel="0" labelid="{807cfd25-7a5a-42d3-bd12-c9e703d65787}">
+                        <labels>
+                          <label description="Minimum Chargeable Time (Sec)" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_minimumchargeabletime" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_minimumchargeabletime" disabled="false" uniqueid="{bec29381-0814-b52c-8858-806259a7655a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90709816-0ecb-e4d7-94bd-248c093b71b1}" showlabel="true" locklevel="0" labelid="{a181fe1d-21ba-4d45-913e-b81803bb5b5e}">
+                        <labels>
+                          <label description="Round Down Time (Sec)" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rounddowntime" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_rounddowntime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d105284-89dd-1135-6a8a-e5e822820a77}" showlabel="true" locklevel="0" labelid="{83829e15-c626-4606-bb38-6f3098e0d1d9}">
+                        <labels>
+                          <label description="Time Submit Button" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_timesubmitbutton" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_timesubmitbutton" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{b21ceaa0-6997-1b7a-4016-e36c577476c8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" labelid="{3a94409a-1e43-4f69-9c4d-525d535cd6f5}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{824b1a28-9153-154b-b328-d998aae346b9}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{8eaa25bd-049f-444b-b360-e04460fad644}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c2749cc5-0f93-4c10-8a52-8c49b05298d7}" showlabel="true" locklevel="0" labelid="{7d1c91d4-39af-428f-8c75-aae617fdd02d}">
+                        <labels>
+                          <label description="Region Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{bbb59014-03e6-7b2a-b820-1547c059d26d}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5dd9e2a-7205-4c50-8668-099eff01e43e}" labelid="{19a4f048-7913-4341-a5d8-8ac44ef8a628}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

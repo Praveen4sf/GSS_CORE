@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{104bfa9f-dd76-4d85-99a2-e0aa910df75f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_shutdownid" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_unitshutdownlogid">
+          <cell name="gsscore_shutdownid" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_11e525a6a86ce711811ae0071b6700f1.msdyn_account" width="100" disableSorting="1" />
+          <cell name="gsscore_customerassetid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_shutdownreason" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_stopdatetime" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_projectedrestartdatetime" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_actualrestartdatetimes" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_shutdownduration" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_unitshutdownlog">
+          <attribute name="gsscore_shutdownid" />
+          <order attribute="gsscore_shutdownid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_customerassetid" />
+          <attribute name="gsscore_stopdatetime" />
+          <attribute name="gsscore_shutdownreason" />
+          <attribute name="gsscore_projectedrestartdatetime" />
+          <attribute name="gsscore_actualrestartdatetimes" />
+          <attribute name="gsscore_shutdownduration" />
+          <link-entity alias="a_11e525a6a86ce711811ae0071b6700f1" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_customerassetid" link-type="outer" visible="false">
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="gsscore_unitshutdownlogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Operational Status Reason Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

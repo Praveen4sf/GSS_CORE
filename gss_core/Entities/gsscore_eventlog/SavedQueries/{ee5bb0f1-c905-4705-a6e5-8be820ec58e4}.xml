@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ee5bb0f1-c905-4705-a6e5-8be820ec58e4}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="subject" select="1" icon="1" preview="0">
+        <row name="gsscore_eventlog" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_eventlog">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.79</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Event Log Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

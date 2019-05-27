@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{03d01614-920d-4df9-9dcb-f6865ead5556}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{2fe1f634-fbf6-4ac6-9533-6e80299393a0}" IsUserDefined="1" name="{2fe1f634-fbf6-4ac6-9533-6e80299393a0}" locklevel="0" expanded="true" showlabel="true" labelid="{ce21f174-dafb-493c-9e97-0f5bce4bfc12}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ef46f7ba-6fdb-43ec-9762-b25dbda621b1}" labelid="{f7ead962-5ec5-4acf-a00a-b1cef82dcbe6}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ded32d64-dbbd-4519-9f28-f81ed52770e5}" showlabel="true" locklevel="0" labelid="{4c6ac3a8-f77e-4d62-a5ed-47783478aa3f}">
+                        <labels>
+                          <label description="Part Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{07da0399-3d69-ae24-3831-7e0c77d22668}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72b45023-bce9-1873-9b8d-3b93c854c03c}" showlabel="true" locklevel="0" labelid="{1a2bced8-84b1-4fe9-ab60-4eb071e289a1}">
+                        <labels>
+                          <label description="Country" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_country" disabled="false" uniqueid="{e023651a-5751-db8c-4522-19d5c86c1482}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a1ceda3-e397-7541-1103-8753c85a51d1}" showlabel="true" locklevel="0" labelid="{7ce86aa2-197a-443b-963f-c046dc96c2d6}">
+                        <labels>
+                          <label description="Country Code" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_countrycode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_countrycode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67539aee-cb80-cea7-da1d-c43217ebd370}" showlabel="true" locklevel="0" labelid="{deda8c58-42a6-4cda-a185-c76a480ed7d3}">
+                        <labels>
+                          <label description="Safety Code" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_safetycode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_safetycode" disabled="false" uniqueid="{2a1517c5-1143-3791-d183-024c77255850}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{624a0de4-54a1-dc1b-d0cb-528e361ed940}" showlabel="true" locklevel="0" labelid="{950a0899-735a-4528-86ad-860a73bd1e7d}">
+                        <labels>
+                          <label description="Unit of Measure" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_unitofmeasure" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_unitofmeasure" disabled="false" uniqueid="{16d94475-c322-cdc3-9e81-6d5158d41de4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29476d76-e278-98cd-a604-1d89da43358c}" showlabel="true" locklevel="0" labelid="{de1af89b-7ee0-4c78-8f05-650bae3d3edb}">
+                        <labels>
+                          <label description="Part Description 1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_partdescription1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_partdescription1" disabled="false" uniqueid="{43bba68c-4255-3755-51ab-c2d9ca1019c5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bce4a8cd-9c68-bc98-5160-e9129567bd23}" showlabel="true" locklevel="0" labelid="{e3ae0bf1-2851-429b-b24e-411cee75d54a}">
+                        <labels>
+                          <label description="German Part Description 1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_germanpartdescription1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_germanpartdescription1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9728604c-c8ae-92ec-6318-397204d45974}" showlabel="true" locklevel="0" labelid="{68fb2d6d-4d0e-4fea-acb9-1f7b3957fbc7}">
+                        <labels>
+                          <label description="French Part Description 1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_frenchpartdescription1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_frenchpartdescription1" disabled="false" uniqueid="{17c9ccb5-9beb-92c1-b8d4-d7816a034e64}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d24674db-d431-8c8b-76d1-7a69514c810d}" showlabel="true" locklevel="0" labelid="{12487e5b-6ffc-4a1e-8a91-46d49a1b2167}">
+                        <labels>
+                          <label description="Italian Part Description 1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_italianpartdescription1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_italianpartdescription1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{2fe1f634-fbf6-4ac6-9533-6e80299393a0}_section_2" showlabel="false" showbar="false" locklevel="0" id="{19ea44b9-d394-b596-845d-8c4c691a5b82}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{a7b1aa41-8f15-42ff-ba94-9de2077d4c18}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b897c3ee-08b8-7a1a-9227-60e7de3260c9}" showlabel="true" locklevel="0" labelid="{8eff3bfb-a033-4a69-ac98-7c8dc8537ef8}">
+                        <labels>
+                          <label description="Source of Part" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_sourceofpart" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_sourceofpart" disabled="false" uniqueid="{11b18e91-dc7a-03c4-7d68-8a51ed0aa262}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2320ad9d-d7d7-804e-33c3-15d86285b798}" showlabel="true" locklevel="0" labelid="{e42ff346-d2ef-4958-b48b-1ceaae59f583}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_currency" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_currency" disabled="false" uniqueid="{5344a761-e21a-e58d-0aa5-b54171363b06}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c088a7d0-0e36-0a65-1d16-787534277bab}" showlabel="true" locklevel="0" labelid="{49988b8b-f3fc-4fe9-a3e1-4abd61ca4952}">
+                        <labels>
+                          <label description="Commodity Code" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_commoditycode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_commoditycode" disabled="false" uniqueid="{0e5c84b7-c0b5-38ba-94ae-7bb382bc9136}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88683563-29ec-a0b6-8832-e5c3660a6e02}" showlabel="true" locklevel="0" labelid="{67ae21c1-4752-48c1-afc2-d12c5520e4f3}">
+                        <labels>
+                          <label description="Selling Price" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_sellingprice" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_sellingprice" disabled="false" uniqueid="{5109524a-8bb9-9d26-4549-dddb07a6bb4c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48797617-3734-a67a-7402-06ad7d20273a}" showlabel="true" locklevel="0" labelid="{2c41c992-c978-4bc6-a3f7-577a79f4907f}">
+                        <labels>
+                          <label description="Part Description 2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_partdescription2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_partdescription2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23a8da4c-9816-1325-c7b4-3e6792a387bb}" showlabel="true" locklevel="0" labelid="{cbd2205e-7380-40e3-a0a0-7597cc061f29}">
+                        <labels>
+                          <label description="German Part Description 2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_germanpartdescription2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_germanpartdescription2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16947cd8-1e5c-bbc3-2315-3ce3287a7890}" showlabel="true" locklevel="0" labelid="{beedf7ae-4045-4541-950b-7718fd5507ad}">
+                        <labels>
+                          <label description="French Part Description 2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_frenchpartdescription2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_frenchpartdescription2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e735e0e-88ae-c79d-c09e-c0611ce21805}" showlabel="true" locklevel="0" labelid="{e35f9995-bf18-4418-94b7-f8c51dc1905a}">
+                        <labels>
+                          <label description="Italian Part Description 2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_italianpartdescription2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_italianpartdescription2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

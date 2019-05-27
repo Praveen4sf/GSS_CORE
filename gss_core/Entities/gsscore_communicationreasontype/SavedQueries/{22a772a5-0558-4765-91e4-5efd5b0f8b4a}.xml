@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{22a772a5-0558-4765-91e4-5efd5b0f8b4a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_communicationreason" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_communicationreasontypeid">
+          <cell name="gsscore_communicationreason" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_communicationreasontype">
+          <attribute name="gsscore_communicationreasontypeid" />
+          <attribute name="gsscore_communicationreason" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_communicationreason" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Communication Reason Types" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

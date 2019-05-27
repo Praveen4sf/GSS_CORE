@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f9c79a22-a829-42bf-9158-aba6875c569d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_accountgroupratelistid">
+          <cell name="gsscore_name" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_accountgroup" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_branch" width="100" />
+          <cell name="gsscore_labortype" width="100" />
+          <cell name="gsscore_laborrate" width="100" />
+          <cell name="gsscore_effectivestart" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_effectiveend" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_accountgroupratelist">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_labortype" />
+          <attribute name="gsscore_laborrate" />
+          <attribute name="gsscore_effectivestart" />
+          <attribute name="gsscore_effectiveend" />
+          <attribute name="gsscore_branch" />
+          <attribute name="gsscore_accountgroup" />
+          <attribute name="gsscore_accountgroupratelistid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.25</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Account Group Rate Lists" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

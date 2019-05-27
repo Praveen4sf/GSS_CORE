@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d7f26f32-d000-4059-b444-b2673918a72e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{63787214-dae7-4d03-b68c-f79fcc3629bd}" verticallayout="true" IsUserDefined="1" name="{63787214-dae7-4d03-b68c-f79fcc3629bd}" locklevel="0" expanded="true" showlabel="true" labelid="{16d45318-4ab9-4712-8419-a701ce7d3e9d}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{861ee50e-f9b7-4922-b716-7df347d749e1}" IsUserDefined="0" showlabel="false" showbar="false" labelid="{8d97be1d-c3f8-4442-bb77-c5ade795526a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ce436412-a823-6e52-7367-8ce09b43ada5}" showlabel="true" locklevel="0" labelid="{24252351-cfa4-4410-9321-fdc65d4ee778}">
+                        <labels>
+                          <label description="Contract" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_contract" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_contract" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{63787214-dae7-4d03-b68c-f79fcc3629bd}_section_3" showlabel="true" showbar="false" locklevel="0" id="{2d220512-c6ea-354d-845e-a7cb70cdb530}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="140" celllabelalignment="Left" celllabelposition="Left" labelid="{342a23f4-ae4c-4d33-bfb9-17a476902d1f}">
+                  <labels>
+                    <label description="SLA Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a9eb62cc-3201-8609-a41c-6199863874bd}" showlabel="true" locklevel="0" labelid="{53e25ad4-6291-45a0-b2bc-1bc834a1eff8}">
+                        <labels>
+                          <label description="SLA P1 Overtime" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap1ot" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap1ot" disabled="false" />
+                      </cell>
+                      <cell id="{18ae4bc1-7037-e260-8886-817149c14a49}" showlabel="true" locklevel="0" labelid="{d9da1879-1fb5-4ed1-b63b-47024ce141cb}">
+                        <labels>
+                          <label description="SLA P1 Regular Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap1rt" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap1rt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{070bbb55-20dc-d686-8146-77ae1c533dc7}" showlabel="true" locklevel="0" labelid="{16711b84-16bd-4055-a1fb-ea95b83987dc}">
+                        <labels>
+                          <label description="SLA P2 Overtime" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap2ot" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap2ot" disabled="false" />
+                      </cell>
+                      <cell id="{60c90860-7b00-0998-4775-b8a534d1458c}" showlabel="true" locklevel="0" labelid="{f9e0a2e5-8098-4fb3-9a9b-0e5df9415ee0}">
+                        <labels>
+                          <label description="SLA P2 Regular Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap2rt" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap2rt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81e89b6c-e551-1899-394d-443c70180074}" showlabel="true" locklevel="0" labelid="{026f0946-cba7-49b0-b8be-8c394f4517b0}">
+                        <labels>
+                          <label description="SLA P3 Overtime" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap3ot" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap3ot" disabled="false" />
+                      </cell>
+                      <cell id="{cd73e427-67d3-ad39-b7d5-1c2532387a99}" showlabel="true" locklevel="0" labelid="{7d663a05-3ed7-44d3-9e51-cbf98f3f55c3}">
+                        <labels>
+                          <label description="SLA P3 Regular Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap3rt" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap3rt" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b794b837-9a40-1b8b-64a0-600d92073a62}" showlabel="true" locklevel="0" labelid="{2082139a-f2fb-427a-9864-c155c24c7afe}">
+                        <labels>
+                          <label description="SLA P4 Overtime" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap4ot" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap4ot" disabled="false" />
+                      </cell>
+                      <cell id="{285bb66e-ea76-d7ea-8883-cdee5357cbd7}" showlabel="true" locklevel="0" labelid="{1cb05de2-08b2-4004-bea1-3fd3bfbc8c4b}">
+                        <labels>
+                          <label description="SLA P4 Regular Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_slap4rt" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_slap4rt" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{63787214-dae7-4d03-b68c-f79fcc3629bd}_section_4" showlabel="false" showbar="false" locklevel="0" id="{816ce8d0-2d63-9b63-5a8e-9856e151c0b4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{b6adb14b-c1fd-4fc5-9782-c577fc631566}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e4c4c066-e49b-474f-9701-e2be6113986b}" showlabel="true" locklevel="0" labelid="{144a6f0d-1638-4d3d-a1ec-eed1afd2f1c1}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{c8ab087b-9b96-2755-17dd-78d9b1cacbee}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{67692520-c43a-d53a-e6c0-0a5799b97570}" showlabel="true" locklevel="0" labelid="{15e1a6ee-afe3-4457-bb52-2c15d6b9657a}" visible="false">
+                        <labels>
+                          <label description="Unit Summary" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_unitsummary" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_unitsummary" uniqueid="{0be78b43-4e98-0ad1-d5bc-7ca4e207ce18}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{1DE80BF7-B034-4596-9C91-97F0AA9FCB59}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95ada017-8ea5-44db-a863-08e84c17af32}" labelid="{440bb109-b2fc-4f59-ad7a-b62e134138c9}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{a26643ab-0891-4315-330b-3ccb1d515288}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{bc251066-5c4f-40f2-b1d0-43ced72e5022}" columns="111">
+        <rows>
+          <row>
+            <cell id="{dc99bb0e-881b-ce9c-1101-407696819970}" showlabel="false" labelid="{b92ba64a-a72f-4e88-be62-da987bee7da2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9058ad1b-ab0e-2798-04e1-a3a7242b65e4}" showlabel="true" locklevel="0" labelid="{0cbc1dc1-d6b2-40f8-a747-c321f16e8f5d}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{27bc5347-3da9-0444-ba90-1e3538e9d602}" showlabel="true" locklevel="0" labelid="{b82537bd-543c-4a56-9a34-c6ca73489adc}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="gsscore_gsscore_contractunitsummary_gsscore_contractunitdatarequirement_contractunitsummary" Sequence="9601" Area="Info" Id="nav_gsscore_gsscore_contractunitsummary_gsscore_contractunitdatarequirement_contractunitsummary" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="XContract Unit Data Requirement" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_gsscore_contractunitsummary_gsscore_contractunitvisibility_contractunitsummary" Sequence="10000" Area="Info" Id="nav_gsscore_gsscore_contractunitsummary_gsscore_contractunitvisibility_contractunitsummary" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="XContract Unit Visibilities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_gsscore_contractunitsummary_msdyn_custome" Sequence="10002" Area="Info" Id="nav_gsscore_gsscore_contractunitsummary_msdyn_custome">
+            <Titles>
+              <Title LCID="1033" Text="Units" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

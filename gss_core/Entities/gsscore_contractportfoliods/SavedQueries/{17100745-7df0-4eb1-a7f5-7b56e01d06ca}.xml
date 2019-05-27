@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{17100745-7df0-4eb1-a7f5-7b56e01d06ca}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractportfoliodsid">
+          <cell name="gsscore_name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractportfoliods">
+          <attribute name="gsscore_contractportfoliodsid" />
+          <attribute name="gsscore_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.118</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active ContractPortfolioDss" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

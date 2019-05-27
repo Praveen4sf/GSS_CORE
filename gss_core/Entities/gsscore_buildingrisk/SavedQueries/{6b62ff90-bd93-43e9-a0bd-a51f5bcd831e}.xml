@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6b62ff90-bd93-43e9-a0bd-a51f5bcd831e}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="gsscore_buildingrisk" id="gsscore_buildingriskid">
+          <cell name="gsscore_group" width="100" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="gsscore_comment" width="100" />
+          <cell name="gsscore_risk" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_risklevel" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_buildingrisk">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="gsscore_unit" descending="false" />
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_risk" />
+          <attribute name="modifiedon" />
+          <attribute name="gsscore_group" />
+          <attribute name="gsscore_comment" />
+          <attribute name="gsscore_risklevel" />
+          <attribute name="statuscode" />
+          <attribute name="gsscore_buildingriskid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Building Hazard Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

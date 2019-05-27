@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9c780031-56b8-4249-bd7f-abb02a1ffd45}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_routecoverageid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_branch" width="100" />
+          <cell name="gsscore_route" width="100" />
+          <cell name="gsscore_primarysupervisor" width="100" />
+          <cell name="gsscore_secondarysupervisor" width="100" />
+          <cell name="gsscore_tertiarysupervisor" width="100" />
+          <cell name="gsscore_requiretemporarydutyroster" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_temporarydutyroster" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_postalcodescovered" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_coveragepattern" width="100" />
+          <cell name="gsscore_primarycoveragegroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_secondarycoveragegroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_tertiarycoveragegroup" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_monday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_tuesday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_wednesday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_thursday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_friday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_saturday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_sunday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_starttime" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_endtime" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_routecoverage">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_wednesday" />
+          <attribute name="gsscore_tuesday" />
+          <attribute name="gsscore_thursday" />
+          <attribute name="gsscore_tertiarycoveragegroup" />
+          <attribute name="gsscore_temporarydutyroster" />
+          <attribute name="gsscore_sunday" />
+          <attribute name="gsscore_starttime" />
+          <attribute name="gsscore_secondarycoveragegroup" />
+          <attribute name="gsscore_saturday" />
+          <attribute name="gsscore_route" />
+          <attribute name="gsscore_requiretemporarydutyroster" />
+          <attribute name="gsscore_primarycoveragegroup" />
+          <attribute name="gsscore_postalcodescovered" />
+          <attribute name="gsscore_monday" />
+          <attribute name="gsscore_friday" />
+          <attribute name="gsscore_endtime" />
+          <attribute name="gsscore_coveragepattern" />
+          <attribute name="gsscore_tertiarysupervisor" />
+          <attribute name="gsscore_secondarysupervisor" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_branch" />
+          <attribute name="gsscore_routecoverageid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Route Coverages" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{c8991a7e-0f0a-e911-a972-000d3a1c10f6}</WebResourceId>
+  <Name>gsscore_RootCause16x16.png</Name>
+  <DisplayName>Root Cause entity 16x16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>2.1.7.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_RootCause16x16pngC8991A7E-0F0A-E911-A972-000D3A1C10F6</FileName>
+</WebResource>

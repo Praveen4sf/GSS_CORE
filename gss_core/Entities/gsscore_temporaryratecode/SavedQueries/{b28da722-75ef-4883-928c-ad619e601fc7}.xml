@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b28da722-75ef-4883-928c-ad619e601fc7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="gsscore_description" select="1" icon="1" preview="1">
+        <row name="gsscore_temporaryratecode" id="gsscore_temporaryratecodeid">
+          <cell name="gsscore_description" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_unionpattern" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_ratecode" width="100" />
+          <cell name="gsscore_defaultrate" width="100" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_temporaryratecode">
+          <attribute name="gsscore_description" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_description" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_ratecode" />
+          <attribute name="gsscore_defaultrate" />
+          <attribute name="gsscore_unionpattern" />
+          <attribute name="gsscore_temporaryratecodeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Temporary Rate Code Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

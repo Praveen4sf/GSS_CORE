@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e2070d04-5f5d-4e5d-9d8b-42cb176e3b8c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractunitvisibilityid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="a_886bdb952316e811a954000d3a361eb5.gsscore_name" width="100" disableSorting="1" />
+          <cell name="a_886bdb952316e811a954000d3a361eb5.gsscore_description" width="100" disableSorting="1" />
+          <cell name="a_886bdb952316e811a954000d3a361eb5.gsscore_optioncode" width="100" disableSorting="1" />
+          <cell name="gsscore_contractoptioncode" width="100" />
+          <cell name="a_5eafa9782316e811a954000d3a361eb5.gsscore_startdate" width="100" disableSorting="1" />
+          <cell name="a_5eafa9782316e811a954000d3a361eb5.gsscore_guaranteedfrequencyvisit" width="100" disableSorting="1" />
+          <cell name="gsscore_contractunitsummary" width="100" />
+          <cell name="a_886bdb952316e811a954000d3a361eb5.gsscore_casevisibility" width="100" disableSorting="1" />
+          <cell name="a_886bdb952316e811a954000d3a361eb5.gsscore_workordervisibility" width="100" disableSorting="1" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractunitvisibility">
+          <attribute name="gsscore_name" />
+          <attribute name="createdon" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_contractunitsummary" />
+          <attribute name="gsscore_contractoptioncode" />
+          <link-entity alias="a_886bdb952316e811a954000d3a361eb5" name="gsscore_contractoptioncode" from="gsscore_contractoptioncodeid" to="gsscore_contractoptioncode" link-type="outer" visible="false">
+            <attribute name="gsscore_workordervisibility" />
+            <attribute name="gsscore_optioncode" />
+            <attribute name="gsscore_name" />
+            <attribute name="gsscore_description" />
+            <attribute name="gsscore_casevisibility" />
+          </link-entity>
+          <link-entity alias="a_5eafa9782316e811a954000d3a361eb5" name="gsscore_contractunitsummary" from="gsscore_contractunitsummaryid" to="gsscore_contractunitsummary" link-type="outer" visible="false">
+            <attribute name="gsscore_startdate" />
+            <attribute name="gsscore_guaranteedfrequencyvisit" />
+          </link-entity>
+          <attribute name="gsscore_contractunitvisibilityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.77</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Unit Visibilities" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

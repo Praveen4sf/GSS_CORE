@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{18e777aa-d125-4965-9806-3bdff46a6c29}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_contractvalidationid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="ownerid" width="100" />
+          <cell name="gsscore_validated" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="gsscore_unit" width="100" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_assignedsupervisor" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_route" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_operationalstatusid" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.msdyn_account" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_genericproductnames" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_unitusage" width="100" disableSorting="1" />
+          <cell name="a_c10f5cea128be811a95e000d3a361eb5.gsscore_manufacturer" width="100" disableSorting="1" />
+          <cell name="gsscore_contractunitsummary" width="100" />
+          <cell name="a_efc83fd7128be811a95e000d3a361eb5.gsscore_contract" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_contractvalidation">
+          <attribute name="gsscore_name" />
+          <order attribute="modifiedon" descending="false" />
+          <order attribute="createdon" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_validated" />
+          <attribute name="gsscore_unit" />
+          <link-entity alias="a_c10f5cea128be811a95e000d3a361eb5" name="msdyn_customerasset" from="msdyn_customerassetid" to="gsscore_unit" link-type="outer" visible="false">
+            <attribute name="gsscore_manufacturer" />
+            <attribute name="gsscore_route" />
+            <attribute name="gsscore_unitusage" />
+            <attribute name="gsscore_genericproductnames" />
+            <attribute name="gsscore_assignedsupervisor" />
+            <attribute name="gsscore_operationalstatusid" />
+            <attribute name="msdyn_account" />
+          </link-entity>
+          <attribute name="ownerid" />
+          <attribute name="gsscore_contractunitsummary" />
+          <link-entity alias="a_efc83fd7128be811a95e000d3a361eb5" name="gsscore_contractunitsummary" from="gsscore_contractunitsummaryid" to="gsscore_contractunitsummary" link-type="outer" visible="false">
+            <attribute name="gsscore_contract" />
+          </link-entity>
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+          <attribute name="gsscore_contractvalidationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.100</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Validations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

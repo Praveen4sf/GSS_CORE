@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4eac2c2f-9e5e-4187-98ce-c2aca08609dd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_remotemonitoringdevicesid">
+          <cell name="a_7c235cac94afe711a94d000d3a361eb5.gsscore_remotedevicetype_manfr" width="100" disableSorting="1" />
+          <cell name="a_7c235cac94afe711a94d000d3a361eb5.gsscore_remotedevicetype_manfrmodel" width="100" disableSorting="1" />
+          <cell name="gsscore_remotedevicephonenumber" width="100" />
+          <cell name="gsscore_remdevicephoneprefix" width="100" />
+          <cell name="gsscore_remotedevice_cyclingtest" width="100" />
+          <cell name="gsscore_remotedevice_primary_secondary" width="100" />
+          <cell name="gsscore_remotedevicemoduleundercab" width="100" />
+          <cell name="gsscore_remotedevicevoiceinpit" width="100" />
+          <cell name="gsscore_name" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_remotedevicemanfrid" width="100" />
+          <cell name="gsscore_remotedevices_unit" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_remotemonitoringdevices">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_remotedevicevoiceinpit" />
+          <attribute name="gsscore_remdevicephoneprefix" />
+          <attribute name="gsscore_remotedevicephonenumber" />
+          <attribute name="gsscore_remotedevicemoduleundercab" />
+          <attribute name="gsscore_remotedevice_cyclingtest" />
+          <attribute name="gsscore_remotedevice_primary_secondary" />
+          <attribute name="gsscore_remotedevicemanfrid" />
+          <link-entity alias="a_7c235cac94afe711a94d000d3a361eb5" name="gsscore_remotemonitoringdevicetype" from="gsscore_remotemonitoringdevicetypeid" to="gsscore_remotedevice_manufr" link-type="outer" visible="false">
+            <attribute name="gsscore_remotedevicetype_manfrmodel" />
+            <attribute name="gsscore_remotedevicetype_manfr" />
+          </link-entity>
+          <attribute name="gsscore_remotedevices_unit" />
+          <attribute name="gsscore_remotemonitoringdevicesid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Remote Monitoring Devices" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{8da538ee-265b-4f4a-9afc-522cd9621c78}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6ade7914-e965-48c5-944e-83c8ee851ddb}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7e9898fd-ad47-4648-8d91-76652958b77d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e0227a29-2e5c-4984-8ad0-8c9031f087e1}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ava_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33300e7c-5484-52e7-8989-0623ba89544e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Azure Integration" languagecode="1033" />
+                        </labels>
+                        <control id="ava_azureintegration" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ava_azureintegration" disabled="false" uniqueid="{4ce48a58-8c19-8e84-75c8-724e8d524c3e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4D930C19-4C32-40B5-B790-1297EC4DF9D4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46846626-206a-2711-9a00-848008b65989}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Azure Integration Query" languagecode="1033" />
+                        </labels>
+                        <control id="ava_azureintegrationquery" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ava_azureintegrationquery" disabled="false" uniqueid="{e144e4d6-24c1-62c0-b954-aba897b6016d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{EF481AE7-5D3F-45B5-9788-922BE0E6E281}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bc1e8274-d620-3e90-5c9b-0c9c401ba355}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parameter Required" languagecode="1033" />
+                        </labels>
+                        <control id="ava_parameterrequired" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_parameterrequired" disabled="false" uniqueid="{70a6b036-7310-da75-ca66-7d4a531b84ca}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0120e62-e116-690e-5262-217761981be8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Merge Data with Parent" languagecode="1033" />
+                        </labels>
+                        <control id="ava_mergedatawithparent" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="ava_mergedatawithparent" disabled="false" uniqueid="{0a6edacc-b4a6-d057-2b28-7d06ca5b32dd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55c2e215-7017-d381-4ee4-418b752d8397}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Entity" languagecode="1033" />
+                        </labels>
+                        <control id="ava_entity" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_entity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57117290-a86d-1bd2-e500-a19c9d120219}" showlabel="true" locklevel="0" rowspan="13">
+                        <labels>
+                          <label description="FetchXml Query" languagecode="1033" />
+                        </labels>
+                        <control id="ava_fetchxmlquery" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ava_fetchxmlquery" disabled="false" uniqueid="{4408a4ee-a776-ecdc-d37a-a10d0e663335}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row></row>
+                    <row>
+                      <cell id="{61aeeb09-4242-5869-b890-18958abdce6d}" showlabel="true" locklevel="0" rowspan="13">
+                        <labels>
+                          <label description="Json Translation" languagecode="1033" />
+                        </labels>
+                        <control id="ava_jsontranslation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ava_jsontranslation" disabled="false" uniqueid="{c3c70355-6438-a936-5b36-04eaedec4dcd}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row></row>
+                    <row>
+                      <cell id="{be9ad1c1-1ed3-4899-a036-811e7261f8e2}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{6ade7914-e965-48c5-944e-83c8ee851ddb}_section_3" showlabel="false" showbar="false" locklevel="0" id="{446d41c0-31bd-6350-4125-a509bb34b806}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Sub-Queries" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d16d72c1-2392-1ca6-5d61-b573ae43e789}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Sub-Queries" languagecode="1033" />
+                        </labels>
+                        <control id="ava_Sub_Queries" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9a7a380b-4bd4-3d4a-edbe-39a6182e954e}">
+                          <parameters>
+                            <ViewId>{BA5A38A4-4E45-4AC4-8C0C-28C5FCD9A9B5}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>ava_ava_azureintegrationquery_ava_azureintegrationquery_AzureIntegrationQueryId</RelationshipName>
+                            <TargetEntityType>ava_azureintegrationquery</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{BA5A38A4-4E45-4AC4-8C0C-28C5FCD9A9B5}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="{6ade7914-e965-48c5-944e-83c8ee851ddb}_section_2" showlabel="true" showbar="false" locklevel="0" id="{e8ac80b9-98a8-9798-5563-50a9a56c74a3}" IsUserDefined="0" layout="varwidth" columns="1111" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Optional Parameters" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{21699661-b4d2-bc88-5633-81988c29cdb8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Parameter Name" languagecode="1033" />
+                        </labels>
+                        <control id="ava_firstparametername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_firstparametername" disabled="false" />
+                      </cell>
+                      <cell id="{179c33e6-b4ca-ca5e-dcd6-231ddd5d5d9d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Operator" languagecode="1033" />
+                        </labels>
+                        <control id="ava_firstoperator" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ava_firstoperator" disabled="false" />
+                      </cell>
+                      <cell id="{ba571b7d-ba93-eb1e-b080-8319356ba198}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Parameter Value" languagecode="1033" />
+                        </labels>
+                        <control id="ava_firstparametervalue" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_firstparametervalue" disabled="false" />
+                      </cell>
+                      <cell id="{a85aebc4-0b12-6173-95a2-b42a6eacd53c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Field Name 1" languagecode="1033" />
+                        </labels>
+                        <control id="ava_parentfieldname1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_parentfieldname1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34577b99-4e8e-5421-917d-6ebea026a435}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Second Parameter Name" languagecode="1033" />
+                        </labels>
+                        <control id="ava_secondparametername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_secondparametername" disabled="false" />
+                      </cell>
+                      <cell id="{44eb2351-250d-22a7-903e-971388877b76}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Second Operator" languagecode="1033" />
+                        </labels>
+                        <control id="ava_secondoperator" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ava_secondoperator" disabled="false" />
+                      </cell>
+                      <cell id="{ee1d02de-8930-81e7-0705-27bdc425c1b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Second Parameter Value" languagecode="1033" />
+                        </labels>
+                        <control id="ava_secondparametervalue" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_secondparametervalue" disabled="false" />
+                      </cell>
+                      <cell id="{0a90eeda-bada-23b0-35ec-451b3d661364}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent Field Name 2" languagecode="1033" />
+                        </labels>
+                        <control id="ava_parentfieldname2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ava_parentfieldname2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1cea433-e9cb-c743-1e13-b72d351bc7ad}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Static" languagecode="1033" />
+                        </labels>
+                        <control id="ava_isstatic" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="ava_isstatic" disabled="false" />
+                      </cell>
+                      <cell id="{8a16c496-6720-56b2-3ad2-0819edda4dca}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{e530ae03-0c02-7a33-118b-b5c7bbb1d1e6}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{234734e5-7ced-0904-9b71-659a171ab130}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

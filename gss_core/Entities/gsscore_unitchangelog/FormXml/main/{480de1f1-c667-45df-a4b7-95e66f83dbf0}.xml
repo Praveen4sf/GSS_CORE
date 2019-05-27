@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{480de1f1-c667-45df-a4b7-95e66f83dbf0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{59247a78-bfdb-4a15-a57e-3045ece66074}" IsUserDefined="1" labelid="{98d582f0-87c9-4110-ae04-a35ac1cef70d}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5e817a8c-4647-48c8-874c-d29b475436fd}" name="{5e817a8c-4647-48c8-874c-d29b475436fd}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" labelid="{9720767a-df55-4fe5-8a5c-c477f425b648}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a67383b3-782a-4ff4-82ae-823a785d2d9f}" showlabel="true" locklevel="0" labelid="{564a3c7a-d683-4c27-92ce-506fcaff6058}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{ad33a204-1754-eb75-6778-7a2490907bd5}" disabled="true" />
+                      </cell>
+                      <cell id="{5ac78520-1742-8cb0-b662-916ba875494a}" showlabel="true" locklevel="0" labelid="{518a8400-92c1-49b3-824d-f7392f848e01}">
+                        <labels>
+                          <label description="New Actual Installation Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newactualinstallationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_newactualinstallationdate" disabled="true" uniqueid="{883c5e0d-8a77-e873-a112-6aaec38d8269}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2cb0fa9-701c-402a-8400-2e01ffceb4a0}" showlabel="true" locklevel="1" labelid="{8e7d4f0b-3fcb-4f0d-8f58-b39d690ea894}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{28c1bc73-b2ad-bc2d-3906-340c6eedd952}" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{0c2c291e-54d0-b57b-eca8-dd91546b9a9b}" showlabel="true" locklevel="0" labelid="{dc905ff6-db83-46e2-867f-cf5046af6b11}">
+                        <labels>
+                          <label description="Unit Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_unitmodifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_unitmodifiedby" disabled="true" uniqueid="{769588de-3301-31e4-3b61-b87077199558}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4a8dd0c-bb9b-55eb-2b64-c86002636b22}" showlabel="true" locklevel="0" labelid="{f53f20e8-8962-4e87-bc30-6385e55e0c00}">
+                        <labels>
+                          <label description="Old Actual Installation Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldactualinstallationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_oldactualinstallationdate" disabled="true" uniqueid="{ebe6cdc0-5634-79c6-0775-ab263e45a2d1}" />
+                      </cell>
+                      <cell id="{6a22b5b6-4ca4-0c2c-e60d-c4c90c291877}" showlabel="true" locklevel="0" labelid="{697e4e96-ea1a-43e8-ba07-98c5c3fbb572}">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_unit" disabled="true" uniqueid="{3c0c083b-1e08-65c7-47a5-d97013b33552}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FD2FDA4C-4B7F-4A68-A2CB-C1E1C6A31C8F}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea58726d-da6b-737d-c892-c8e336ba0689}" showlabel="true" locklevel="0" labelid="{baa14beb-b8ca-40fb-938b-41f2cc109d29}">
+                        <labels>
+                          <label description="Old Unit Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldunitnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_oldunitnumber" disabled="true" uniqueid="{2cdaa6d5-be30-8ca0-6dc4-255b2279c61a}" />
+                      </cell>
+                      <cell id="{e4dc8a61-aace-0c9a-b984-374cb12e7e90}" showlabel="true" locklevel="0" labelid="{844434fb-1d9b-4ab9-813a-1f9e79699d9f}">
+                        <labels>
+                          <label description="New Unit Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newunitnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_newunitnumber" disabled="true" uniqueid="{20106c2c-d4cc-3254-ad02-bb2323950472}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{837dd5b5-581c-a559-3cc7-7ed466c157dc}" showlabel="true" locklevel="0" labelid="{2c1cc1a8-1254-4a5f-a167-cb1a89b20aa8}">
+                        <labels>
+                          <label description="Old Code Year in Place at Contract Signing" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldcodeyearinplaceatcontractsigning" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_oldcodeyearinplaceatcontractsigning" disabled="true" uniqueid="{6bca738d-b0cd-936c-2195-535042149cd5}" />
+                      </cell>
+                      <cell id="{42b6d692-92b4-9793-69aa-690bc695b4ca}" showlabel="true" locklevel="0" labelid="{fabedf94-2c87-45f8-a279-add96f98d207}">
+                        <labels>
+                          <label description="New Code Year in Place at Contract Signing" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newcodeyearinplaceatcontractsigning" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_newcodeyearinplaceatcontractsigning" disabled="true" uniqueid="{46dc79d1-91ad-82da-495e-ce616a3576b3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b0d4c35-ba80-1e2a-7ab9-0328d0724023}" showlabel="true" locklevel="0" labelid="{dbb61c7c-75bf-4c08-ae90-3b8b2c8dea01}">
+                        <labels>
+                          <label description="Old Customer Designation" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldcustomerdesignation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_oldcustomerdesignation" disabled="true" uniqueid="{9ce3e48e-851c-66ae-ade3-0105e3b40d9d}" />
+                      </cell>
+                      <cell id="{8b1e4924-54d7-2a59-4810-b7dcdba1844d}" showlabel="true" locklevel="0" labelid="{0ab07652-dc52-4ff5-99f7-580acbb01d9e}">
+                        <labels>
+                          <label description="New Customer Designation" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newcustomerdesignation" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_newcustomerdesignation" disabled="true" uniqueid="{93d9c810-dc42-aa23-9903-6b4eb59c30c9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a02c531-eeb0-6ca6-63e4-6b45670828b5}" showlabel="true" locklevel="0" labelid="{c305b196-330a-4f81-97e4-5f767ba18c1b}">
+                        <labels>
+                          <label description="Old Duty Load" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_olddutyload" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_olddutyload" disabled="true" uniqueid="{9755e88e-3046-94d1-a329-d0b138167981}" />
+                      </cell>
+                      <cell id="{8857b813-3340-a812-ed94-d66c16d4048b}" showlabel="true" locklevel="0" labelid="{ff127209-74bd-49db-a913-58ff4155e38d}">
+                        <labels>
+                          <label description="New Duty Load" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newdutyload" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_newdutyload" disabled="true" uniqueid="{81ddbd21-5ec3-46ec-b199-6195c55bcd34}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1bb972b7-d563-0eb9-551c-aaa6a351a293}" showlabel="true" locklevel="0" labelid="{d48d7626-914b-404e-ae11-6e5300bdea73}">
+                        <labels>
+                          <label description="Old Elevator Phone Types" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldelevatorphonetypes" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_oldelevatorphonetypes" disabled="true" uniqueid="{2ead951a-c1d6-bb80-5977-8c1488d88b95}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{70005938-CF75-4E31-94C7-B4B06552F5C7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{c3d74571-58be-31ac-162e-5b5b56513c33}" showlabel="true" locklevel="0" labelid="{e4de8f64-44fd-406e-9e89-77a5946154ed}">
+                        <labels>
+                          <label description="New Elevator Phone Types" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newelevatorphonetypes" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_newelevatorphonetypes" disabled="true" uniqueid="{ec67c05c-1832-133c-2da6-5258b8301a65}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{70005938-CF75-4E31-94C7-B4B06552F5C7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{122a6632-9a5a-500a-ed09-6ca4c014d212}" showlabel="true" locklevel="0" labelid="{1be685fa-a081-46c1-9574-91c0216d9a74}">
+                        <labels>
+                          <label description="Old Elite Contract?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldelitecontract" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_oldelitecontract" disabled="true" uniqueid="{039a9670-bc37-31cc-4857-047dcc89526d}" />
+                      </cell>
+                      <cell id="{175e8428-ae68-322b-43b3-0730e145490e}" showlabel="true" locklevel="0" labelid="{5f2d8187-1dfa-437f-8a51-d1492f6eb58a}">
+                        <labels>
+                          <label description="New Elite Contract?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newelitecontract" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_newelitecontract" disabled="true" uniqueid="{a4131eba-9d18-60e4-1223-68e2156ed662}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90d56d80-db98-b6ad-9848-2069909cc6be}" showlabel="true" locklevel="0" labelid="{76dff51d-db37-43ce-bd62-95cbaed595cd}">
+                        <labels>
+                          <label description="Old Car Entrance Count" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldentrancecount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_oldentrancecount" disabled="true" uniqueid="{7841a1ea-a477-9009-4832-e2075bbedca2}" />
+                      </cell>
+                      <cell id="{11689bcc-26b4-0d5b-a427-1475d1918d5a}" showlabel="true" locklevel="0" labelid="{a2e7f3b6-d986-467e-b9bc-f66f10cec4df}">
+                        <labels>
+                          <label description="New Car Entrance Count" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newentrancecount" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_newentrancecount" disabled="true" uniqueid="{e331463b-a86c-58eb-2e84-27988dae32c6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dec3d0dd-b036-6c0d-0b30-074d3e4cd690}" showlabel="true" locklevel="0" labelid="{02c2310c-f0c1-44a2-b764-e111581a54b7}">
+                        <labels>
+                          <label description="Old Inclination" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldinclination" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldinclination" disabled="true" uniqueid="{479050b6-1457-74b0-9675-24b57c8479eb}" />
+                      </cell>
+                      <cell id="{667a6b72-e98d-b696-378a-abd1b0b39b73}" showlabel="true" locklevel="0" labelid="{d3a26fbb-2a9a-4046-98ea-a0e62c1e5e2d}">
+                        <labels>
+                          <label description="New Inclination" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newinclination" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newinclination" disabled="true" uniqueid="{5460a72c-a0a7-9a5b-37c7-ce2bd610323a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{596b9758-75a6-363e-d8bd-6e61cb205e27}" showlabel="true" locklevel="0" labelid="{47364f71-1cb8-4c8a-8408-2053ea9e5bf3}">
+                        <labels>
+                          <label description="Old Last Modernization Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldlastmodernizationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_oldlastmodernizationdate" disabled="true" uniqueid="{4b2cb53a-7c86-eaa6-8d31-052407711ac8}" />
+                      </cell>
+                      <cell id="{040be016-4e4d-370e-52c2-829c7287ba35}" showlabel="true" locklevel="0" labelid="{ed041ca1-4b7e-47ae-8b36-44332d98730c}">
+                        <labels>
+                          <label description="New Last Modernization Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newlastmodernizationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_newlastmodernizationdate" disabled="true" uniqueid="{2c62bd39-a2ca-09ad-b7b3-901abb2ba9d8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38857763-714e-772d-1b81-bc9aaca7c78d}" showlabel="true" locklevel="0" labelid="{196935bb-54d4-41be-89fc-d1c42fb82301}">
+                        <labels>
+                          <label description="Old Multi Purpose Display" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldmultipurposedisplay" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldmultipurposedisplay" disabled="true" uniqueid="{ae759868-49de-cb08-0a5a-a7e2052743b4}" />
+                      </cell>
+                      <cell id="{d3ccb25e-6442-286d-3bbd-0a6dab5758be}" showlabel="true" locklevel="0" labelid="{8e2653aa-6cbb-41f7-a734-84614075a21b}">
+                        <labels>
+                          <label description="New Multi Purpose Display" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newmultipurposedisplay" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newmultipurposedisplay" disabled="true" uniqueid="{a4236329-56d6-c544-2d0e-27b21aa67d9d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20e3e2ca-5890-0457-bc90-0c817c9b7002}" showlabel="true" locklevel="0" labelid="{0dfc4681-d489-4d05-b30b-e43b8f3156f1}">
+                        <labels>
+                          <label description="Old NIS Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnisstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_oldnisstartdate" disabled="true" uniqueid="{61ad0837-e5ed-974d-2cd7-622b07b0de9c}" />
+                      </cell>
+                      <cell id="{bbc15d9a-0476-1e0e-41b7-65788a8798a1}" showlabel="true" locklevel="0" labelid="{9370c834-323a-4bc3-94dd-c7e56b82a83a}">
+                        <labels>
+                          <label description="New NIS Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnisstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_newnisstartdate" disabled="true" uniqueid="{55abb4e1-0baa-979c-9834-0bd022e4dda4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e6a12eb-9952-796b-1770-6455ac038017}" showlabel="true" locklevel="0" labelid="{9e530873-fdbb-4f33-9bdb-10b4371f1e61}">
+                        <labels>
+                          <label description="Old NIS Expiry Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnisexpirydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_oldnisexpirydate" disabled="true" uniqueid="{d07653e2-6e72-3d0b-2e98-26488887da04}" />
+                      </cell>
+                      <cell id="{b3c9267b-8b17-87dc-7947-217a24b0e83d}" showlabel="true" locklevel="0" labelid="{079721ec-ef74-466e-a33b-3e64c632ea86}">
+                        <labels>
+                          <label description="New NIS Expiry Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnisexpirydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_newnisexpirydate" disabled="true" uniqueid="{1d4c0167-cb58-40b0-aace-75a0ed5c0866}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c95ec80-2788-da91-111c-0e4e6c559e53}" showlabel="true" locklevel="0" labelid="{cfc51480-3327-46cb-bc58-84ffa903410f}">
+                        <labels>
+                          <label description="Old Nominal Speed" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnominalspeed" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_oldnominalspeed" disabled="true" uniqueid="{51247976-c1ed-b410-42bb-13749d6dcedb}" />
+                      </cell>
+                      <cell id="{76d1e11b-b7d9-6bbb-8667-44e6117bad32}" showlabel="true" locklevel="0" labelid="{55d754a7-816f-4bc2-9340-b4b7b334f5e8}">
+                        <labels>
+                          <label description="New Nominal Speed" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnominalspeed" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_newnominalspeed" disabled="true" uniqueid="{32c50e29-7b53-21b6-0d53-0549b9ca0747}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6366607-784e-275b-0de9-04e8e86352c1}" showlabel="true" locklevel="0" labelid="{19962f8c-1252-4deb-9e95-b372d4812922}">
+                        <labels>
+                          <label description="Old Model" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldmodel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_oldmodel" disabled="true" uniqueid="{42443e1d-9614-05a2-1679-aadec267442a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DC1BE046-57A1-476B-A4D7-6D6A131B6E1B}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{2c698edc-2e19-b690-1238-46e2d4b3922b}" showlabel="true" locklevel="0" labelid="{78658823-b66d-428f-9ac2-2ad0acd6b957}">
+                        <labels>
+                          <label description="New Model" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newmodel" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_newmodel" disabled="true" uniqueid="{00731089-52be-1ba8-6767-b99b4004a0e7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DC1BE046-57A1-476B-A4D7-6D6A131B6E1B}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab659de3-a290-0de1-dcc0-4847d997c8e4}" showlabel="true" locklevel="0" labelid="{10060954-d510-4acb-aed7-5e030b7b22d8}">
+                        <labels>
+                          <label description="Old Number of  Cars in Group Operation" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnumberofcarsingroupoperation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldnumberofcarsingroupoperation" disabled="true" uniqueid="{6ee21cc8-84d7-2232-326b-04849078eb5e}" />
+                      </cell>
+                      <cell id="{d8e0581e-3e89-e080-7b06-eb33759796e4}" showlabel="true" locklevel="0" labelid="{07e92e8f-dcd2-4172-80d2-6494b6ee1053}">
+                        <labels>
+                          <label description="New Number of  Cars in Group Operation" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnumberofcarsingroupoperation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newnumberofcarsingroupoperation" disabled="true" uniqueid="{92418a21-8660-ed91-062c-0449dc2071ec}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c799cb2-cea9-dd8a-6876-0e046eb10304}" showlabel="true" locklevel="0" labelid="{2a106fc0-53a4-4d3a-82f7-bb090d079945}">
+                        <labels>
+                          <label description="Old Number of Landing Doors" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnumberoflandingdoors" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_oldnumberoflandingdoors" disabled="true" uniqueid="{0198906b-bab1-e590-aac4-15ec90424e60}" />
+                      </cell>
+                      <cell id="{b3540051-44ed-0642-17e8-1d676328682b}" showlabel="true" locklevel="0" labelid="{d7635c7c-e2b5-4288-8caa-17f9f37ac0ff}">
+                        <labels>
+                          <label description="New Number of Landing Doors" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnumberoflandingdoors" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_newnumberoflandingdoors" disabled="true" uniqueid="{777d3810-0126-458b-65c3-0ab33b803edd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7b5e435-e9d3-0eb8-5032-13980c6361dc}" showlabel="true" locklevel="0" labelid="{ba7cb6b3-fd83-4e94-86d1-b1af56bbece3}">
+                        <labels>
+                          <label description="Old Pit Emergency Stop Switch" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldpitemergencystopswitch" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldpitemergencystopswitch" disabled="true" uniqueid="{eab9dd20-ce28-5ea9-b351-8a18c1a382bd}" />
+                      </cell>
+                      <cell id="{2340ecb4-c3d3-6e19-43ce-e84e1e693c14}" showlabel="true" locklevel="0" labelid="{b6eb3dd4-d344-4f58-b4bd-3382942f1ede}">
+                        <labels>
+                          <label description="New Pit Emergency Stop Switch" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newpitemergencystopswitch" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newpitemergencystopswitch" disabled="true" uniqueid="{70172ba8-2c94-ee91-39b1-d826ec366c9a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{77639721-0a5d-4325-e54d-cd658ceb63d0}" showlabel="true" locklevel="0" labelid="{a4988bbc-dae0-4d24-b0b6-6414620bb2d4}">
+                        <labels>
+                          <label description="Old Product Class" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldproductclass" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldproductclass" disabled="true" uniqueid="{4e722878-8c90-0a87-5d29-342421535c42}" />
+                      </cell>
+                      <cell id="{ac6410b8-380d-95d4-80e2-47c85eb92b5c}" showlabel="true" locklevel="0" labelid="{a3fb31a4-e596-4440-8513-230af27180e9}">
+                        <labels>
+                          <label description="New Product Class" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newproductclass" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newproductclass" disabled="true" uniqueid="{5536567a-5731-637a-d620-01ea263c7b70}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5baab2ac-4607-b6c0-a287-71589397b25e}" showlabel="true" locklevel="0" labelid="{0c327bdc-94a5-432f-8027-b403e9c65966}">
+                        <labels>
+                          <label description="Old ProductType" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldproducttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldproducttype" disabled="true" uniqueid="{7a02a91d-e595-13a5-eb8e-8cc0e5a24d18}" />
+                      </cell>
+                      <cell id="{e24966e4-76ed-c45a-cc4b-97e589c86644}" showlabel="true" locklevel="0" labelid="{d887c357-c7c3-4344-9875-4e85b4dec923}">
+                        <labels>
+                          <label description="New Product Type" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newproducttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newproducttype" disabled="true" uniqueid="{338067b9-55c1-19ca-1653-a8de695332ce}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebb668c3-8901-2402-7b67-c6ed5ba729e2}" showlabel="true" locklevel="0" labelid="{84e8b733-178c-46de-a85b-b48ca4c4cd1e}">
+                        <labels>
+                          <label description="Old Product Family" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldproductfamily" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldproductfamily" disabled="true" uniqueid="{2e39ca43-8db3-ed31-1742-9070e33718bb}" />
+                      </cell>
+                      <cell id="{6a2d2d98-4a30-4a0a-5892-8de545ca0ba3}" showlabel="true" locklevel="0" labelid="{94e437ca-8575-406e-afef-1a9eb1cf9d86}">
+                        <labels>
+                          <label description="New Product Family" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newproductfamily" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newproductfamily" disabled="true" uniqueid="{60adb140-3695-ee50-b0b9-6bcba69ec755}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89a1c289-a452-9d5d-a63c-35a735053d39}" showlabel="true" locklevel="0" labelid="{8676a627-fd14-4662-aac8-5e6d977d1f86}">
+                        <labels>
+                          <label description="Old Rebel Unit" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldrebelunit" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_oldrebelunit" disabled="true" uniqueid="{a962a368-ddbe-4c42-48a0-b48663eb3301}" />
+                      </cell>
+                      <cell id="{b747569c-e1b9-19e7-1452-2b3a6584ceb4}" showlabel="true" locklevel="0" labelid="{f584a5b1-99ea-4b2d-a382-1e2743054d8a}">
+                        <labels>
+                          <label description="New Rebel Unit" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newrebelunit" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_newrebelunit" disabled="true" uniqueid="{6de82ea2-c076-a050-6730-62895c1c432e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8d62d03-a831-509a-8063-ca57119e93e0}" showlabel="true" locklevel="0" labelid="{85ed7319-5703-400c-9d8b-63351a9194f6}">
+                        <labels>
+                          <label description="Old REM Installed?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldreminstalled" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldreminstalled" disabled="true" uniqueid="{98496c87-96b4-8363-95d3-3d2492d156ab}" />
+                      </cell>
+                      <cell id="{37ddb96b-64ae-9a02-5231-aa1207ba9705}" showlabel="true" locklevel="0" labelid="{31dd6ed7-8501-468a-b397-46bd0b6984c5}">
+                        <labels>
+                          <label description="New REM Installed?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newreminstalled" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newreminstalled" disabled="true" uniqueid="{0188109a-7de7-3bb5-adb3-ecae41e48621}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8663933e-5d29-b92e-63b9-a188ec16aac4}" showlabel="true" locklevel="0" labelid="{141e6fe6-c945-4d2d-b96d-37a112b857ba}">
+                        <labels>
+                          <label description="Old Required Visit Frequency?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldrequiredvisitfrequency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldrequiredvisitfrequency" disabled="true" uniqueid="{6829aa49-843d-31ee-e30a-07dab2b0c1c8}" />
+                      </cell>
+                      <cell id="{ee7a07a6-93d0-189a-225e-727c1b21a833}" showlabel="true" locklevel="0" labelid="{2cc0672c-c9e6-4033-8447-241e1754b4ef}">
+                        <labels>
+                          <label description="New Required Visit Frequency?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newrequiredvisitfrequency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newrequiredvisitfrequency" disabled="true" uniqueid="{dd4d4db3-4838-3674-e3a6-7db8c1706cd4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{48354562-0236-8418-66e7-489a2ee37994}" showlabel="true" locklevel="0" labelid="{6011e2f0-4e19-4947-97ef-7a774c656ed2}">
+                        <labels>
+                          <label description="Old Route" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldroute" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_oldroute" disabled="true" uniqueid="{3a8bc17e-8d36-0d21-9687-e7c4614c4b34}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AD81B2CA-9789-4465-8C56-94C10830A6ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{3241d20e-b815-88d9-9e09-e7c32c191c71}" showlabel="true" locklevel="0" labelid="{f1858651-8525-4b30-8f90-7764f5f1e9fa}">
+                        <labels>
+                          <label description="New Route" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newroute" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_newroute" disabled="true" uniqueid="{128d87c8-03d8-ab7d-3ba4-d6794a411e86}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AD81B2CA-9789-4465-8C56-94C10830A6ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc0d7c69-c324-ac85-09b8-d6ad028382d9}" showlabel="true" locklevel="0" labelid="{148c4b9b-efe4-4efe-ab65-0473054fef30}">
+                        <labels>
+                          <label description="Old Step / pallet width" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldsteppalletwidth" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldsteppalletwidth" disabled="true" uniqueid="{37eb2421-a680-b121-dee8-7ee8368cb8bc}" />
+                      </cell>
+                      <cell id="{612d38a7-2311-20ac-ab6e-2c9098c93078}" showlabel="true" locklevel="0" labelid="{7cf57985-7f7d-4652-83aa-bd0e049a39f8}">
+                        <labels>
+                          <label description="New Step / pallet width" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newsteppalletwidth" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newsteppalletwidth" disabled="true" uniqueid="{34419615-4c1b-16a0-c0b9-4765013e105b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35825c3b-b54a-c2e4-24ea-90a34ddd141a}" showlabel="true" locklevel="0" labelid="{280a9373-743b-4a29-8661-490f9eab6c18}">
+                        <labels>
+                          <label description="Old Top of Car (TOC) Sheave Guard" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldtopofcartocsheaveguard" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldtopofcartocsheaveguard" disabled="true" uniqueid="{ce617719-1b33-2d07-07a8-bb798046496e}" />
+                      </cell>
+                      <cell id="{99c9ce79-aa37-cbcc-e689-98a996c21d61}" showlabel="true" locklevel="0" labelid="{1b3caf70-8ab8-446f-b269-d036cc05c7a8}">
+                        <labels>
+                          <label description="New Top of Car (TOC) Sheave Guard" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newtopofcartocsheaveguard" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newtopofcartocsheaveguard" disabled="true" uniqueid="{ca599e14-8dce-1294-1c8b-28a8b5e27229}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e53a262c-ae9e-d7be-5529-9c9db219c518}" showlabel="true" locklevel="0" labelid="{6184b807-d96d-4798-b58c-cf3e254b1a74}">
+                        <labels>
+                          <label description="Old Top of Car Inspection Box (TOCI)" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldtopofcarinspectionboxtoci" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldtopofcarinspectionboxtoci" disabled="true" uniqueid="{dd458b23-6290-8c00-b852-3abbed67e9b1}" />
+                      </cell>
+                      <cell id="{843939c3-70b8-467c-8611-9a95737e8288}" showlabel="true" locklevel="0" labelid="{58875f87-6ac4-4913-bf64-f9adf0aa084f}">
+                        <labels>
+                          <label description="New Top of Car Inspection Box (TOCI)" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newtopofcarinspectionboxtoci" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newtopofcarinspectionboxtoci" disabled="true" uniqueid="{68d9c4ed-5633-bbeb-b600-c9d502b0ca59}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bdb5185-77bc-18ee-0559-79c7755c056e}" showlabel="true" locklevel="0" labelid="{804b5276-5248-45e1-b9e8-c2c9e9cce156}">
+                        <labels>
+                          <label description="Old Unit Usage Intensity" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldunitusageintensity" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_oldunitusageintensity" disabled="true" uniqueid="{baceb22b-40ab-d273-b617-c20518cb88a9}" />
+                      </cell>
+                      <cell id="{a884ddc0-c0aa-90c7-b885-10380b8c771b}" showlabel="true" locklevel="0" labelid="{47b30371-c9a5-4a26-9d15-b6d5ada70092}">
+                        <labels>
+                          <label description="New Unit Usage Intensity" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newunitusageintensity" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_newunitusageintensity" disabled="true" uniqueid="{e9e67395-2572-2db9-ddb7-9ee6bb1841a7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5cd5dbc6-518d-8a55-d1c5-8837b5528baa}" showlabel="true" locklevel="0" labelid="{9b054b7a-8775-4c83-bccf-490f5f277010}">
+                        <labels>
+                          <label description="Old VIP Unit?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldvipunit" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_oldvipunit" disabled="true" uniqueid="{a63d9523-735e-4761-51c5-9181b981e8c1}" />
+                      </cell>
+                      <cell id="{30a0349a-74a5-2cbb-ed7b-4b21976b3e5d}" showlabel="true" locklevel="0" labelid="{915e2a0f-de3c-4b6b-b3ac-9097c133fac7}">
+                        <labels>
+                          <label description="New VIP Unit?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newvipunit" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_newvipunit" disabled="true" uniqueid="{3011bd46-43e0-8c69-461d-298d016653d0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a5ba3570-d979-2bb0-3de5-479daaee2735}" showlabel="true" locklevel="0" labelid="{d2c0f9f9-1acc-4b7e-a0be-8edd8554bc91}">
+                        <labels>
+                          <label description="Old building" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldbuilding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_oldbuilding" disabled="true" uniqueid="{ab08d1ce-21ed-e017-2e41-936a864338bd}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{69464233-54ac-935e-594c-187969a10815}" showlabel="true" locklevel="0" labelid="{9bebece8-2c44-4ff3-a6fe-e21940071958}">
+                        <labels>
+                          <label description="New Building" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newbuilding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_newbuilding" disabled="true" uniqueid="{87820944-c053-e19a-34e7-4491a3471d76}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eec96bd4-4b10-400e-1e9a-cd42222855a6}" showlabel="true" locklevel="0" labelid="{c9449e54-ed06-4ff9-9f1a-301a88487820}">
+                        <labels>
+                          <label description="Old Number of Stops" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldnumberofstops" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_oldnumberofstops" disabled="true" uniqueid="{8756adba-8d51-ec34-2ee7-e418ea510206}" />
+                      </cell>
+                      <cell id="{81c920e1-9aab-c77e-bbc8-30c87ba2aebd}" showlabel="true" locklevel="0" labelid="{832fb4f1-0f3e-430c-ab64-274ebc0530c5}">
+                        <labels>
+                          <label description="New Number of Stops" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_newnumberofstops" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_newnumberofstops" disabled="true" uniqueid="{27d63969-9bd4-7268-0ca5-6bb214a91845}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a301ddde-1737-1ae3-a1b2-7e3d79d63e69}" showlabel="false" labelid="{d4668b2f-2aa4-4c76-973f-2403b6424dab}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{31990795-d975-cab8-9ec2-c3c916670e69}" showlabel="true" locklevel="0" labelid="{9a3604ae-c547-48ec-af5d-701736aafe45}">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" uniqueid="{d3497e78-8215-a1e5-2e0e-44c806340040}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{154cd3d9-fc81-4e4e-be5c-08b723d1fcac}" columns="111" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{b2fa6614-022a-4f0c-8e4e-98182d52f80a}" showlabel="false" labelid="{ee318366-a9a3-4622-90f6-fc9df6f1d456}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{716b7f8d-d7f1-416b-8951-2df5795dacff}" showlabel="false" labelid="{6c05c15e-9288-4739-b1fb-249873d31538}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6b50cd59-663d-0052-33ee-57c4390083cd}" showlabel="true" locklevel="0" labelid="{be0f1c67-2376-43e4-993e-0ec0a076c1ae}">
+              <labels>
+                <label description="Reviewed By Supervisor" languagecode="1033" />
+              </labels>
+              <control id="header_gsscore_reviewedbysupervisor" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_reviewedbysupervisor" disabled="false" uniqueid="{c85c52e0-9553-0ca5-7e49-27ca8d481ab7}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

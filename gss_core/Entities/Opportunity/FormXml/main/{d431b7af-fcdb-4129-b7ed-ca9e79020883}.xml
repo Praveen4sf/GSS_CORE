@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d431b7af-fcdb-4129-b7ed-ca9e79020883}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <ancestor id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
+      <hiddencontrols>
+        <data id="pricelevelid" datafieldname="pricelevelid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="statecode" datafieldname="statecode" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{b6a005fd-5964-4427-b39b-6750e1a5fa6f}" name="Tab1_summary" verticallayout="true" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{d48f3cd8-cd23-4835-9e1e-1d0caa146316}">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="30%">
+              <sections>
+                <section name="Tab1_summary_section_9" showlabel="false" showbar="false" locklevel="0" id="{eb3ae746-dde2-a324-5c2b-29b667171d40}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ce328aed-2208-1bd2-299d-d1408640c1d7}" showlabel="true" locklevel="1" labelid="{24968de5-a382-49f6-a57d-832255cb7f33}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{ca19d09a-3326-476a-6dd1-ee1060beb9a4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="1" id="{439e0732-3f3a-409d-98ba-83d3251cb64b}" showlabel="true" locklevel="0" labelid="{083f9204-3e94-4905-9bb7-5591468f26fd}">
+                        <labels>
+                          <label description="Project Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{d7801420-4c56-6681-9c03-c8260c6954a4}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a03a764e-0c70-c72b-95c2-55cb34622599}" showlabel="true" locklevel="0" labelid="{0bc5a895-973c-4a48-b321-bb3e2ce5872a}">
+                        <labels>
+                          <label description="Est. Revenue" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="estimatedvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="estimatedvalue" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b060498e-5853-4382-8ea2-26ba7883f4da}" showlabel="true" locklevel="0" labelid="{ce7aa892-342e-450c-bf43-d775d5c7243c}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" uniqueid="{97dbee6b-bcd9-a862-cedd-de14984db265}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{00000000-0000-0000-00AA-000010001002}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{033ca80d-beb6-789d-2aee-b8a63d960602}" showlabel="true" locklevel="0" labelid="{11b3a632-d3cb-4300-9cb2-5d66f5797845}">
+                        <labels>
+                          <label description="Business Stream" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_businessstream" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_businessstream" uniqueid="{78c523b1-e5bd-6bd7-0198-eb231687ca23}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8205e01-e58e-4d40-a610-4d2a9d3b678b}" showlabel="true" locklevel="1" visible="false" labelid="{6cf3c4db-6ec5-4232-8562-c61427c05dca}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{5ae7cd83-9a62-4314-b10b-2e92b4467459}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c69d917-e84e-4c9d-ba14-f7bb5bc0a51f}" showlabel="true" locklevel="0" labelid="{27ed81a0-404b-4c5e-90e1-ca507f4efca8}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" uniqueid="{6a4e0265-0a3c-b5ba-5e28-c7c502e7324e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b683ae8-9876-c120-e092-11297334d3b6}" showlabel="true" locklevel="0" labelid="{255d5bd9-1285-45ef-81e3-2beb87959a0e}">
+                        <labels>
+                          <label description="Number of Units" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_numberofunits" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_numberofunits" uniqueid="{2bec23da-445d-675e-0411-d56ad7a09745}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00db6943-332c-a475-2b7d-a4ae0a6602be}" showlabel="true" locklevel="1" labelid="{dd82557e-cefd-43b7-86b7-1ccda507169e}">
+                        <labels>
+                          <label description="Related Opportunity" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_relatedopportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_relatedopportunityid" uniqueid="{bdc2b8e4-78bb-b225-bb92-bc88739ccbc7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9EB361B4-67AC-4830-8ABF-2D29EFBAEE2C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50d133b7-925d-9a9a-5dd1-7a86415b725c}" showlabel="true" locklevel="0" labelid="{adccbae2-e78c-4b6d-90f3-e0e2fbda305e}">
+                        <labels>
+                          <label description="Renegotiation Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_renegotiationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_renegotiationtype" uniqueid="{94bdb88b-9be3-d23c-8730-59d152e262b8}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="40%">
+              <sections></sections>
+            </column>
+            <column width="30%">
+              <sections></sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{9b4c804b-e760-8e4b-ac62-e05b1313beeb}" name="Tab6_fieldservice" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" visible="false" labelid="{9b2649f9-4470-4c8a-9384-a66a4647b04d}">
+          <labels>
+            <label description="Field Service" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="Tab6_fieldservice_section_6" showlabel="false" showbar="false" locklevel="0" id="{711d7aed-a50a-e2d1-1a6c-325a638c24b0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{D96BA356-1581-46E0-937C-49033D55E3A2}" labelid="{0c417b0b-2678-4105-bd51-69477b8706f1}">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totalamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0B8DF861-AE32-4C79-9C4E-2ECAA9F74712}" labelid="{14824f9e-6ca1-45d6-9b4c-67dda76fea0f}">
+                        <labels>
+                          <label description="Revenue" languagecode="1033" />
+                        </labels>
+                        <control id="isrevenuesystemcalculated" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="isrevenuesystemcalculated" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba131dc7-aa7c-4d8b-9c94-421ed8a7ddaf}" labelid="{eca7b177-1073-40df-9947-8340d9346026}">
+                        <labels>
+                          <label description="Price List" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setAdditionalParams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.pricelevelid_setadditionalparams" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="1191cc10-3daa-4368-9615-e3fb183f2189" enabled="true" passExecutionContext="true">
+                                <dependencies>
+                                  <dependency id="transactioncurrencyid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="pricelevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pricelevelid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d8279a4a-3247-2bdd-50ab-c4887326b7ad}" showlabel="true" locklevel="0" labelid="{9b711169-752d-4367-9bdd-e48a76a10f94}">
+                        <labels>
+                          <label description="Est. Revenue" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="estimatedvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="estimatedvalue" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections></sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ee909091-5a89-403e-bf82-f34512080f08}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{e8813fe3-3ad9-4afd-94c2-52e8d1627a59}" labelid="{4efd4a12-100d-4b74-8b73-854e64280235}">
+              <labels>
+                <label description="Est. Conclusion Date" languagecode="1033" />
+              </labels>
+              <control id="header_estimatedclosedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="estimatedclosedate" uniqueid="{149155d7-64c8-329b-6b4e-890042e1603a}" />
+            </cell>
+            <cell id="{4343680f-7e56-4968-90fe-814e52f6e2a7}" labelid="{6d3def5e-5c98-4c1f-9530-ea2796839828}">
+              <labels>
+                <label description="Est. Revenue" languagecode="1033" />
+              </labels>
+              <control id="header_estimatedvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="estimatedvalue" uniqueid="{e63b4b9c-d369-e651-d347-1e8b4a38416e}" />
+            </cell>
+            <cell id="{1b0c7359-2561-9e32-7687-a77ace66a6d4}" showlabel="true" locklevel="0" labelid="{bead9796-f30f-4cb4-a4a7-7cde56c23b34}">
+              <labels>
+                <label description="Probability" languagecode="1033" />
+              </labels>
+              <control disabled="false" id="header_gsscore_probability" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_probability" uniqueid="{75abe56e-edcb-115a-08a2-48abc3343334}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                  <DisableQuickFind>false</DisableQuickFind>
+                  <DisableViewPicker>false</DisableViewPicker>
+                  <DefaultViewId>{DB72339D-4A72-4B95-A1CF-D5047D9BC67E}</DefaultViewId>
+                  <AllowFilterOff>false</AllowFilterOff>
+                </parameters>
+              </control>
+            </cell>
+            <cell id="{187125a8-356e-2374-6180-e0353b015833}" showlabel="true" locklevel="0" labelid="{3ec77e62-0607-46b4-b384-d88a45905349}">
+              <labels>
+                <label description="Est. Incentive Amount" languagecode="1033" />
+              </labels>
+              <control disabled="false" id="header_gsscore_estincentiveamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_estincentiveamount" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.OpportunityMainSystemLibraryWebResource.Form_onload" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="228e5887-18c6-4d90-8d6e-bae09af2d977" enabled="true">
+              <dependencies>
+                <dependency id="estimatedvalue" />
+                <dependency id="isrevenuesystemcalculated" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" attribute="isrevenuesystemcalculated" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.isrevenuesystemcalculated_onchange" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="3b6c5880-6469-48bc-9642-f5350374785b" enabled="true">
+              <dependencies>
+                <dependency id="estimatedvalue" />
+                <dependency id="totalamount" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="transactioncurrencyid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.transactioncurrencyid_onchange" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="151544F6-720A-4606-820D-60E0DB0D2606" enabled="true">
+              <dependencies>
+                <dependency id="pricelevelid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onrecordselect" application="false" active="false" relationship="" control="opportunityproductsGrid">
+          <Handlers>
+            <Handler functionName="Mscrm.onRecordSelect" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="{77823148-e9b0-4027-5315-ba3dabe77bba}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <Navigation>
+        <NavBar>
+          <NavBarItem Icon="$webresource:iv_/images/insights_32px.png" Url="$webresource:iv_/webpages/detail_mashup.htm?data=solutionVersion%3D4.2%26crm_version%3Dv140" Id="navLink{ea350d82-dc69-b315-1b4b-5dec1cc2dc74}" Area="Info" Sequence="0" PassParams="1">
+            <Titles>
+              <Title LCID="1033" Text="Insights" />
+            </Titles>
+          </NavBarItem>
+          <NavBarByRelationshipItem RelationshipName="Opportunity_SharepointDocument" Sequence="1" Area="Info" Id="navSPDocuments">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProducts" Sequence="2" Area="Info" Id="navProducts">
+            <Titles>
+              <Title LCID="1033" Text="Products" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Opportunity_ActivityPointers" Id="navActivities" Icon="/_imgs/ico_18_act.gif" Sequence="20" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_sales_orders" Sequence="21" Area="Sales" Id="navOrders" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Orders" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_customer_opportunity_roles" Id="navRelationship" TitleResourceId="Tab_Label_Relationship" Area="Info" Show="false" Sequence="22">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadCustomerOpportunityRole" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Relationships" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_invoices" Sequence="30" Area="Sales" Id="navInvoices" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Invoices" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunitycompetitors_association" Sequence="40" Area="Sales" Id="navComp" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Competitors" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/WorkOrder_32.png" RelationshipName="msdyn_opportunity_msdyn_workorder" Sequence="1000" Client="Web" Area="Service" Id="nav_msdyn_opportunity_msdyn_workorder">
+            <Titles>
+              <Title LCID="1033" Text="Work Orders" />
+              <Title LCID="1025" Text="أوامر العمل" />
+              <Title LCID="1026" Text="Работни поръчки" />
+              <Title LCID="1027" Text="Ordres de treball" />
+              <Title LCID="1029" Text="Pracovní příkazy" />
+              <Title LCID="1030" Text="Arbejdsordrer" />
+              <Title LCID="1031" Text="Arbeitsaufträge" />
+              <Title LCID="1032" Text="Παραγγελίες εργασίας" />
+              <Title LCID="3082" Text="Órdenes de trabajo" />
+              <Title LCID="1061" Text="Töökorraldused" />
+              <Title LCID="1069" Text="Lan-eskaerak" />
+              <Title LCID="1035" Text="Työtilaukset" />
+              <Title LCID="1036" Text="Ordres de travail" />
+              <Title LCID="1110" Text="Pedidos de traballo" />
+              <Title LCID="1037" Text="הזמנות עבודה" />
+              <Title LCID="1081" Text="कार्य ऑर्डर" />
+              <Title LCID="1050" Text="Radni nalozi" />
+              <Title LCID="1038" Text="Munkarendelések" />
+              <Title LCID="1057" Text="Perintah Kerja" />
+              <Title LCID="1040" Text="Ordini di lavoro" />
+              <Title LCID="1041" Text="作業指示書" />
+              <Title LCID="1087" Text="Жұмысқа тапсырыстар" />
+              <Title LCID="1042" Text="작업 주문" />
+              <Title LCID="1063" Text="Darbo užsakymai" />
+              <Title LCID="1062" Text="Darba pasūtījumi" />
+              <Title LCID="1086" Text="Pesanan Kerja" />
+              <Title LCID="1044" Text="Arbeidsordrer" />
+              <Title LCID="1043" Text="Werkorders" />
+              <Title LCID="1045" Text="Zlecenia pracy" />
+              <Title LCID="1046" Text="Ordens de Serviço" />
+              <Title LCID="2070" Text="Ordens de Intervenção" />
+              <Title LCID="1048" Text="Comenzi de lucru" />
+              <Title LCID="1049" Text="Заказы на работу" />
+              <Title LCID="1051" Text="Objednávky prác" />
+              <Title LCID="1060" Text="Delovni nalogi" />
+              <Title LCID="3098" Text="Радни налози" />
+              <Title LCID="2074" Text="Radni nalozi" />
+              <Title LCID="1053" Text="Arbetsorder" />
+              <Title LCID="1054" Text="ใบสั่งงาน" />
+              <Title LCID="1055" Text="İş Emirleri" />
+              <Title LCID="1058" Text="Наряди-замовлення" />
+              <Title LCID="1066" Text="Lệnh Sản xuất" />
+              <Title LCID="2052" Text="工作订单" />
+              <Title LCID="3076" Text="工單" />
+              <Title LCID="1028" Text="工單" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="9000" Area="Info" Id="navDocument">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Workflows" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Id="navConnections" Sequence="9600" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Area="Info" Id="navAudit" Sequence="9601">
+            <Titles>
+              <Title LCID="1033" Text="Audit History" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Dialog Sessions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_opportunity_gsscore_approvalrequest_Opportunity" Sequence="10005" Area="Info" Id="nav_gsscore_opportunity_gsscore_approvalrequest_Opportunity">
+            <Titles>
+              <Title LCID="1033" Text="Approval Requests" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_opportunity_gsscore_contractatrisk" Sequence="10007" Area="Info" Id="nav_gsscore_opportunity_gsscore_contractatrisk">
+            <Titles>
+              <Title LCID="1033" Text="Contracts At Risk" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_opportunity_gsscore_opportunityunits_Opportunityid" Sequence="10009" Area="Info" Id="nav_gsscore_opportunity_gsscore_opportunityunits_Opportunityid">
+            <Titles>
+              <Title LCID="1033" Text="Opportunity Units" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_opportunity_gsscore_unitsatrisk_CancellationAlert" Sequence="10010" Area="Info" Id="nav_gsscore_opportunity_gsscore_unitsatrisk_CancellationAlert">
+            <Titles>
+              <Title LCID="1033" Text="Units at Risk" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gssemea_opportunity_gssemea_multipleentryproject_PrimaryOpportunity" Sequence="10011" Area="Info" Id="nav_gssemea_opportunity_gssemea_multipleentryproject_PrimaryOpportunity">
+            <Titles>
+              <Title LCID="1033" Text="MEP" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_quotes" Id="navQuotes" Show="true" Sequence="10013" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Quotes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Field Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:Sales/Opportunity/Opportunity_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <formparameters>
+        <querystringparameter name="iv_onLoadAction" type="SafeString" />
+      </formparameters>
+      <footer id="{abb870c1-d201-4151-8fb7-086b4c9f50bc}" columns="11" labelwidth="50" celllabelposition="Left" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4452adc8-a882-bc9e-68d8-e25db791de15}" showlabel="true" locklevel="0" labelid="{75ce8e81-759b-46c9-a7ca-a4d7a517d9f5}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" uniqueid="{13a08b76-6209-84e9-a023-8d754e4154a4}" />
+            </cell>
+            <cell id="{4a366c30-a249-72e3-8ab6-d294eb7be4bb}" showlabel="true" locklevel="0" labelid="{077bf57c-a032-4972-903d-1c9a8c4166eb}">
+              <labels>
+                <label description="Close Type" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="footer_gsscore_closetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_closetype" uniqueid="{3d3d1a4b-5ddc-9514-7d00-3b3e1e5c50e0}" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions FallbackForm="true" Order="8">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{114f87be-dd6d-4aa0-9216-89bb218e2bcf}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="productid" select="1" preview="1" icon="1">
+        <row name="result" id="salesorderdetailid">
+          <cell name="productid" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="salesorderdetail">
+          <attribute name="productid" />
+          <order attribute="productid" descending="false" />
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="productid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="salesorderdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Contract Lines" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

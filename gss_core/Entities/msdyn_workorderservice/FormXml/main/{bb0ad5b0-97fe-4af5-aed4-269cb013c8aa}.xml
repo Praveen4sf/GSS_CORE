@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{bb0ad5b0-97fe-4af5-aed4-269cb013c8aa}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{99b227e5-7cc8-4927-bbe2-99e8308cad28}" IsUserDefined="1" labelid="{7ea996f3-6ff4-46d0-84e5-ca673d41d308}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="true" IsUserDefined="0" id="{86f4c4a7-aaf7-4a28-93db-e04f6d1f89d2}" name="{86f4c4a7-aaf7-4a28-93db-e04f6d1f89d2}" columns="11" locklevel="0" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{8d42da6c-f116-477e-88de-79085de76baa}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2c02718a-2bdb-6dd6-ab07-c96a62853dd4}" showlabel="true" locklevel="0" labelid="{66bdb509-b8e6-4cbc-941d-c9bf84d147fb}">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_service" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_service" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{2C824B6F-3B48-E111-93B3-000C2959F9B8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{8BA625B2-6A2A-4735-BAB2-0C74AE8442A4}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{b1d965db-ad54-126e-260b-eeb17c78d3c6}" showlabel="true" locklevel="0" labelid="{050454b4-e743-4202-891f-a20ad585082f}">
+                        <labels>
+                          <label description="Price List" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_pricelist" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_pricelist" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{EE499892-35E1-4D07-A1B7-BB69FE9BFD42}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b155e74-0969-9be0-72dc-9c8045485a18}" showlabel="true" locklevel="0" labelid="{7a90245e-6700-423b-977f-89c597c55606}">
+                        <labels>
+                          <label description="Unit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_unit" disabled="false" />
+                      </cell>
+                      <cell id="{b357ad45-1bcd-edc1-66a7-30cdd2bb2cc5}" showlabel="true" locklevel="0" labelid="{3b1db3ab-0673-4a34-9d99-c281f4f7f410}">
+                        <labels>
+                          <label description="Line Status" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_linestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_linestatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8980abcc-546d-3ca0-133b-a42676208364}" showlabel="true" locklevel="0" labelid="{1b41b445-dbcd-4365-bcef-b5e70f9f7791}">
+                        <labels>
+                          <label description="Taxable" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_taxable" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_taxable" disabled="false" />
+                      </cell>
+                      <cell id="{cd88a948-b9ed-14bc-bb56-920d5cbe262a}" showlabel="false" labelid="{d1dde991-0d02-4fb2-94a6-61e42407c4c6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{99b227e5-7cc8-4927-bbe2-99e8308cad28}_section_2" showlabel="true" showbar="true" locklevel="0" id="{1e153c91-e642-4bde-d34c-be771200858c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{aafa31a2-15a5-4149-8c51-10e8bf35bb9b}">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b062db70-059e-0e84-4880-0661d5aa6317}" showlabel="true" locklevel="0" rowspan="3" labelid="{725e5f90-5e47-4f8e-9198-a893813956f1}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{b055d012-7254-9ad3-7169-0a8c84892acb}" showlabel="true" locklevel="0" rowspan="3" labelid="{5a9e8b7c-aa3c-42a4-b089-d05020dca026}">
+                        <labels>
+                          <label description="Internal Description" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_internaldescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msdyn_internaldescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_estimateinfo" id="{3229c555-58a5-9a50-3d6e-518c160a1c4e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{dc0ea215-71d3-4e2b-b098-4026c2108678}">
+          <labels>
+            <label description="Estimate Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="f1tab_3_section_estimatesaleamt" showlabel="false" showbar="false" locklevel="0" id="{2c07162c-0a5b-5670-be0d-d5b55ac0216b}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{541ff445-e316-40f1-bf79-291cf80f3462}">
+                  <labels>
+                    <label description="Sale Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb308a61-681a-4046-ae62-ec8e570d284a}" showlabel="true" locklevel="0" labelid="{98364283-45b2-49e7-9287-dd88cd19c49f}">
+                        <labels>
+                          <label description="Estimate Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimateduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_estimateduration" disabled="false" />
+                      </cell>
+                      <cell id="{97b01c8c-1595-b662-3d35-3d7a60a4648d}" showlabel="true" locklevel="0" labelid="{7ab731b1-ee60-4386-993c-f7eb7d0ee6de}">
+                        <labels>
+                          <label description="Estimate Unit Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimateunitamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimateunitamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d6b09c0-d1dd-855c-c9d1-79910a63b04b}" showlabel="true" locklevel="0" labelid="{52e4a653-980e-46f2-b4b2-247ba326b920}">
+                        <labels>
+                          <label description="Estimate Subtotal" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatesubtotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatesubtotal" disabled="true" uniqueid="{9a68bb8e-a8e6-30ea-e7db-4e4d49333201}" />
+                      </cell>
+                      <cell id="{8de88781-8985-2749-0bcb-2259db14d478}" showlabel="false" userspacer="true" labelid="{846fa094-28a8-4b82-9e02-1ed671962785}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{962ab24d-038b-3025-1a78-d59580b9ab7b}" showlabel="true" locklevel="0" labelid="{883acda0-f50f-4047-92d3-2d3986bd1141}">
+                        <labels>
+                          <label description="Estimate Discount %" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatediscountpercent" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="msdyn_estimatediscountpercent" disabled="false" />
+                      </cell>
+                      <cell id="{8b2de86c-221b-7e6e-e1c9-6ea7418e0390}" showlabel="true" locklevel="0" labelid="{8fc51c92-6704-4d0e-82d7-245fc4552207}">
+                        <labels>
+                          <label description="Estimate Discount Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatediscountamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatediscountamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec8b367e-6b73-1ec7-2ec0-598b09e2e770}" showlabel="true" locklevel="0" labelid="{50751002-59c1-46dc-97b9-53561f36afd3}">
+                        <labels>
+                          <label description="Estimate Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatetotalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatetotalamount" disabled="true" uniqueid="{40b1ecc8-b154-3dd5-eae8-a4beae233777}" />
+                      </cell>
+                      <cell id="{36e4d5c1-ed5a-667b-d9dc-76ea963926ce}" showlabel="false" labelid="{a24ea12d-7f5b-4ee1-8cac-a3f4ad6c0322}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="f1tab_estimateinfo_section_cost" showlabel="true" showbar="true" locklevel="0" id="{58a816c3-284e-d225-61c3-9597530b5a71}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{e89ffb25-8eb2-44a6-aafa-f802c98bae14}">
+                  <labels>
+                    <label description="Cost Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c871581c-e278-6360-4219-884939589e28}" showlabel="true" locklevel="0" labelid="{014f9d08-b987-4f4e-900e-705364ebf4a8}">
+                        <labels>
+                          <label description="Estimate Unit Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimateunitcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimateunitcost" disabled="false" />
+                      </cell>
+                      <cell id="{41b2841e-d50b-4ee1-972d-222037d3dd98}" showlabel="true" locklevel="0" labelid="{b0f05a8c-af24-4cc4-a282-7589d280e64e}">
+                        <labels>
+                          <label description="Estimate Total Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatetotalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_estimatetotalcost" disabled="true" uniqueid="{ccdbe3b5-bb0c-3195-6ec5-8a570dd22b13}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_durationsaleamt" id="{53b18074-5bd0-cbe9-c216-35ee9e9b32b3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{9c7d2551-0f8f-4736-a0a7-ad22eccd5b65}">
+          <labels>
+            <label description="Duration &amp; Sale Amount" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="true" showbar="true" locklevel="0" id="{9d4c8e7c-4282-9e83-8332-c8c9187ad6b2}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{209fb6e0-4d80-47bc-907b-a0b125dd539a}">
+                  <labels>
+                    <label description="Sale Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9943c155-07b8-8259-64e9-16217bb45740}" showlabel="true" locklevel="0" labelid="{567e8dba-d0d9-4ed1-a9d0-ce69423cab0c}">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_duration" disabled="false" />
+                      </cell>
+                      <cell id="{997c2739-520b-60e6-e0c7-a9db66ca2d18}" showlabel="true" locklevel="0" labelid="{1d06fccd-4c65-40e2-84bd-cb08b28dac0e}">
+                        <labels>
+                          <label description="Duration To Bill" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_durationtobill" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_durationtobill" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80a19d97-4d25-d034-ed75-ba93a50e54dc}" showlabel="true" locklevel="0" labelid="{238aebe7-f041-466a-bad9-bbedf32599d6}">
+                        <labels>
+                          <label description="Unit Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_unitamount" disabled="false" />
+                      </cell>
+                      <cell id="{0d99d615-37e6-20d8-981c-53023344d973}" showlabel="true" locklevel="0" labelid="{82ff88bf-456d-48e6-8991-b0b62d29bff0}">
+                        <labels>
+                          <label description="Subtotal" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_subtotal" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_subtotal" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a7a7027-d044-611a-e2ac-8c7ece611eb4}" showlabel="true" locklevel="0" labelid="{bb360073-5577-4b67-a2ca-8ad10e01471b}">
+                        <labels>
+                          <label description="Discount %" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_discountpercent" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="msdyn_discountpercent" disabled="false" />
+                      </cell>
+                      <cell id="{6a896016-becc-8c79-2408-3cd88c7e8170}" showlabel="true" locklevel="0" labelid="{6cbfe73d-6c2d-43fc-b9a2-059a674524a5}">
+                        <labels>
+                          <label description="Discount Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_discountamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_discountamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8aceb03-c913-e085-9708-ad966b97ab85}" showlabel="true" locklevel="0" labelid="{3979a662-e90e-4d7f-9a18-f7ab79e7e9c9}">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalamount" disabled="true" />
+                      </cell>
+                      <cell id="{c915730e-3bb3-ca11-1a50-0537b8b73688}" showlabel="false" labelid="{5ddcc484-6de7-48c0-ae50-a196a5c290dd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="f1tab_durationsaleamt_section_2" showlabel="true" showbar="true" locklevel="0" id="{7434cdb8-919b-5692-9e3d-bda0c338792c}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{ff7c6bca-c66f-4551-ad42-f43e789d0779}">
+                  <labels>
+                    <label description="Minimum Charge" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{415b1b9c-a575-91d2-ec97-16670478d0ca}" showlabel="true" locklevel="0" labelid="{aa2f0c14-1472-4209-9250-71281f7f26d5}">
+                        <labels>
+                          <label description="Minimum Charge Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_minimumchargeduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_minimumchargeduration" disabled="false" />
+                      </cell>
+                      <cell id="{8c90d001-a7c7-4006-2c69-c7b975b7b189}" showlabel="true" locklevel="0" labelid="{0f5bf62e-1c25-4774-a6a9-f53cc7f2fb03}">
+                        <labels>
+                          <label description="Minimum Charge Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_minimumchargeamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_minimumchargeamount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_relatesto" id="{44b3363b-b0b6-e0ce-b2ad-a11951c489c9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{728660d9-7738-49a2-b79b-d5a7a9a1a243}">
+          <labels>
+            <label description="Service Relates To" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{b76c5bbb-cbe9-d007-464a-584280bc75a9}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{af94f188-be8c-44d9-86da-227124d56e94}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{262e9b57-50e9-c982-872d-150bc12ad636}" showlabel="true" locklevel="0" labelid="{a26ad86c-507a-497d-923f-0f259f7b15c2}">
+                        <labels>
+                          <label description="Work Order" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorder" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{D978C540-4718-E211-AEA8-000C2959F9B8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <AvailableViewIds>{C0C4FD32-F265-497D-BFAE-546C88D5BB3B},{D978C540-4718-E211-AEA8-000C2959F9B8}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{e2baa898-b519-200b-35b8-e833642b021b}" showlabel="true" locklevel="0" labelid="{cb4b1efb-c523-4a66-ab60-7e3b989ac862}">
+                        <labels>
+                          <label description="Booking" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_booking" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_booking" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71e7502a-e69e-6c4c-7b06-94495d0581b5}" showlabel="true" locklevel="0" labelid="{e1a5be2a-eee0-4c4b-b0b2-1034a7ae1d22}">
+                        <labels>
+                          <label description="Work Order Incident" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workorderincident" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorderincident" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{47F96161-081E-4885-B167-5267B44358E6}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <FilterRelationshipName>msdyn_msdyn_workorder_msdyn_workorderincident_WorkOrder</FilterRelationshipName>
+                            <DependentAttributeName>msdyn_workorderservice.msdyn_workorder</DependentAttributeName>
+                            <DependentAttributeType>msdyn_workorder</DependentAttributeType>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{6517b410-2486-ce0d-3c62-0bc40e449e5b}" showlabel="true" locklevel="0" labelid="{e30e3d64-179e-4625-8ed9-41f09f80fa06}">
+                        <labels>
+                          <label description="Customer Asset" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_customerasset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_customerasset" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d44c84ed-772c-82e8-bece-e09e092b70a6}" showlabel="true" locklevel="0" labelid="{e34bfe89-f740-4ae0-be76-c253e051514a}">
+                        <labels>
+                          <label description="Agreement Booking Service" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_agreementbookingservice" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_agreementbookingservice" disabled="true">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{63AD0E6B-B0E9-4BB5-9A89-56C8A052C0E2}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{955aab0d-62ad-5bb6-38c0-c87696a04c58}" showlabel="false" labelid="{0092697b-6db2-4fcb-b0ab-5d115349ee63}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_actualcost" id="{8db487a5-1ad1-92b7-b98b-7c3aba038d63}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{bca554db-16c7-42f4-a87b-3795d843d8f4}">
+          <labels>
+            <label description="Actual Cost" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{c9bbd9db-077d-70d9-5971-48ad5d8365b1}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{6496c42c-05ca-4f6a-9f00-19e558df6328}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6cb26805-68ca-6300-be41-195dbbd18c62}" showlabel="true" locklevel="0" labelid="{f96183b6-3716-4fb1-a018-f5c45f5c5bfd}">
+                        <labels>
+                          <label description="Unit Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_unitcost" disabled="false" />
+                      </cell>
+                      <cell id="{70cb23ba-00b3-c579-696b-a8b41367ae30}" showlabel="true" locklevel="0" labelid="{04ca4026-a04f-40b7-807e-7f3800fb2dbd}">
+                        <labels>
+                          <label description="Additional Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_additionalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_additionalcost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec725976-5c11-70d2-d01e-21db0d08c29a}" showlabel="true" locklevel="0" labelid="{7e1b3a9f-0174-40ba-bf22-d56154a9d707}">
+                        <labels>
+                          <label description="Commission Costs" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_commissioncosts" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_commissioncosts" disabled="false" />
+                      </cell>
+                      <cell id="{07d7e973-ad73-5644-0d9d-99b56bd67818}" showlabel="true" locklevel="0" labelid="{b08c75d5-da1d-428d-9e22-2af0f37b81b4}">
+                        <labels>
+                          <label description="Total Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalcost" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_other" id="{ed147d31-9949-e218-d651-531b98c187a5}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{dc4eb223-7a0b-4bb8-8d7b-3529759bdf18}">
+          <labels>
+            <label description="Other" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{d02de143-bbcb-5b0b-b2c7-a6453260a771}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{6c37b67f-55bf-4904-8ca2-19e5757acbb0}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{311c374a-a5a6-4d75-a4e5-5ce856bcc904}" labelid="{e9cf6916-ed82-4a13-9fd8-c8ec43dc9eee}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" />
+                      </cell>
+                      <cell id="{80671828-2ac5-4e72-9d5e-5c6c24519178}" labelid="{20f9f2bd-e8c3-45c0-88e6-1af58295d289}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a9b5457-9745-317a-b4a8-d41b9ea1c678}" showlabel="true" locklevel="0" labelid="{55cb87b5-6743-429c-8792-e914c7bcd268}">
+                        <labels>
+                          <label description="Line Order" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_lineorder" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msdyn_lineorder" disabled="false" />
+                      </cell>
+                      <cell id="{029e6e64-3a75-b5e1-bda8-e75471aa48b5}" showlabel="false" labelid="{2bcb67d3-561a-4313-92ac-d75084df9fbd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{693669d8-b596-4bca-bfab-65db2dc87ea0}" IsUserDefined="0" expanded="true" labelid="{52dc3c36-f358-4919-8070-9a4263e97fc4}">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{a812321b-a15e-4efd-b4ed-e3b7f63c3ba8}" IsUserDefined="0" height="auto" name="{a812321b-a15e-4efd-b4ed-e3b7f63c3ba8}" columns="11" locklevel="0" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" labelid="{ba1ad4b6-3ef3-4d41-ac65-c63893ba129c}">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6d7708b9-465d-3047-2b7d-4b5637b073c7}" showlabel="true" locklevel="0" visible="false" labelid="{53ceb011-42b1-46c6-bdd2-2ecd0ea0fde4}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{a6e9b6ac-a509-1808-64ea-754a4cb53ca7}" showlabel="false" labelid="{86fbbf89-6959-4d0c-98e6-66b753ca33e6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{9d7da119-24d8-429a-b491-81c9173faadd}" labelid="{d1c65241-9795-4dee-b77f-42b513dbee58}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{52539bf9-de93-4428-b23e-a9697bb21c93}" columns="1" labelwidth="155" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{0776c3d6-6838-496d-bbe3-cdd45daa7c32}" labelid="{c5ecec9f-7b87-4880-a22d-b77aabde784d}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions">
+            <Titles>
+              <Title LCID="1033" Text="Real Time Processes" />
+              <Title LCID="1025" Text="عمليات في الوقت الحقيقي" />
+              <Title LCID="1026" Text="Процеси в реално време" />
+              <Title LCID="1027" Text="Processos en temps real" />
+              <Title LCID="1029" Text="Procesy v reálném čase" />
+              <Title LCID="1030" Text="Processer i realtid" />
+              <Title LCID="1031" Text="Echtzeitprozesse" />
+              <Title LCID="1032" Text="Διαδικασίες πραγματικού χρόνου" />
+              <Title LCID="3082" Text="Procesos en tiempo real" />
+              <Title LCID="1061" Text="Reaalajalised protsessid" />
+              <Title LCID="1069" Text="Denbora errealeko prozesuak" />
+              <Title LCID="1035" Text="Reaaliaikaiset prosessit" />
+              <Title LCID="1036" Text="Processus en temps réel" />
+              <Title LCID="1110" Text="Procesos en tempo real" />
+              <Title LCID="1037" Text="תהליכים בזמן אמת" />
+              <Title LCID="1081" Text="रीयल-टाइम प्रक्रियाएँ" />
+              <Title LCID="1050" Text="Procesi u stvarnom vremenu" />
+              <Title LCID="1038" Text="Valós idejű folyamatok" />
+              <Title LCID="1057" Text="Proses Real-Time" />
+              <Title LCID="1040" Text="Processi in tempo reale" />
+              <Title LCID="1041" Text="リアルタイム プロセス" />
+              <Title LCID="1087" Text="Ағымдағы уақыттағы процестер" />
+              <Title LCID="1042" Text="실시간 프로세스" />
+              <Title LCID="1063" Text="Procesai tikruoju laiku" />
+              <Title LCID="1062" Text="Reāllaika procesi" />
+              <Title LCID="1086" Text="Proses Masa Nyata" />
+              <Title LCID="1044" Text="Sanntidsprosesser" />
+              <Title LCID="1043" Text="Realtime-processen" />
+              <Title LCID="1045" Text="Procesy w czasie rzeczywistym" />
+              <Title LCID="1046" Text="Processos em Tempo Real" />
+              <Title LCID="2070" Text="Processos em Tempo Real" />
+              <Title LCID="1048" Text="Procese în timp real" />
+              <Title LCID="1049" Text="Процессы в реальном времени" />
+              <Title LCID="1051" Text="Procesy v reálnom čase" />
+              <Title LCID="1060" Text="Procesi v realnem času" />
+              <Title LCID="3098" Text="Процеси у реалном времену" />
+              <Title LCID="2074" Text="Procesi u realnom vremenu" />
+              <Title LCID="1053" Text="Realtidsprocesser" />
+              <Title LCID="1054" Text="กระบวนการในเวลาจริง" />
+              <Title LCID="1055" Text="Gerçek Zamanlı İşlemler" />
+              <Title LCID="1058" Text="Процеси в режимі реального часу" />
+              <Title LCID="1066" Text="Quy trình trong Thời gian Thực" />
+              <Title LCID="2052" Text="实时流程" />
+              <Title LCID="3076" Text="即時程序" />
+              <Title LCID="1028" Text="即時程序" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1025" Text="عامة" />
+              <Title LCID="1026" Text="Общи" />
+              <Title LCID="1027" Text="Comú" />
+              <Title LCID="1029" Text="Společné" />
+              <Title LCID="1030" Text="Almindelig" />
+              <Title LCID="1031" Text="Allgemein" />
+              <Title LCID="1032" Text="Κοινά" />
+              <Title LCID="3082" Text="Común" />
+              <Title LCID="1061" Text="Ühine" />
+              <Title LCID="1069" Text="Ohikoak" />
+              <Title LCID="1035" Text="Yhteiset" />
+              <Title LCID="1036" Text="Éléments communs" />
+              <Title LCID="1110" Text="Común" />
+              <Title LCID="1037" Text="פריטים נפוצים" />
+              <Title LCID="1081" Text="सामान्य" />
+              <Title LCID="1050" Text="Uobičajeno" />
+              <Title LCID="1038" Text="Általános" />
+              <Title LCID="1057" Text="Umum" />
+              <Title LCID="1040" Text="Elementi comuni" />
+              <Title LCID="1041" Text="共通" />
+              <Title LCID="1087" Text="Жалпы" />
+              <Title LCID="1042" Text="일반" />
+              <Title LCID="1063" Text="Įprasta" />
+              <Title LCID="1062" Text="Kopējs" />
+              <Title LCID="1086" Text="Umum" />
+              <Title LCID="1044" Text="Felles" />
+              <Title LCID="1043" Text="Algemeen" />
+              <Title LCID="1045" Text="Wspólne" />
+              <Title LCID="1046" Text="Comum" />
+              <Title LCID="2070" Text="Comum" />
+              <Title LCID="1048" Text="Comun" />
+              <Title LCID="1049" Text="Общие" />
+              <Title LCID="1051" Text="Spoločné" />
+              <Title LCID="1060" Text="Skupno" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
+              <Title LCID="1053" Text="Gemensam" />
+              <Title LCID="1054" Text="ทั่วไป" />
+              <Title LCID="1055" Text="Ortak" />
+              <Title LCID="1058" Text="Загальне" />
+              <Title LCID="1066" Text="Thông thường" />
+              <Title LCID="2052" Text="公用" />
+              <Title LCID="3076" Text="一般" />
+              <Title LCID="1028" Text="一般" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1025" Text="المبيعات" />
+              <Title LCID="1026" Text="Продажби" />
+              <Title LCID="1027" Text="Vendes" />
+              <Title LCID="1029" Text="Prodej" />
+              <Title LCID="1030" Text="Salg" />
+              <Title LCID="1031" Text="Vertrieb" />
+              <Title LCID="1032" Text="Πωλήσεις" />
+              <Title LCID="3082" Text="Ventas" />
+              <Title LCID="1061" Text="Müük" />
+              <Title LCID="1069" Text="Salmentak" />
+              <Title LCID="1035" Text="Myynti" />
+              <Title LCID="1036" Text="Ventes" />
+              <Title LCID="1110" Text="Vendas" />
+              <Title LCID="1037" Text="מכירות" />
+              <Title LCID="1081" Text="विक्रय" />
+              <Title LCID="1050" Text="Prodaja" />
+              <Title LCID="1038" Text="Értékesítés" />
+              <Title LCID="1057" Text="Penjualan" />
+              <Title LCID="1040" Text="Vendite" />
+              <Title LCID="1041" Text="営業" />
+              <Title LCID="1087" Text="Сатылым" />
+              <Title LCID="1042" Text="영업" />
+              <Title LCID="1063" Text="Pardavimas" />
+              <Title LCID="1062" Text="Pārdošana" />
+              <Title LCID="1086" Text="Jualan" />
+              <Title LCID="1044" Text="Salg" />
+              <Title LCID="1043" Text="Verkoop" />
+              <Title LCID="1045" Text="Sprzedaż" />
+              <Title LCID="1046" Text="Vendas" />
+              <Title LCID="2070" Text="Vendas" />
+              <Title LCID="1048" Text="Vânzări" />
+              <Title LCID="1049" Text="Продажи" />
+              <Title LCID="1051" Text="Predaj" />
+              <Title LCID="1060" Text="Prodaja" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
+              <Title LCID="1053" Text="Försäljning" />
+              <Title LCID="1054" Text="การขาย" />
+              <Title LCID="1055" Text="Satış" />
+              <Title LCID="1058" Text="Збут" />
+              <Title LCID="1066" Text="Bán hàng" />
+              <Title LCID="2052" Text="销售" />
+              <Title LCID="3076" Text="銷售" />
+              <Title LCID="1028" Text="銷售" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1025" Text="الخدمة" />
+              <Title LCID="1026" Text="Обслужване" />
+              <Title LCID="1027" Text="Servei" />
+              <Title LCID="1029" Text="Služby" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Υπηρεσία" />
+              <Title LCID="3082" Text="Servicio" />
+              <Title LCID="1061" Text="Teenus" />
+              <Title LCID="1069" Text="Zerbitzua" />
+              <Title LCID="1035" Text="Palvelu" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Servizo" />
+              <Title LCID="1037" Text="שירות" />
+              <Title LCID="1081" Text="सेवा" />
+              <Title LCID="1050" Text="Usluga" />
+              <Title LCID="1038" Text="Szolgáltatás" />
+              <Title LCID="1057" Text="Layanan" />
+              <Title LCID="1040" Text="Servizio" />
+              <Title LCID="1041" Text="サービス" />
+              <Title LCID="1087" Text="Қызмет" />
+              <Title LCID="1042" Text="서비스" />
+              <Title LCID="1063" Text="Aptarnavimas" />
+              <Title LCID="1062" Text="Serviss" />
+              <Title LCID="1086" Text="Perkhidmatan" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Usługa" />
+              <Title LCID="1046" Text="Serviço" />
+              <Title LCID="2070" Text="Serviço" />
+              <Title LCID="1048" Text="Serviciu" />
+              <Title LCID="1049" Text="Сервис" />
+              <Title LCID="1051" Text="Služba" />
+              <Title LCID="1060" Text="Storitev" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
+              <Title LCID="1053" Text="Tjänst" />
+              <Title LCID="1054" Text="การบริการ" />
+              <Title LCID="1055" Text="Servis" />
+              <Title LCID="1058" Text="Послуга" />
+              <Title LCID="1066" Text="Dịch vụ" />
+              <Title LCID="2052" Text="服务" />
+              <Title LCID="3076" Text="服務" />
+              <Title LCID="1028" Text="服務" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1025" Text="التسويق" />
+              <Title LCID="1026" Text="Маркетинг" />
+              <Title LCID="1027" Text="Màrqueting" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Μάρκετινγκ" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Turundus" />
+              <Title LCID="1069" Text="Marketina" />
+              <Title LCID="1035" Text="Markkinointi" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Márketing" />
+              <Title LCID="1037" Text="שיווק" />
+              <Title LCID="1081" Text="मार्केटिंग" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Pemasaran" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1041" Text="マーケティング" />
+              <Title LCID="1087" Text="Маркетинг" />
+              <Title LCID="1042" Text="마케팅" />
+              <Title LCID="1063" Text="Rinkodara" />
+              <Title LCID="1062" Text="Mārketings" />
+              <Title LCID="1086" Text="Pemasaran" />
+              <Title LCID="1044" Text="Markedsføring" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Маркетинг" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Trženje" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
+              <Title LCID="1053" Text="Marknadsföring" />
+              <Title LCID="1054" Text="การตลาด" />
+              <Title LCID="1055" Text="Pazarlama" />
+              <Title LCID="1058" Text="Маркетинг" />
+              <Title LCID="1066" Text="Tiếp thị" />
+              <Title LCID="2052" Text="市场营销" />
+              <Title LCID="3076" Text="行銷" />
+              <Title LCID="1028" Text="行銷" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+              <Title LCID="1025" Text="جلسات عمل العمليات" />
+              <Title LCID="1026" Text="Сесии на процес" />
+              <Title LCID="1027" Text="Sessions del procés" />
+              <Title LCID="1029" Text="Relace procesů" />
+              <Title LCID="1030" Text="Processessioner" />
+              <Title LCID="1031" Text="Prozesssitzungen" />
+              <Title LCID="1032" Text="Περίοδοι λειτουργίας διεργασίας" />
+              <Title LCID="3082" Text="Sesiones de proceso" />
+              <Title LCID="1061" Text="Protsessiseansid" />
+              <Title LCID="1069" Text="Prozesu-saioak" />
+              <Title LCID="1035" Text="Prosessin istunnot" />
+              <Title LCID="1036" Text="Sessions de traitement" />
+              <Title LCID="1110" Text="Sesións de proceso" />
+              <Title LCID="1037" Text="הפעלות תהליך" />
+              <Title LCID="1081" Text="प्रक्रिया सत्र" />
+              <Title LCID="1050" Text="Sesije procesa" />
+              <Title LCID="1038" Text="Feldolgozási munkamenetek" />
+              <Title LCID="1057" Text="Sesi Proses" />
+              <Title LCID="1040" Text="Sessioni processo" />
+              <Title LCID="1041" Text="プロセス セッション" />
+              <Title LCID="1087" Text="Процесс сеанстары" />
+              <Title LCID="1042" Text="프로세스 세션" />
+              <Title LCID="1063" Text="Apdorojimo seansai" />
+              <Title LCID="1062" Text="Apstrādes sesijas" />
+              <Title LCID="1086" Text="Proses Sesi" />
+              <Title LCID="1044" Text="Prosessøkter" />
+              <Title LCID="1043" Text="Processessies" />
+              <Title LCID="1045" Text="Sesje procesów" />
+              <Title LCID="1046" Text="Processar Sessões" />
+              <Title LCID="2070" Text="Sessões de Processo" />
+              <Title LCID="1048" Text="Sesiuni de proces" />
+              <Title LCID="1049" Text="Сеансы процесса" />
+              <Title LCID="1051" Text="Relácie procesov" />
+              <Title LCID="1060" Text="Seje procesov" />
+              <Title LCID="3098" Text="Сесије процеса" />
+              <Title LCID="2074" Text="Sesije procesa" />
+              <Title LCID="1053" Text="Processessioner" />
+              <Title LCID="1054" Text="เซสชันของกระบวนการ" />
+              <Title LCID="1055" Text="İşlem Oturumları" />
+              <Title LCID="1058" Text="Сеанси процесів" />
+              <Title LCID="1066" Text="Phiên Quá trình" />
+              <Title LCID="2052" Text="进程会话" />
+              <Title LCID="3076" Text="程序工作階段" />
+              <Title LCID="1028" Text="程序工作階段" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

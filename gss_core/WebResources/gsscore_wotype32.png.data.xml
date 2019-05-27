@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{69bdbb41-a18a-e811-a95f-000d3a36170b}</WebResourceId>
+  <Name>gsscore_wotype32.png</Name>
+  <DisplayName>wo type 32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_wotype32png69BDBB41-A18A-E811-A95F-000D3A36170B</FileName>
+</WebResource>

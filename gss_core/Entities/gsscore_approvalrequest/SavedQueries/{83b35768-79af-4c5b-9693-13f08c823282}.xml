@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{83b35768-79af-4c5b-9693-13f08c823282}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="subject" select="1" icon="1" preview="0">
+        <row name="gsscore_approvalrequest" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="regardingobjectid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_approvalrequest">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <attribute name="regardingobjectid" />
+          <order attribute="subject" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Approval Request Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

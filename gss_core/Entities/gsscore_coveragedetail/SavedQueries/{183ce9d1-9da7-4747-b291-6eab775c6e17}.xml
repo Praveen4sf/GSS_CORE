@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{183ce9d1-9da7-4747-b291-6eab775c6e17}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_coveragedetailid">
+          <cell name="gsscore_name" width="300" />
+          <cell name="gsscore_date" width="100" />
+          <cell name="gsscore_gapstarttime" width="100" />
+          <cell name="gsscore_isrequiredtempflag" width="100" />
+          <cell name="gsscore_isbankholiday" width="100" />
+          <cell name="gsscore_isgapinhour" width="100" />
+          <cell name="gsscore_lastmodifieddate" width="100" />
+          <cell name="gsscore_parentrouteid" width="100" />
+          <cell name="gsscore_primarycoveragegroup" width="100" />
+          <cell name="gsscore_primaryp1" width="100" />
+          <cell name="gsscore_primaryp2" width="100" />
+          <cell name="gsscore_primaryp3" width="100" />
+          <cell name="gsscore_primaryp4" width="100" />
+          <cell name="gsscore_primarysupervisor" width="100" />
+          <cell name="gsscore_route" width="100" />
+          <cell name="gsscore_routecoverageid" width="100" />
+          <cell name="gsscore_secondarycoveragegroup" width="100" />
+          <cell name="gsscore_secondaryp1" width="100" />
+          <cell name="gsscore_secondaryp2" width="100" />
+          <cell name="gsscore_secondaryp3" width="100" />
+          <cell name="gsscore_secondaryp4" width="100" />
+          <cell name="gsscore_secondarysupervisor" width="100" />
+          <cell name="gsscore_tertiarycoveragegroup" width="100" />
+          <cell name="gsscore_tertiaryp1" width="100" />
+          <cell name="gsscore_tertiaryp2" width="100" />
+          <cell name="gsscore_tertiaryp3" width="100" />
+          <cell name="gsscore_tertiaryp4" width="100" />
+          <cell name="gsscore_tertiarysupervisor" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_coveragedetail">
+          <attribute name="gsscore_name" />
+          <attribute name="gsscore_tertiarysupervisor" />
+          <attribute name="gsscore_tertiaryp4" />
+          <attribute name="gsscore_tertiaryp3" />
+          <attribute name="gsscore_tertiaryp2" />
+          <attribute name="gsscore_tertiaryp1" />
+          <attribute name="gsscore_tertiarycoveragegroup" />
+          <attribute name="gsscore_secondarysupervisor" />
+          <attribute name="gsscore_secondaryp4" />
+          <attribute name="gsscore_secondaryp3" />
+          <attribute name="gsscore_secondaryp2" />
+          <attribute name="gsscore_secondaryp1" />
+          <attribute name="gsscore_secondarycoveragegroup" />
+          <attribute name="gsscore_routecoverageid" />
+          <attribute name="gsscore_route" />
+          <attribute name="gsscore_primarysupervisor" />
+          <attribute name="gsscore_primaryp4" />
+          <attribute name="gsscore_primaryp3" />
+          <attribute name="gsscore_primaryp2" />
+          <attribute name="gsscore_primaryp1" />
+          <attribute name="gsscore_primarycoveragegroup" />
+          <attribute name="gsscore_parentrouteid" />
+          <attribute name="gsscore_lastmodifieddate" />
+          <attribute name="gsscore_isgapinhour" />
+          <attribute name="gsscore_isbankholiday" />
+          <attribute name="gsscore_isrequiredtempflag" />
+          <attribute name="gsscore_gapstarttime" />
+          <attribute name="gsscore_date" />
+          <attribute name="gsscore_coveragedetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.19</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Coverage Detail Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

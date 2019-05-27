@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{f780e45a-f617-48f0-b868-d7703f8a7c80}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{aff70d34-d1da-4dce-bbdd-989f4f5d04b6}" IsUserDefined="1" labelid="{cafb1ddf-8767-48d3-a59f-f997616c41b8}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2ace227e-5031-4241-8a4d-8e88d6b5410c}" labelid="{f3a3c84b-a0db-4f9e-b07d-7aaa0204ac51}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0a40a35d-ff4b-4e0f-87cf-71dea631886a}" labelid="{2018544d-ea7b-4fca-965f-ed8081e9aa07}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f442234d-8f64-4bec-92a2-7853228d8901}" labelid="{2645e59e-192a-44ce-8436-bf1359670b8e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbb23e54-1b41-acd5-9120-d84569aa557a}" showlabel="true" locklevel="0" labelid="{511a7256-7c68-475f-939a-d8d089b7f530}">
+                        <labels>
+                          <label description="Card Type" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_cardtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_cardtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{aff70d34-d1da-4dce-bbdd-989f4f5d04b6}_section_2" showlabel="false" showbar="false" locklevel="0" id="{16904b38-6ea6-8934-a01e-525ca6900e24}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{2b46a422-fe3d-48ae-8767-341073e90458}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5b8751ba-66c1-6780-0a36-dab232002537}" showlabel="true" locklevel="0" labelid="{14f4a840-c56e-4a80-ba45-0e84e8721c9e}">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_language" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_language" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{473986e5-e70c-4d31-7015-330ddca77209}" showlabel="true" locklevel="0" labelid="{ad757e61-e1ad-4de9-9e5d-c16aba2b60b6}">
+                        <labels>
+                          <label description="LCID" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_lcid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_lcid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4223cb2e-26b8-7e89-7a67-8465bb32b071}" showlabel="true" locklevel="0" labelid="{52ed38e3-d79e-4a78-8159-74778e5f2f08}">
+                        <labels>
+                          <label description="Data Value" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_datavalue" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_datavalue" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

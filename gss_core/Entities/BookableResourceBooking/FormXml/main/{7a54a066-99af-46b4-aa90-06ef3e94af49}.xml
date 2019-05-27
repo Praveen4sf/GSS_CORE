@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{7a54a066-99af-46b4-aa90-06ef3e94af49}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{785b4643-990a-48f1-b1d9-94827c37b084}" IsUserDefined="1" labelid="{1aee03a7-0f70-4d83-b996-61c47e01b22e}" name="Tab1_General" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section name="Sec_tab1_HazScan" showlabel="true" showbar="false" locklevel="0" id="{d325d577-9b29-6301-60db-ab80b238e8d0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false" labelid="{d26e5549-5fbd-42d1-addb-c69d489b5dc9}">
+                  <labels>
+                    <label description="HazScan Acknowledgement" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb4d2ae4-dbc9-451e-7b9d-51ac7c2d3a27}" showlabel="true" locklevel="0" labelid="{bccb64a5-ea07-4b6e-bba3-e2d1c4e84c2e}">
+                        <labels>
+                          <label description="HazScan Acknowledgement" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_hazscanacknowledgement" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_hazscanacknowledgement" disabled="false" uniqueid="{35706170-b161-5aae-2bb9-e98b5cbd414a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{631b1320-b616-4340-8345-a250272d8f46}" name="{631b1320-b616-4340-8345-a250272d8f46}" columns="1" locklevel="0" labelwidth="125" celllabelalignment="Left" celllabelposition="Left" labelid="{449d40a6-13ad-4e65-b09a-88f039b1612b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a83cc563-4791-4f02-95a7-83ae2f62c801}" labelid="{d018a2d4-eeda-4abd-855d-83d0fb017310}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{579b1c53-43e4-8eb6-9d50-0a109c07b7c8}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de04ae5c-0165-282c-7234-9e4bbe715990}" showlabel="true" locklevel="0" labelid="{6c058c44-41e9-48ec-bbea-b632c20345bb}">
+                        <labels>
+                          <label description="Visit Status" languagecode="1033" />
+                        </labels>
+                        <control id="bookingstatus" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="bookingstatus" disabled="false" uniqueid="{edaae480-8be6-b6ba-5858-23edc59c2a42}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{57716AD8-785F-416F-8A48-1577CD84425E}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db767497-cccd-ea07-8393-0160b4c1bd6d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Next Visit" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nextvisit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_nextvisit" disabled="false" uniqueid="{222b621d-b8dc-a3c1-2e07-92c0ca67db86}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{C218571E-468C-4271-815F-811C72C2F338}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7c427d4-ed91-4cbe-2060-cba166bb70a1}" showlabel="true" locklevel="0" labelid="{cde343f0-4d3e-40ab-9735-861c00daa396}">
+                        <labels>
+                          <label description="Last Visit?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nonextvisit" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_nonextvisit" disabled="false" uniqueid="{266d1b6c-2dcd-9168-a487-aa98caddd29b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3dd6a136-aaa1-b40e-2843-72942d649c9d}" showlabel="true" locklevel="0" labelid="{52fe3c09-a0b5-4b76-89c5-3eff32b5a783}">
+                        <labels>
+                          <label description="Resource" languagecode="1033" />
+                        </labels>
+                        <control id="resource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="resource" disabled="false" uniqueid="{8a225e09-6054-e300-e670-a1801ce2ae44}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85e6bc0d-4de0-22d1-adb1-101daec966e5}" showlabel="true" locklevel="0" visible="false" labelid="{6c10193f-8687-4470-9f7b-4b7ac4b5a66b}">
+                        <labels>
+                          <label description="Manuallytriggered" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_manuallytriggered" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_manuallytriggered" disabled="false" uniqueid="{30a8e782-c3cd-8000-bdbb-2e9aa40795ea}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{549b3508-35a2-2d7b-dd31-258803035d6e}" showlabel="false" locklevel="0" visible="false" labelid="{c1ddfcaa-0f55-47fd-9ef0-1aa57adb1614}">
+                        <labels>
+                          <label description="Old Resource" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_oldresource" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_oldresource" disabled="false" uniqueid="{a8ba3dd3-544e-484c-137d-adbe7cc3d506}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ceaedc3e-c910-54a0-e10e-b23e70d6b22b}" showlabel="true" locklevel="0" visible="false" labelid="{bdda4e33-1625-4f68-b0d7-ddc0851cbe6d}">
+                        <labels>
+                          <label description="Non-Productive?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nonproductive" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_nonproductive" disabled="false" uniqueid="{a40042e8-60bc-e737-91c5-c13098a63251}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e526841-dda7-b5a5-5cd5-9a6c2517182c}" showlabel="true" locklevel="0" visible="false" labelid="{30a52902-08af-4fbb-95ed-817c82ff84e7}">
+                        <labels>
+                          <label description="Non-Productive Codes" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nonproductivecodes" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_nonproductivecodes" disabled="false" uniqueid="{79e14eaa-b350-ab86-6b42-e4d37cd960ac}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{0D0196C7-E13C-4804-95F6-E32E1792D866}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7a27dea-32d1-e256-3d74-873882722153}" showlabel="true" locklevel="0" labelid="{f86cdbe6-7afd-4fbb-8239-cb347b5d7b68}">
+                        <labels>
+                          <label description="Work Order" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorder" disabled="false" uniqueid="{4a1105e0-9b4a-d64e-8834-b586e02276b2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C0C4FD32-F265-497D-BFAE-546C88D5BB3B}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{acc5d0b7-8a0b-c953-31a1-20d39b669478}" showlabel="true" locklevel="0" labelid="{a86f32fd-ccae-44a8-a7b6-b6627559e010}">
+                        <labels>
+                          <label description="Estimated Travel Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatedtravelduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_estimatedtravelduration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{791ed3be-e6e2-7aad-94ab-c2da067d6405}" showlabel="true" locklevel="0" labelid="{a9cd2960-3094-4d5a-9f30-10e222666b65}">
+                        <labels>
+                          <label description="Latest Time of Arrival (LTA)" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_latesttimearrival" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_latesttimearrival" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b229905c-7d35-2234-0ed8-dee4c099cda6}" showlabel="true" locklevel="0" labelid="{a3e8c72e-c393-4e18-82bd-832c753fcce6}">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="starttime" disabled="false" uniqueid="{c2db9074-8c93-2723-7dc3-cb4126c353d0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{562462d9-1a4b-9dd8-da83-68e450ede53c}" showlabel="true" locklevel="0" labelid="{53dd61d0-c619-44d8-8cff-61dcb46e0668}">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="endtime" disabled="false" uniqueid="{0c2c0ee7-d5d0-cb78-0b7a-2317eab7d6da}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d6ba3bc-4159-5189-9609-a8c453a2a242}" showlabel="true" locklevel="0" labelid="{3ed0f76c-e8b5-471f-b2be-b9f32547b04f}">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="duration" disabled="false" uniqueid="{7e44d764-1551-7a2b-15c8-832126acc26d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7346ba2d-5105-4c07-97ac-d1d2e91e459b}" showlabel="true" locklevel="0" labelid="{b5162fff-4bd0-4976-b534-06e9b2844a1d}">
+                        <labels>
+                          <label description="Estimated Arrival Time" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_estimatedarrivaltime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_estimatedarrivaltime" disabled="false" uniqueid="{92a7388e-bc00-dd9e-5a4d-64852366ac80}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12ce50d0-8a11-6cad-a60b-8bb69d0b3037}" showlabel="true" locklevel="0" labelid="{9e21d000-84e3-490c-9f3e-67beb4635c3e}">
+                        <labels>
+                          <label description="Reject to" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rejectto" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_rejectto" disabled="false" uniqueid="{113a6bdd-b090-26e7-2c23-38c041791b36}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99aac450-71b2-c616-8e05-781c50879640}" showlabel="true" locklevel="0" labelid="{2a19775c-25a9-4936-ace8-f446ade6a1a6}">
+                        <labels>
+                          <label description="Allow Overlapping" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_allowoverlapping" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_allowoverlapping" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e444e4a-996d-ab96-1ecc-7b16d51609e9}" showlabel="true" locklevel="0" labelid="{a29e9239-09c1-4ec8-bc98-6600ea6b113d}">
+                        <labels>
+                          <label description="Visit Type" languagecode="1033" />
+                        </labels>
+                        <control id="bookingtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="bookingtype" disabled="false" uniqueid="{551c3d90-d529-7022-0c64-396d6d842be0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4305b3be-0521-0c08-5a4c-8e88529011c0}" showlabel="true" locklevel="0" visible="false" labelid="{61cc0045-567d-4c16-8259-f6e130939b42}">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_region" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_region" disabled="true" uniqueid="{23067775-1b80-15ae-4e5d-8d793a601a7b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ebddd29-08c4-cb3e-8dee-6d19286365ee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Work Order Type" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_globalworkordertype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_globalworkordertype" disabled="false" uniqueid="{528b1794-8b18-522b-2b23-eae76c096bc6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e39c8455-9278-c4b2-0a5e-4a20014b1835}" showlabel="true" locklevel="0" visible="false" labelid="{116a63b2-a574-44eb-9a1f-f005e0eb1397}">
+                        <labels>
+                          <label description="Field Service Status" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_fieldservicestatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_fieldservicestatus" disabled="false" uniqueid="{41730557-1138-2a52-144b-ae5068220d7d}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{785b4643-990a-48f1-b1d9-94827c37b084}_section_4" showlabel="false" showbar="false" locklevel="0" id="{b683a174-78c9-7506-b359-a25c815539d8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{e57d0e54-cd87-4e8a-aadb-94106202ae04}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6742d7b3-aae3-bcd0-13e7-2e9911b60679}" showlabel="true" locklevel="0" labelid="{e78613c3-36e5-4bfe-92f6-c8f8ea312b0f}">
+                        <labels>
+                          <label description="Rejection Reason" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rejectionreasonid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rejectionreasonid" disabled="false" uniqueid="{54eb8c59-6318-de7d-5828-84ea61935715}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9D045709-9D4D-42CE-8A9C-C02171EB1105}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d5d371e-a223-8e34-4e57-76aadd67e16e}" showlabel="true" locklevel="0" labelid="{a85abddd-158e-496c-a55c-4accf7c9232f}">
+                        <labels>
+                          <label description="Resource Requirement" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_resourcerequirement" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_resourcerequirement" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5a82999-ea72-164a-3d85-2aeb4707c700}" showlabel="true" locklevel="0" labelid="{db0222ee-2257-455f-a5d9-f54e17f6d041}">
+                        <labels>
+                          <label description="Incomplete Work Order" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_incompleteworkorder" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_incompleteworkorder" disabled="false" uniqueid="{94807539-8dc1-ccd4-c795-c36cb8ee3db8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7497ca09-248d-51a7-90db-5eeb17203be2}" showlabel="true" locklevel="0" visible="false" labelid="{76d4b149-8aa4-4c46-94b7-093357569df2}">
+                        <labels>
+                          <label description="Incomplete Reason" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_incompletereason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_incompletereason" disabled="false" uniqueid="{8ab5cae2-3187-696e-9518-19d07296ad7b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1aea3bd-e5ec-60a8-5330-cb6840be636d}" showlabel="true" locklevel="0" visible="false" labelid="{837c0565-fff6-4efd-b696-430282ca8a99}">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_comment" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="gsscore_comment" disabled="false" uniqueid="{206733c6-a08b-dc7d-2c15-d31699a423b6}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{f69b818c-a8e9-48bc-8f7c-7f400001dbf2}" IsUserDefined="0" height="auto" labelid="{69bbb0a5-f878-454f-acbb-0b668ddfb351}">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{576427e2-4797-4cf6-8096-40595a033a22}" labelid="{c64b2454-63c0-4111-8775-55c73e86117a}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="FieldService" id="{b15aa500-71d2-58ed-a5bc-a7c40eb8d75d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{dc35cd37-c213-4938-99cf-dc4746def9a5}">
+          <labels>
+            <label description="Field Service" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="FieldService_section_4" showlabel="true" showbar="false" locklevel="0" id="{2e375bd0-248e-305a-18e4-37830c5cd838}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{3cc20ec9-8ff2-4466-964b-632ccd7e4a9a}">
+                  <labels>
+                    <label description="OTHER" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{06a31949-c11b-5390-1582-a80acb7ae44a}" showlabel="true" locklevel="0" labelid="{ab09201e-3585-4263-a0ef-57c4e259a41e}">
+                        <labels>
+                          <label description="Agreement Booking Date" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_agreementbookingdate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_agreementbookingdate" disabled="true" uniqueid="{b3994964-cca2-6412-770c-c8017496d8ca}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2F2F77B3-F679-4BC1-89D9-6C1DBDB30453}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d896a2e3-69ac-0bec-053c-a73019eb815b}" showlabel="true" locklevel="0" labelid="{234ffd9d-8dad-45b4-9669-03a1c4427ef8}" visible="false">
+                        <labels>
+                          <label description="Total Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalcost" disabled="false" uniqueid="{6c7ba0c2-189e-606a-36ca-d732505b7562}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62a085a3-70d7-7de2-842b-0b1906e60d84}" showlabel="true" locklevel="0" labelid="{bd9a4ed7-9ccf-48f4-af3d-519657f6050d}">
+                        <labels>
+                          <label description="xRoot Cause" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rootcausereason" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rootcausereason" disabled="false" uniqueid="{4218d8a5-902d-9b39-2c35-422ae8daa310}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a93e833-2251-2243-4011-dc103dd62b95}" showlabel="true" locklevel="0" labelid="{7e2432a0-b563-4670-965e-bc6c4b21ce0e}">
+                        <labels>
+                          <label description="xSub-Sytem" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rootcausesubsystem" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rootcausesubsystem" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{686e9eac-e828-e9d1-5abe-090437ab922d}" showlabel="true" locklevel="0" labelid="{67fe830c-6ef2-4d46-9ca2-16330f0b03ee}">
+                        <labels>
+                          <label description="xComponent" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rootcausecomponent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rootcausecomponent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{438740bd-2260-51b2-82c6-970c8494dda6}" showlabel="true" locklevel="0" labelid="{477d879b-8cf8-44bf-b4b0-6e7fc7812379}">
+                        <labels>
+                          <label description="xAction Performed" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_rootcauseactionperformed" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_rootcauseactionperformed" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="FieldService_section_2" showlabel="true" showbar="false" locklevel="0" id="{0733035c-c6a9-4b96-b3d1-35d6540c97ac}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{50ad6c56-ace0-4f64-b5b7-cea7c43547e8}" visible="false">
+                  <labels>
+                    <label description="TOTAL DURATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75dba294-61ae-9510-db2a-4251a2a8d713}" showlabel="true" locklevel="0" labelid="{16fdc331-6324-40ed-bac2-87b49c4ddec1}">
+                        <labels>
+                          <label description="Total Billable Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalbillableduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_totalbillableduration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ac81655-6dc4-deb5-cd3b-b4cd48ab8a84}" showlabel="true" locklevel="0" labelid="{487ac4ba-0706-42dd-8f3b-8605a1de6af5}">
+                        <labels>
+                          <label description="Total Duration In Progress" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totaldurationinprogress" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_totaldurationinprogress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d008408a-ba1b-3565-de3d-5bb20a9b0028}" showlabel="true" locklevel="0" labelid="{87abd39a-934f-434b-8529-57b19f69745f}">
+                        <labels>
+                          <label description="Total Break Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalbreakduration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_totalbreakduration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section id="{9dba3bab-2305-4a0d-a0a8-021c81a7be7c}" name="FieldService_column_6_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f1b1087f-19f7-49c4-a0ca-3c10cb1caf7f}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{937687b8-f5d4-4aaa-b4e5-51787c42f62e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{185ebe69-3d32-4cfa-9e90-10ee21607cce}" columns="111">
+        <rows>
+          <row>
+            <cell id="{d575700a-dc35-59a9-7c59-061d8c87a23e}" showlabel="true" locklevel="0" labelid="{7359b50b-3cf0-4847-a944-017d9a5fdace}">
+              <labels>
+                <label description="Work Order" languagecode="1033" />
+              </labels>
+              <control id="header_msdyn_workorder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_workorder" disabled="false" uniqueid="{366e1ac8-1261-da8c-3dd6-11e0161a2870}" />
+            </cell>
+            <cell id="{2411a812-b261-4fd0-b7d3-0abd55e68ba1}" showlabel="false" labelid="{1ade68b8-9823-4680-a181-618486a60b4a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7fc8e673-ca08-435a-9b9d-569e3b12b71c}" showlabel="false" labelid="{6d7274cc-90d7-40a8-9301-a1cb05089547}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/WorkOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_workorderproduct_Booking" Id="nav_msdyn_bookableresourcebooking_msdyn_workorderproduct_Booking" Sequence="1000" Client="Web" Area="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Work Order Products" />
+              <Title LCID="1025" Text="منتجات أمر العمل" />
+              <Title LCID="1026" Text="Продукти за работна поръчка" />
+              <Title LCID="1027" Text="Productes d'ordre de treball" />
+              <Title LCID="1029" Text="Produkty na pracovních příkazech" />
+              <Title LCID="1030" Text="Arbejdsordreprodukter" />
+              <Title LCID="1031" Text="Arbeitsauftragsprodukte" />
+              <Title LCID="1032" Text="Προϊόντα παραγγελίας εργασίας" />
+              <Title LCID="3082" Text="Productos de orden de trabajo" />
+              <Title LCID="1061" Text="Töökorralduse tooted" />
+              <Title LCID="1069" Text="Lan-eskaeren produktuak" />
+              <Title LCID="1035" Text="Työtilauksen tuotteet" />
+              <Title LCID="1036" Text="Produits d'ordre de travail" />
+              <Title LCID="1110" Text="Produtos de pedido de traballo" />
+              <Title LCID="1037" Text="מוצרים בהזמנת עבודה" />
+              <Title LCID="1081" Text="कार्य ऑर्डर उत्पाद" />
+              <Title LCID="1050" Text="Proizvodi na radnom nalogu" />
+              <Title LCID="1038" Text="Munkarendelés termékei" />
+              <Title LCID="1057" Text="Produk Perintah Kerja" />
+              <Title LCID="1040" Text="Prodotti ordine di lavoro" />
+              <Title LCID="1041" Text="作業指示書製品" />
+              <Title LCID="1087" Text="Жұмыс тапсырысының өнімдері" />
+              <Title LCID="1042" Text="작업 주문 제품" />
+              <Title LCID="1063" Text="Darbo užsakymo produktai" />
+              <Title LCID="1062" Text="Darbu pasūtījuma preces" />
+              <Title LCID="1086" Text="Produk Pesanan Kerja" />
+              <Title LCID="1044" Text="Arbeidsordreprodukter" />
+              <Title LCID="1043" Text="Werkorderproducten" />
+              <Title LCID="1045" Text="Produkty objęte zleceniem pracy" />
+              <Title LCID="1046" Text="Produtos de Ordem de Serviço" />
+              <Title LCID="2070" Text="Produtos de Ordem de Intervenção" />
+              <Title LCID="1048" Text="Produse din comanda de lucru" />
+              <Title LCID="1049" Text="Продукты по заказу на работу" />
+              <Title LCID="1051" Text="Produkty objednávok prác" />
+              <Title LCID="1060" Text="Izdelki delovnega naloga" />
+              <Title LCID="3098" Text="Производи радног налога" />
+              <Title LCID="2074" Text="Proizvodi radnog naloga" />
+              <Title LCID="1053" Text="Arbetsorderprodukter" />
+              <Title LCID="1054" Text="ผลิตภัณฑ์ในใบสั่งงาน" />
+              <Title LCID="1055" Text="İş Emri Ürünleri" />
+              <Title LCID="1058" Text="Продукти для наряду-замовлення" />
+              <Title LCID="1066" Text="Sản phẩm Lệnh sản xuất" />
+              <Title LCID="2052" Text="工作订单产品" />
+              <Title LCID="3076" Text="工單產品" />
+              <Title LCID="1028" Text="工單產品" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/Calendar_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_bookingjournal_Booking" Id="nav_msdyn_bookableresourcebooking_msdyn_bookingjournal_Booking" Sequence="1001" Client="Web" Area="Service">
+            <Titles>
+              <Title LCID="1033" Text="Booking Journal" />
+              <Title LCID="1025" Text="دفتر يومية الحجز" />
+              <Title LCID="1026" Text="Дневник за резервация" />
+              <Title LCID="1027" Text="Diari de reserves" />
+              <Title LCID="1029" Text="Deník rezervace" />
+              <Title LCID="1030" Text="Reservationskladde" />
+              <Title LCID="1031" Text="Buchungsjournal" />
+              <Title LCID="1032" Text="Ημερολόγιο κράτησης" />
+              <Title LCID="3082" Text="Diario de reserva" />
+              <Title LCID="1061" Text="Broneeringu tööleht" />
+              <Title LCID="1069" Text="Erreserba-egunkaria" />
+              <Title LCID="1035" Text="Varauksen kirjauskansio" />
+              <Title LCID="1036" Text="Journal des réservations" />
+              <Title LCID="1110" Text="Diario de reservas" />
+              <Title LCID="1037" Text="יומן הזמנות" />
+              <Title LCID="1081" Text="बुकिंग जर्नल" />
+              <Title LCID="1050" Text="Dnevnik rezervacija" />
+              <Title LCID="1038" Text="Foglalási napló" />
+              <Title LCID="1057" Text="Jurnal Pemesanan" />
+              <Title LCID="1040" Text="Giornale di registrazione prenotazioni" />
+              <Title LCID="1041" Text="予約仕訳帳" />
+              <Title LCID="1087" Text="Тапсырыс беру журналы" />
+              <Title LCID="1042" Text="예약 분개장" />
+              <Title LCID="1063" Text="Rezervavimo žurnalas" />
+              <Title LCID="1062" Text="Rezervāciju žurnāls" />
+              <Title LCID="1086" Text="Jurnal Penempahan" />
+              <Title LCID="1044" Text="Bestillingsjournal" />
+              <Title LCID="1043" Text="Boekingsjournaal" />
+              <Title LCID="1045" Text="Arkusz rezerwacji" />
+              <Title LCID="1046" Text="Diário de Reserva" />
+              <Title LCID="2070" Text="Diário da Reserva" />
+              <Title LCID="1048" Text="Jurnal de rezervări" />
+              <Title LCID="1049" Text="Журнал резервирования" />
+              <Title LCID="1051" Text="Denník rezervácií" />
+              <Title LCID="1060" Text="Dnevnik rezervacij" />
+              <Title LCID="3098" Text="Дневник резервисања" />
+              <Title LCID="2074" Text="Dnevnik rezervisanja" />
+              <Title LCID="1053" Text="Bokningsjournal" />
+              <Title LCID="1054" Text="สมุดรายวันการจอง" />
+              <Title LCID="1055" Text="Ayırma Günlüğü" />
+              <Title LCID="1058" Text="Журнал резервувань" />
+              <Title LCID="1066" Text="Nhật ký Đăng ký" />
+              <Title LCID="2052" Text="预订日记帐" />
+              <Title LCID="3076" Text="預約日誌" />
+              <Title LCID="1028" Text="預約日誌" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/Calendar_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_bookingtimestamp_Booking" Id="nav_msdyn_bookableresourcebooking_msdyn_bookingtimestamp_Booking" Client="Web" Area="Service" Sequence="1002">
+            <Titles>
+              <Title LCID="1033" Text="Booking Timestamps" />
+              <Title LCID="1025" Text="الطوابع الزمنية للحجز" />
+              <Title LCID="1026" Text="Времеви клейма за резервиране" />
+              <Title LCID="1027" Text="Dates i hores de les reserves" />
+              <Title LCID="1029" Text="Časová razítka rezervací" />
+              <Title LCID="1030" Text="Tidsstempler for reservation" />
+              <Title LCID="1031" Text="Buchungszeitstempel" />
+              <Title LCID="1032" Text="Χρονικές σημάνσεις κράτησης" />
+              <Title LCID="3082" Text="Marcas de tiempo de reserva" />
+              <Title LCID="1061" Text="Broneeringu ajatemplid" />
+              <Title LCID="1069" Text="Erreserben denbora-zigiluak" />
+              <Title LCID="1035" Text="Varauksen aikaleimat" />
+              <Title LCID="1036" Text="Horodatages de réservation" />
+              <Title LCID="1110" Text="Marcas de hora de reservas" />
+              <Title LCID="1037" Text="חותמות זמן של הזמנות" />
+              <Title LCID="1081" Text="बुकिंग समय-स्टैंप" />
+              <Title LCID="1050" Text="Vremenske oznake rezervacije" />
+              <Title LCID="1038" Text="Foglalási időbélyegek" />
+              <Title LCID="1057" Text="Stempel Waktu Pemesanan" />
+              <Title LCID="1040" Text="Timestamp prenotazione" />
+              <Title LCID="1041" Text="予約タイムスタンプ" />
+              <Title LCID="1087" Text="Тапсырыс беру уақытының белгілері" />
+              <Title LCID="1042" Text="예약 타임스탬프" />
+              <Title LCID="1063" Text="Rezervavimo laiko žymos" />
+              <Title LCID="1062" Text="Rezervāciju laikspiedoli" />
+              <Title LCID="1086" Text="Cap Waktu Penempahan" />
+              <Title LCID="1044" Text="Bestillingstidsstempler" />
+              <Title LCID="1043" Text="Tijdstempels voor boekingen" />
+              <Title LCID="1045" Text="Sygnatury czasowe rezerwacji" />
+              <Title LCID="1046" Text="Carimbos de Data/Hora de Reserva" />
+              <Title LCID="2070" Text="Carimbos de Data/Hora da Reserva" />
+              <Title LCID="1048" Text="Mărci de timp rezervări" />
+              <Title LCID="1049" Text="Отметки времени резервирования" />
+              <Title LCID="1051" Text="Časové pečiatky rezervácií" />
+              <Title LCID="1060" Text="Časovni žigi rezervacij" />
+              <Title LCID="3098" Text="Временске ознаке резервација" />
+              <Title LCID="2074" Text="Vremenske oznake rezervacija" />
+              <Title LCID="1053" Text="Tidsstämplar för bokning" />
+              <Title LCID="1054" Text="การบันทึกเวลาการจอง" />
+              <Title LCID="1055" Text="Ayırma Zaman Damgaları" />
+              <Title LCID="1058" Text="Позначки часу резервувань" />
+              <Title LCID="1066" Text="Dấu thời gian Đăng ký" />
+              <Title LCID="2052" Text="预订时间戳" />
+              <Title LCID="3076" Text="預約時間戳記" />
+              <Title LCID="1028" Text="預約時間戳記" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/WorkOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_workorderservice_Booking" Id="nav_msdyn_bookableresourcebooking_msdyn_workorderservice_Booking" Client="Web" Area="Sales" Sequence="1003">
+            <Titles>
+              <Title LCID="1033" Text="Work Order Services" />
+              <Title LCID="1025" Text="خدمات أمر العمل" />
+              <Title LCID="1026" Text="Услуги в поръчката за работа" />
+              <Title LCID="1027" Text="Serveis de l'ordre de treball" />
+              <Title LCID="1029" Text="Služby na pracovních příkazech" />
+              <Title LCID="1030" Text="Arbejdsordreservicer" />
+              <Title LCID="1031" Text="Arbeitsauftragsservices" />
+              <Title LCID="1032" Text="Υπηρεσίες παραγγελίας εργασίας" />
+              <Title LCID="3082" Text="Servicios de orden de trabajo" />
+              <Title LCID="1061" Text="Töökorralduse teenused" />
+              <Title LCID="1069" Text="Lan-eskaeren zerbitzuak" />
+              <Title LCID="1035" Text="Työtilauksen palvelut" />
+              <Title LCID="1036" Text="Services de l'ordre de travail" />
+              <Title LCID="1110" Text="Servizos de pedido de traballo" />
+              <Title LCID="1037" Text="שירותים בהזמנת עבודה" />
+              <Title LCID="1081" Text="कार्य ऑर्डर सेवाएँ" />
+              <Title LCID="1050" Text="Usluge na radnom nalogu" />
+              <Title LCID="1038" Text="Munkarendelés szolgáltatásai" />
+              <Title LCID="1057" Text="Layanan Perintah Kerja" />
+              <Title LCID="1040" Text="Servizi ordine di lavoro" />
+              <Title LCID="1041" Text="作業指示書サービス" />
+              <Title LCID="1087" Text="Жұмысқа тапсырыстың қызметтері" />
+              <Title LCID="1042" Text="작업 주문 서비스" />
+              <Title LCID="1063" Text="Darbo užsakymo aptarnavimas" />
+              <Title LCID="1062" Text="Darba pasūtījuma servisi" />
+              <Title LCID="1086" Text="Perkhidmatan Pesanan Kerja" />
+              <Title LCID="1044" Text="Arbeidsordreservicer" />
+              <Title LCID="1043" Text="Werkorderservices" />
+              <Title LCID="1045" Text="Usługi objęte zleceniem pracy" />
+              <Title LCID="1046" Text="Serviços da Ordem de Serviço" />
+              <Title LCID="2070" Text="Serviços da Ordem de Intervenção" />
+              <Title LCID="1048" Text="Servicii din comanda de lucru" />
+              <Title LCID="1049" Text="Сервисы по заказу на работу" />
+              <Title LCID="1051" Text="Služby objednávok prác" />
+              <Title LCID="1060" Text="Storitve delovnega naloga" />
+              <Title LCID="3098" Text="Услуге радног налога" />
+              <Title LCID="2074" Text="Usluge radnog naloga" />
+              <Title LCID="1053" Text="Arbetsordertjänster" />
+              <Title LCID="1054" Text="บริการในใบสั่งงาน" />
+              <Title LCID="1055" Text="İş Emri Servisleri" />
+              <Title LCID="1058" Text="Послуги для наряду-замовлення" />
+              <Title LCID="1066" Text="Dịch vụ Lệnh sản xuất" />
+              <Title LCID="2052" Text="工作订单服务" />
+              <Title LCID="3076" Text="工單服務" />
+              <Title LCID="1028" Text="工單服務" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/WorkOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_workorderservicetask_Booking" Id="nav_msdyn_bookableresourcebooking_msdyn_workorderservicetask_Booking" Client="Web" Area="Sales" Sequence="1003">
+            <Titles>
+              <Title LCID="1033" Text="Work Order Service Tasks" />
+              <Title LCID="1025" Text="مهام خدمة أمر العمل" />
+              <Title LCID="1026" Text="Задачи за услуги за работна поръчка" />
+              <Title LCID="1027" Text="Tasques de servei de l'ordre de treball" />
+              <Title LCID="1029" Text="Úkoly související se službami na pracovních příkazech" />
+              <Title LCID="1030" Text="Serviceopgaver i arbejdsordre" />
+              <Title LCID="1031" Text="Arbeitsauftragsserviceaufgaben" />
+              <Title LCID="1032" Text="Εργασίες υπηρεσίας παραγγελίας εργασίας" />
+              <Title LCID="3082" Text="Tareas de servicio de orden de trabajo" />
+              <Title LCID="1061" Text="Töökorralduse hooldustoimingud" />
+              <Title LCID="1069" Text="Lan-eskaeren zerbitzuen zereginak" />
+              <Title LCID="1035" Text="Työtilauksen palvelutehtävät" />
+              <Title LCID="1036" Text="Tâches de service de l'ordre de travail" />
+              <Title LCID="1110" Text="Tarefas de servizo de pedido de traballo" />
+              <Title LCID="1037" Text="משימות שירות בהזמנת עבודה" />
+              <Title LCID="1081" Text="कार्य ऑर्डर सेवा कार्य" />
+              <Title LCID="1050" Text="Zadaci za usluge na radnom nalogu" />
+              <Title LCID="1038" Text="Munkarendelés szolgáltatási feladatai" />
+              <Title LCID="1057" Text="Tugas Layanan Perintah Kerja" />
+              <Title LCID="1040" Text="Attività servizio ordine di lavoro" />
+              <Title LCID="1041" Text="作業指示書サービス タスク" />
+              <Title LCID="1087" Text="Жұмысқа тапсырыс қызметінің тапсырмалары" />
+              <Title LCID="1042" Text="작업 주문 서비스 작업" />
+              <Title LCID="1063" Text="Darbo užsakymo aptarnavimo užduotys" />
+              <Title LCID="1062" Text="Darba pasūtījuma servisa uzdevumi" />
+              <Title LCID="1086" Text="Tugas Perkhidmatan Pesanan Kerja" />
+              <Title LCID="1044" Text="Serviceoppgaver for arbeidsordre" />
+              <Title LCID="1043" Text="Servicetaken voor werkorders" />
+              <Title LCID="1045" Text="Zadania serwisowe objęte zleceniem pracy" />
+              <Title LCID="1046" Text="Tarefas de Serviço de Ordem de Serviço" />
+              <Title LCID="2070" Text="Tarefas de Serviço da Ordem de Intervenção" />
+              <Title LCID="1048" Text="Activități de serviciu din comanda de lucru" />
+              <Title LCID="1049" Text="Задачи сервиса по заказу на работу" />
+              <Title LCID="1051" Text="Úlohy služieb objednávok prác" />
+              <Title LCID="1060" Text="Storitvena opravila delovnega naloga" />
+              <Title LCID="3098" Text="Сервисни задаци радног налога" />
+              <Title LCID="2074" Text="Servisni zadaci radnog naloga" />
+              <Title LCID="1053" Text="Tjänstuppgifter för arbetsorder" />
+              <Title LCID="1054" Text="งานการบริการของใบสั่งงาน" />
+              <Title LCID="1055" Text="İş Emri Servis Görevleri" />
+              <Title LCID="1058" Text="Завдання з обслуговування для наряду-замовлення" />
+              <Title LCID="1066" Text="Công việc Dịch vụ Lệnh sản xuất" />
+              <Title LCID="2052" Text="工作订单服务任务" />
+              <Title LCID="3076" Text="工單服務工作" />
+              <Title LCID="1028" Text="工單服務工作" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_bookableresourcebooking_NextVisit" Sequence="9601" Area="Info" Id="nav_gsscore_bookableresourcebooking_NextVisit">
+            <Titles>
+              <Title LCID="1033" Text="Visits" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_bookableresourcebooking_gsscore_hazscanresponses_Visit" Sequence="10001" Area="Info" Id="nav_gsscore_bookableresourcebooking_gsscore_hazscanresponses_Visit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="HazScan Responses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msdyn_bookableresourcebooking_bookableresourcebooking_SimulationReference" Sequence="10002" Area="Info" Id="nav_msdyn_bookableresourcebooking_bookableresourcebooking_SimulationReference" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Visits" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msdyn_bookableresourcebooking_msdyn_optimizationrequestbooking_BookableResourceBooking" Sequence="10003" Area="Info" Id="nav_msdyn_bookableresourcebooking_msdyn_optimizationrequestbooking_BookableResourceBooking" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Optimization Request Bookings" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_expense_visit" Sequence="10004" Area="Info" Id="nav_gsscore_expense_visit">
+            <Titles>
+              <Title LCID="1033" Text="Expenses (FS)" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_bookableresourcebooking_bookableresourceb" Sequence="10005" Area="Info" Id="nav_gsscore_bookableresourcebooking_bookableresourceb">
+            <Titles>
+              <Title LCID="1033" Text="Visits" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_bookableresourcebooking_gsscore_eventlog_Visit" Sequence="10007" Area="Info" Id="nav_gsscore_bookableresourcebooking_gsscore_eventlog_Visit">
+            <Titles>
+              <Title LCID="1033" Text="Event Log" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore__bookableresourcebooking_gsscore_timeentry_Visit" Sequence="10008" Area="Info" Id="nav_gsscore__bookableresourcebooking_gsscore_timeentry_Visit">
+            <Titles>
+              <Title LCID="1033" Text="Time Entries (FS)" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="gsscore_bookableresourcebooking_bookableresourcebooking_RelatedVisit" Sequence="10009" Area="Info" Id="nav_gsscore_bookableresourcebooking_bookableresourcebooking_RelatedVisit">
+            <Titles>
+              <Title LCID="1033" Text="Visits" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/PurchaseOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_purchaseorder_Booking" Sequence="10010" Client="Web" Area="Info" Id="nav_msdyn_bookableresourcebooking_msdyn_purchaseorder_Booking" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Purchase Orders" />
+              <Title LCID="1025" Text="أوامر الشراء" />
+              <Title LCID="1026" Text="Поръчки за покупка" />
+              <Title LCID="1027" Text="Ordres de compra" />
+              <Title LCID="1029" Text="Nákupní objednávky" />
+              <Title LCID="1030" Text="Indkøbsordrer" />
+              <Title LCID="1031" Text="Bestellungen" />
+              <Title LCID="1032" Text="Παραγγελίες αγοράς" />
+              <Title LCID="3082" Text="Pedidos de compra" />
+              <Title LCID="1061" Text="Ostutellimused" />
+              <Title LCID="1069" Text="Erosketa-eskaerak" />
+              <Title LCID="1035" Text="Ostotilaukset" />
+              <Title LCID="1036" Text="Bons de commande" />
+              <Title LCID="1110" Text="Pedidos de compra" />
+              <Title LCID="1037" Text="הזמנות רכש" />
+              <Title LCID="1081" Text="क्रय ऑर्डर" />
+              <Title LCID="1050" Text="Narudžbenice" />
+              <Title LCID="1038" Text="Megrendelések" />
+              <Title LCID="1057" Text="Pesanan Pembelian" />
+              <Title LCID="1040" Text="Ordini di acquisto" />
+              <Title LCID="1041" Text="発注書" />
+              <Title LCID="1087" Text="Сатып алуға тапсырыстар" />
+              <Title LCID="1042" Text="구매 주문" />
+              <Title LCID="1063" Text="Pirkimo užsakymai" />
+              <Title LCID="1062" Text="Pirkšanas pasūtījumi" />
+              <Title LCID="1086" Text="Pesanan Pembelian" />
+              <Title LCID="1044" Text="Bestillinger" />
+              <Title LCID="1043" Text="Inkooporders" />
+              <Title LCID="1045" Text="Zamówienia zakupu" />
+              <Title LCID="1046" Text="Ordens de Compra" />
+              <Title LCID="2070" Text="Notas de Encomenda" />
+              <Title LCID="1048" Text="Comenzi de achiziționare" />
+              <Title LCID="1049" Text="Заказы на покупку" />
+              <Title LCID="1051" Text="Nákupné objednávky" />
+              <Title LCID="1060" Text="Naročilnice" />
+              <Title LCID="3098" Text="Поруџбенице" />
+              <Title LCID="2074" Text="Porudžbenice" />
+              <Title LCID="1053" Text="Inköpsorder" />
+              <Title LCID="1054" Text="ใบสั่งซื้อ" />
+              <Title LCID="1055" Text="Satın Alma Siparişleri" />
+              <Title LCID="1058" Text="Замовлення на придбання" />
+              <Title LCID="1066" Text="Đơn đặt hàng" />
+              <Title LCID="2052" Text="采购订单" />
+              <Title LCID="3076" Text="採購單" />
+              <Title LCID="1028" Text="採購單" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/PurchaseOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_purchaseorderproduct_AssociateToBooking" Sequence="10011" Client="Web" Area="Info" Id="nav_msdyn_bookableresourcebooking_msdyn_purchaseorderproduct_AssociateToBooking" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Purchase Order Products" />
+              <Title LCID="1025" Text="منتجات أمر الشراء" />
+              <Title LCID="1026" Text="Продукти в поръчката за покупка" />
+              <Title LCID="1027" Text="Productes de l'ordre de compra" />
+              <Title LCID="1029" Text="Produkty na nákupních objednávkách" />
+              <Title LCID="1030" Text="Produkter i indkøbsordre" />
+              <Title LCID="1031" Text="Bestellungsprodukte" />
+              <Title LCID="1032" Text="Προϊόντα παραγγελίας αγοράς" />
+              <Title LCID="3082" Text="Productos de pedido de compra" />
+              <Title LCID="1061" Text="Ostutellimuse tooted" />
+              <Title LCID="1069" Text="Erosketa-eskaeren produktuak" />
+              <Title LCID="1035" Text="Ostotilauksen tuotteet" />
+              <Title LCID="1036" Text="Produits du bon de commande" />
+              <Title LCID="1110" Text="Produtos de pedido de compra" />
+              <Title LCID="1037" Text="מוצרים בהזמנת רכש" />
+              <Title LCID="1081" Text="क्रय ऑर्डर उत्पाद" />
+              <Title LCID="1050" Text="Proizvodi na narudžbenici" />
+              <Title LCID="1038" Text="Megrendelés termékei" />
+              <Title LCID="1057" Text="Produk Pesanan Pembelian" />
+              <Title LCID="1040" Text="Prodotti ordine di acquisto" />
+              <Title LCID="1041" Text="発注書の製品" />
+              <Title LCID="1087" Text="Сатып алуға тапсырыс өнімдері" />
+              <Title LCID="1042" Text="구매 주문 제품" />
+              <Title LCID="1063" Text="Pirkimo užsakymo produktai" />
+              <Title LCID="1062" Text="Pirkšanas pasūtījuma preces" />
+              <Title LCID="1086" Text="Produk Pesanan Pembelian" />
+              <Title LCID="1044" Text="Bestillingsprodukter" />
+              <Title LCID="1043" Text="Inkooporderproducten" />
+              <Title LCID="1045" Text="Produkty objęte zamówieniem zakupu" />
+              <Title LCID="1046" Text="Produtos de Ordem de Compra" />
+              <Title LCID="2070" Text="Produtos da Nota de Encomenda" />
+              <Title LCID="1048" Text="Produse din comanda de achiziționare" />
+              <Title LCID="1049" Text="Продукты по заказу на покупку" />
+              <Title LCID="1051" Text="Produkty nákupných objednávok" />
+              <Title LCID="1060" Text="Izdelki na naročilnici" />
+              <Title LCID="3098" Text="Производи на поруџбеници" />
+              <Title LCID="2074" Text="Proizvodi na porudžbenici" />
+              <Title LCID="1053" Text="Inköpsorderprodukter" />
+              <Title LCID="1054" Text="ผลิตภัณฑ์ในใบสั่งซื้อ" />
+              <Title LCID="1055" Text="Satın Alma Siparişi Ürünleri" />
+              <Title LCID="1058" Text="Продукти для замовлення на придбання" />
+              <Title LCID="1066" Text="Sản phẩm Đơn đặt hàng" />
+              <Title LCID="2052" Text="采购订单产品" />
+              <Title LCID="3076" Text="採購單產品" />
+              <Title LCID="1028" Text="採購單產品" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/PurchaseOrder_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_purchaseorderreceiptproduct_AssociateToBooking" Sequence="10012" Client="Web" Area="Info" Id="nav_msdyn_bookableresourcebooking_msdyn_purchaseorderreceiptproduct_AssociateToBooking" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Purchase Order Receipt Products" />
+              <Title LCID="1025" Text="منتجات إيصال أمر الشراء" />
+              <Title LCID="1026" Text="Продукти в обратната разписка на поръчката за покупка" />
+              <Title LCID="1027" Text="Productes de rebut de l'ordre de compra" />
+              <Title LCID="1029" Text="Produkty na potvrzeních nákupních objednávek" />
+              <Title LCID="1030" Text="Produkter i indkøbsordrekvittering" />
+              <Title LCID="1031" Text="Bestellungsquittung Produkte" />
+              <Title LCID="1032" Text="Προϊόντα απόδειξης παραγγελίας αγοράς" />
+              <Title LCID="3082" Text="Productos de recibo de pedido de compra" />
+              <Title LCID="1061" Text="Ostutellimuse sissetulevad tooted" />
+              <Title LCID="1069" Text="Erosketa-eskaeren agiriko produktuak" />
+              <Title LCID="1035" Text="Ostotilauksen vastaanoton tuotteet" />
+              <Title LCID="1036" Text="Produits de réception du bon de commande" />
+              <Title LCID="1110" Text="Produtos de confirmación do pedido de compra" />
+              <Title LCID="1037" Text="מוצרים בקבלה של הזמנת רכש" />
+              <Title LCID="1081" Text="क्रय ऑर्डर रसीद उत्पाद" />
+              <Title LCID="1050" Text="Proizvodi na narudžbenici za fakturiranje" />
+              <Title LCID="1038" Text="Megrendelés átvett termékei" />
+              <Title LCID="1057" Text="Produk Tanda Terima Pesanan Pembelian" />
+              <Title LCID="1040" Text="Prodotti ricevuta ordine di acquisto" />
+              <Title LCID="1041" Text="発注書の受け取り製品" />
+              <Title LCID="1087" Text="Сатып алуға тапсырыс түсімінің өнімдері" />
+              <Title LCID="1042" Text="구매 주문 영수증 기재 제품" />
+              <Title LCID="1063" Text="Pirkimo užsakymo kvito produktai" />
+              <Title LCID="1062" Text="Pirkšanas pasūtījuma apliecinājuma preces" />
+              <Title LCID="1086" Text="Produk Penerimaan Pesanan Pembelian" />
+              <Title LCID="1044" Text="Produkter for bestillingsbekreftelse" />
+              <Title LCID="1043" Text="Producten van inkooporderontvangst" />
+              <Title LCID="1045" Text="Produkty objęte przyjęciem zamówienia zakupu" />
+              <Title LCID="1046" Text="Produtos do Recebimento da Ordem de Compra" />
+              <Title LCID="2070" Text="Produtos da Receção da Nota de Encomenda" />
+              <Title LCID="1048" Text="Produse din chitanța comenzii de achiziționare" />
+              <Title LCID="1049" Text="Продукты получения заказа на покупку" />
+              <Title LCID="1051" Text="Produkty potvrdení nákupných objednávok" />
+              <Title LCID="1060" Text="Izdelki na potrdilu o prejeti naročilnici" />
+              <Title LCID="3098" Text="Примљени производи на поруџбеници" />
+              <Title LCID="2074" Text="Primljeni proizvodi na porudžbenici" />
+              <Title LCID="1053" Text="Inleveransprodukter för inköpsorder" />
+              <Title LCID="1054" Text="ผลิตภัณฑ์ในใบรับสินค้าของใบสั่งซื้อ" />
+              <Title LCID="1055" Text="Satın Alma Siparişi Giriş Ürünleri" />
+              <Title LCID="1058" Text="Продукти, отримані за замовленням на придбання" />
+              <Title LCID="1066" Text="Sản phẩm Biên nhận Đơn đặt hàng" />
+              <Title LCID="2052" Text="采购订单收据产品" />
+              <Title LCID="3076" Text="採購單收據產品" />
+              <Title LCID="1028" Text="採購單收據產品" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Icon="$webresource:msdyn_/Icons/Sitemap/RTV_32.png" RelationshipName="msdyn_bookableresourcebooking_msdyn_rtv_Booking" Sequence="10013" Client="Web" Area="Info" Id="nav_msdyn_bookableresourcebooking_msdyn_rtv_Booking" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="RTVs" />
+              <Title LCID="1025" Text="عمليات الإرجاع إلى البائع (RTVs)" />
+              <Title LCID="1026" Text="RTVs" />
+              <Title LCID="1027" Text="Devolucions a proveïdor (RTV)" />
+              <Title LCID="1029" Text="Vrácení dodavateli" />
+              <Title LCID="1030" Text="RTV'er" />
+              <Title LCID="1031" Text="RTVs" />
+              <Title LCID="1032" Text="RTV" />
+              <Title LCID="3082" Text="RTV" />
+              <Title LCID="1061" Text="RTV-d" />
+              <Title LCID="1069" Text="RTVak" />
+              <Title LCID="1035" Text="Toimittajalle tehtävät palautukset" />
+              <Title LCID="1036" Text="Retours fournisseurs" />
+              <Title LCID="1110" Text="RTV" />
+              <Title LCID="1037" Text="פריטי RTV" />
+              <Title LCID="1081" Text="RTV" />
+              <Title LCID="1050" Text="Vraćanja dobavljaču" />
+              <Title LCID="1038" Text="Visszáruk a szállítónak" />
+              <Title LCID="1057" Text="RTV" />
+              <Title LCID="1040" Text="RTV" />
+              <Title LCID="1041" Text="RTV" />
+              <Title LCID="1087" Text="Жеткізушіге қайтарылатын өнімдер" />
+              <Title LCID="1042" Text="RTV" />
+              <Title LCID="1063" Text="RTV" />
+              <Title LCID="1062" Text="RTV (atgriešana)" />
+              <Title LCID="1086" Text="Dikembalikan Ke Vendor (RTV)" />
+              <Title LCID="1044" Text="RTV-er" />
+              <Title LCID="1043" Text="RTV's" />
+              <Title LCID="1045" Text="Zwroty do dostawcy" />
+              <Title LCID="1046" Text="RTVs" />
+              <Title LCID="2070" Text="RTVs" />
+              <Title LCID="1048" Text="Returnări la furnizor" />
+              <Title LCID="1049" Text="RTV" />
+              <Title LCID="1051" Text="Vrátenie dodávateľom" />
+              <Title LCID="1060" Text="RTV-ji" />
+              <Title LCID="3098" Text="Повраћаји продавцу" />
+              <Title LCID="2074" Text="Povraćaji prodavcu" />
+              <Title LCID="1053" Text="RTV:er" />
+              <Title LCID="1054" Text="RTV" />
+              <Title LCID="1055" Text="RTV'ler" />
+              <Title LCID="1058" Text="Повернення постачальнику" />
+              <Title LCID="1066" Text="RTV (Trả về cho Nhà cung cấp)" />
+              <Title LCID="2052" Text="RTV" />
+              <Title LCID="3076" Text="RTV" />
+              <Title LCID="1028" Text="RTV" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Details" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Other" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="6" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

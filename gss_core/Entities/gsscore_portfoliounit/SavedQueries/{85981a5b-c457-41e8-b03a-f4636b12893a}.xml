@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{85981a5b-c457-41e8-b03a-f4636b12893a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_portfoliounitid">
+          <cell name="gsscore_customerdesignation" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_equipment" width="100" />
+          <cell name="gsscore_operationalstatusid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_primaryaddress" width="100" disableSorting="1" />
+          <cell name="gsscore_buildingnumbers" width="100" />
+          <cell name="gsscore_criticalunit" width="100" />
+          <cell name="gsscore_numberofservicerequests" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_onportfolio" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_portfoliounit">
+          <attribute name="gsscore_primaryaddress" />
+          <attribute name="gsscore_onportfolio" />
+          <attribute name="gsscore_numberofservicerequests" />
+          <attribute name="gsscore_equipment" />
+          <attribute name="gsscore_customerdesignation" />
+          <attribute name="gsscore_criticalunit" />
+          <attribute name="gsscore_buildingnumbers" />
+          <attribute name="gsscore_operationalstatusid" />
+          <attribute name="gsscore_portfoliounitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All PortfolioUnits" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

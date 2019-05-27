@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3f2cfbd9-9928-e911-a97d-000d3a1c11b3}</WebResourceId>
+  <Name>gsscore_routecoverage32</Name>
+  <DisplayName>Route Coverage 32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>2.1.8.2</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/gsscore_routecoverage323F2CFBD9-9928-E911-A97D-000D3A1C11B3</FileName>
+</WebResource>

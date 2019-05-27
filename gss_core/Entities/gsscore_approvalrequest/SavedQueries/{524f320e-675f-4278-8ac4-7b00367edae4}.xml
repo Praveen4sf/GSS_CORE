@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{524f320e-675f-4278-8ac4-7b00367edae4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" preview="1" icon="1" select="1" jump="subject">
+        <row id="activityid" name="result">
+          <cell name="subject" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="150" />
+          <cell name="gsscore_typeofrequest" width="100" />
+          <cell name="a_c48ff26c9952e811a95e000d3a361a17.gsscore_autoid" width="100" disableSorting="1" />
+          <cell name="gsscore_approverid" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="150" />
+          <cell name="gsscore_approverteam" width="100" />
+          <cell name="gsscore_approvalrole" width="100" />
+          <cell name="gsscore_priority" width="100" />
+          <cell name="gsscore_approvalreason" width="100" disableSorting="1" />
+          <cell name="gsscore_status" imageproviderwebresource="$webresource:" imageproviderfunctionname="" width="150" />
+          <cell name="createdon" width="125" />
+          <cell name="a_c58ff26c9952e811a95e000d3a361a17.gsscore_typeofcontract" width="100" disableSorting="1" />
+          <cell name="gsscore_approvalnotes" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="gsscore_approvalrequest">
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <attribute name="gsscore_status" />
+          <attribute name="gsscore_approverid" />
+          <attribute name="gsscore_approvalnotes" />
+          <attribute name="gsscore_approvalreason" />
+          <attribute name="gsscore_priority" />
+          <attribute name="gsscore_approvalrole" />
+          <order descending="true" attribute="createdon" />
+          <link-entity name="quote" from="quoteid" to="regardingobjectid" visible="false" link-type="outer" alias="a_c48ff26c9952e811a95e000d3a361a17">
+            <attribute name="gsscore_autoid" />
+          </link-entity>
+          <link-entity name="salesorder" from="salesorderid" to="regardingobjectid" visible="false" link-type="outer" alias="a_c58ff26c9952e811a95e000d3a361a17">
+            <attribute name="gsscore_typeofcontract" />
+          </link-entity>
+          <attribute name="gsscore_approverteam" />
+          <attribute name="gsscore_typeofrequest" />
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Approval Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

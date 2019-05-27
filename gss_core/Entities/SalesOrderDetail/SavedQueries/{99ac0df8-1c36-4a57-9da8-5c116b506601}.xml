@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{99ac0df8-1c36-4a57-9da8-5c116b506601}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="salesorderdetails" jump="" select="1" icon="1" preview="1">
+        <row name="salesorderdetail" id="salesorderdetailid">
+          <cell name="productdescription" width="100" />
+          <cell name="gsscore_optionname" width="100" />
+          <cell name="gsscore_optioncode" width="100" />
+          <cell name="gsscore_optioncategory" width="100" />
+          <cell name="a_529be34eea16e811a954000d3a361eb5.gsscore_name" width="100" disableSorting="1" />
+          <cell name="a_529be34eea16e811a954000d3a361eb5.gsscore_description" width="100" disableSorting="1" />
+          <cell name="gsscore_unit" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="salesorderid" width="100" />
+          <cell name="gsscore_unitsummaryid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="salesorderdetail">
+          <attribute name="gsscore_unitsummaryid" />
+          <attribute name="salesorderid" />
+          <attribute name="gsscore_optioncode" />
+          <attribute name="gsscore_optioncategory" />
+          <attribute name="gsscore_unit" />
+          <attribute name="gsscore_optionname" />
+          <attribute name="productdescription" />
+          <order attribute="gsscore_unit" descending="false" />
+          <order attribute="productdescription" descending="false" />
+          <link-entity name="salesorder" from="salesorderid" to="salesorderid" alias="aa">
+            <filter type="and">
+              <condition attribute="statuscode" operator="ne" value="936140011" />
+            </filter>
+          </link-entity>
+          <link-entity name="gsscore_contractoptioncode" from="gsscore_contractoptioncodeid" to="gsscore_contractoptioncode" visible="false" link-type="outer" alias="a_529be34eea16e811a954000d3a361eb5">
+            <attribute name="gsscore_name" />
+            <attribute name="gsscore_description" />
+          </link-entity>
+          <attribute name="salesorderdetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Contract Line Associated View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about the products included in an order in the detail form of the associated order record. This view is in the Products side tab. Where the parent Contract status is not Canceled" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

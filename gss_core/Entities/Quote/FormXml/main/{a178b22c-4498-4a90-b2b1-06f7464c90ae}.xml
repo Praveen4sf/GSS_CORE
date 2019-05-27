@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a178b22c-4498-4a90-b2b1-06f7464c90ae}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
+      <ancestor id="{54076A2D-D043-4A1B-B061-4D06846371A9}" />
+      <hiddencontrols>
+        <data id="pricelevelid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="pricelevelid" />
+        <data id="statecode" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="statecode" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{0B04E4B1-3339-4288-9FD6-96A1F26E22B9}" name="Summary_tab" labelid="{3d53dab7-c025-48bf-9d2e-0a59fc51ec37}" showlabel="true" expanded="true" locklevel="0" IsUserDefined="0" verticallayout="true">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="{0196B23E-8DC5-4C2A-B911-FCDE404452C9}" name="quote information" labelid="{b72426c1-cc03-4811-9d14-07c3323eabb5}" showlabel="true" locklevel="0" IsUserDefined="0" celllabelalignment="Left" columns="1" celllabelposition="Left" showbar="false" labelwidth="115">
+                  <labels>
+                    <label description="QUOTE INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{490D5E8C-F769-4862-9116-4FBF4B218498}" labelid="{c4ba16b4-071e-421a-b542-3cb96bfc27fc}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Quote ID" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="quotenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="quotenumber" uniqueid="{690806bd-9c90-0e98-94c1-71083cb60926}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14088632-B634-4B31-8AF0-CB555392A0AC}" labelid="{fd395485-886a-43c3-a4c6-aa9de673f1a3}" showlabel="false" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Revision ID" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="revisionnumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="revisionnumber" uniqueid="{e91b50ca-3ec0-d48a-c698-267d79886c95}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4D52C08C-A9AE-4859-9A85-6F8B244384CB}" labelid="{179912f2-af65-455a-a35d-298cead1b227}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Quote Name" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" uniqueid="{58a70634-0b67-88ca-7284-10073ea73174}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae3259ee-564a-a341-d37a-569d45813e63}" showlabel="true" locklevel="1" labelid="{44744f22-37bd-4bd6-a92a-7cb294dddae0}">
+                        <labels>
+                          <label description="Quote To" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_contact" uniqueid="{84b7b4da-6a88-52ba-0ec7-829966e85318}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0330ecbe-4329-387e-ad77-e3eb9459920d}" showlabel="true" locklevel="0" visible="false" labelid="{9d5b4f87-a6b0-419d-968d-3eec4469f8ea}">
+                        <labels>
+                          <label description="Quote Expires On" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="effectiveto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="effectiveto" uniqueid="{08edbe1c-874b-e439-98a6-9301254e6730}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ecc521cb-9ad3-b55a-5980-319ebd9bbcae}" showlabel="true" locklevel="1" visible="false" labelid="{dbb12a27-9753-40dd-9896-db8a47211445}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" uniqueid="{4ba428b7-7510-1a71-6559-4383e3145767}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{978b60bd-0393-9b85-9b18-18e737429a12}" showlabel="true" locklevel="1" labelid="{8f01a62a-d6ee-42dc-be57-dd5a34c10105}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" uniqueid="{916a5458-c386-0e93-4aeb-bed21de26158}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{C5F773CF-5A7B-42E8-9A8D-451B77BE3372}" labelid="{b76e5266-3155-4484-9930-c93d37057ff2}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" uniqueid="{9b1d5808-53a4-0d2d-8b80-b586c27ddee1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD5625B0-DDA8-4EE2-B13F-B9331E027C8A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b15a54ac-4166-e2e9-380c-182eb722b77d}" showlabel="true" locklevel="1" labelid="{bd1566ca-af97-45ae-824a-66a425a16a65}">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" uniqueid="{1041d4c2-d5de-015a-8828-a57c6ec424d9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13407006-6b61-746d-c99a-317564094a11}" labelid="{ea3dd475-57b7-415c-9cf3-834fe277dce2}" showlabel="true" locklevel="1" rowspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" uniqueid="{79bc6835-59eb-64c3-80a1-1088e9d893c6}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{b2013da5-8eb4-6a83-99c3-a6bd3c057412}" showlabel="true" locklevel="1" labelid="{6e674979-80aa-4aa4-9874-3fdcb44a95db}">
+                        <labels>
+                          <label description="Cancellation Notice Period (Days)" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_cancellationnoticeperioddays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_cancellationnoticeperioddays" uniqueid="{c676d98e-9605-e890-5ae8-77e63b1e3163}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63c05968-e8ab-81bd-86a4-99bd9e396952}" showlabel="true" locklevel="1" labelid="{d43b97c2-d36a-4408-bde4-48f101290b95}">
+                        <labels>
+                          <label description="Primary Quote" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_primaryquote" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_primaryquote" uniqueid="{89091021-756a-d469-39ae-608449846222}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2e7ae26-4a13-09cd-ed26-2007e340be77}" showlabel="true" locklevel="1" labelid="{03156531-e022-4a79-ac92-931e674b4fb3}">
+                        <labels>
+                          <label description="Originating Quote" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_originatingquote" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_originatingquote" uniqueid="{1b40037b-7320-979a-e1c7-c6c866635655}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{30969771-F303-4B8E-AE91-1E4F5A7FEEFB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{102d6b31-539d-2698-c3b3-ac79bae69006}" showlabel="true" locklevel="1" labelid="{cd918b20-667d-4872-80ee-64688cb36bc4}">
+                        <labels>
+                          <label description="Approval Route" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_approvalroute" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_approvalroute" uniqueid="{606d0bb5-ec50-2320-09c9-e048bdcee666}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{112D63A0-561C-4A29-9914-75DD8E65187A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47409B13-C592-447A-8080-F4B7E10FB4B7}" labelid="{6f4c376e-2047-4d51-afac-d884b1c9c6ab}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Freight Terms" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="freighttermscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="freighttermscode" uniqueid="{63515074-dc14-aa23-b14a-88c07e32b647}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a74914a1-9fd8-442a-947b-199ae358b93c}" labelid="{d3c969f2-31ad-4e94-b10b-4aa61b54b48f}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Bill To Address" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="billto_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="billto_composite" uniqueid="{423a16d4-214d-46e4-948e-d0bb67446e70}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2de18d93-6808-4b2e-a661-285b9cd68200}" labelid="{c34377b1-4734-41de-9a13-2b41b3642a0c}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Ship To" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="willcall" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="willcall" uniqueid="{ea9b531e-7a3c-9eb4-5523-d28c1eaa5236}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22F9B372-05FD-46DA-A947-A847EB3FEE6A}" labelid="{5c6b145f-4c4f-43a6-abf3-a5d25f9026ba}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Shipping Method" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="shippingmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="shippingmethodcode" uniqueid="{8b785475-c1ab-0612-6a93-7192a1e58ec9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03431395-4ddd-4712-aaf8-e8251eb07090}" labelid="{a444c0f5-0912-4a4d-bf62-f658d77f064e}" showlabel="false" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Ship To Address" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="shipto_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="shipto_composite" uniqueid="{b8e1c916-1eb0-3302-5eb7-24885a5549c9}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{1CDD1ABB-4B2E-4A34-9BE9-B7B5324BEBF6}" name="shipping information" labelid="{ff281c5d-c11d-41e2-9419-d16cf04455bd}" showlabel="true" locklevel="0" IsUserDefined="0" celllabelalignment="Left" columns="1" celllabelposition="Left" showbar="false" labelwidth="115">
+                  <labels>
+                    <label description="CONTRACT INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9c7e434b-8695-d94d-2654-8d02b40a6e7c}" labelid="{69268e88-f04c-4b9c-946a-7c18d1ed74e6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" uniqueid="{bd4504dd-bc1c-dac1-b9d8-8e6763a864b4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7560ea13-51a8-958e-9b22-883518615c07}" showlabel="true" locklevel="1" labelid="{28a19393-6603-41c4-87c1-7498f9f3c3bc}">
+                        <labels>
+                          <label description="Contract Start Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_contractstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_contractstartdate" uniqueid="{6cc13057-625e-5053-766a-073374209900}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e9926de-7eda-d983-8099-679a342758ad}" showlabel="true" locklevel="1" labelid="{988125cc-c8f4-47f1-9c99-e6032ee8737c}">
+                        <labels>
+                          <label description="Contract End Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_contractenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_contractenddate" uniqueid="{9eca3b71-9b54-208d-1459-72a9eaba7602}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d1873a0-0c8e-7024-69e6-4d88e66438cb}" showlabel="true" locklevel="1" labelid="{14f41053-ae07-45b7-a524-e5ddaea2c356}">
+                        <labels>
+                          <label description="Contract Term" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_contractterm" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_contractterm" uniqueid="{98ea1458-0e73-7525-c965-6781bb87de68}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6737d92-d324-5060-db6a-93dab8947112}" showlabel="true" locklevel="1" labelid="{528f0955-0cc0-45e9-ad56-fd173c406190}">
+                        <labels>
+                          <label description="Expire but Continue" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_rollingcontractexpire" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_rollingcontractexpire" uniqueid="{01a75a84-e78d-2b6b-8787-14779b58d7d4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6405dbdc-630a-a5b2-0982-e8480ea1ce9d}" showlabel="true" locklevel="1" labelid="{ca5fa46d-5d34-40fe-9779-53f25d82af43}">
+                        <labels>
+                          <label description="Number of Units" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_numberofunits" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_numberofunits" uniqueid="{9b60e33a-d325-407a-8a59-6d141767e14a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19d1d098-229b-4d90-971b-ecd5e8505732}" showlabel="true" locklevel="1" labelid="{701fd631-5965-47b2-a860-355bc8cebee8}">
+                        <labels>
+                          <label description="Non OTIS Contract" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_nonotiscontract" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_nonotiscontract" uniqueid="{b5894674-2221-1e3d-a48b-761b8e00a5d0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e8b8c7d0-59a5-8c5d-599a-56d368e13e4e}" showlabel="true" locklevel="1" labelid="{a99a71f0-fa81-4294-aae1-682a8fd0095b}">
+                        <labels>
+                          <label description="Non-Standard Scope" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_nonstandardscope" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_nonstandardscope" uniqueid="{5ccedc98-8484-44cb-a11c-2cec3dce5779}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0422a32-8e01-d7e0-69c8-8a4b3270db27}" showlabel="true" locklevel="1" labelid="{2114d1f8-55a8-49a6-a4a6-4954c150d140}">
+                        <labels>
+                          <label description="Contract Renewal" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_contractrenewal" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_contractrenewal" uniqueid="{475829b0-a8b0-950e-4388-ad115374d042}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d022b462-5d49-0a3d-8cc3-33d91c2240b8}" showlabel="true" locklevel="1" labelid="{91bad78d-e8bd-4a4f-b0a9-30782349f3bb}">
+                        <labels>
+                          <label description="Auto-Renewal Start Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_autorenewalstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_autorenewalstartdate" uniqueid="{9a18d2bb-bc2a-655b-0d68-4e140a776aec}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{503b2108-1c97-dd22-0745-e569adb6aa6e}" showlabel="true" locklevel="1" labelid="{614baf80-4ec8-4384-a79c-fe04afb77fd0}">
+                        <labels>
+                          <label description="Auto-Renewal End Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_autorenewalenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_autorenewalenddate" uniqueid="{1e421d00-e288-2486-e5a6-cacdb3ce6183}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da58757b-a61c-3b60-9368-e02146d9a588}" showlabel="true" locklevel="1" labelid="{45e3949c-4b71-4feb-9c98-a28973003f4a}">
+                        <labels>
+                          <label description="Auto-Renewal Term" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_autorenewalterm" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_autorenewalterm" uniqueid="{24b30681-1011-9e74-1c8d-bdbc54b0a935}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d6ca4a4-471a-65e7-4ab0-4ae713cd1673}" showlabel="true" locklevel="1" labelid="{89d5bb4a-81de-40d7-99af-7896a6f686dd}">
+                        <labels>
+                          <label description="Number of Renewals" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_numberofrenewals" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="gsscore_numberofrenewals" uniqueid="{a7066282-c955-6de9-50b6-cd5d8669159c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a124d68e-605c-514c-8ac1-52288de6c763}" showlabel="true" locklevel="1" labelid="{613bd12c-ac25-4848-8c1b-bbea19cb2a9c}">
+                        <labels>
+                          <label description="Renewal Period Term (Years)" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_renewalperiodtermyears" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_renewalperiodtermyears" uniqueid="{043aa28b-d632-da2e-c36d-5c919c89b353}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c83a17dd-5b59-88b6-5205-6115ab107196}" showlabel="true" locklevel="0" labelid="{e30f7ca5-bc90-47cc-b490-bf89da8643b5}">
+                        <labels>
+                          <label description="Customer Reference Number" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_customerreferencenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_customerreferencenumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1987a0bd-a336-7a81-96c0-988a62eee96e}" showlabel="true" locklevel="0" labelid="{23acd2d6-d212-4229-a70b-e88edb5ca745}">
+                        <labels>
+                          <label description="Customer PO" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="gsscore_customerpo" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_customerpo" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{8a43b68c-e597-7572-200e-ae3ca8925182}" name="sales information" showlabel="true" locklevel="0" IsUserDefined="0" celllabelalignment="Left" columns="1" celllabelposition="Left" showbar="false" labelwidth="115" layout="varwidth" labelid="{63469195-400f-4620-9097-e42985504ecb}">
+                  <labels>
+                    <label description="SALES INFORMATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{84012BAE-D707-48FB-A439-812FAA831DE3}" labelid="{4fc660e3-2a07-4a1b-a358-b65ed208a5c3}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Opportunity" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setadditionalparams" active="true" application="true">
+                            <InternalHandlers>
+                              <Handler passExecutionContext="true" enabled="true" handlerUniqueId="3184b335-9bf2-490b-af06-c42c1c03d4c8" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.opportunityid_setadditionalparams">
+                                <dependencies>
+                                  <dependency id="transactioncurrencyid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control disabled="true" id="opportunityid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="opportunityid" uniqueid="{553a3b9b-16c8-d4aa-2c01-4cead6369e60}">
+                          <parameters>
+                            <FilterRelationshipName>opportunity_parent_account</FilterRelationshipName>
+                            <DependentAttributeName>quote.customerid</DependentAttributeName>
+                            <DependentAttributeType>account</DependentAttributeType>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9EB361B4-67AC-4830-8ABF-2D29EFBAEE2C}</DefaultViewId>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be0c7709-3846-cee9-534a-71b32460406b}" showlabel="true" locklevel="1" labelid="{b28a9a90-6573-4bda-838f-035df65014c4}">
+                        <labels>
+                          <label description="Quote Number" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_autoid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_autoid" uniqueid="{23992ce6-5784-734c-80cd-38a92923e45d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b96da402-48de-8b3e-77e1-4b3e951d1390}" showlabel="true" locklevel="1" labelid="{33922cc7-aea7-4e5c-be6a-62be26a166c6}">
+                        <labels>
+                          <label description="Business Stream" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_businessstream" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_businessstream" uniqueid="{63bcdcab-58e1-d997-d661-89baa7da113c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a20c149d-a036-4127-a4b2-a9cbad2cd7eb}" showlabel="true" locklevel="1" labelid="{6e11933f-ce3a-46ee-8489-76d40082777b}">
+                        <labels>
+                          <label description="Contract Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_typeofcontract" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_typeofcontract" uniqueid="{172442a7-dc86-0c80-196d-398172c68b14}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d79e63e6-b711-7d4c-9305-4886388ad650}" showlabel="true" locklevel="1" labelid="{e353f2ad-630c-45bc-98fb-8fd7f550bc64}">
+                        <labels>
+                          <label description="TSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_tsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_tsp" uniqueid="{bc95c123-7258-581e-d9b5-4097b291742a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cb7e32b-6440-604b-813c-221b9ac9456e}" showlabel="true" locklevel="1" labelid="{2d8acb5e-5500-45d9-8382-7757639f538f}">
+                        <labels>
+                          <label description="Initial QSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_initialqsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_initialqsp" uniqueid="{71ded2a7-67b8-2615-60e5-820d99d15b6e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bc986bb-c22e-1e5a-43d5-20950c53d54a}" showlabel="true" locklevel="1" labelid="{bfb23943-8c0b-4376-8854-dc4030dc0a15}">
+                        <labels>
+                          <label description="QSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_qsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_qsp" uniqueid="{24bc8d03-7115-ca81-c72d-d2940c84a248}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59472c2b-3dbb-1a94-b1b3-b599de1ec4e7}" showlabel="true" locklevel="1" labelid="{05ff7594-734e-49f1-a735-071050096c7d}">
+                        <labels>
+                          <label description="Annual TSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_annualtsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_annualtsp" uniqueid="{875c567e-407e-d12d-b9dd-43938088ec84}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a8ecd98-173d-4abe-d5c7-a276814ab0ab}" showlabel="true" locklevel="1" labelid="{a53aca3e-faba-4da2-ba91-a1aec600aa47}">
+                        <labels>
+                          <label description="Annual QSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_annualqsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_annualqsp" uniqueid="{05454760-8b01-2d88-0a50-1e7c556b64ab}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a49137e-968e-d42d-0db1-adc78b0923b5}" showlabel="true" locklevel="1" labelid="{6a459979-f901-4a40-a992-04f6a8490130}">
+                        <labels>
+                          <label description="Monthly QSP" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_monthlyqsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_monthlyqsp" uniqueid="{ac073064-d7a4-09b4-dcb4-e1153461905e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8abd22ce-50b9-e604-8e0a-3459cc176e66}" showlabel="true" locklevel="1" labelid="{b0f316c9-646c-48cb-85df-cea4bddfa5a1}">
+                        <labels>
+                          <label description="Monthly TSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_monthlytsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_monthlytsp" uniqueid="{e8278be8-443b-bb2c-da43-d7829b648075}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52db9a42-cd43-a42a-121b-2951058a1b4e}" showlabel="true" locklevel="1" labelid="{cfd3e41d-5776-4a72-a556-cae417b29415}">
+                        <labels>
+                          <label description="Initial Monthly QSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_initialmonthlyqsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_initialmonthlyqsp" uniqueid="{291594d5-c49e-970d-02cc-8ad2d5a42a6c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{477613da-da36-4bd9-9a31-db84b7c82b77}" showlabel="true" locklevel="1" labelid="{474e7197-2a0c-4357-8434-dcfa350b0bd0}">
+                        <labels>
+                          <label description="Initial Annual QSP" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_initialannualqsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_initialannualqsp" uniqueid="{dab4e702-31ed-60ec-67b1-08619daeee38}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54909c16-09ec-8593-c667-98ecb25d9db2}" showlabel="true" locklevel="1" labelid="{dbc720d5-a9a3-4f66-a474-6cfd0fb37e6a}">
+                        <labels>
+                          <label description="Sales Quality %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_salesquality" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_salesquality" uniqueid="{89700127-2706-d26c-944c-5b767b1aca86}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e793353-65aa-746d-cbc3-d94075997d46}" showlabel="true" locklevel="1" labelid="{cd721d33-6d7c-4ceb-819b-a0bc7c514476}">
+                        <labels>
+                          <label description="Down Payment" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_downpayment" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_downpayment" uniqueid="{a4673993-cd03-70a6-b2ab-ebc637a7850d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d52e826-ad1c-b050-d099-13b78d06a830}" showlabel="true" locklevel="1" labelid="{a855c037-fccc-48c8-8fcf-ac03c928d893}">
+                        <labels>
+                          <label description="Discount %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_discount" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_discount" uniqueid="{97b32426-e682-25d4-091d-3a13c08b8bac}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a25a7eed-97e0-e7d7-a998-471cb628ecbb}" showlabel="true" locklevel="1" labelid="{70ce3b1d-2a30-40fc-aafb-0324bb6de6d0}">
+                        <labels>
+                          <label description="Discount Program" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_discountprogram" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_discountprogram" uniqueid="{7bcc468b-2a66-76d3-d632-bd688cc58d11}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e3d6cc83-6c50-e8ab-510a-7b0d54b2a4d6}" showlabel="true" locklevel="1" labelid="{ea6bc92c-d558-4ef3-b17c-246171d7420d}">
+                        <labels>
+                          <label description="Margin Percentage" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_marginpercentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_marginpercentage" uniqueid="{2476591e-e70b-8402-1542-34313b5be778}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd174b33-da1b-6c9b-696a-5aeeb28dc44e}" showlabel="true" locklevel="1" labelid="{48feaef8-9f0d-43a2-8d8e-56aec530a0ea}">
+                        <labels>
+                          <label description="Est. Incentive Compensation (IC)" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_estincentivecompensation" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_estincentivecompensation" uniqueid="{620c8eed-0544-4ea8-9cd0-b27004dd75a5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bae90dc7-bbd3-0299-459d-a48347ce4c4b}" showlabel="true" locklevel="1" labelid="{18ef3a88-1358-474f-8c9c-fc9009a13dcc}">
+                        <labels>
+                          <label description="Payment Method" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_methodofpayment" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_methodofpayment" uniqueid="{683c3b59-3151-e2e5-6779-41e5b39926da}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{011e5a74-ad65-b412-6ea8-7d7c8bc3a27e}" showlabel="true" locklevel="1" labelid="{26f6bbe8-7d68-4fe7-ab9c-e1cd7d11b367}">
+                        <labels>
+                          <label description="Payment Frequency" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_frequencyofpayment" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_frequencyofpayment" uniqueid="{d91ab2a6-9c99-20e2-e577-eeb63c0aae88}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a4ddb70-c6ec-e2d7-7bce-b6427840db98}" showlabel="true" locklevel="1" labelid="{3bd0d3be-73f6-403c-b6f9-ae5a76a8d8fb}">
+                        <labels>
+                          <label description="Payment Term" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_paymentterms" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_paymentterms" uniqueid="{7ad14bed-73a7-ed68-a2d7-b260bb398d54}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5bcadd7-2692-1362-76dd-0e53c36ba5d8}" showlabel="true" locklevel="1" visible="false" labelid="{9e3fa798-6283-4e7c-876f-f19bfeb15eea}">
+                        <labels>
+                          <label description="Payment Terms" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="paymenttermscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="paymenttermscode" uniqueid="{2b750736-4eea-15ba-6acb-c65549a47eb4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7c361c2-1ae3-b620-7ebb-44609b5c6ca9}" showlabel="true" locklevel="1" labelid="{ca332346-7fec-4f70-b1e0-1f0a5adf64e0}">
+                        <labels>
+                          <label description="Down Payment %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_downpaymentpcnt" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_downpaymentpcnt" uniqueid="{dc5a011d-c41d-086a-c978-c246292a577b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6443208a-6ed9-a43c-7449-3e8b1b3be946}" showlabel="true" locklevel="1" labelid="{dde20ef0-2860-4aa0-95ef-642c8d9f302c}">
+                        <labels>
+                          <label description="End of Work" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_endofwork" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_endofwork" uniqueid="{3e652182-75a9-170d-d105-3bce291142a2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88382074-0528-e671-ce56-e9d402bbb3e4}" showlabel="true" locklevel="1" labelid="{3dcf63bb-85af-4f8b-9340-112875128872}">
+                        <labels>
+                          <label description="Date 1 %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date1paymentpcnt" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_date1paymentpcnt" uniqueid="{21904e1d-ad2e-d5a8-9873-61b762a0e05e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0e80127-4253-0a15-6d65-a359da6a1d2a}" showlabel="true" locklevel="1" labelid="{91fb2f36-729f-4852-a039-0464f77d616b}">
+                        <labels>
+                          <label description="Date 1" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date1payment" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_date1payment" uniqueid="{e9839b94-5093-1547-5807-d09c4587e23b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{699a4c61-e633-c3cd-4e95-c371ce0ccabc}" showlabel="true" locklevel="1" labelid="{fafdcfc5-cd7f-4497-94ff-3a7a29b97740}">
+                        <labels>
+                          <label description="Date 2 %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date2paymentpcnt" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_date2paymentpcnt" uniqueid="{424531e7-7824-cea3-2ecc-03810eb2dce1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d550d5e5-0955-9504-eec0-de6a8ab5d2d7}" showlabel="true" locklevel="1" labelid="{4c6d981c-653c-46aa-bcfd-30095ec26210}">
+                        <labels>
+                          <label description="Date 2" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date2payment" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_date2payment" uniqueid="{72e2269c-0a29-b07c-5aea-95b7dad5cb4e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{148d0053-4443-b06a-1944-d4b675bedde2}" showlabel="true" locklevel="1" labelid="{f08f5dd5-8ffa-4bb5-9420-c7cff3c8f8cc}">
+                        <labels>
+                          <label description="Date 3 %" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date3paymentpcnt" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_date3paymentpcnt" uniqueid="{48c08856-be90-13ae-ec29-6e9a48dd7e03}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{180c8ab5-7b87-1340-3dbb-31a53ec83b29}" showlabel="true" locklevel="1" labelid="{6e3a9c21-597b-4a75-9606-6925f786f2e3}">
+                        <labels>
+                          <label description="Date 3" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_date3payment" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_date3payment" uniqueid="{3500b200-1856-2536-4602-00c3ebe2606d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40278936-b45b-dae3-c547-50b1c33c43cc}" showlabel="true" locklevel="1" labelid="{b0cc8a2d-7273-4570-83d8-a8161f7f8af9}">
+                        <labels>
+                          <label description="Work Progress" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_workprogress" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_workprogress" uniqueid="{7b3e7d64-9dd0-0753-679c-28654eba3b1b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26c8e644-c541-71ca-010b-8a759d659c19}" showlabel="true" locklevel="1" labelid="{0d66c764-9cb8-4b38-a47d-b2890168c2c8}">
+                        <labels>
+                          <label description="Material Delivered" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_materialdelivered" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_materialdelivered" uniqueid="{edb28482-3165-3e88-7ee7-59695bb383a8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b20b1bae-d604-47ec-3be5-52eb622abb8e}" showlabel="true" locklevel="1" labelid="{64c8e21e-0568-4069-a74d-d1c50b931836}">
+                        <labels>
+                          <label description="Beginning of Work" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_beginningofwork" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_beginningofwork" uniqueid="{5b0d69d3-957a-2174-9ea1-da9291611c51}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55e39249-8de4-c4a2-d039-621e229b05c4}" showlabel="true" locklevel="1" rowspan="4" labelid="{34492bc3-241a-4e21-ab0e-702b488f07e2}">
+                        <labels>
+                          <label description="Invoice Text" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_invoicetext" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="gsscore_invoicetext" uniqueid="{34eda967-2963-5988-c06e-eb5b15c79e13}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{b29798e1-4ecb-c317-6436-3130a40e0030}" showlabel="true" locklevel="1" labelid="{eb8f01c6-8ef4-463e-a48b-0e6c5d2ba36b}">
+                        <labels>
+                          <label description="Invoice Delivery Method" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_deliverymethodofinvoice" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_deliverymethodofinvoice" uniqueid="{d7a21164-8284-9888-0c4d-c08d5356b56c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a441c0e-6910-dda7-c91b-cb06799a3a98}" showlabel="true" locklevel="1" labelid="{24bb0c0e-1d16-44fe-aecb-688c9cedf66c}">
+                        <labels>
+                          <label description="Invoice Template" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_invoicetemplate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_invoicetemplate" uniqueid="{3ad6a789-a221-98cb-b92b-9649e85a0740}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{6CDAA725-77A3-458E-8D97-C823FBDB2600}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc40d8ed-9023-0651-5b4e-1a14320c294e}" showlabel="true" locklevel="1" labelid="{97b59ca7-50c9-4c87-ae5d-58da9d850c73}">
+                        <labels>
+                          <label description="Consolidated Invoice" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_consolidatedinvoice" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_consolidatedinvoice" uniqueid="{081697d6-8e6b-abee-d642-8b2811ab44c8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92617542-4b34-ec00-3366-e0d70eba6732}" showlabel="true" locklevel="1" labelid="{8737160f-40c0-4714-a8b4-faa83f0ca410}">
+                        <labels>
+                          <label description="Price Adjustment Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_priceadjustmentdate" uniqueid="{ede9879c-59cb-d997-2090-a6c8049ded32}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d1739b2-e2d1-dd05-6c61-a3d351d35da6}" showlabel="true" locklevel="1" labelid="{e5f3ce50-4764-4500-bd47-7bee5c95eba3}">
+                        <labels>
+                          <label description="Price Adjustment Frequency" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_frequencyofpriceadjustment" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_frequencyofpriceadjustment" uniqueid="{e1dc7609-89c9-75e4-aedb-4139592d34ab}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0756ea8-a94a-4367-7b1c-08530ea73444}" showlabel="true" locklevel="1" labelid="{2b6b649e-880d-4880-9afd-c1a791bc9425}">
+                        <labels>
+                          <label description="Index Reference Month" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_indexreferencemonth" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_indexreferencemonth" uniqueid="{69213871-e433-45e4-bd5c-4734bd1ee415}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa0026e1-6410-4639-c3e1-79bd4632a219}" showlabel="true" locklevel="1" labelid="{1e6ca33a-a3aa-4c59-a1b4-22f594f9a92b}">
+                        <labels>
+                          <label description="Price Adjustment Advanced Notice" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentadvancednotice" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_priceadjustmentadvancednotice" uniqueid="{177a5b6d-234c-9907-6098-8b604640bbda}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea7ba279-94c1-aeb9-237c-e0d7530aa856}" showlabel="true" locklevel="1" labelid="{b8fadbdd-19af-4525-bd06-cd657712b55a}">
+                        <labels>
+                          <label description="Price Adjustment Advanced Notice Days" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_advancednoticeofpriceadjustment" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_advancednoticeofpriceadjustment" uniqueid="{d47703d3-69ad-3dc8-dc22-96561a671b80}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73ba50ad-dc23-9582-a81d-4136c6e623cb}" showlabel="true" locklevel="1" labelid="{0fe68bde-31f1-4c63-b21d-bf396b7d9170}">
+                        <labels>
+                          <label description="Price Adjustment Fixed Rate" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentfixedrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_priceadjustmentfixedrate" uniqueid="{373b2a4a-89c2-0870-6c67-12b387e5db9a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54d01bc4-e125-6b3d-d946-e7d81cc30de8}" showlabel="true" locklevel="1" labelid="{20b102de-381d-4d19-abb6-51f988a64611}">
+                        <labels>
+                          <label description="Price Adjustment Max Percentage" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentmaxpercentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_priceadjustmentmaxpercentage" uniqueid="{56e1be48-ecc4-210c-986d-70104ec5c671}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a22108d-35c7-8ed1-d202-50b0e7059650}" showlabel="true" locklevel="1" labelid="{818bc51c-1307-40cd-b79d-9d509791d755}">
+                        <labels>
+                          <label description="Price Adjustment Min Percentage" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentminpercentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_priceadjustmentminpercentage" uniqueid="{b4e362ab-0e18-1390-9d91-93c7b3151c56}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23796e3b-281a-d176-b3de-de13891e1966}" showlabel="true" locklevel="1" labelid="{3c92cf93-20e1-4b5d-a79a-8b0d1e72a95d}">
+                        <labels>
+                          <label description="Price Adjustment on Invoice" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentoninvoice" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_priceadjustmentoninvoice" uniqueid="{840ecbd1-a3a7-2c40-08e5-763b82054de0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d349259b-ccc8-c5c1-3d79-7061b7892659}" showlabel="true" locklevel="1" labelid="{33793ae2-4290-466e-8ef5-bc79fe4f1f77}">
+                        <labels>
+                          <label description="PA Formula" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentformulas" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_priceadjustmentformulas" uniqueid="{dc02a20c-bdd4-07aa-6c2a-62dd4a237d3e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AE7B048D-7D42-4E3F-9D13-40D254BF002E}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c600b74a-bc89-c7a5-1cb1-3039b81ccd78}" showlabel="true" locklevel="1" labelid="{e8a71575-34cd-4eab-b42d-bb5a0ce02d24}">
+                        <labels>
+                          <label description="xPrice Adjustment Formula" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmentformulaname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_priceadjustmentformulaname" uniqueid="{e291231b-9d10-d958-2750-dae29c547905}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75312986-d4c8-56ec-a040-19ecb7d9c8c9}" showlabel="true" locklevel="1" labelid="{9a054c0b-160b-4168-9abc-ea7796d412b8}">
+                        <labels>
+                          <label description="Price Adjustment Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_priceadjustmenttypelist" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_priceadjustmenttypelist" uniqueid="{29c524e2-6482-26b3-8bbd-1be4a14cb5d1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e680e4a-486b-d597-dead-2db39aee134d}" showlabel="true" locklevel="1" labelid="{77a604ea-8be2-4c6f-bdd6-fb8e4af0ccae}">
+                        <labels>
+                          <label description="Proposed By" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_proposedby" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_proposedby" uniqueid="{85c8027a-884b-b1a9-0088-2b8425175348}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d9071a7-016e-d8d7-4d1a-cc5c1d11a768}" showlabel="true" locklevel="1" labelid="{e586c19d-3360-4cb8-8519-d755e5580cc7}">
+                        <labels>
+                          <label description="Proposed Date" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="gsscore_proposeddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_proposeddate" uniqueid="{715b4d92-280b-6ba6-9564-47d20037bb96}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{149D0538-2F20-4631-A6D9-3488066D5144}" labelid="{ece461a8-b5b9-4889-8d67-4e27bebacd21}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Price List" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setadditionalparams" active="true" application="true">
+                            <InternalHandlers>
+                              <Handler passExecutionContext="true" enabled="true" handlerUniqueId="6f103b7c-54cb-494d-a65d-906932f568fe" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.pricelevelid_setadditionalparams">
+                                <dependencies>
+                                  <dependency id="transactioncurrencyid" />
+                                </dependencies>
+                              </Handler>
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control disabled="false" id="pricelevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pricelevelid" uniqueid="{e8e15be0-d7ba-7551-e16e-a27c42856a4e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{EE499892-35E1-4D07-A1B7-BB69FE9BFD42}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8724B7C3-1449-4D95-8C51-BBDAE21D5F1A}" columns="1111" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{9dab9762-2494-d5eb-508a-7bbdb8922b6e}" showlabel="true" locklevel="0" labelid="{4f7f1494-966e-48bd-bd8a-5dbd249dc4aa}">
+              <labels>
+                <label description="QSP" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_gsscore_qsp" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="gsscore_qsp" uniqueid="{37170967-3883-b945-548b-0e307b552b32}" />
+            </cell>
+            <cell id="{9B976068-EAA1-47AF-A26B-D4DA5B844EBC}" labelid="{a680452c-8e22-471e-a93a-3376a01371a0}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Effective From" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_effectivefrom" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="effectivefrom" uniqueid="{800a9a62-2138-a273-d076-36e3cdae499b}" />
+            </cell>
+            <cell id="{96B55B92-F2CD-4EF1-8384-BF4D826CC681}" labelid="{c1ba5e1f-205e-41da-909e-afde162a7323}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Effective To" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_effectiveto" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="effectiveto" uniqueid="{ee65909b-6e95-5362-584c-51d4e2e27959}" />
+            </cell>
+            <cell id="{CDF20887-468F-4DE7-A8BD-CA9309820855}" labelid="{df6a425f-32a2-45ca-9bab-73233f848ad5}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control disabled="true" id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{ed9b4303-782a-72b5-a505-42054e50741b}">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <events>
+        <event name="onload" active="true" application="true">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="eed3450e-7255-4499-beb2-ed63ce31c17d" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.Form_onload">
+              <dependencies>
+                <dependency id="effectiveto" />
+                <dependency id="effectivefrom" />
+                <dependency id="willcall" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" active="true" application="true" attribute="effectivefrom">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="453a7cf8-b1c4-45f5-b092-223c28a466e5" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.effectivefrom_onchange">
+              <dependencies>
+                <dependency id="effectiveto" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" active="true" application="true" attribute="effectiveto">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="d8bf297f-581f-4c5e-bfd5-b810675fe0c3" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.effectiveto_onchange">
+              <dependencies>
+                <dependency id="effectivefrom" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" active="true" application="true" attribute="willcall">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="10553dae-e462-49d1-829b-26ee451d98ea" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.willcall_onchange" />
+          </InternalHandlers>
+        </event>
+        <event name="onchange" active="true" application="true" attribute="transactioncurrencyid">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="831E8BC9-0844-41C3-838D-943E15C0B348" libraryName="Sales/Quote/Quote_main_system_library.js" functionName="Mscrm.transactioncurrencyid_onchange">
+              <dependencies>
+                <dependency id="pricelevelid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="/_static/sfa/quotes/quote.js" />
+            <internaljscriptfile src="$webresource:Sales/Quote/Quote_main_system_library.js" />
+            <internaljscriptfile src="$webresource:Sales/_static/sfa/quotes/QuoteRibbonActions.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_PRICE_LIST_NOT_SELECTED" resourceid="Web.SFA.quotes.edit.aspx_155" />
+            <internaljscriptvariable name="LOCID_EFFECTIVEDATE_TO_LT_FROM" resourceid="Web.SFA.quotes.EffectiveToEarlierThanEffectiveFrom" />
+            <internaljscriptvariable name="LOCID_OFFLINE_CRE_ORD_FROM_QUO" resourceid="Web.SFA.quotes.edit.aspx_340" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Id="navProducts" Area="Info" Sequence="0" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProducts" Show="false">
+            <Titles>
+              <Title Text="Products" LCID="1033" />
+              <Title Text="‏‏المنتجات" LCID="1025" />
+              <Title Text="Продукти" LCID="1026" />
+              <Title Text="Productes" LCID="1027" />
+              <Title Text="Produkty" LCID="1029" />
+              <Title Text="Produkter" LCID="1030" />
+              <Title Text="Produkte" LCID="1031" />
+              <Title Text="Προϊόντα" LCID="1032" />
+              <Title Text="Productos" LCID="3082" />
+              <Title Text="Tooted" LCID="1061" />
+              <Title Text="Produktuak" LCID="1069" />
+              <Title Text="Tuotteet" LCID="1035" />
+              <Title Text="Produits" LCID="1036" />
+              <Title Text="Produtos" LCID="1110" />
+              <Title Text="מוצרים" LCID="1037" />
+              <Title Text="उत्पाद" LCID="1081" />
+              <Title Text="Proizvodi" LCID="1050" />
+              <Title Text="Termékek" LCID="1038" />
+              <Title Text="Produk" LCID="1057" />
+              <Title Text="Prodotti" LCID="1040" />
+              <Title Text="製品" LCID="1041" />
+              <Title Text="Өнімдер" LCID="1087" />
+              <Title Text="제품" LCID="1042" />
+              <Title Text="Produktai" LCID="1063" />
+              <Title Text="Produkti" LCID="1062" />
+              <Title Text="Produk" LCID="1086" />
+              <Title Text="Produkter" LCID="1044" />
+              <Title Text="Producten" LCID="1043" />
+              <Title Text="Produkty" LCID="1045" />
+              <Title Text="Produtos" LCID="1046" />
+              <Title Text="Produtos" LCID="2070" />
+              <Title Text="Produse" LCID="1048" />
+              <Title Text="Продукты" LCID="1049" />
+              <Title Text="Produkty" LCID="1051" />
+              <Title Text="Izdelki" LCID="1060" />
+              <Title Text="Производи" LCID="3098" />
+              <Title Text="Proizvodi" LCID="2074" />
+              <Title Text="Produkter" LCID="1053" />
+              <Title Text="ผลิตภัณฑ์" LCID="1054" />
+              <Title Text="Ürünler" LCID="1055" />
+              <Title Text="Продукти" LCID="1058" />
+              <Title Text="Các sản phẩm" LCID="1066" />
+              <Title Text="产品" LCID="2052" />
+              <Title Text="產品" LCID="3076" />
+              <Title Text="產品" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quotebookingincident_Quote" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quotebookingincident_Quote" Show="false">
+            <Titles>
+              <Title Text="Quote Booking Incidents" LCID="1033" />
+              <Title Text="حوادث حجز عرض الأسعار" LCID="1025" />
+              <Title Text="Събития за резервации по оферта" LCID="1026" />
+              <Title Text="Incidents de reserva de l'oferta" LCID="1027" />
+              <Title Text="Incidenty rezervací nabídek" LCID="1029" />
+              <Title Text="Tilbudsreservationshændelser" LCID="1030" />
+              <Title Text="Angebotsbuchungsvorfälle" LCID="1031" />
+              <Title Text="Περιστατικά κράτησης προσφοράς" LCID="1032" />
+              <Title Text="Incidentes de reserva de la oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise reserveerimisjuhtumid" LCID="1061" />
+              <Title Text="Eskaintzako erreserben gertakariak" LCID="1069" />
+              <Title Text="Tarjouksen varauksen tapaukset" LCID="1035" />
+              <Title Text="Incidents de la réservation du devis" LCID="1036" />
+              <Title Text="Incidentes da reserva da oferta" LCID="1110" />
+              <Title Text="מקרים בהזמנה של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट बुकिंग की घटनाएँ" LCID="1081" />
+              <Title Text="Incidenti rezervacije ponude" LCID="1050" />
+              <Title Text="Árajánlati foglalás ügyei" LCID="1038" />
+              <Title Text="Insiden Pemesanan Kuotasi" LCID="1057" />
+              <Title Text="Incidenti di prenotazione offerta" LCID="1040" />
+              <Title Text="見積もり予約インシデント" LCID="1041" />
+              <Title Text="Баға ұсынысы тапсырысының оқиғалары" LCID="1087" />
+              <Title Text="견적 예약 문제" LCID="1042" />
+              <Title Text="Pasiūlymo rezervavimo incidentai" LCID="1063" />
+              <Title Text="Piedāvājuma rezervācijas incidenti" LCID="1062" />
+              <Title Text="Kejadian Penempahan Sebut Harga" LCID="1086" />
+              <Title Text="Tilbudsbestillingshendelser" LCID="1044" />
+              <Title Text="Boekingsincidenten voor prijsopgaven" LCID="1043" />
+              <Title Text="Zdarzenia objęte rezerwacją na podstawie oferty" LCID="1045" />
+              <Title Text="Incidentes de Reserva de Cotação" LCID="1046" />
+              <Title Text="Incidentes de Reserva da Proposta" LCID="2070" />
+              <Title Text="Incidente de rezervare ofertă" LCID="1048" />
+              <Title Text="Инциденты резервирования по предложению с расценками" LCID="1049" />
+              <Title Text="Incidenty rezervácií cenových ponúk" LCID="1051" />
+              <Title Text="Dogodki rezervacije za ponudbo" LCID="1060" />
+              <Title Text="Инциденти резервације понуде" LCID="3098" />
+              <Title Text="Incidenti rezervacije ponude" LCID="2074" />
+              <Title Text="Offertbokningsincidenter" LCID="1053" />
+              <Title Text="เหตุการณ์สำหรับการจองของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Ayırma Olayları" LCID="1055" />
+              <Title Text="Інциденти, резервовані за ціновою пропозицією" LCID="1058" />
+              <Title Text="Sự cố Đăng ký Báo giá" LCID="1066" />
+              <Title Text="报价单预订事件" LCID="2052" />
+              <Title Text="報價預約事件" LCID="3076" />
+              <Title Text="報價預約事件" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quotebookingproduct_Quote" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quotebookingproduct_Quote" Show="false">
+            <Titles>
+              <Title Text="Quote Booking Products" LCID="1033" />
+              <Title Text="منتجات حجز عرض الأسعار" LCID="1025" />
+              <Title Text="Продукти за резервация по оферта" LCID="1026" />
+              <Title Text="Productes de reserva de l'oferta" LCID="1027" />
+              <Title Text="Produkty v rezervacích nabídek" LCID="1029" />
+              <Title Text="Tilbudsreservationsprodukter" LCID="1030" />
+              <Title Text="Angebotsbuchungsprodukte" LCID="1031" />
+              <Title Text="Προϊόντα κράτησης προσφοράς" LCID="1032" />
+              <Title Text="Productos de reserva de la oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise broneeringu tooted" LCID="1061" />
+              <Title Text="Eskaintzako erreserben produktuak" LCID="1069" />
+              <Title Text="Tarjouksen varaustuotteet" LCID="1035" />
+              <Title Text="Produits de la réservation du devis" LCID="1036" />
+              <Title Text="Produtos da reserva da oferta" LCID="1110" />
+              <Title Text="מוצרי הזמנה של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट बुकिंग उत्पाद" LCID="1081" />
+              <Title Text="Proizvodi rezervacije ponude" LCID="1050" />
+              <Title Text="Árajánlati foglalás termékei" LCID="1038" />
+              <Title Text="Produk Pemesanan Kuotasi" LCID="1057" />
+              <Title Text="Prodotti prenotazione offerta" LCID="1040" />
+              <Title Text="見積もり予約製品" LCID="1041" />
+              <Title Text="Баға ұсынысы тапсырысының өнімдері" LCID="1087" />
+              <Title Text="견적 예약 제품" LCID="1042" />
+              <Title Text="Pasiūlymo rezervavimo produktai" LCID="1063" />
+              <Title Text="Piedāvājuma rezervācijas produkti" LCID="1062" />
+              <Title Text="Produk Penempahan Sebut Harga" LCID="1086" />
+              <Title Text="Tilbudsbestillingsprodukter" LCID="1044" />
+              <Title Text="Boekingsproducten voor prijsopgaven" LCID="1043" />
+              <Title Text="Produkty objęte rezerwacją na podstawie oferty" LCID="1045" />
+              <Title Text="Produtos de Reserva de Cotação" LCID="1046" />
+              <Title Text="Produtos de Reserva da Proposta" LCID="2070" />
+              <Title Text="Produse de rezervare ofertă" LCID="1048" />
+              <Title Text="Продукты резервирования по предложению с расценками" LCID="1049" />
+              <Title Text="Produkty rezervácií cenových ponúk" LCID="1051" />
+              <Title Text="Izdelki rezervacije za ponudbo" LCID="1060" />
+              <Title Text="Производи резервације понуде" LCID="3098" />
+              <Title Text="Proizvodi rezervacije ponude" LCID="2074" />
+              <Title Text="Offertbokningsposter" LCID="1053" />
+              <Title Text="ผลิตภัณฑ์ที่มีการจองของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Ayırma Ürünleri" LCID="1055" />
+              <Title Text="Продукти, резервовані за ціновою пропозицією" LCID="1058" />
+              <Title Text="Sản phẩm Đăng ký Báo giá" LCID="1066" />
+              <Title Text="报价单预订产品" LCID="2052" />
+              <Title Text="報價預約產品" LCID="3076" />
+              <Title Text="報價預約產品" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quotebookingservice_Quote" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quotebookingservice_Quote" Show="false">
+            <Titles>
+              <Title Text="Quote Booking Services" LCID="1033" />
+              <Title Text="خدمات حجز عرض الأسعار" LCID="1025" />
+              <Title Text="Услуги за резервация по оферта" LCID="1026" />
+              <Title Text="Serveis de reserva de l'oferta" LCID="1027" />
+              <Title Text="Služby v rezervacích nabídek" LCID="1029" />
+              <Title Text="Servicer til tilbudsreservation" LCID="1030" />
+              <Title Text="Angebotsbuchungsservices" LCID="1031" />
+              <Title Text="Υπηρεσίες κράτησης προσφοράς" LCID="1032" />
+              <Title Text="Servicios de reserva de la oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise broneeringu teenused" LCID="1061" />
+              <Title Text="Eskaintzako erreserben zerbitzuak" LCID="1069" />
+              <Title Text="Tarjouksen varauspalvelut" LCID="1035" />
+              <Title Text="Services de la réservation de devis" LCID="1036" />
+              <Title Text="Servizos de reserva da oferta" LCID="1110" />
+              <Title Text="שירותים בהזמנה של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट बुकिंग सेवाएँ" LCID="1081" />
+              <Title Text="Usluge rezervacije ponude" LCID="1050" />
+              <Title Text="Árajánlati foglalás szolgáltatásai" LCID="1038" />
+              <Title Text="Layanan Pemesanan Kuotasi" LCID="1057" />
+              <Title Text="Servizi prenotazione offerta" LCID="1040" />
+              <Title Text="見積もり予約サービス" LCID="1041" />
+              <Title Text="Баға ұсынысы тапсырысының қызметтері" LCID="1087" />
+              <Title Text="견적 예약 서비스" LCID="1042" />
+              <Title Text="Pasiūlymo rezervavimo paslaugos" LCID="1063" />
+              <Title Text="Piedāvājuma rezervācijas servisi" LCID="1062" />
+              <Title Text="Perkhidmatan Penempahan Sebut Harga" LCID="1086" />
+              <Title Text="Tilbudsbestillingsservicer" LCID="1044" />
+              <Title Text="Boekingsservices voor prijsopgaven" LCID="1043" />
+              <Title Text="Usługi objęte rezerwacją na podstawie oferty" LCID="1045" />
+              <Title Text="Serviços de Reserva de Cotação" LCID="1046" />
+              <Title Text="Serviços de Reserva da Proposta" LCID="2070" />
+              <Title Text="Servicii de rezervare ofertă" LCID="1048" />
+              <Title Text="Сервисы резервирования по предложению с расценками" LCID="1049" />
+              <Title Text="Služby rezervácií cenových ponúk" LCID="1051" />
+              <Title Text="Storitve rezervacije za ponudbo" LCID="1060" />
+              <Title Text="Услуге резервације понуде" LCID="3098" />
+              <Title Text="Usluge rezervacije ponude" LCID="2074" />
+              <Title Text="Offertbokningstjänster" LCID="1053" />
+              <Title Text="บริการสำหรับการจองของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Ayırma Servisleri" LCID="1055" />
+              <Title Text="Послуги, резервовані за ціновою пропозицією" LCID="1058" />
+              <Title Text="Dịch vụ Đăng ký Báo giá" LCID="1066" />
+              <Title Text="报价单预订服务" LCID="2052" />
+              <Title Text="報價預約服務" LCID="3076" />
+              <Title Text="報價預約服務" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quotebookingservicetask_Quote" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quotebookingservicetask_Quote" Show="false">
+            <Titles>
+              <Title Text="Quote Booking Service Tasks" LCID="1033" />
+              <Title Text="مهام خدمة حجز عرض الأسعار" LCID="1025" />
+              <Title Text="Задачи за услуги за резервация по оферта" LCID="1026" />
+              <Title Text="Tasques de servei de reserva de l'oferta" LCID="1027" />
+              <Title Text="Úkoly související se službami v rezervacích nabídek" LCID="1029" />
+              <Title Text="Serviceopgaver til tilbudsreservation" LCID="1030" />
+              <Title Text="Angebotsbuchungsserviceaufgaben" LCID="1031" />
+              <Title Text="Εργασίες υπηρεσίας κράτησης προσφοράς" LCID="1032" />
+              <Title Text="Tareas de servicio de reserva de la oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise broneeringu hooldustoimingud" LCID="1061" />
+              <Title Text="Eskaintzako erreserben zerbitzuen zereginak" LCID="1069" />
+              <Title Text="Tarjouksen varauksen palvelutehtävät" LCID="1035" />
+              <Title Text="Tâches du service de réservation de devis" LCID="1036" />
+              <Title Text="Tarefas de servizo de reserva da oferta" LCID="1110" />
+              <Title Text="משימות שירות בהזמנה של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट बुकिंग सेवा कार्य" LCID="1081" />
+              <Title Text="Uslužni zadaci rezervacije ponude" LCID="1050" />
+              <Title Text="Árajánlati foglalás szolgáltatási feladatai" LCID="1038" />
+              <Title Text="Tugas Layanan Pemesanan Kuotasi" LCID="1057" />
+              <Title Text="Attività servizio prenotazione offerta" LCID="1040" />
+              <Title Text="見積もり予約サービス タスク" LCID="1041" />
+              <Title Text="Баға ұсынысы тапсырысының қызметтік тапсырмалары" LCID="1087" />
+              <Title Text="견적 예약 서비스 작업" LCID="1042" />
+              <Title Text="Pasiūlymo rezervavimo aptarnavimo užduotys" LCID="1063" />
+              <Title Text="Piedāvājuma rezervācijas servisa uzdevumi" LCID="1062" />
+              <Title Text="Kerja Perkhidmatan Penempahan Sebut Harga" LCID="1086" />
+              <Title Text="Serviceoppgaver for tilbudsbestilling" LCID="1044" />
+              <Title Text="Boekingsservicetaken voor prijsopgaven" LCID="1043" />
+              <Title Text="Zadania serwisowe objęte rezerwacją wg oferty" LCID="1045" />
+              <Title Text="Tarefas de Serviço de Reserva de Cotação" LCID="1046" />
+              <Title Text="Tarefas de Serviço de Reserva da Proposta" LCID="2070" />
+              <Title Text="Activități serviciu de rezervare ofertă" LCID="1048" />
+              <Title Text="Задачи сервиса резервирования по предложению с расценками" LCID="1049" />
+              <Title Text="Úlohy služby rezervácií cenových ponúk" LCID="1051" />
+              <Title Text="Storitvena opravila rezervacije za ponudbo" LCID="1060" />
+              <Title Text="Сервисни задаци резервације понуде" LCID="3098" />
+              <Title Text="Servisni zadaci rezervacije ponude" LCID="2074" />
+              <Title Text="Offertbokningstjänstuppgifter" LCID="1053" />
+              <Title Text="งานการบริการสำหรับการจองของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Ayırma Servis Görevleri" LCID="1055" />
+              <Title Text="Завдання з обслуговування для резервування цінової пропозиції" LCID="1058" />
+              <Title Text="Công việc Dịch vụ Đăng ký Báo giá" LCID="1066" />
+              <Title Text="报价单预订服务任务" LCID="2052" />
+              <Title Text="報價預約服務工作" LCID="3076" />
+              <Title Text="報價預約服務工作" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quotebookingsetup_Quote" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quotebookingsetup_Quote" Show="false">
+            <Titles>
+              <Title Text="Quote Booking Setups" LCID="1033" />
+              <Title Text="عمليات إعداد حجز عرض الأسعار" LCID="1025" />
+              <Title Text="Настройки на резервации по оферта" LCID="1026" />
+              <Title Text="Configuracions de reserva de l'oferta" LCID="1027" />
+              <Title Text="Nastavení rezervací nabídek" LCID="1029" />
+              <Title Text="Konfigurationer for tilbudsreservation" LCID="1030" />
+              <Title Text="Angebotsbuchungssetups" LCID="1031" />
+              <Title Text="Ρυθμίσεις κράτησης προσφοράς" LCID="1032" />
+              <Title Text="Configuraciones de reservas de oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise reserveeringu seadistused" LCID="1061" />
+              <Title Text="Eskaintzako erreserben konfigurazioak" LCID="1069" />
+              <Title Text="Tarjouksen varausasetukset" LCID="1035" />
+              <Title Text="Configurations de réservations de devis" LCID="1036" />
+              <Title Text="Configuracións de reserva da oferta" LCID="1110" />
+              <Title Text="הגדרות הזמנה של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट बुकिंग सेटअप" LCID="1081" />
+              <Title Text="Postavljanja rezervacije ponude" LCID="1050" />
+              <Title Text="Árajánlati foglalási beállítások" LCID="1038" />
+              <Title Text="Konfigurasi Pemesanan Kuotasi" LCID="1057" />
+              <Title Text="Configurazioni prenotazione offerta" LCID="1040" />
+              <Title Text="見積もり予約設定" LCID="1041" />
+              <Title Text="Баға ұсынысының тапсырыс орнатулары" LCID="1087" />
+              <Title Text="견적 예약 설정" LCID="1042" />
+              <Title Text="Pasiūlymo rezervavimo sąrankos" LCID="1063" />
+              <Title Text="Piedāvājuma rezervācijas iestatījumi" LCID="1062" />
+              <Title Text="Persediaan Penempahan Sebut Harga" LCID="1086" />
+              <Title Text="Tilbudsbestillingsoppsett" LCID="1044" />
+              <Title Text="Boekingsinstellingen voor prijsopgaven" LCID="1043" />
+              <Title Text="Ustawienia rezerwacji na podstawie oferty" LCID="1045" />
+              <Title Text="Configurações de Reserva de Cotação" LCID="1046" />
+              <Title Text="Configurações de Reserva da Proposta" LCID="2070" />
+              <Title Text="Configurări de rezervare ofertă" LCID="1048" />
+              <Title Text="Настройки резервирования по предложению с расценками" LCID="1049" />
+              <Title Text="Nastavenia rezervácií cenových ponúk" LCID="1051" />
+              <Title Text="Nastavitve rezervacije za ponudbo" LCID="1060" />
+              <Title Text="Подешавања резервације понуде" LCID="3098" />
+              <Title Text="Podešavanja rezervacije ponude" LCID="2074" />
+              <Title Text="Offertbokningskonfigurationer" LCID="1053" />
+              <Title Text="การตั้งค่าการจองของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Ayırma Düzenleri" LCID="1055" />
+              <Title Text="Настроювання резервувань за ціновою пропозицією" LCID="1058" />
+              <Title Text="Thiết lập Đăng ký Báo giá" LCID="1066" />
+              <Title Text="报价单预订设置" LCID="2052" />
+              <Title Text="報價預約設定" LCID="3076" />
+              <Title Text="報價預約設定" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_msdyn_quote_msdyn_quoteinvoicingsetup_Quote" Icon="$webresource:msdyn_/Icons/Sitemap/ServiceAgreement_32.png" Area="Info" Sequence="10000" RelationshipName="msdyn_quote_msdyn_quoteinvoicingsetup_Quote">
+            <Titles>
+              <Title Text="Quote Invoicing Setups" LCID="1033" />
+              <Title Text="عمليات إعداد فوترة عرض الأسعار" LCID="1025" />
+              <Title Text="Настройки за фактуриране по оферта" LCID="1026" />
+              <Title Text="Configuracions de facturació de l'oferta" LCID="1027" />
+              <Title Text="Nastavení fakturace nabídek" LCID="1029" />
+              <Title Text="Konfigurationer af tilbudsfakturering" LCID="1030" />
+              <Title Text="Angebotsrechnungssetups" LCID="1031" />
+              <Title Text="Εγκαταστάσεις τιμολόγησης προσφοράς" LCID="1032" />
+              <Title Text="Configuraciones de facturación de la oferta" LCID="3082" />
+              <Title Text="Hinnapakkumise arvelduse seadistused" LCID="1061" />
+              <Title Text="Eskaintzen fakturen konfigurazioak" LCID="1069" />
+              <Title Text="Tarjouksen laskutusasetukset" LCID="1035" />
+              <Title Text="Configurations de la facturation de devis" LCID="1036" />
+              <Title Text="Configuración de facturación da oferta" LCID="1110" />
+              <Title Text="הגדרות חשבונית של הצעת מחיר" LCID="1037" />
+              <Title Text="कोट इनवॉइसिंग सेटअप" LCID="1081" />
+              <Title Text="Postavljanja fakturiranja ponude" LCID="1050" />
+              <Title Text="Árajánlatszámlázási beállítások" LCID="1038" />
+              <Title Text="Konfigurasi Faktur Kuotasi" LCID="1057" />
+              <Title Text="Configurazioni fatturazione offerta" LCID="1040" />
+              <Title Text="見積もり請求設定" LCID="1041" />
+              <Title Text="Баға ұсынысы есеп-шотының орнатулары" LCID="1087" />
+              <Title Text="견적 송장 발부 설정" LCID="1042" />
+              <Title Text="Pasiūlymo sąskaitos faktūros išrašymo sąrankos" LCID="1063" />
+              <Title Text="Piedāvājuma rēķina izrakstīšanas iestatījumi" LCID="1062" />
+              <Title Text="Persediaan Invois Sebut Harga" LCID="1086" />
+              <Title Text="Tilbudsfaktureringsoppsett" LCID="1044" />
+              <Title Text="Factureringsinstellingen voor prijsopgaven" LCID="1043" />
+              <Title Text="Ustawienia fakturowania na podstawie oferty" LCID="1045" />
+              <Title Text="Configurações de Faturamento de Cotação" LCID="1046" />
+              <Title Text="Configurações de Faturação da Proposta" LCID="2070" />
+              <Title Text="Configurări de facturare ofertă" LCID="1048" />
+              <Title Text="Настройки счетов по предложению с расценками" LCID="1049" />
+              <Title Text="Nastavenia fakturácie cenových ponúk" LCID="1051" />
+              <Title Text="Nastavitve zaračunavanja iz ponudbe" LCID="1060" />
+              <Title Text="Подешавања фактурисања понуде" LCID="3098" />
+              <Title Text="Podešavanja fakturisanja ponude" LCID="2074" />
+              <Title Text="Offertfaktureringskonfigurationer" LCID="1053" />
+              <Title Text="การตั้งค่าการออกใบแจ้งหนี้ของใบเสนอราคา" LCID="1054" />
+              <Title Text="Teklif Faturalama Düzenleri" LCID="1055" />
+              <Title Text="Настроювання рахунка за ціновою пропозицією" LCID="1058" />
+              <Title Text="Thiết lập Hóa đơn Báo giá" LCID="1066" />
+              <Title Text="报价单发票设置" LCID="2052" />
+              <Title Text="報價發票設定" LCID="3076" />
+              <Title Text="報價發票設定" LCID="1028" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+              <Title Text="عامة" LCID="1025" />
+              <Title Text="Общи" LCID="1026" />
+              <Title Text="Comú" LCID="1027" />
+              <Title Text="Obecné" LCID="1029" />
+              <Title Text="Fælles" LCID="1030" />
+              <Title Text="Gemeinsam verwendet" LCID="1031" />
+              <Title Text="Κοινό" LCID="1032" />
+              <Title Text="Común" LCID="3082" />
+              <Title Text="Levinud" LCID="1061" />
+              <Title Text="Ohikoak" LCID="1069" />
+              <Title Text="Yhteiset" LCID="1035" />
+              <Title Text="Éléments communs" LCID="1036" />
+              <Title Text="Común" LCID="1110" />
+              <Title Text="פריטים נפוצים" LCID="1037" />
+              <Title Text="सामान्य" LCID="1081" />
+              <Title Text="Uobičajeno" LCID="1050" />
+              <Title Text="Közös" LCID="1038" />
+              <Title Text="Umum" LCID="1057" />
+              <Title Text="Elementi comuni" LCID="1040" />
+              <Title Text="共通" LCID="1041" />
+              <Title Text="Жалпы" LCID="1087" />
+              <Title Text="일반" LCID="1042" />
+              <Title Text="Įprasta" LCID="1063" />
+              <Title Text="Kopējs" LCID="1062" />
+              <Title Text="Umum" LCID="1086" />
+              <Title Text="Felles" LCID="1044" />
+              <Title Text="Algemeen" LCID="1043" />
+              <Title Text="Wspólne" LCID="1045" />
+              <Title Text="Comum" LCID="1046" />
+              <Title Text="Comum" LCID="2070" />
+              <Title Text="Comun" LCID="1048" />
+              <Title Text="Общее" LCID="1049" />
+              <Title Text="Bežné" LCID="1051" />
+              <Title Text="Skupno" LCID="1060" />
+              <Title Text="Уобичајено" LCID="3098" />
+              <Title Text="Uobičajeno" LCID="2074" />
+              <Title Text="Gemensam" LCID="1053" />
+              <Title Text="ทั่วไป" LCID="1054" />
+              <Title Text="Ortak" LCID="1055" />
+              <Title Text="Загальне" LCID="1058" />
+              <Title Text="Thông thường" LCID="1066" />
+              <Title Text="公用" LCID="2052" />
+              <Title Text="一般" LCID="3076" />
+              <Title Text="一般" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+              <Title Text="المبيعات" LCID="1025" />
+              <Title Text="Продажби" LCID="1026" />
+              <Title Text="Vendes" LCID="1027" />
+              <Title Text="Prodej" LCID="1029" />
+              <Title Text="Salg" LCID="1030" />
+              <Title Text="Vertrieb" LCID="1031" />
+              <Title Text="Πωλήσεις" LCID="1032" />
+              <Title Text="Ventas" LCID="3082" />
+              <Title Text="Müük" LCID="1061" />
+              <Title Text="Salmentak" LCID="1069" />
+              <Title Text="Myynti" LCID="1035" />
+              <Title Text="Ventes" LCID="1036" />
+              <Title Text="Vendas" LCID="1110" />
+              <Title Text="מכירות" LCID="1037" />
+              <Title Text="विक्रय" LCID="1081" />
+              <Title Text="Prodaja" LCID="1050" />
+              <Title Text="Értékesítés" LCID="1038" />
+              <Title Text="Penjualan" LCID="1057" />
+              <Title Text="Vendite" LCID="1040" />
+              <Title Text="営業" LCID="1041" />
+              <Title Text="Сатылым" LCID="1087" />
+              <Title Text="영업" LCID="1042" />
+              <Title Text="Pardavimas" LCID="1063" />
+              <Title Text="Pārdošana" LCID="1062" />
+              <Title Text="Jualan" LCID="1086" />
+              <Title Text="Salg" LCID="1044" />
+              <Title Text="Verkoop" LCID="1043" />
+              <Title Text="Sprzedaż" LCID="1045" />
+              <Title Text="Vendas" LCID="1046" />
+              <Title Text="Vendas" LCID="2070" />
+              <Title Text="Vânzări" LCID="1048" />
+              <Title Text="Продажи" LCID="1049" />
+              <Title Text="Predaj" LCID="1051" />
+              <Title Text="Prodaja" LCID="1060" />
+              <Title Text="Продаја" LCID="3098" />
+              <Title Text="Prodaja" LCID="2074" />
+              <Title Text="Försäljning" LCID="1053" />
+              <Title Text="การขาย" LCID="1054" />
+              <Title Text="Satış" LCID="1055" />
+              <Title Text="Збут" LCID="1058" />
+              <Title Text="Bán hàng" LCID="1066" />
+              <Title Text="销售" LCID="2052" />
+              <Title Text="銷售" LCID="3076" />
+              <Title Text="銷售" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+              <Title Text="الخدمة" LCID="1025" />
+              <Title Text="Обслужване" LCID="1026" />
+              <Title Text="Servei" LCID="1027" />
+              <Title Text="Služby" LCID="1029" />
+              <Title Text="Service" LCID="1030" />
+              <Title Text="Service" LCID="1031" />
+              <Title Text="Υπηρεσία" LCID="1032" />
+              <Title Text="Servicio" LCID="3082" />
+              <Title Text="Teenindus" LCID="1061" />
+              <Title Text="Zerbitzua" LCID="1069" />
+              <Title Text="Palvelu" LCID="1035" />
+              <Title Text="Service" LCID="1036" />
+              <Title Text="Servizo" LCID="1110" />
+              <Title Text="שירות" LCID="1037" />
+              <Title Text="सेवा" LCID="1081" />
+              <Title Text="Usluga" LCID="1050" />
+              <Title Text="Szolgáltatás" LCID="1038" />
+              <Title Text="Layanan" LCID="1057" />
+              <Title Text="Servizio" LCID="1040" />
+              <Title Text="サービス" LCID="1041" />
+              <Title Text="Қызмет" LCID="1087" />
+              <Title Text="서비스" LCID="1042" />
+              <Title Text="Aptarnavimas" LCID="1063" />
+              <Title Text="Serviss" LCID="1062" />
+              <Title Text="Perkhidmatan" LCID="1086" />
+              <Title Text="Service" LCID="1044" />
+              <Title Text="Service" LCID="1043" />
+              <Title Text="Usługa" LCID="1045" />
+              <Title Text="Serviço" LCID="1046" />
+              <Title Text="Serviço" LCID="2070" />
+              <Title Text="Serviciu" LCID="1048" />
+              <Title Text="Сервис" LCID="1049" />
+              <Title Text="Služba" LCID="1051" />
+              <Title Text="Storitev" LCID="1060" />
+              <Title Text="Услуга" LCID="3098" />
+              <Title Text="Usluga" LCID="2074" />
+              <Title Text="Tjänst" LCID="1053" />
+              <Title Text="การบริการ" LCID="1054" />
+              <Title Text="Servis" LCID="1055" />
+              <Title Text="Послуга" LCID="1058" />
+              <Title Text="Dịch vụ" LCID="1066" />
+              <Title Text="服务" LCID="2052" />
+              <Title Text="服務" LCID="3076" />
+              <Title Text="服務" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+              <Title Text="التسويق" LCID="1025" />
+              <Title Text="Маркетинг" LCID="1026" />
+              <Title Text="Màrqueting" LCID="1027" />
+              <Title Text="Marketing" LCID="1029" />
+              <Title Text="Marketing" LCID="1030" />
+              <Title Text="Marketing" LCID="1031" />
+              <Title Text="Μάρκετινγκ" LCID="1032" />
+              <Title Text="Marketing" LCID="3082" />
+              <Title Text="Turundus" LCID="1061" />
+              <Title Text="Marketina" LCID="1069" />
+              <Title Text="Markkinointi" LCID="1035" />
+              <Title Text="Marketing" LCID="1036" />
+              <Title Text="Márketing" LCID="1110" />
+              <Title Text="שיווק" LCID="1037" />
+              <Title Text="मार्केटिंग" LCID="1081" />
+              <Title Text="Marketing" LCID="1050" />
+              <Title Text="Marketing" LCID="1038" />
+              <Title Text="Pemasaran" LCID="1057" />
+              <Title Text="Marketing" LCID="1040" />
+              <Title Text="マーケティング" LCID="1041" />
+              <Title Text="Маркетинг" LCID="1087" />
+              <Title Text="마케팅" LCID="1042" />
+              <Title Text="Rinkodara" LCID="1063" />
+              <Title Text="Mārketings" LCID="1062" />
+              <Title Text="Pemasaran" LCID="1086" />
+              <Title Text="Markedsføring" LCID="1044" />
+              <Title Text="Marketing" LCID="1043" />
+              <Title Text="Marketing" LCID="1045" />
+              <Title Text="Marketing" LCID="1046" />
+              <Title Text="Marketing" LCID="2070" />
+              <Title Text="Marketing" LCID="1048" />
+              <Title Text="Маркетинг" LCID="1049" />
+              <Title Text="Marketing" LCID="1051" />
+              <Title Text="Trženje" LCID="1060" />
+              <Title Text="Маркетинг" LCID="3098" />
+              <Title Text="Marketing" LCID="2074" />
+              <Title Text="Marknadsföring" LCID="1053" />
+              <Title Text="การตลาด" LCID="1054" />
+              <Title Text="Pazarlama" LCID="1055" />
+              <Title Text="Маркетинг" LCID="1058" />
+              <Title Text="Tiếp thị" LCID="1066" />
+              <Title Text="市场营销" LCID="2052" />
+              <Title Text="行銷" LCID="3076" />
+              <Title Text="行銷" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+              <Title Text="جلسات عمل العمليات" LCID="1025" />
+              <Title Text="Сесии на процес" LCID="1026" />
+              <Title Text="Sessions del procés" LCID="1027" />
+              <Title Text="Relace procesů" LCID="1029" />
+              <Title Text="Processessioner" LCID="1030" />
+              <Title Text="Prozesssitzungen" LCID="1031" />
+              <Title Text="Περίοδοι λειτουργίας διεργασίας" LCID="1032" />
+              <Title Text="Sesiones de proceso" LCID="3082" />
+              <Title Text="Protsessiseansid" LCID="1061" />
+              <Title Text="Prozesu-saioak" LCID="1069" />
+              <Title Text="Prosessin istunnot" LCID="1035" />
+              <Title Text="Sessions de traitement" LCID="1036" />
+              <Title Text="Sesións de proceso" LCID="1110" />
+              <Title Text="הפעלות תהליך" LCID="1037" />
+              <Title Text="प्रक्रिया सत्र" LCID="1081" />
+              <Title Text="Sesije procesa" LCID="1050" />
+              <Title Text="Feldolgozási munkamenetek" LCID="1038" />
+              <Title Text="Sesi Proses" LCID="1057" />
+              <Title Text="Sessioni processo" LCID="1040" />
+              <Title Text="プロセス セッション" LCID="1041" />
+              <Title Text="Процесс сеанстары" LCID="1087" />
+              <Title Text="프로세스 세션" LCID="1042" />
+              <Title Text="Apdorojimo seansai" LCID="1063" />
+              <Title Text="Apstrādes sesijas" LCID="1062" />
+              <Title Text="Proses Sesi" LCID="1086" />
+              <Title Text="Prosessøkter" LCID="1044" />
+              <Title Text="Processessies" LCID="1043" />
+              <Title Text="Sesje procesów" LCID="1045" />
+              <Title Text="Sessões de Processo" LCID="1046" />
+              <Title Text="Sessões de Processo" LCID="2070" />
+              <Title Text="Sesiuni de proces" LCID="1048" />
+              <Title Text="Сеансы процесса" LCID="1049" />
+              <Title Text="Relácie procesov" LCID="1051" />
+              <Title Text="Seje procesov" LCID="1060" />
+              <Title Text="Сесије процеса" LCID="3098" />
+              <Title Text="Sesije procesa" LCID="2074" />
+              <Title Text="Processessioner" LCID="1053" />
+              <Title Text="เซสชันของกระบวนการ" LCID="1054" />
+              <Title Text="İşlem Oturumları" LCID="1055" />
+              <Title Text="Сеанси процесів" LCID="1058" />
+              <Title Text="Giao dịch quy trình" LCID="1066" />
+              <Title Text="进程会话" LCID="2052" />
+              <Title Text="程序工作階段" LCID="3076" />
+              <Title Text="程序工作階段" LCID="1028" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" Order="12">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Sys Admin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

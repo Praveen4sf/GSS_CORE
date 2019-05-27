@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8a75c914-723d-4155-9250-7ed44d7987ae}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="slaitemid">
+          <cell name="name" width="100" />
+          <cell name="createdon" width="150" />
+          <cell name="modifiedon" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="slaitem">
+          <attribute name="name" />
+          <attribute name="createdon" />
+          <attribute name="modifiedon" />
+          <order attribute="modifiedon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>6.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="SLA Item Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

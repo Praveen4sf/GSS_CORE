@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e4b362bd-b44e-e811-a95a-000d3a361eb5}</savedqueryid>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="gsscore_onportfoliods">
+          <attribute name="gsscore_onportfoliodsid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="OnPortfolioDSs" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="All active OnPortfolioDSs" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{196fed16-6cc2-49b6-b156-885ae965c8bb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab name="tab_7" id="{ea2e5ba3-2bea-a1c9-6182-96023624e663}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{b20d6fdd-eca4-4339-9a51-b345e69727a7}">
+          <labels>
+            <label description="Coverage Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_3" showlabel="false" showbar="false" locklevel="0" id="{c919254e-b909-5128-9c9e-63ad2a309002}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{ed2e0b5f-c1af-4a3a-a1ff-313e0b9ecacb}">
+                  <labels>
+                    <label description="Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{94140ed6-6990-626b-3b7e-0ce39c28e7e5}" showlabel="true" locklevel="0" labelid="{bb3cbc6e-cfe1-4d1e-bf6e-cee2693d5da0}">
+                        <labels>
+                          <label description="Route" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_route" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_route" disabled="false" uniqueid="{93c09722-73b1-dae5-addd-640d191db5aa}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{AD81B2CA-9789-4465-8C56-94C10830A6ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{5b94b544-1e31-49a3-5185-0825b6c38273}" showlabel="true" locklevel="0" labelid="{8fbb848a-373e-41ea-9eb0-ef069da94f49}">
+                        <labels>
+                          <label description="Effective Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_startdate" disabled="false" uniqueid="{399a2611-d742-2e1c-42a3-79d26d18e8c9}" />
+                      </cell>
+                      <cell id="{1696380c-eca7-22a1-eb5c-2ae04b7848e6}" showlabel="true" locklevel="0" labelid="{278cd01e-9579-46ff-82cd-fd2a3c086ce1}">
+                        <labels>
+                          <label description="Duty Roster Type" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_temporarydutyroster" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_temporarydutyroster" disabled="false" uniqueid="{ae873a3c-1ade-a8b5-ac90-bcd3e8ce2521}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e591dd8-e8c3-45cc-81a1-55e074ecd18f}" showlabel="true" locklevel="0" labelid="{59a1c43e-958a-4852-b0a4-635c6acb9327}">
+                        <labels>
+                          <label description="Coverage Name" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_name" uniqueid="{c73aeb90-55c3-e538-2b4b-6d5cb3922748}" disabled="false" />
+                      </cell>
+                      <cell id="{28573c77-5cac-ba2e-017d-d7bb42a08d1b}" showlabel="true" locklevel="0" visible="false" labelid="{dca27b0f-77d9-422f-84ba-6d057c4aab67}">
+                        <labels>
+                          <label description="Effective End Date" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_enddate" disabled="false" uniqueid="{1b27dab9-1e76-eb81-2447-c2960d37c31a}" />
+                      </cell>
+                      <cell id="{aa0630d9-1149-dc8c-b457-3b2534a659b9}" showlabel="true" locklevel="0" labelid="{8aa6c7ff-b246-470f-89ea-4be96d55fc4c}">
+                        <labels>
+                          <label description="Require Temporary Duty Roster?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_requiretemporarydutyroster" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="gsscore_requiretemporarydutyroster" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{166eb509-041b-4483-08e1-522abed48a10}" showlabel="true" locklevel="0" labelid="{4449a92a-292d-44c0-a776-329e3549f21d}">
+                        <labels>
+                          <label description="Nickname" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nickname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_nickname" disabled="false" />
+                      </cell>
+                      <cell id="{ea28d38a-5037-3571-0dd9-7c15c39393e2}" showlabel="true" locklevel="1" labelid="{8a2cb09f-7756-4689-8426-24681ecf790d}">
+                        <labels>
+                          <label description="Branch" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_branch" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_branch" disabled="false" uniqueid="{c2905a13-5a0b-679d-536b-66d003b8dc15}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{70220B66-7D41-4E28-8C6A-0015EBD4DF27}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{7ab69547-3315-a4eb-b158-a3101a7d9ee5}" showlabel="true" locklevel="0" visible="false" availableforphone="false" labelid="{62cf9771-46cc-4f49-a843-63e96ef7bba9}">
+                        <labels>
+                          <label description="Manual Assignment Required ?" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_manualassignmentrequired" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_manualassignmentrequired" disabled="false" uniqueid="{a0c6ea9b-043a-941e-2b65-25e83e7d02b9}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="{63eb5432-bac3-31cb-dc1b-9018b127cb06}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{2f6fb112-9d1f-4f78-843b-9212adaed334}">
+          <labels>
+            <label description="Coverage Groups" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_2" showlabel="false" showbar="false" locklevel="0" id="{6cecd5bb-b418-2cc8-7712-2886c2a06d61}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{7eed7e89-1514-4f4f-8d0b-91c8524b96f9}">
+                  <labels>
+                    <label description="Primary Coverage Group" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{91858518-aceb-d3b2-14c9-1aac33aec163}" showlabel="true" locklevel="0" labelid="{c9431319-57df-469a-8599-e26f8cc1944a}">
+                        <labels>
+                          <label description="Primary Coverage Group" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primarycoveragegroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primarycoveragegroup" disabled="false" uniqueid="{130a93ec-a731-7902-5a49-a6dc25d578a3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD871442-EA3D-4ED6-8DFA-CC022211C360}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{726d8e91-8283-128e-bd0e-89acb352e513}" showlabel="false" userspacer="true" labelid="{48f972f7-8e5f-4772-bfb9-6201929a49e0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{8528b718-bedb-2326-0488-5468bcbb2a97}" showlabel="false" userspacer="true" labelid="{708b9fed-7612-48cc-8878-228d5a56362a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bace4c26-ce38-3b41-49ba-2b7003dd2817}" showlabel="true" locklevel="0" labelid="{0a0450dd-4a3d-4e96-a285-bf71c63b52e9}">
+                        <labels>
+                          <label description="Primary P1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primaryp1" disabled="false" uniqueid="{1a665c95-e012-daa6-b33c-e0e92da19dbc}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{7ba257c8-7143-ea20-76dc-c9a68541e9b2}" showlabel="true" locklevel="0" labelid="{76576600-b438-48a1-9356-97d1185bab98}">
+                        <labels>
+                          <label description="P1 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp1mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_primaryp1mechanicphonenumber" disabled="false" uniqueid="{832ea3d6-5255-cb48-ec33-952ce4ca6a4a}" />
+                      </cell>
+                      <cell id="{219495d1-a53c-c730-199c-330e0027ba9b}" showlabel="true" locklevel="0" labelid="{b36aedf2-3c2c-4df4-b8a4-7b295353aadc}">
+                        <labels>
+                          <label description="P1 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp1media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_primaryp1media" disabled="false" uniqueid="{877b35a7-b455-3a1b-cead-c87189c09a88}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cec1b525-71a8-abc3-7367-ea4340e979ed}" showlabel="true" locklevel="0" labelid="{e534db00-11a6-4db2-bdbf-4f994bf3263c}">
+                        <labels>
+                          <label description="Primary P2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primaryp2" disabled="false" uniqueid="{22eecbdd-3954-9215-53b2-0130d0e30ec6}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{e4785e1c-ac25-9796-2841-3866e4e1571a}" showlabel="true" locklevel="0" labelid="{f9a5045a-3eb5-4889-9fe3-76145fe8daf4}">
+                        <labels>
+                          <label description="P2 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp2mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_primaryp2mechanicphonenumber" disabled="false" uniqueid="{98695242-8290-c589-a3a8-76b019378ac6}" />
+                      </cell>
+                      <cell id="{eb1139c4-42d2-806a-b447-620e74a17542}" showlabel="true" locklevel="0" labelid="{b56dba98-4316-428d-a22c-ad979b73d735}">
+                        <labels>
+                          <label description="P2 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp2media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_primaryp2media" disabled="false" uniqueid="{c212b117-b72e-db18-64c2-861728b72ab4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e72c2d9c-bb7a-28cb-3949-6c22bd2c9de7}" showlabel="true" locklevel="0" labelid="{57d1fe55-5cba-4a28-8606-984c700bff20}">
+                        <labels>
+                          <label description="Primary P3" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primaryp3" disabled="false" uniqueid="{5ddad0aa-50a4-d7c1-de49-71baa4bc91d1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{44d4b3ab-44a4-c4b8-6d69-27eb9a46d363}" showlabel="true" locklevel="0" labelid="{c3dd86fd-3006-4b6d-a2ee-189d07332d39}">
+                        <labels>
+                          <label description="P3 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp3mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_primaryp3mechanicphonenumber" disabled="false" uniqueid="{116caee7-7d40-0840-c2c5-ec5185551677}" />
+                      </cell>
+                      <cell id="{124c2ee3-9144-3b16-db74-2c7d5832a70e}" showlabel="true" locklevel="0" labelid="{91854ccc-a8c3-4388-af7e-0e748fbbedcf}">
+                        <labels>
+                          <label description="P3 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp3media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_primaryp3media" disabled="false" uniqueid="{bb8a8446-dc44-5461-1bc5-4b6bb0a84d06}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{830c4838-d302-a395-344a-ed8c7bc765d2}" showlabel="true" locklevel="0" labelid="{19c9f845-fd2a-498f-a5e5-79b097d8f71b}">
+                        <labels>
+                          <label description="Primary P4" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp4" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primaryp4" disabled="false" uniqueid="{7c8d2277-e311-7469-0940-d0b50189b505}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{caec414b-e0dd-208c-a2b4-66d0c1ae3852}" showlabel="true" locklevel="0" labelid="{bfa588c3-5fcf-4f86-98c9-f070937d22f0}">
+                        <labels>
+                          <label description="P4 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp4mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_primaryp4mechanicphonenumber" disabled="false" uniqueid="{4335cb48-4ec6-0e10-7bc8-0460ebc93e1e}" />
+                      </cell>
+                      <cell id="{53c4adec-2296-370a-b125-11cc6ec4e017}" showlabel="true" locklevel="0" labelid="{f59fcbd4-55cd-4835-9025-f7606ae2baad}">
+                        <labels>
+                          <label description="P4 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primaryp4media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_primaryp4media" disabled="false" uniqueid="{c140b902-83a0-22be-b1ad-697016caacc6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34361c26-be91-7156-6e10-d42b874cd118}" showlabel="true" locklevel="0" labelid="{db968a1f-2ea0-4bcc-aefd-7c99d1a623cc}">
+                        <labels>
+                          <label description="Primary Supervisor" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primarysupervisor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_primarysupervisor" disabled="false" uniqueid="{1ae14cce-575b-b35c-b556-57c93415e448}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{376dd0ab-4c47-bbb5-c166-c86d08c7b6c3}" showlabel="true" locklevel="0" labelid="{d45d3e5c-6d9a-4dfe-a402-f07da6a9a2a5}">
+                        <labels>
+                          <label description="Supervisor Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_primarysupervisorphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_primarysupervisorphonenumber" disabled="false" uniqueid="{04555412-d74c-6788-c35e-cda30cc49d67}" />
+                      </cell>
+                      <cell id="{4cdeec09-c010-c68b-4ce1-4456ec5e05c6}" showlabel="false" labelid="{a82b8a12-cf1e-4fce-bdc9-f81c594b1fd5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_4_section_6" showlabel="false" showbar="false" locklevel="0" id="{08640ae6-5a0d-8a5e-5b66-37d427230b4e}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{0cebd0e5-79d1-431d-b340-b23c045d0c89}">
+                  <labels>
+                    <label description="Secondary Coverage Group" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4e05c8b7-4c36-7e17-a3a7-9ec4d1c58865}" showlabel="true" locklevel="0" labelid="{6fe39055-9a5a-470f-9ff4-6f02379da2f9}">
+                        <labels>
+                          <label description="Secondary Coverage Group" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondarycoveragegroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondarycoveragegroup" disabled="false" uniqueid="{76b7a336-025a-4a1b-e00b-3263a61911d4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD871442-EA3D-4ED6-8DFA-CC022211C360}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{d1d78ad4-249a-b9b1-40cd-eb79be129422}" showlabel="false" userspacer="true" labelid="{e4b532b0-e4f5-4461-9e37-32841b373dae}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{8ce84869-d46d-8372-b44c-68c3e3cbb2ee}" showlabel="false" userspacer="true" labelid="{19f5c493-5da1-44ad-9bf8-ef6b73298b12}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae7d0c38-1dad-db3a-9328-be5c4a1044ac}" showlabel="true" locklevel="0" labelid="{3effd607-3a67-4417-a467-8694d5a230da}">
+                        <labels>
+                          <label description="Secondary P1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondaryp1" disabled="false" uniqueid="{87523893-6b1a-0425-9a27-415368e3135c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{41ab3d68-c6d3-4ca3-137e-87db8d2208c8}" showlabel="true" locklevel="0" labelid="{32c1a620-0aae-4ae9-a255-d90635ff4c27}">
+                        <labels>
+                          <label description="P1 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp1mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_secondaryp1mechanicphonenumber" disabled="false" uniqueid="{a1b655c0-b401-c82b-847e-c38117b153a1}" />
+                      </cell>
+                      <cell id="{887a2e4e-c715-83de-86a5-83620de18758}" showlabel="true" locklevel="0" labelid="{6d756cd7-8994-4c50-947a-b672a61cef0c}">
+                        <labels>
+                          <label description="P1 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp1media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_secondaryp1media" disabled="false" uniqueid="{23085b88-9558-6435-21ac-08dbea175011}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{55996b79-9d59-3b74-7dd5-8017da013c30}" showlabel="true" locklevel="0" labelid="{a8c3f3ed-621d-42db-8944-45426431e4a7}">
+                        <labels>
+                          <label description="Secondary P2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondaryp2" disabled="false" uniqueid="{71b93740-63d2-395b-4958-da8ad5401c7e}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{b0b2214d-9d08-b3b7-eed6-b6e761dd034c}" showlabel="true" locklevel="0" labelid="{98efda29-9e7e-4c1f-a287-c0685f241931}">
+                        <labels>
+                          <label description="P2 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp2mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_secondaryp2mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{1798cba3-c580-ea36-7ec4-5ec022d2d55d}" showlabel="true" locklevel="0" labelid="{c4c23882-9dac-40df-b346-64c45d870826}">
+                        <labels>
+                          <label description="P2 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp2media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_secondaryp2media" disabled="false" uniqueid="{28422ec9-9088-1332-032d-0215a236de68}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4543780b-a7e0-b45c-c3be-6917649746b0}" showlabel="true" locklevel="0" labelid="{bb704e19-2ff5-4a34-bad0-322d85f38536}">
+                        <labels>
+                          <label description="Secondary P3" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondaryp3" disabled="false" uniqueid="{cc64a5ad-dcbb-de89-3e6b-8082638bc395}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{1ab6b32c-50d5-981a-a77c-4ce7c007081c}" showlabel="true" locklevel="0" labelid="{c2144d42-a604-463e-ba4b-009d9c4eee9e}">
+                        <labels>
+                          <label description="P3 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp3mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_secondaryp3mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{379103a6-e288-4cd8-dccd-b44662153761}" showlabel="true" locklevel="0" labelid="{6a05aadc-3026-458f-9bf2-fca1ca484718}">
+                        <labels>
+                          <label description="P3 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp3media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_secondaryp3media" disabled="false" uniqueid="{6159d520-1e96-0a47-817d-20ea4aeb4998}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b009298d-27a3-ac23-6796-46364028e27a}" showlabel="true" locklevel="0" labelid="{64c3008d-672f-44f2-9522-0e093bab02db}">
+                        <labels>
+                          <label description="Secondary P4" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp4" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondaryp4" disabled="false" uniqueid="{8e594ab8-38b4-4a80-c1aa-e224a5a37c4b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{90b455ac-ee97-2341-b2d9-40c36ace5aaa}" showlabel="true" locklevel="0" labelid="{e59e9ae5-ba7c-4b9b-8903-3aa128dbc0ea}">
+                        <labels>
+                          <label description="P4 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp4mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_secondaryp4mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{528285c0-9b99-5521-846e-c36690532524}" showlabel="true" locklevel="0" labelid="{50052ba0-2729-44a8-9ada-2548da25945a}">
+                        <labels>
+                          <label description="P4 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondaryp4media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_secondaryp4media" disabled="false" uniqueid="{2089bc6d-e1ae-02a1-6083-7b2793560448}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{324ec4e6-64b9-ec81-e4d7-9578889248bc}" showlabel="true" locklevel="0" labelid="{415ac7d2-9e39-4d55-9427-a0fcc6ccb597}">
+                        <labels>
+                          <label description="Secondary Supervisor" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondarysupervisor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_secondarysupervisor" disabled="false" uniqueid="{250d402c-4d21-c552-005e-875e94b854d4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{447b019c-985b-ed23-8d31-011950e4d86c}" showlabel="true" locklevel="0" labelid="{3d5c8ea0-dc69-446d-b506-f25a834c59ae}">
+                        <labels>
+                          <label description="Supervisor Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_secondarysupervisorphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_secondarysupervisorphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{a71302c3-2306-197d-45ed-41d31e3433ec}" showlabel="false" labelid="{b24cdda0-a05f-4133-9204-970d64950f9e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_6_section_3" showlabel="false" showbar="false" locklevel="0" id="{5c789981-d98a-0699-a41b-bc6e9aebbbd6}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{f78bd9db-4bb4-49f8-ba7a-8fcdf7967a2b}">
+                  <labels>
+                    <label description="Tertiary Coverage Group" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{850d0ce0-0bd5-3de8-8a4a-b5b9d4bb8bc0}" showlabel="true" locklevel="0" labelid="{2e6f9aff-b5c8-4c28-93f2-716e0541de6e}">
+                        <labels>
+                          <label description="Tertiary Coverage Group" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiarycoveragegroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiarycoveragegroup" disabled="false" uniqueid="{ba7182c2-9eac-2894-0057-dea5d1657bc3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CD871442-EA3D-4ED6-8DFA-CC022211C360}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{60b9ccba-cb40-d5e7-5010-1ce44389d3d5}" showlabel="false" userspacer="true" labelid="{c6e5a137-db8a-4bb1-9c32-7699c96261cb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{117ca59d-aa0c-9b10-2936-a7d3935b049e}" showlabel="false" userspacer="true" labelid="{af174eca-4617-473f-be2d-b5930c5a4795}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d716edbc-38c9-1c07-8179-01e4a58cab89}" showlabel="true" locklevel="0" labelid="{b65edfcd-d607-45ec-9f91-5e33d1f9fb8a}">
+                        <labels>
+                          <label description="Tertiary P1" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp1" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiaryp1" disabled="false" uniqueid="{452648a5-9d43-b44d-7778-b501a9244612}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{e8d3c1ca-2716-199d-8786-6b5291e3762b}" showlabel="true" locklevel="0" labelid="{199620fb-d419-4fc4-bb80-3f9aa96025d4}">
+                        <labels>
+                          <label description="P1 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp1mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_tertiaryp1mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{3c895d0d-47dc-4010-0b35-31b780a81da0}" showlabel="true" locklevel="0" labelid="{0218f403-71af-44a8-b0cd-de156db0f445}">
+                        <labels>
+                          <label description="P1 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp1media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_tertiaryp1media" disabled="false" uniqueid="{d3960263-4b63-bd42-04cb-360606e5a971}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a735d0c7-c0d1-92e8-20ca-c6e740872005}" showlabel="true" locklevel="0" labelid="{c6f56262-99fa-49dd-b21c-9b384a657b44}">
+                        <labels>
+                          <label description="Tertiary P2" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp2" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiaryp2" disabled="false" uniqueid="{641b333e-59ee-d6eb-3857-6575ebdccd80}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{890bc4c8-4730-4054-da37-5a63778cb631}" showlabel="true" locklevel="0" labelid="{94cc483d-9bba-48b6-a18f-dc6af7d8968c}">
+                        <labels>
+                          <label description="P2 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp2mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_tertiaryp2mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{8c3debac-ea5c-7ad6-4e3c-1b8aeed189ae}" showlabel="true" locklevel="0" labelid="{0dd48b52-5654-4aaf-a0b5-9056392985bb}">
+                        <labels>
+                          <label description="P2 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp2media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_tertiaryp2media" disabled="false" uniqueid="{5c4a5bb0-3ceb-ae92-3430-8d41966d1e2d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c98047d-0554-6466-6461-b40db02edb85}" showlabel="true" locklevel="0" labelid="{3bd01cdd-660f-4f03-870e-dff998f69aae}">
+                        <labels>
+                          <label description="Tertiary P3" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp3" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiaryp3" disabled="false" uniqueid="{ae335281-7971-c8e9-1d7a-7265a66a85b3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{d60ae084-257e-9914-83c1-b069312824b0}" showlabel="true" locklevel="0" labelid="{84282579-4036-4137-afed-c2ac255c86c7}">
+                        <labels>
+                          <label description="P3 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp3mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_tertiaryp3mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{b26276b3-9308-2e39-867a-4e9366ab3257}" showlabel="true" locklevel="0" labelid="{34417cbd-04e3-4cc4-ac74-25f9a3eddff4}">
+                        <labels>
+                          <label description="P3 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp3media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_tertiaryp3media" disabled="false" uniqueid="{77c80c03-c20e-9e53-08e6-0076dd7330d5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4916c071-ac55-340e-d28a-4056564450b3}" showlabel="true" locklevel="0" labelid="{8c373ea2-14d0-4aae-815e-18814cc8e88c}">
+                        <labels>
+                          <label description="Tertiary P4" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp4" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiaryp4" disabled="false" uniqueid="{a2acdc41-b637-548d-8d0c-b409813cb5d3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{64433864-1c42-908e-ea2a-1c921ecd7e6d}" showlabel="true" locklevel="0" labelid="{d91b2e11-57ff-44c7-8a72-04dbfeb7ea7a}">
+                        <labels>
+                          <label description="P4 Mechanic Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp4mechanicphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_tertiaryp4mechanicphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{2aca0e23-48d5-c38d-217b-79e8968599d1}" showlabel="true" locklevel="0" labelid="{0210c8a9-174f-4c3c-a833-c2b960431f7f}">
+                        <labels>
+                          <label description="P4 Media" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiaryp4media" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_tertiaryp4media" disabled="false" uniqueid="{26c22d66-61a1-c52d-da78-acd7b0315255}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{415307ae-d987-60e9-d14d-b844ca405258}" showlabel="true" locklevel="0" labelid="{ede36151-a683-4330-966b-9ba6d4932ab1}">
+                        <labels>
+                          <label description="Tertiary Supervisor" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiarysupervisor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_tertiarysupervisor" disabled="false" uniqueid="{1638d483-64bc-a7c1-6641-c9eb4bd911c8}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A8A3797B-E027-4B10-9647-E58070ACCFC4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{700d35d1-8057-a8c0-a333-001935d3147a}" showlabel="true" locklevel="0" labelid="{6b83bc5b-de3b-4ca2-b73f-06af3993cc00}">
+                        <labels>
+                          <label description="Supervisor Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tertiarysupervisorphonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_tertiarysupervisorphonenumber" disabled="false" />
+                      </cell>
+                      <cell id="{2b66a4b8-69ea-d960-7c95-83c623825907}" showlabel="false" labelid="{afaae7e7-77ed-44b4-a28c-2173093d7d7c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="{b8175a67-8807-212d-45c9-934329bd5cbb}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{d418f6e2-a74a-4695-b17f-4e960df798df}">
+          <labels>
+            <label description="Coverage Pattern Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_3" showlabel="false" showbar="false" locklevel="0" id="{1131a71d-d77b-3399-4292-4367060c698e}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{792a181e-a559-451d-920b-2af9c4e00077}">
+                  <labels>
+                    <label description="Coverage Pattern" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9cb53485-8e30-1616-5eee-d055615394d3}" showlabel="true" locklevel="0" labelid="{eac96503-f9a5-437a-a2b3-236632acdd01}">
+                        <labels>
+                          <label description="Coverage Pattern" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_coveragepattern" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_coveragepattern" disabled="false" uniqueid="{79204b83-90b7-8e8b-4d6e-73e9edc78323}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{F44CEC50-2E70-4353-AD07-F97949473FE0}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{0c81729a-e67d-0cc6-196b-54c42dce9292}" showlabel="false" userspacer="true" labelid="{87617ce6-0278-400f-b358-6ead89082513}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{9a158e4e-a88e-1919-8a1e-14cda0e5ba4b}" showlabel="false" userspacer="true" labelid="{ad0faf7f-7b9f-46ad-92f8-8e184b24eaec}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e694ce0c-3a41-61eb-0725-1683eb85556c}" showlabel="true" locklevel="0" labelid="{c01e7cc2-bd6d-4bf7-a979-778ce43bb013}">
+                        <labels>
+                          <label description="Monday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_monday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_monday" disabled="false" uniqueid="{53b7142e-a0a4-039c-c80b-d26037490977}" />
+                      </cell>
+                      <cell id="{a42431e4-1826-a5ab-4500-3a5b2b4dca61}" showlabel="true" locklevel="0" labelid="{9adc8967-0446-437c-ae51-32f80001b8ca}">
+                        <labels>
+                          <label description="Saturday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_saturday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_saturday" disabled="false" uniqueid="{dd0b4031-5589-1ccb-2561-492cda7d5e20}" />
+                      </cell>
+                      <cell id="{e8bebcea-639c-5863-93b7-a019b0e58607}" showlabel="true" locklevel="0" labelid="{37fde5d1-84f2-4772-9685-0870c00fa5fc}">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_starttime" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_starttime" disabled="false" uniqueid="{a4e2c65e-a7a1-c4ed-9c99-046984884cc1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{193b2ec7-867c-cc92-772c-81b014aab6b6}" showlabel="true" locklevel="0" labelid="{e6c4e4fd-1e9c-40b1-ae27-ac63b170c20b}">
+                        <labels>
+                          <label description="Tuesday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_tuesday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_tuesday" disabled="false" uniqueid="{37795092-13b4-cab9-1c8a-c94b57dab424}" />
+                      </cell>
+                      <cell id="{0a29369b-a904-c928-7cee-1a30b776582d}" showlabel="true" locklevel="0" labelid="{051d4960-e090-425c-87b0-4f910939a8f6}">
+                        <labels>
+                          <label description="Sunday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_sunday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_sunday" disabled="false" uniqueid="{eadcd1a8-d09e-1a2a-9bb4-16b1cb6b48b2}" />
+                      </cell>
+                      <cell id="{bb6ec685-5783-3095-ae03-9b1cd6aae0c2}" showlabel="true" locklevel="0" labelid="{2e509871-52d5-409b-b04c-b790ae9096c3}">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_endtime" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="gsscore_endtime" disabled="false" uniqueid="{9b9bb92e-1a48-8616-4740-507b877cab51}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{907b10bd-a617-ad56-36a2-694bb88a17ab}" showlabel="true" locklevel="0" labelid="{aa0eb0ce-1f0b-46cd-a42f-7983cf1af8a6}">
+                        <labels>
+                          <label description="Wednesday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_wednesday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_wednesday" disabled="false" uniqueid="{399e7e40-3821-c96a-b389-cd967c1b04c9}" />
+                      </cell>
+                      <cell id="{7872dd31-96d0-63e3-4048-5372e0839d56}" showlabel="false" labelid="{b435d5f5-c6b6-4655-8639-a8a75afea701}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{e773e163-14e3-83ab-355a-eac4c20b9065}" showlabel="false" labelid="{2484cdb8-89ae-4c19-90f0-6283d23f6a8e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{07b0628b-67ea-5d75-26c4-9182155e02da}" showlabel="true" locklevel="0" labelid="{460ceb5d-342c-48a5-ac09-b78211fd2dee}">
+                        <labels>
+                          <label description="Thursday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_thursday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_thursday" disabled="false" uniqueid="{89ee7255-b5ce-c8e0-5083-800708a2cad6}" />
+                      </cell>
+                      <cell id="{ab188661-dcb0-9e4a-5c93-6a4958945e58}" showlabel="false" labelid="{a37d8b85-6d96-44a4-879c-abba88e13aec}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{bb7241be-ea7c-3448-9931-a8bd0484e6a3}" showlabel="false" labelid="{89b62a75-3eb4-4f37-aedc-5900d76d4d74}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c4e49ee-0772-c707-a567-3448ada5a604}" showlabel="true" locklevel="0" labelid="{58ea540c-6a5f-42e1-a2f3-111fd4582ec2}">
+                        <labels>
+                          <label description="Friday" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_friday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="gsscore_friday" disabled="false" uniqueid="{d7d9eb14-0ca0-31b1-56d1-99219b198c04}" />
+                      </cell>
+                      <cell id="{1607a76b-878c-d359-147a-0509e2bdb094}" showlabel="false" labelid="{f08adefb-332e-4071-88f2-2d29cec4facd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{a2b0149a-7398-0464-c91c-d61e62178ad5}" showlabel="false" labelid="{90bf2529-d65f-43ed-863e-313ec6064f64}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="{e451a98a-de41-5d29-e0ca-1041638b7dce}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" labelid="{6e92b319-6429-410b-bd72-2c61b8f8d7a3}">
+          <labels>
+            <label description="Postal Code Coverage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d59d3c4e-fe46-4568-b5fa-f5c100aca119}" labelid="{f4d048f3-c9a0-496e-940f-4209d7ce4e6d}" name="tab_4_section_1" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c5d5b74b-3013-4b43-938e-76234feff381}" showlabel="true" locklevel="1" visible="false" labelid="{b2b289a7-bca1-4a21-b5d2-3b712f8ed37d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{99c41423-bc26-0374-74a8-0b56aeb80ac3}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{bfc04d82-c940-4f82-b302-df3716d6b3d2}" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{b03ac80e-6c22-8dd8-2361-ad764ac9cc57}" showlabel="false" labelid="{a36e4b02-5e98-48da-9de4-ab36b20b3ad6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{48d4ceda-6062-59bb-1915-d6b01553922c}" showlabel="false" labelid="{388fea9d-faca-4614-a51e-8b7d1e42cfdd}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="5" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

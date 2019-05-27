@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{784ff1fa-b41d-4e92-9bd6-07a34178a20a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" icon="1" preview="1">
+        <row name="result" id="gsscore_inspectionnoticeid">
+          <cell name="gsscore_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_reportidentifier" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="gsscore_responsibleparty" width="100" />
+          <cell name="gsscore_compliantdelinquent" width="100" />
+          <cell name="gsscore_inspectiondate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="gsscore_inspectionnotice">
+          <attribute name="gsscore_name" />
+          <order attribute="gsscore_inspectiondate" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="gsscore_responsibleparty" />
+          <attribute name="gsscore_inspectiondate" />
+          <attribute name="gsscore_compliantdelinquent" />
+          <attribute name="gsscore_reportidentifier" />
+          <attribute name="gsscore_inspectionnoticeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspections" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

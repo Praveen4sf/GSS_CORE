@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d1b87173-582e-4baa-9513-24bf13160a48}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{117d97f5-235d-4a74-8795-3c8a9f5b5b4b}" IsUserDefined="1" labelid="{909bc695-30f5-4c1b-b2fc-f0114310b753}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1d24108c-2596-4520-9fed-deb3e2b76a4a}" name="{1d24108c-2596-4520-9fed-deb3e2b76a4a}" columns="11" locklevel="0" labelwidth="155" celllabelalignment="Left" celllabelposition="Left" labelid="{821dcecd-d6a4-4b05-94ee-e298b6b171d1}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{92d60e74-b365-476c-a5a2-438d6c5731c2}" labelid="{30f1c0e9-ee7f-4bfb-9a98-29353d3d9741}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msdyn_name" />
+                      </cell>
+                      <cell id="{0a867487-e491-42a1-84d8-217d101d108a}" labelid="{8b162f7d-c8ce-41a9-a405-17b0cd1a4629}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a51435cb-9ad6-dd64-c364-414a88b44b22}" showlabel="true" locklevel="0" labelid="{322ecf0a-86ad-4036-9dd1-34873b6c77c6}">
+                        <labels>
+                          <label description="Visit" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_booking" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_booking" disabled="false" uniqueid="{c04305c0-39d7-bdc4-de07-3106c73037e2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C218571E-468C-4271-815F-811C72C2F338}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{322de89a-2275-e065-1975-c342134cc963}" showlabel="true" locklevel="0" labelid="{069ca70a-dfee-4011-99dc-20fe7bb5e251}">
+                        <labels>
+                          <label description="Journal Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_journaltype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msdyn_journaltype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="f1tab_journalDetails" id="{eb04716a-42e6-8925-2809-c9c2d312325d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{cff197fe-a9f7-4e4a-85c3-9ff1a492db04}">
+          <labels>
+            <label description="Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="true" showbar="true" locklevel="0" id="{45c02b1a-9285-7c7d-7c64-e1d836c31ab3}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="155" celllabelalignment="Left" celllabelposition="Left" labelid="{39b3d5aa-f3d4-4ae4-afab-b0affcbb84d6}">
+                  <labels>
+                    <label description="JOURNAL DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c61d7702-9725-e660-e783-deb4dd964b27}" showlabel="true" locklevel="0" labelid="{7dbccbf1-2459-4764-9c47-cc5670c5d79f}">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_starttime" disabled="false" />
+                      </cell>
+                      <cell id="{3a7b6e6a-19e7-a60b-506b-c645c45501e4}" showlabel="true" locklevel="0" labelid="{6c263703-b5a9-43cd-bedc-8050f36efe55}">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msdyn_endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{867491ec-b71e-853e-3275-80780c2c1717}" showlabel="true" locklevel="0" labelid="{b8cd00f0-fe59-478d-98db-1c0189a56741}">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_duration" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="msdyn_duration" disabled="true" />
+                      </cell>
+                      <cell id="{b75e5574-080b-bc65-dbdd-3a2ade7e9146}" showlabel="true" locklevel="0" labelid="{5d290ddf-a0fa-46d1-8449-a15441d38339}">
+                        <labels>
+                          <label description="Temporary Rate Code" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_temporaryratecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_temporaryratecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{552d8156-ce70-8bc4-08e4-8c659840a227}" showlabel="true" locklevel="0" labelid="{a3fed97d-6599-4da2-8a29-4f3f2063549d}">
+                        <labels>
+                          <label description="Mechanic Negative Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_mechanicnegativetime" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_mechanicnegativetime" disabled="false" />
+                      </cell>
+                      <cell id="{8a8a7079-7567-84ce-9b6c-30749961c05a}" showlabel="true" locklevel="0" labelid="{27f3d6b5-03dc-4e90-aec7-d45e268cd866}">
+                        <labels>
+                          <label description="Bank Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_banktime" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_banktime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4bddedcb-bb49-a8c0-5352-40e8c51ddb88}" showlabel="true" locklevel="0" labelid="{04f285e6-7272-4fb3-adb1-d6d7090a7b9b}">
+                        <labels>
+                          <label description="Mechanic Positive Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_mechanicpositivetime" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_mechanicpositivetime" disabled="false" />
+                      </cell>
+                      <cell id="{9a527e17-433d-a953-6295-58799c080b1e}" showlabel="true" locklevel="0" labelid="{b2ddaaa8-8a40-4722-8dc3-f9700eda4874}">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_category" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gsscore_category" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6eb75160-d98b-c22d-683d-ce4096a7cb98}" showlabel="true" locklevel="0" labelid="{d3d372c2-1475-49ed-88a9-bc8b903bcea3}">
+                        <labels>
+                          <label description="Original Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_originalstarttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_originalstarttime" disabled="false" />
+                      </cell>
+                      <cell id="{4a92479d-ca43-bdcb-01bb-b6ccb93de30d}" showlabel="true" locklevel="0" labelid="{e32157ed-84e0-4caa-953f-cc486c43e693}">
+                        <labels>
+                          <label description="Non-Productive Code" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_nonproductivecode" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="gsscore_nonproductivecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87e364ea-44a4-ec82-2922-011d1e2845e7}" showlabel="true" locklevel="0" labelid="{1eb8d889-303c-4972-a796-6db1e523d3f4}">
+                        <labels>
+                          <label description="Original End Time" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_originalendtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="gsscore_originalendtime" disabled="false" />
+                      </cell>
+                      <cell id="{8acde386-472d-5843-4149-76b2b2ad1da9}" showlabel="true" locklevel="0" labelid="{b44b536e-c7aa-4fac-8162-d99010d78eba}">
+                        <labels>
+                          <label description="Total Difference of Time Worked" languagecode="1033" />
+                        </labels>
+                        <control id="gsscore_totaldifftimeworked" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="gsscore_totaldifftimeworked" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="f1tab_journalDetails_section_2" showlabel="true" showbar="true" locklevel="0" id="{0049dcc9-7722-5c82-485c-697dbd145e18}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="155" celllabelalignment="Left" celllabelposition="Left" labelid="{7420031c-eb16-4a2d-95bb-8b895d747a4e}" visible="false">
+                  <labels>
+                    <label description="JOURNAL COST" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{91c9a8d0-d9d6-2779-1da2-e49163592c00}" showlabel="true" locklevel="0" labelid="{c274cd1b-7288-47a0-b47b-8c93a3132795}">
+                        <labels>
+                          <label description="Pay Type" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_paytype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyn_paytype" disabled="false" />
+                      </cell>
+                      <cell id="{36a01d90-5a67-9a9c-6953-305de7d5344b}" showlabel="true" locklevel="0" labelid="{53d25be1-47dd-4d9a-9172-9511750997e2}">
+                        <labels>
+                          <label description="Unit Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_unitcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_unitcost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{232abca2-361b-341d-5465-6ae7796b73d0}" showlabel="true" locklevel="0" labelid="{377c14eb-8bed-4216-89fe-16995bd8d7ef}">
+                        <labels>
+                          <label description="Additional Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_additionalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_additionalcost" disabled="false" />
+                      </cell>
+                      <cell id="{dc204969-1c56-11a7-0cd5-9985a9de3418}" showlabel="true" locklevel="0" labelid="{85941a23-f497-4c82-9f71-1145d6e27f69}">
+                        <labels>
+                          <label description="Total Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_totalcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msdyn_totalcost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{351b54ba-b28e-85e7-90be-0da2a54deb93}" showlabel="true" locklevel="0" labelid="{4a2253f9-fbb4-49c3-934f-0e5231fe412b}">
+                        <labels>
+                          <label description="Billable" languagecode="1033" />
+                        </labels>
+                        <control id="msdyn_billable" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyn_billable" disabled="false" />
+                      </cell>
+                      <cell id="{8d105631-814e-8d86-d868-2250cb02b7d0}" showlabel="false" labelid="{a1e3ed41-f892-4297-a1bf-88e4d5c858fb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{8a367994-29e9-421d-ae06-a5ded8804a4c}" IsUserDefined="0" expanded="true" labelid="{a4253ec5-876a-4ec6-a8ca-0f92ada26628}">
+          <labels>
+            <label description="Sub Grids" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{1a11a7d9-6728-4aad-9305-1c50c2c09a27}" IsUserDefined="0" height="auto" labelid="{5a920f93-8a9d-4db5-8938-74d97e5ef49a}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{0836ddb0-f20c-4eb8-806b-40b30e1ccb34}" labelid="{d49f55e1-7b1a-464c-b4aa-80b8b6a2b42b}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{5071122c-7de2-27a7-05d4-dc07d4392a94}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{fc32ceea-afcd-4a60-9cfd-70c43e0f28e4}">
+        <rows>
+          <row>
+            <cell id="{6d6711a8-6cd7-4b28-a343-888388a621da}" labelid="{7bb882ad-4c5c-4bb5-8313-abef85dfd6d6}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions">
+            <Titles>
+              <Title LCID="1033" Text="Real Time Processes" />
+              <Title LCID="1025" Text="عمليات في الوقت الحقيقي" />
+              <Title LCID="1026" Text="Процеси в реално време" />
+              <Title LCID="1027" Text="Processos en temps real" />
+              <Title LCID="1029" Text="Procesy v reálném čase" />
+              <Title LCID="1030" Text="Processer i realtid" />
+              <Title LCID="1031" Text="Echtzeitprozesse" />
+              <Title LCID="1032" Text="Διαδικασίες πραγματικού χρόνου" />
+              <Title LCID="3082" Text="Procesos en tiempo real" />
+              <Title LCID="1061" Text="Reaalajalised protsessid" />
+              <Title LCID="1069" Text="Denbora errealeko prozesuak" />
+              <Title LCID="1035" Text="Reaaliaikaiset prosessit" />
+              <Title LCID="1036" Text="Processus en temps réel" />
+              <Title LCID="1110" Text="Procesos en tempo real" />
+              <Title LCID="1037" Text="תהליכים בזמן אמת" />
+              <Title LCID="1081" Text="रीयल-टाइम प्रक्रियाएँ" />
+              <Title LCID="1050" Text="Procesi u stvarnom vremenu" />
+              <Title LCID="1038" Text="Valós idejű folyamatok" />
+              <Title LCID="1057" Text="Proses Real-Time" />
+              <Title LCID="1040" Text="Processi in tempo reale" />
+              <Title LCID="1041" Text="リアルタイム プロセス" />
+              <Title LCID="1087" Text="Ағымдағы уақыттағы процестер" />
+              <Title LCID="1042" Text="실시간 프로세스" />
+              <Title LCID="1063" Text="Procesai tikruoju laiku" />
+              <Title LCID="1062" Text="Reāllaika procesi" />
+              <Title LCID="1086" Text="Proses Masa Nyata" />
+              <Title LCID="1044" Text="Sanntidsprosesser" />
+              <Title LCID="1043" Text="Realtime-processen" />
+              <Title LCID="1045" Text="Procesy w czasie rzeczywistym" />
+              <Title LCID="1046" Text="Processos em Tempo Real" />
+              <Title LCID="2070" Text="Processos em Tempo Real" />
+              <Title LCID="1048" Text="Procese în timp real" />
+              <Title LCID="1049" Text="Процессы в реальном времени" />
+              <Title LCID="1051" Text="Procesy v reálnom čase" />
+              <Title LCID="1060" Text="Procesi v realnem času" />
+              <Title LCID="3098" Text="Процеси у реалном времену" />
+              <Title LCID="2074" Text="Procesi u realnom vremenu" />
+              <Title LCID="1053" Text="Realtidsprocesser" />
+              <Title LCID="1054" Text="กระบวนการในเวลาจริง" />
+              <Title LCID="1055" Text="Gerçek Zamanlı İşlemler" />
+              <Title LCID="1058" Text="Процеси в режимі реального часу" />
+              <Title LCID="1066" Text="Quy trình trong Thời gian Thực" />
+              <Title LCID="2052" Text="实时流程" />
+              <Title LCID="3076" Text="即時程序" />
+              <Title LCID="1028" Text="即時程序" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1025" Text="عامة" />
+              <Title LCID="1026" Text="Общи" />
+              <Title LCID="1027" Text="Comú" />
+              <Title LCID="1029" Text="Společné" />
+              <Title LCID="1030" Text="Almindelig" />
+              <Title LCID="1031" Text="Allgemein" />
+              <Title LCID="1032" Text="Κοινά" />
+              <Title LCID="3082" Text="Común" />
+              <Title LCID="1061" Text="Ühine" />
+              <Title LCID="1069" Text="Ohikoak" />
+              <Title LCID="1035" Text="Yhteiset" />
+              <Title LCID="1036" Text="Éléments communs" />
+              <Title LCID="1110" Text="Común" />
+              <Title LCID="1037" Text="פריטים נפוצים" />
+              <Title LCID="1081" Text="सामान्य" />
+              <Title LCID="1050" Text="Uobičajeno" />
+              <Title LCID="1038" Text="Általános" />
+              <Title LCID="1057" Text="Umum" />
+              <Title LCID="1040" Text="Elementi comuni" />
+              <Title LCID="1041" Text="共通" />
+              <Title LCID="1087" Text="Жалпы" />
+              <Title LCID="1042" Text="일반" />
+              <Title LCID="1063" Text="Įprasta" />
+              <Title LCID="1062" Text="Kopējs" />
+              <Title LCID="1086" Text="Umum" />
+              <Title LCID="1044" Text="Felles" />
+              <Title LCID="1043" Text="Algemeen" />
+              <Title LCID="1045" Text="Wspólne" />
+              <Title LCID="1046" Text="Comum" />
+              <Title LCID="2070" Text="Comum" />
+              <Title LCID="1048" Text="Comun" />
+              <Title LCID="1049" Text="Общие" />
+              <Title LCID="1051" Text="Spoločné" />
+              <Title LCID="1060" Text="Skupno" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
+              <Title LCID="1053" Text="Gemensam" />
+              <Title LCID="1054" Text="ทั่วไป" />
+              <Title LCID="1055" Text="Ortak" />
+              <Title LCID="1058" Text="Загальне" />
+              <Title LCID="1066" Text="Thông thường" />
+              <Title LCID="2052" Text="公用" />
+              <Title LCID="3076" Text="一般" />
+              <Title LCID="1028" Text="一般" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1025" Text="المبيعات" />
+              <Title LCID="1026" Text="Продажби" />
+              <Title LCID="1027" Text="Vendes" />
+              <Title LCID="1029" Text="Prodej" />
+              <Title LCID="1030" Text="Salg" />
+              <Title LCID="1031" Text="Vertrieb" />
+              <Title LCID="1032" Text="Πωλήσεις" />
+              <Title LCID="3082" Text="Ventas" />
+              <Title LCID="1061" Text="Müük" />
+              <Title LCID="1069" Text="Salmentak" />
+              <Title LCID="1035" Text="Myynti" />
+              <Title LCID="1036" Text="Ventes" />
+              <Title LCID="1110" Text="Vendas" />
+              <Title LCID="1037" Text="מכירות" />
+              <Title LCID="1081" Text="विक्रय" />
+              <Title LCID="1050" Text="Prodaja" />
+              <Title LCID="1038" Text="Értékesítés" />
+              <Title LCID="1057" Text="Penjualan" />
+              <Title LCID="1040" Text="Vendite" />
+              <Title LCID="1041" Text="営業" />
+              <Title LCID="1087" Text="Сатылым" />
+              <Title LCID="1042" Text="영업" />
+              <Title LCID="1063" Text="Pardavimas" />
+              <Title LCID="1062" Text="Pārdošana" />
+              <Title LCID="1086" Text="Jualan" />
+              <Title LCID="1044" Text="Salg" />
+              <Title LCID="1043" Text="Verkoop" />
+              <Title LCID="1045" Text="Sprzedaż" />
+              <Title LCID="1046" Text="Vendas" />
+              <Title LCID="2070" Text="Vendas" />
+              <Title LCID="1048" Text="Vânzări" />
+              <Title LCID="1049" Text="Продажи" />
+              <Title LCID="1051" Text="Predaj" />
+              <Title LCID="1060" Text="Prodaja" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
+              <Title LCID="1053" Text="Försäljning" />
+              <Title LCID="1054" Text="การขาย" />
+              <Title LCID="1055" Text="Satış" />
+              <Title LCID="1058" Text="Збут" />
+              <Title LCID="1066" Text="Bán hàng" />
+              <Title LCID="2052" Text="销售" />
+              <Title LCID="3076" Text="銷售" />
+              <Title LCID="1028" Text="銷售" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1025" Text="الخدمة" />
+              <Title LCID="1026" Text="Обслужване" />
+              <Title LCID="1027" Text="Servei" />
+              <Title LCID="1029" Text="Služby" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Υπηρεσία" />
+              <Title LCID="3082" Text="Servicio" />
+              <Title LCID="1061" Text="Teenus" />
+              <Title LCID="1069" Text="Zerbitzua" />
+              <Title LCID="1035" Text="Palvelu" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Servizo" />
+              <Title LCID="1037" Text="שירות" />
+              <Title LCID="1081" Text="सेवा" />
+              <Title LCID="1050" Text="Usluga" />
+              <Title LCID="1038" Text="Szolgáltatás" />
+              <Title LCID="1057" Text="Layanan" />
+              <Title LCID="1040" Text="Servizio" />
+              <Title LCID="1041" Text="サービス" />
+              <Title LCID="1087" Text="Қызмет" />
+              <Title LCID="1042" Text="서비스" />
+              <Title LCID="1063" Text="Aptarnavimas" />
+              <Title LCID="1062" Text="Serviss" />
+              <Title LCID="1086" Text="Perkhidmatan" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Usługa" />
+              <Title LCID="1046" Text="Serviço" />
+              <Title LCID="2070" Text="Serviço" />
+              <Title LCID="1048" Text="Serviciu" />
+              <Title LCID="1049" Text="Сервис" />
+              <Title LCID="1051" Text="Služba" />
+              <Title LCID="1060" Text="Storitev" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
+              <Title LCID="1053" Text="Tjänst" />
+              <Title LCID="1054" Text="การบริการ" />
+              <Title LCID="1055" Text="Servis" />
+              <Title LCID="1058" Text="Послуга" />
+              <Title LCID="1066" Text="Dịch vụ" />
+              <Title LCID="2052" Text="服务" />
+              <Title LCID="3076" Text="服務" />
+              <Title LCID="1028" Text="服務" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1025" Text="التسويق" />
+              <Title LCID="1026" Text="Маркетинг" />
+              <Title LCID="1027" Text="Màrqueting" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Μάρκετινγκ" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Turundus" />
+              <Title LCID="1069" Text="Marketina" />
+              <Title LCID="1035" Text="Markkinointi" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Márketing" />
+              <Title LCID="1037" Text="שיווק" />
+              <Title LCID="1081" Text="मार्केटिंग" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Pemasaran" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1041" Text="マーケティング" />
+              <Title LCID="1087" Text="Маркетинг" />
+              <Title LCID="1042" Text="마케팅" />
+              <Title LCID="1063" Text="Rinkodara" />
+              <Title LCID="1062" Text="Mārketings" />
+              <Title LCID="1086" Text="Pemasaran" />
+              <Title LCID="1044" Text="Markedsføring" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Маркетинг" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Trženje" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
+              <Title LCID="1053" Text="Marknadsföring" />
+              <Title LCID="1054" Text="การตลาด" />
+              <Title LCID="1055" Text="Pazarlama" />
+              <Title LCID="1058" Text="Маркетинг" />
+              <Title LCID="1066" Text="Tiếp thị" />
+              <Title LCID="2052" Text="市场营销" />
+              <Title LCID="3076" Text="行銷" />
+              <Title LCID="1028" Text="行銷" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+              <Title LCID="1025" Text="جلسات عمل العمليات" />
+              <Title LCID="1026" Text="Сесии на процес" />
+              <Title LCID="1027" Text="Sessions del procés" />
+              <Title LCID="1029" Text="Relace procesů" />
+              <Title LCID="1030" Text="Processessioner" />
+              <Title LCID="1031" Text="Prozesssitzungen" />
+              <Title LCID="1032" Text="Περίοδοι λειτουργίας διεργασίας" />
+              <Title LCID="3082" Text="Sesiones de proceso" />
+              <Title LCID="1061" Text="Protsessiseansid" />
+              <Title LCID="1069" Text="Prozesu-saioak" />
+              <Title LCID="1035" Text="Prosessin istunnot" />
+              <Title LCID="1036" Text="Sessions de traitement" />
+              <Title LCID="1110" Text="Sesións de proceso" />
+              <Title LCID="1037" Text="הפעלות תהליך" />
+              <Title LCID="1081" Text="प्रक्रिया सत्र" />
+              <Title LCID="1050" Text="Sesije procesa" />
+              <Title LCID="1038" Text="Feldolgozási munkamenetek" />
+              <Title LCID="1057" Text="Sesi Proses" />
+              <Title LCID="1040" Text="Sessioni processo" />
+              <Title LCID="1041" Text="プロセス セッション" />
+              <Title LCID="1087" Text="Процесс сеанстары" />
+              <Title LCID="1042" Text="프로세스 세션" />
+              <Title LCID="1063" Text="Apdorojimo seansai" />
+              <Title LCID="1062" Text="Apstrādes sesijas" />
+              <Title LCID="1086" Text="Proses Sesi" />
+              <Title LCID="1044" Text="Prosessøkter" />
+              <Title LCID="1043" Text="Processessies" />
+              <Title LCID="1045" Text="Sesje procesów" />
+              <Title LCID="1046" Text="Processar Sessões" />
+              <Title LCID="2070" Text="Sessões de Processo" />
+              <Title LCID="1048" Text="Sesiuni de proces" />
+              <Title LCID="1049" Text="Сеансы процесса" />
+              <Title LCID="1051" Text="Relácie procesov" />
+              <Title LCID="1060" Text="Seje procesov" />
+              <Title LCID="3098" Text="Сесије процеса" />
+              <Title LCID="2074" Text="Sesije procesa" />
+              <Title LCID="1053" Text="Processessioner" />
+              <Title LCID="1054" Text="เซสชันของกระบวนการ" />
+              <Title LCID="1055" Text="İşlem Oturumları" />
+              <Title LCID="1058" Text="Сеанси процесів" />
+              <Title LCID="1066" Text="Phiên Quá trình" />
+              <Title LCID="2052" Text="进程会话" />
+              <Title LCID="3076" Text="程序工作階段" />
+              <Title LCID="1028" Text="程序工作階段" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="SysAdmin Main Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

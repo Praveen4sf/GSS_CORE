@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e22e7668-aee3-e711-a956-000d3a3611e1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="gsscore_name" select="1" preview="1" icon="1">
+        <row name="result" id="gsscore_contractwriteoffid">
+          <cell name="gsscore_unitid" width="100" />
+          <cell name="gsscore_fullamount" width="100" />
+          <cell name="gsscore_effectivedate" width="100" />
+          <cell name="gsscore_description" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="gsscore_contractwriteoff">
+          <order attribute="gsscore_effectivedate" descending="false" />
+          <attribute name="gsscore_unitid" />
+          <attribute name="gsscore_fullamount" />
+          <attribute name="gsscore_effectivedate" />
+          <attribute name="gsscore_description" />
+          <attribute name="gsscore_contractwriteoffid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.42</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Contract WriteOffs Related to Contract" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

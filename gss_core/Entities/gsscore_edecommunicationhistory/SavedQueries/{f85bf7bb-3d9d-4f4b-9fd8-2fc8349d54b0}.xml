@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f85bf7bb-3d9d-4f4b-9fd8-2fc8349d54b0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="gsscore_edecommunicationhistory">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid" alias="aa">
+            <filter type="and">
+              <condition attribute="partyid" operator="eq-userid" />
+            </filter>
+          </link-entity>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>2.1.4.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Open EDE Communication Histories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

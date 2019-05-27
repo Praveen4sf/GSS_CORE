@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions />
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm_Form_MainTab_Actions_GetProducts_ToolTipDescription">
+      <Titles>
+        <Title description="Get products from a previously created opportunity. &lt;br&gt;&lt;br&gt;Use the Products section to add additional products that are not part of the opportunity." languagecode="1033" />
+        <Title description="إحضار المنتجات من فرصة مبيعات محتملة سبق إنشاؤها. &lt;br&gt;&lt;br&gt;يمكنك استخدام قسم &quot;المنتجات&quot; لإضافة مزيد من المنتجات التي ليست جزءًا من فرصة المبيعات المحتملة." languagecode="1025" />
+        <Title description="Получете продукти от предишно създадена възможност. &lt;br&gt;&lt;br&gt;Използвайте секцията за продукти за добавяне на допълнителни продукти, които не са част от възможността." languagecode="1026" />
+        <Title description="Obté els productes d'una oportunitat creada anteriorment. &lt;br&gt;&lt;br&gt;Utilitzeu la secció Productes per afegir productes addicionals que no formen part de l'oportunitat." languagecode="1027" />
+        <Title description="Získá produkty z dříve vytvořené příležitosti. &lt;br&gt;&lt;br&gt;Pomocí sekce Produkty můžete přidat další produkty, které nejsou součástí příležitosti." languagecode="1029" />
+        <Title description="Hent produkter fra en salgsmulighed, der er oprettet tidligere. &lt;br&gt;&lt;br&gt;Brug sektionen Produkter til at tilføje flere produkter, der ikke er en del af salgsmuligheden." languagecode="1030" />
+        <Title description="Dient zum Abrufen von Produkten aus einer zuvor erstellten Verkaufschance. &lt;br&gt;&lt;br&gt;Im Abschnitt 'Produkte' können Sie weitere Produkte hinzufügen, die nicht Teil der Verkaufschance sind." languagecode="1031" />
+        <Title description="Αποκτήστε προϊόντα από μια ευκαιρία που δημιουργήθηκε προηγουμένως. &lt;br&gt;&lt;br&gt;Χρησιμοποιήστε την ενότητα &quot;Προϊόντα&quot; για να προσθέσετε επιπλέον προϊόντα που δεν αποτελούν μέρος της ευκαιρίας." languagecode="1032" />
+        <Title description="Obtiene productos de una oportunidad creada anteriormente. &lt;br&gt;&lt;br&gt;La sección Productos permite agregar productos adicionales que no sean parte de la oportunidad." languagecode="3082" />
+        <Title description="Saate tuua tooteid varem loodud müügivõimalusest. &lt;br&gt;&lt;br&gt;Jaotise Tooted kaudu saate lisada täiendavaid tooteid, mis müügivõimalusse ei kuulu." languagecode="1061" />
+        <Title description="Lortu aurretik sortutako abaguneetako produktuak. &lt;br&gt;&lt;br&gt;Erabili Produktuak atala abagunean ez dauden produktu gehigarriak gehitzeko." languagecode="1069" />
+        <Title description="Hae tuotteita aiemmin luodusta mahdollisuudesta. &lt;br&gt;&lt;br&gt;Tuotteet-osassa voit lisätä tuotteita, jotka eivät sisälly mahdollisuuteen." languagecode="1035" />
+        <Title description="Obtenir les produits d’une ancienne opportunité. &lt;br&gt;&lt;br&gt;Utiliser la section Produits pour ajouter d’autres produits qui ne font pas partie de l’opportunité." languagecode="1036" />
+        <Title description="Obter produtos dunha oportunidade anteriormente creada. &lt;br&gt;&lt;br&gt;Utilice a sección Produtos para engadir outros que non fagan parte da oportunidade." languagecode="1110" />
+        <Title description="קבל מוצרים מהזדמנות שנוצרה בעבר. &lt;br&gt;&lt;br&gt;השתמש במקטע 'מוצרים' כדי להוסיף מוצרים נוספים שאינם חלק מההזדמנות." languagecode="1037" />
+        <Title description="पहले बनाए गए अवसर से उत्पाद प्राप्त करें. &lt;br&gt;&lt;br&gt;उन अतिरिक्त उत्पादों को जोड़ने के लिए, जो अवसर के भाग नहीं हैं, उत्पाद अनुभाग का उपयोग करें." languagecode="1081" />
+        <Title description="Nabavite proizvode iz prethodno stvorene prilike. &lt;br&gt;&lt;br&gt;Za dodavanje dodatnih proizvoda koji nisu dio prilike koristite odjeljak Proizvodi." languagecode="1050" />
+        <Title description="Termékek lekérdezése egy korábban létrehozott lehetőségből. &lt;br&gt;&lt;br&gt;A Termékek terület használatával a lehetőségben nem szereplő további termékek vehetők fel." languagecode="1038" />
+        <Title description="Dapatkan produk dari peluang yang telah dibuat sebelumnya. &lt;br&gt;&lt;br&gt;Gunakan bagian Produk untuk menambahkan produk tambahan yang bukan merupakan bagian dari peluang." languagecode="1057" />
+        <Title description="Consente di recuperare i prodotti da un'opportunità creata in precedenza. &lt;br&gt;&lt;br&gt;Utilizzare la sezione Prodotti per aggiungere ulteriori prodotti che non fanno parte dell'opportunità." languagecode="1040" />
+        <Title description="以前作成した営業案件から製品を取得します。&lt;br&gt;&lt;br&gt;[製品] セクションを使用して、営業案件に含まれていない製品を追加します。" languagecode="1041" />
+        <Title description="Бұрын жасалған мүмкіндіктен өнімдерді алыңыз. &lt;br&gt;&lt;br&gt;Мүмкіндікке кірмейтін қосымша өнімдерді қосу үшін &quot;Өнімдер&quot; бөлімін пайдаланыңыз." languagecode="1087" />
+        <Title description="이전에 만든 영업 기회에서 제품을 가져옵니다. &lt;br&gt;&lt;br&gt;[제품] 섹션에서 영업 기회에 포함되어 있지 않은 제품을 추가할 수 있습니다." languagecode="1042" />
+        <Title description="Gauti produktus iš anksčiau sukurtos galimybės. &lt;br&gt;&lt;br&gt;Naudokite produktų skyrių, norėdami įtraukti papildomų produktų, kurie nėra galimybės dalis." languagecode="1063" />
+        <Title description="Iegūstiet produktus no iepriekš izveidotas iespējas. &lt;br&gt;&lt;br&gt;Lai pievienotu papildu produktus, kas nav daļa no iespējas, izmantojiet produktu sadaļu." languagecode="1062" />
+        <Title description="Dapatkan produk daripada peluang yang dicipta sebelum ini. &lt;br&gt;&lt;br&gt;Gunakan bahagian Produk untuk menambah produk tambahan yang bukan sebahagian daripada peluang." languagecode="1086" />
+        <Title description="Hent produkter fra en tidligere opprettet salgsmulighet. &lt;br&gt;&lt;br&gt;Bruk inndelingen Produkter til å legge til flere produkter som ikke er en del av salgsmuligheten." languagecode="1044" />
+        <Title description="Haal producten van een eerder gemaakt verkoopkans op. &lt;br&gt;&lt;br&gt;Gebruik de sectie Producten om aanvullende producten toe te voegen die geen deel uitmaken van de verkoopkans." languagecode="1043" />
+        <Title description="Pobierz produkty z uprzednio utworzonej szansy sprzedaży. &lt;br&gt;&lt;br&gt;Użyj obszaru Produkty, aby dodać dalsze produkty, które nie są częścią szansy sprzedaży." languagecode="1045" />
+        <Title description="Obtenha produtos de uma oportunidade criada anteriormente. &lt;br&gt;&lt;br&gt;Use a seção Produtos para adicionar produtos que não façam parte da oportunidade." languagecode="1046" />
+        <Title description="Obter produtos de uma oportunidade criada anteriormente. &lt;br&gt;&lt;br&gt;Utilize a secção Produtos para adicionar mais produtos que não façam parte da oportunidade." languagecode="2070" />
+        <Title description="Obțineți produse dintr-o oportunitate creată anterior. &lt;br&gt;&lt;br&gt;Folosiți secțiunea Produse pentru a adăuga produse suplimentare care nu fac parte din oportunitate." languagecode="1048" />
+        <Title description="Получение продуктов из ранее созданной возможной сделки. &lt;br&gt;&lt;br&gt;Используйте раздел &quot;Продукты&quot; для добавления дополнительных продуктов, не являющихся частью этой возможной сделки." languagecode="1049" />
+        <Title description="Získa produkty z predtým vytvorenej príležitosti. &lt;br&gt;&lt;br&gt;V sekcii Produkty môžete pridať ďalšie produkty, ktoré nie sú súčasťou príležitosti." languagecode="1051" />
+        <Title description="Pridobite izdelke iz predhodno ustvarjene priložnosti. &lt;br&gt;&lt;br&gt;V razdelku »Izdelki« dodajte dodatne izdelke, ki niso del priložnosti." languagecode="1060" />
+        <Title description="Унесите производе из претходно креиране могућности за пословање. &lt;br&gt;&lt;br&gt;Користите одељак „Производи“ за додавање додатних производа који нису део могућности за пословање." languagecode="10266" />
+        <Title description="Unesite proizvode iz prethodno kreirane mogućnosti za poslovanje. &lt;br&gt;&lt;br&gt;Koristite odeljak „Proizvodi“ za dodavanje dodatnih proizvoda koji nisu deo mogućnosti za poslovanje." languagecode="9242" />
+        <Title description="Hämta produkter från en tidigare skapad affärsmöjlighet. &lt;br&gt;&lt;br&gt;Lägg till ytterligare produkter som inte är del av affärsmöjligheten under Produkter." languagecode="1053" />
+        <Title description="รับผลิตภัณฑ์จากโอกาสทางการขายที่สร้างก่อนหน้า &lt;br&gt;&lt;br&gt;ใช้ส่วน ผลิตภัณฑ์ เพื่อเพิ่มผลิตภัณฑ์เพิ่มเติมที่ไม่ได้เป็นส่วนของโอกาสทางการขาย" languagecode="1054" />
+        <Title description="Önceden oluşturulan bir fırsattan ürünleri alın. &lt;br&gt;&lt;br&gt;Fırsatın parçası olmayan başka ürünler eklemek için Ürünler bölümünü kullanın." languagecode="1055" />
+        <Title description="Отримати продукти з попередньо створеної потенційної угоди. &lt;br&gt;&lt;br&gt;За допомогою розділу &quot;Продукти&quot; можна додати додаткові продукти, що не входять до потенційної угоди." languagecode="1058" />
+        <Title description="Lấy sản phẩm từ cơ hội đã tạo trước đây. &lt;br&gt;&lt;br&gt;Dùng phần Sản phẩm để thêm sản phẩm bổ sung không nằm trong cơ hội." languagecode="1066" />
+        <Title description="从以前创建的商机中获取产品。&lt;br&gt;&lt;br&gt;使用“产品”部分添加商机中不包含的其他产品。" languagecode="2052" />
+        <Title description="從之前建立的商機取得產品。&lt;br&gt;&lt;br&gt;使用 [產品] 區段以新增不屬於商機的其他產品。" languagecode="3076" />
+        <Title description="從之前建立的商機取得產品。&lt;br&gt;&lt;br&gt;使用 [產品] 區段以新增不屬於商機的其他產品。" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="NamePlural_Prod">
+      <Titles>
+        <Title description="Products" languagecode="1033" />
+        <Title description="‏‏المنتجات" languagecode="1025" />
+        <Title description="Продукти" languagecode="1026" />
+        <Title description="Productes" languagecode="1027" />
+        <Title description="Produkty" languagecode="1029" />
+        <Title description="Produkter" languagecode="1030" />
+        <Title description="Products" languagecode="1031" />
+        <Title description="Προϊόντα" languagecode="1032" />
+        <Title description="Productos" languagecode="3082" />
+        <Title description="Tooted" languagecode="1061" />
+        <Title description="Produktuak" languagecode="1069" />
+        <Title description="Tuotteet" languagecode="1035" />
+        <Title description="Products" languagecode="1036" />
+        <Title description="Produtos" languagecode="1110" />
+        <Title description="‏‏מוצרים" languagecode="1037" />
+        <Title description="उत्पाद" languagecode="1081" />
+        <Title description="Proizvodi" languagecode="1050" />
+        <Title description="Termékek" languagecode="1038" />
+        <Title description="Produk" languagecode="1057" />
+        <Title description="Products" languagecode="1040" />
+        <Title description="製品" languagecode="1041" />
+        <Title description="Өнімдер" languagecode="1087" />
+        <Title description="제품" languagecode="1042" />
+        <Title description="Produktai" languagecode="1063" />
+        <Title description="Produkti" languagecode="1062" />
+        <Title description="Produk" languagecode="1086" />
+        <Title description="Produkter" languagecode="1044" />
+        <Title description="Producten" languagecode="1043" />
+        <Title description="Produkty" languagecode="1045" />
+        <Title description="Produtos" languagecode="1046" />
+        <Title description="PRODUCTS" languagecode="2070" />
+        <Title description="Produse" languagecode="1048" />
+        <Title description="Продукты" languagecode="1049" />
+        <Title description="Produkty" languagecode="1051" />
+        <Title description="Izdelki" languagecode="1060" />
+        <Title description="Производи" languagecode="10266" />
+        <Title description="Proizvodi" languagecode="9242" />
+        <Title description="Produkter" languagecode="1053" />
+        <Title description="ผลิตภัณฑ์" languagecode="1054" />
+        <Title description="Ürünler" languagecode="1055" />
+        <Title description="Продукти" languagecode="1058" />
+        <Title description="Các sản phẩm" languagecode="1066" />
+        <Title description="产品" languagecode="2052" />
+        <Title description="產品" languagecode="3076" />
+        <Title description="產品" languagecode="1028" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>
